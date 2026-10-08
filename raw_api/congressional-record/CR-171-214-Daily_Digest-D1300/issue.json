@@ -1,0 +1,83 @@
+{
+  "issue": {
+    "congress": 119,
+    "fullIssue": {
+      "articles": {
+        "count": 324,
+        "url": "https://api.congress.gov/v3/daily-congressional-record/171/214/articles?format=json"
+      },
+      "entireIssue": [
+        {
+          "part": "1",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "endPage": "D1302",
+          "name": "Daily Digest",
+          "startPage": "D1294",
+          "text": [
+            {
+              "type": "Formatted Text",
+              "url": "https://www.congress.gov/119/crec/2025/12/18/d18de5-1.htm"
+            },
+            {
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18-dailydigest.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "E1233",
+          "name": "Extensions of Remarks Section",
+          "startPage": "E1223",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18-extensions.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "H6119",
+          "name": "House Section",
+          "startPage": "H6027",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18-house.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "S8940",
+          "name": "Senate Section",
+          "startPage": "S8877",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18-senate.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "issueDate": "2025-12-18T05:00:00Z",
+    "issueNumber": "214",
+    "sessionNumber": 1,
+    "updateDate": "2025-12-22T13:21:23Z",
+    "url": "https://api.congress.gov/v3/daily-congressional-record/171/214?format=json",
+    "volumeNumber": 171
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "issueNumber": "214",
+    "volumeNumber": "171"
+  }
+}

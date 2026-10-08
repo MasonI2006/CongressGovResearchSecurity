@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "9022",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9022?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-667",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-05-22T04:00:00Z",
+      "number": 667,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/667/text?format=json"
+      },
+      "title": "ENERGY AND WATER DEVELOPMENT AND RELATED AGENCIES APPROPRIATIONS BILL, 2027",
+      "type": "HRPT",
+      "updateDate": "2026-07-23T22:41:30Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "667",
+    "reportType": "hrpt"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-31",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1048,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DETERRENT Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1296",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1296?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

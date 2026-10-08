@@ -1,0 +1,54 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-12T14:03:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2026-06-15T15:05:47Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Conservation, Research, and Biotechnology Subcommittee",
+          "systemCode": "hsag14",
+          "url": "https://api.congress.gov/v3/committee/house/hsag14?format=json"
+        }
+      ],
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-02-12T14:02:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "7547",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7547?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

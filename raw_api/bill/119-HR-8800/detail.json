@@ -1,0 +1,99 @@
+{
+  "bill": {
+    "actions": {
+      "count": 84,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/actions?format=json"
+    },
+    "amendments": {
+      "count": 25,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "Letter to the Honorable Mike Rogers",
+        "pubDate": "2026-06-11T20:48:00Z",
+        "title": " Direct Spending and Revenue Effects of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027",
+        "url": "https://www.cbo.gov/publication/62522"
+      },
+      {
+        "description": "As reported by the House Committee on Armed Services on June 15, 2026",
+        "pubDate": "2026-06-26T15:34:00Z",
+        "title": "H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027",
+        "url": "https://www.cbo.gov/publication/62540"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-698",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/698?format=json"
+      }
+    ],
+    "committees": {
+      "count": 15,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 81 (Wednesday, May 13, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. ROGERS of Alabama:\nH.R. 8800.\nCongress has the power to enact this legislation pursuant\nto the following:\nClause 12, clause 13, and clause 14 of section 8 of article\nI of the Constitution.\n[Page H3454]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/cosponsors?format=json"
+    },
+    "introducedDate": "2026-05-13",
+    "latestAction": {
+      "actionDate": "2026-09-14",
+      "text": "Received in the Senate."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
+    "number": "8800",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 50,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "R000575",
+        "district": 3,
+        "firstName": "Mike",
+        "fullName": "Rep. Rogers, Mike D. [R-AL-3]",
+        "isByRequest": "N",
+        "lastName": "Rogers",
+        "party": "R",
+        "state": "AL",
+        "url": "https://api.congress.gov/v3/member/R000575?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 26,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/text?format=json"
+    },
+    "title": "National Defense Authorization Act for Fiscal Year 2027",
+    "titles": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-22T21:00:15Z",
+    "updateDateIncludingText": "2026-09-22T21:00:15Z"
+  },
+  "request": {
+    "billNumber": "8800",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-05-20T21:12:18Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Armed Services Committee",
+      "systemCode": "ssas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4607",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4607?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

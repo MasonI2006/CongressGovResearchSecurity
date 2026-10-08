@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 30 (Thursday, February 12, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. MESSMER:\nH.R. 7547.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the Constitution\n[Page H2220]\n</pre>",
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/cosponsors?format=json"
+    },
+    "introducedDate": "2026-02-12",
+    "latestAction": {
+      "actionDate": "2026-06-15",
+      "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7547",
+    "number": "7547",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Agriculture and Food"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001233",
+        "district": 8,
+        "firstName": "Mark",
+        "fullName": "Rep. Messmer, Mark B. [R-IN-8]",
+        "isByRequest": "N",
+        "lastName": "Messmer",
+        "middleName": "B.",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/M001233?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/text?format=json"
+    },
+    "title": "DOD and USDA Interagency Research Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-12T08:05:49Z",
+    "updateDateIncludingText": "2026-09-12T08:05:50Z"
+  },
+  "request": {
+    "billNumber": "7547",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

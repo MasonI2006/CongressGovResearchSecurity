@@ -1,0 +1,45 @@
+{
+  "pagination": {
+    "count": 7
+  },
+  "request": {
+    "billNumber": "1534",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1534?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-03-25T14:40:39Z"
+      },
+      {
+        "name": "Air quality",
+        "updateDate": "2025-03-25T14:40:39Z"
+      },
+      {
+        "name": "Climate change and greenhouse gases",
+        "updateDate": "2025-03-25T14:40:39Z"
+      },
+      {
+        "name": "Infrastructure development",
+        "updateDate": "2025-03-25T14:40:39Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2025-03-25T14:40:39Z"
+      },
+      {
+        "name": "Rural conditions and development",
+        "updateDate": "2025-03-25T14:40:39Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-03-21T14:19:54Z"
+    }
+  }
+}

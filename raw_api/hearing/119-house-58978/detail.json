@@ -1,0 +1,40 @@
+{
+  "hearing": {
+    "chamber": "House",
+    "citation": "H.Hrg.119",
+    "committees": [
+      {
+        "name": "House Science and Technology Committee",
+        "systemCode": "hssy00",
+        "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-03-05"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58978/generated/CHRG-119hhrg58978.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58978/CHRG-119hhrg58978.pdf"
+      }
+    ],
+    "jacketNumber": 58978,
+    "libraryOfCongressIdentifier": "LC75480",
+    "title": "ASSESSING THE THREAT TO U.S. FUNDED RESEARCH",
+    "updateDate": "2026-08-17T01:21:42Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "58978"
+  }
+}

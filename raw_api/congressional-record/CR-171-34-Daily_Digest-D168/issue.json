@@ -1,0 +1,59 @@
+{
+  "issue": {
+    "congress": 119,
+    "fullIssue": {
+      "articles": {
+        "count": 1117,
+        "url": "https://api.congress.gov/v3/daily-congressional-record/171/34/articles?format=json"
+      },
+      "entireIssue": [
+        {
+          "part": "1",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2025/02/20/171/34/CREC-2025-02-20.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "endPage": "D170",
+          "name": "Daily Digest",
+          "startPage": "D165",
+          "text": [
+            {
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/02/20/171/34/CREC-2025-02-20-dailydigest.pdf"
+            },
+            {
+              "type": "Formatted Text",
+              "url": "https://www.congress.gov/119/crec/2025/02/20/d20fe5-1.htm"
+            }
+          ]
+        },
+        {
+          "endPage": "S1303",
+          "name": "Senate Section",
+          "startPage": "S1061",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/02/20/171/34/CREC-2025-02-20-senate.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "issueDate": "2025-02-20T05:00:00Z",
+    "issueNumber": "34",
+    "sessionNumber": 1,
+    "updateDate": "2025-02-22T16:29:47Z",
+    "url": "https://api.congress.gov/v3/daily-congressional-record/171/34?format=json",
+    "volumeNumber": 171
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "issueNumber": "34",
+    "volumeNumber": "171"
+  }
+}

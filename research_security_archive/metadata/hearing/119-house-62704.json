@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-house-62704",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/house/62704",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119hhrg62704/CHRG-119hhrg62704.pdf",
+  "retrieved_at": "2026-10-02T03:50:30Z",
+  "http_status": 200,
+  "pdf_sha256": "5270449b86dc9b6ba2684b269347b216357595275ce0c9362550b625bb19b1ca",
+  "pdf_bytes": 281601,
+  "pdf_page_count": 53,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-house-62704/detail.json",
+  "title": "SURVEYING THE THREAT OF AGROTERRORISM: PERSPECTIVES ON FOOD, AGRICULTURE, AND VETERINARY DEFENSE",
+  "update_date": "2026-06-12T03:36:42Z",
+  "document_type": "HRG",
+  "document_number": 62704,
+  "document_identifier": "HRG-119-HOUSE-62704",
+  "text_version": null,
+  "jacketNumber": 62704,
+  "chamber": "House",
+  "citation": "H.Hrg.119",
+  "dates": [
+    {
+      "date": "2025-09-16"
+    }
+  ],
+  "committees": [
+    {
+      "name": "House Homeland Security (Select) Committee",
+      "systemCode": "hshm00",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75207",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg62704/generated/CHRG-119hhrg62704.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg62704/CHRG-119hhrg62704.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:50:30Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-house-62704/detail.json",
+      "endpoint": "hearing/119/house/62704"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-house-62704.json",
+  "known_limitations": []
+}

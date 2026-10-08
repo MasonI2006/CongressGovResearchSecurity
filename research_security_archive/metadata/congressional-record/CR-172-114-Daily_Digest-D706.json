@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-172-114-Daily Digest-D706",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/172/114",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/07/14/172/114/CREC-2026-07-14-pt1-PgD706.pdf",
+  "retrieved_at": "2026-10-02T08:32:42Z",
+  "http_status": 200,
+  "pdf_sha256": "6dba6e18c1bd5f443c1783e8d56d7b2ab52f5e074cc2389b669de5fbdffce593",
+  "pdf_bytes": 164191,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-172-114-Daily_Digest-D706/issue.json",
+  "title": "Daily Digest/COMMITTEE MEETINGS FOR 2026-07-15; Congressional Record Vol. 172, No. 114",
+  "update_date": "2026-07-15T19:14:16Z",
+  "document_type": "CREC-daily",
+  "document_number": "V172I114",
+  "document_identifier": "CREC-119-V172-I114-Daily_Digest-1",
+  "text_version": null,
+  "volumeNumber": 172,
+  "issueNumber": "114",
+  "issueDate": "2026-07-14T04:00:00Z",
+  "sessionNumber": 2,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/COMMITTEE MEETINGS FOR 2026-07-15; Congressional Record Vol. 172, No. 114",
+  "startPage": "D706",
+  "endPage": "D707",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:32:42Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-114-Daily_Digest-D706/issue.json",
+      "endpoint": "daily-congressional-record/172/114"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:32:41Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-114-Daily_Digest-D706/articles.json",
+      "endpoint": "daily-congressional-record/172/114/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-172-114-Daily_Digest-D706.json",
+  "known_limitations": []
+}

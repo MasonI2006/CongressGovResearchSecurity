@@ -1,0 +1,209 @@
+{
+  "stable_id": "119-S-3971",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3971",
+  "pdf_url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971es.pdf",
+  "retrieved_at": "2026-10-01T23:42:10Z",
+  "http_status": 200,
+  "pdf_sha256": "37f5b8bfa1b17156f997bf38423c2100a4313a40ec76fbc86a4fec70303449db",
+  "pdf_bytes": 196395,
+  "pdf_page_count": 42,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3971/detail.json",
+  "title": "Small Business Innovation and Economic Security Act",
+  "update_date": "2026-07-30T16:27:39Z",
+  "document_type": "S",
+  "document_number": "3971",
+  "document_identifier": "BILL-119-S-3971-Engrossed_in_Senate",
+  "text_version": {
+    "type": "Engrossed in Senate",
+    "date": "2026-03-03T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3971",
+  "originChamber": "Senate",
+  "introducedDate": "2026-03-03",
+  "latestAction": {
+    "text": "Became Public Law No: 119-83.",
+    "date": "2026-04-13"
+  },
+  "policyArea": {
+    "name": "Commerce"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "E000295",
+      "name": "Sen. Ernst, Joni [R-IA]",
+      "party": "R",
+      "state": "IA"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "M000133"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-03-10T16:22:27Z"
+    },
+    {
+      "name": "Asia",
+      "updateDate": "2026-03-10T15:45:10Z"
+    },
+    {
+      "name": "China",
+      "updateDate": "2026-03-10T15:45:05Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-03-10T16:20:50Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-03-10T16:21:30Z"
+    },
+    {
+      "name": "Data collection, sharing, protection",
+      "updateDate": "2026-04-07T17:41:15Z"
+    },
+    {
+      "name": "Government lending and loan guarantees",
+      "updateDate": "2026-03-10T15:58:58Z"
+    },
+    {
+      "name": "Intellectual property",
+      "updateDate": "2026-03-10T16:22:06Z"
+    },
+    {
+      "name": "Military assistance, sales, and agreements",
+      "updateDate": "2026-03-10T15:48:26Z"
+    },
+    {
+      "name": "Performance measurement",
+      "updateDate": "2026-03-10T16:22:41Z"
+    },
+    {
+      "name": "Public contracts and procurement",
+      "updateDate": "2026-03-10T15:44:55Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2026-03-10T15:54:55Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2026-03-10T15:55:02Z"
+    },
+    {
+      "name": "Small Business Administration",
+      "updateDate": "2026-03-10T15:37:38Z"
+    },
+    {
+      "name": "Small business",
+      "updateDate": "2026-03-10T15:37:29Z"
+    },
+    {
+      "name": "Subversive activities",
+      "updateDate": "2026-03-10T15:45:17Z"
+    },
+    {
+      "name": "Technology assessment",
+      "updateDate": "2026-03-10T16:04:30Z"
+    },
+    {
+      "name": "Technology transfer and commercialization",
+      "updateDate": "2026-03-10T16:21:44Z"
+    }
+  ],
+  "committees": [],
+  "textVersion": {
+    "type": "Engrossed in Senate",
+    "date": "2026-03-03T05:00:00Z"
+  },
+  "publicLawNumber": "119-83",
+  "laws": [
+    {
+      "number": "119-83",
+      "type": "Public Law"
+    }
+  ],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-07-30T16:27:39Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "E000295",
+      "name": "Sen. Ernst, Joni [R-IA]",
+      "party": "R",
+      "state": "IA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M000133",
+      "name": "Sen. Markey, Edward J. [D-MA]",
+      "party": "D",
+      "state": "MA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "law",
+      "related_key": null,
+      "payload": {
+        "number": "119-83",
+        "type": "Public Law"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/detail.json",
+      "endpoint": "bill/119/s/3971"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/text.json",
+      "endpoint": "bill/119/s/3971/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:11Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/cosponsors.json",
+      "endpoint": "bill/119/s/3971/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:12Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/committees.json",
+      "endpoint": "bill/119/s/3971/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/relatedbills.json",
+      "endpoint": "bill/119/s/3971/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:42:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3971/subjects.json",
+      "endpoint": "bill/119/s/3971/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3971__BILL-119-S-3971-Engrossed_in_Senate.json",
+  "known_limitations": []
+}

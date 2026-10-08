@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-05",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 1864,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Risky Research Review Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1864?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "854",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/854?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

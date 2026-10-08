@@ -1,0 +1,54 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/2478/actions?format=json"
+    },
+    "amendedAmendment": {
+      "congress": 119,
+      "number": "2360",
+      "purpose": "In the nature of a substitute.",
+      "type": "SAMDT",
+      "updateDate": "2025-07-09T11:08:28Z",
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/2360?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "1",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+      "type": "HR",
+      "updateDateIncludingText": "2026-09-19",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "number": "2478",
+    "sponsors": [
+      {
+        "bioguideId": "K000394",
+        "firstName": "Andy",
+        "fullName": "Sen. Kim, Andy [D-NJ]",
+        "lastName": "Kim",
+        "party": "D",
+        "state": "NJ",
+        "url": "https://api.congress.gov/v3/member/K000394?format=json"
+      }
+    ],
+    "submittedDate": "2025-06-29T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/2478/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2025-06-29T21:21:23Z"
+  },
+  "request": {
+    "amendmentNumber": "2478",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

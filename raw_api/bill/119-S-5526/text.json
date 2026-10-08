@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "5526",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/5526?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-09-24T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s5526/BILLS-119s5526rs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s5526/BILLS-119s5526rs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s5526/BILLS-119s5526rs.xml"
+        }
+      ],
+      "type": "Reported to Senate"
+    }
+  ]
+}

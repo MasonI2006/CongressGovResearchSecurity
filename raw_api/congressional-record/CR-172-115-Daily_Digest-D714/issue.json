@@ -1,0 +1,83 @@
+{
+  "issue": {
+    "congress": 119,
+    "fullIssue": {
+      "articles": {
+        "count": 173,
+        "url": "https://api.congress.gov/v3/daily-congressional-record/172/115/articles?format=json"
+      },
+      "entireIssue": [
+        {
+          "part": "1",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "endPage": "D718",
+          "name": "Daily Digest",
+          "startPage": "D710",
+          "text": [
+            {
+              "type": "Formatted Text",
+              "url": "https://www.congress.gov/119/crec/2026/07/15/d15jy6-1.htm"
+            },
+            {
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15-dailydigest.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "E698",
+          "name": "Extensions of Remarks Section",
+          "startPage": "E691",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15-extensions.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "H4546",
+          "name": "House Section",
+          "startPage": "H4471",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15-house.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "S4117",
+          "name": "Senate Section",
+          "startPage": "S4093",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15-senate.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "issueDate": "2026-07-15T04:00:00Z",
+    "issueNumber": "115",
+    "sessionNumber": 2,
+    "updateDate": "2026-07-16T13:44:18Z",
+    "url": "https://api.congress.gov/v3/daily-congressional-record/172/115?format=json",
+    "volumeNumber": 172
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "issueNumber": "115",
+    "volumeNumber": "172"
+  }
+}

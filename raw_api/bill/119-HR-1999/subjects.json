@@ -1,0 +1,53 @@
+{
+  "pagination": {
+    "count": 9
+  },
+  "request": {
+    "billNumber": "1999",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1999?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Civil actions and liability",
+        "updateDate": "2026-02-17T20:15:47Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2026-02-17T20:16:04Z"
+      },
+      {
+        "name": "Education programs funding",
+        "updateDate": "2026-02-17T20:16:11Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2026-02-17T20:15:52Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2026-02-17T20:15:42Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2026-02-17T20:15:31Z"
+      },
+      {
+        "name": "School administration",
+        "updateDate": "2026-02-17T20:15:57Z"
+      },
+      {
+        "name": "Teaching, teachers, curricula",
+        "updateDate": "2026-02-17T20:15:36Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Education",
+      "updateDate": "2025-05-07T13:33:23Z"
+    }
+  }
+}

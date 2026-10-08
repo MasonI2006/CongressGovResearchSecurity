@@ -1,0 +1,184 @@
+{
+  "stable_id": "119-house-119563__MTG-119-HOUSE-119563-6-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119563",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD003.pdf",
+  "retrieved_at": "2026-10-01T18:02:54Z",
+  "http_status": 200,
+  "pdf_sha256": "3ea75193fbcc64535980231843431a9cb8fc25f1b15b64e8d34dd63c0af03fc3",
+  "pdf_bytes": 391324,
+  "pdf_page_count": 8,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119563__MTG-119-HOUSE-119563-6-Support_Document/detail.json",
+  "title": "Balancing Biotechnology Innovation and Biosecurity: Securing U.S. Leadership in a Global Race",
+  "update_date": "2026-09-16T20:26:44Z",
+  "document_type": "Support Document",
+  "document_number": "119563",
+  "document_identifier": "MTG-119-HOUSE-119563-6-Support_Document",
+  "text_version": null,
+  "eventId": "119563",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-09-16T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+      "systemCode": "hssy21",
+      "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD001.pdf"
+    },
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD002-U1.pdf"
+    },
+    {
+      "description": "The Honorable Brian Babin",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-B001291-20260916.pdf"
+    },
+    {
+      "description": "The Honorable Richard McCormick",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Richard McCormick",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-M001218-20260916.pdf"
+    },
+    {
+      "description": "The Honorable Emilia Sykes",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Emilia Sykes",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-S001223-20260916.pdf"
+    },
+    {
+      "description": "The Honorable Zoe Lofgren",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-L000397-20260916.pdf"
+    },
+    {
+      "description": "Charter",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD003.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. Joshua Hodges",
+      "organization": "Hoover Institute",
+      "position": "Visiting Fellow"
+    },
+    {
+      "name": "Dr. Anemone Franz",
+      "organization": "American Enterprise Institute",
+      "position": "Visiting Research Fellow"
+    },
+    {
+      "name": "Dr. Gigi Gronvall",
+      "organization": "Johns Hopkins Bloomberg School of Public Health",
+      "position": "Professor"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-GronvallG-20260916.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-FranzA-20260916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-FranzA-20260916.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-HodgesJ-20260916.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-GronvallG-20260916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-HodgesJ-20260916.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "Charter",
+    "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD003.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Joshua Hodges",
+      "party": null,
+      "state": "Hoover Institute",
+      "position": "Visiting Fellow"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Anemone Franz",
+      "party": null,
+      "state": "American Enterprise Institute",
+      "position": "Visiting Research Fellow"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Gigi Gronvall",
+      "party": null,
+      "state": "Johns Hopkins Bloomberg School of Public Health",
+      "position": "Professor"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119563__MTG-119-HOUSE-119563-6-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/119563"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119563__MTG-119-HOUSE-119563-6-Support_Document.json",
+  "known_limitations": []
+}

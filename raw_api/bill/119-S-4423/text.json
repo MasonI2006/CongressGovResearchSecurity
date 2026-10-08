@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4423",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4423?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-04-28T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s4423/BILLS-119s4423is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s4423/BILLS-119s4423is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s4423/BILLS-119s4423is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

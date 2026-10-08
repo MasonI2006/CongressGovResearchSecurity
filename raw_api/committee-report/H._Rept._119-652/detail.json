@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "8845",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8845?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-652",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-05-15T04:00:00Z",
+      "number": 652,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/652/text?format=json"
+      },
+      "title": "COMMERCE, JUSTICE, SCIENCE, AND RELATED AGENCIES APPROPRIATIONS BILL, 2027",
+      "type": "HRPT",
+      "updateDate": "2026-09-19T23:38:41Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "652",
+    "reportType": "hrpt"
+  }
+}

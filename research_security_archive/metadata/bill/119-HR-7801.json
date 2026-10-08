@@ -1,0 +1,160 @@
+{
+  "stable_id": "119-HR-7801",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/7801",
+  "pdf_url": "https://www.congress.gov/119/bills/hr7801/BILLS-119hr7801ih.pdf",
+  "retrieved_at": "2026-10-01T23:39:43Z",
+  "http_status": 200,
+  "pdf_sha256": "b29d4ac48cecf29d3e46bed01b7bca14704753ae1ffeeacdc47741561c1a8103",
+  "pdf_bytes": 259879,
+  "pdf_page_count": 12,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-7801/detail.json",
+  "title": "Cloud LAB Act of 2026",
+  "update_date": "2026-04-02T18:04:39Z",
+  "document_type": "HR",
+  "document_number": "7801",
+  "document_identifier": "BILL-119-HR-7801-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-03-04T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "7801",
+  "originChamber": "House",
+  "introducedDate": "2026-03-04",
+  "latestAction": {
+    "text": "Referred to the House Committee on Science, Space, and Technology.",
+    "date": "2026-03-04"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    }
+  ],
+  "cosponsorCount": 4,
+  "cosponsorBioguideIds": [
+    "K000389",
+    "A000148",
+    "M001218",
+    "H001085"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-03-04T15:01:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-03-04T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-16T16:27:22Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000389",
+      "name": "Rep. Khanna, Ro [D-CA-17]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "A000148",
+      "name": "Rep. Auchincloss, Jake [D-MA-4]",
+      "party": "D",
+      "state": "MA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001085",
+      "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+      "party": "D",
+      "state": "PA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:43Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/detail.json",
+      "endpoint": "bill/119/hr/7801"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/text.json",
+      "endpoint": "bill/119/hr/7801/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:44Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/cosponsors.json",
+      "endpoint": "bill/119/hr/7801/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:44Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/committees.json",
+      "endpoint": "bill/119/hr/7801/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:45Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/relatedbills.json",
+      "endpoint": "bill/119/hr/7801/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:46Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7801/subjects.json",
+      "endpoint": "bill/119/hr/7801/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-7801.json",
+  "known_limitations": []
+}

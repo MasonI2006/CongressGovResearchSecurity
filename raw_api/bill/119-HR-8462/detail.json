@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 72 (Thursday, April 23, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. WEBER of Texas:\nH.R. 8462.\nCongress has the power to enact this legislation pursuant\nto the following:\nU.S. Constitution, Article I, Section 8, Clause 18:\n``The Congress shall have Power . . . To make all Laws\nwhich shall be necessary and proper for carrying into\nExecution the forgoing Powers, and all other Powers vested by\nthis Constitution in the Government of the United States, or\nin any Department or Officer thereof.''\n[Page H3092]\n</pre>",
+    "cosponsors": {
+      "count": 5,
+      "countIncludingWithdrawnCosponsors": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/cosponsors?format=json"
+    },
+    "introducedDate": "2026-04-23",
+    "latestAction": {
+      "actionDate": "2026-04-29",
+      "text": "Ordered to be Reported (Amended) by Voice Vote."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8462",
+    "number": "8462",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000814",
+        "district": 14,
+        "firstName": "Randy",
+        "fullName": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+        "isByRequest": "N",
+        "lastName": "Weber",
+        "middleName": "K.",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/W000814?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 21,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/text?format=json"
+    },
+    "title": "National Quantum Initiative Reauthorization Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8462/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-19T23:32:36Z",
+    "updateDateIncludingText": "2026-09-19T23:32:36Z"
+  },
+  "request": {
+    "billNumber": "8462",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

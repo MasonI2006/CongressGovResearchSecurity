@@ -1,0 +1,44 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-30T15:08:33Z",
+          "name": "Unknown"
+        },
+        {
+          "date": "2026-04-30T15:02:22Z",
+          "name": "Unknown"
+        },
+        {
+          "date": "2026-04-21T22:45:00Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2026-03-03T18:39:40Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-02-13T15:02:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7567",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7567?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

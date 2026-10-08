@@ -1,0 +1,176 @@
+{
+  "stable_id": "119-S-4607",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/4607",
+  "pdf_url": "https://www.congress.gov/119/bills/s4607/BILLS-119s4607is.pdf",
+  "retrieved_at": "2026-10-02T00:15:43Z",
+  "http_status": 200,
+  "pdf_sha256": "cd9a4b0e9a8806f4a57d268ad8cc10529c00c95f1fc204588441a1d826631a9e",
+  "pdf_bytes": 258723,
+  "pdf_page_count": 12,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-4607/detail.json",
+  "title": "DOD and USDA Interagency Research Act",
+  "update_date": "2026-06-23T13:29:09Z",
+  "document_type": "S",
+  "document_number": "4607",
+  "document_identifier": "BILL-119-S-4607-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-05-20T04:00:00Z"
+  },
+  "type": "S",
+  "number": "4607",
+  "originChamber": "Senate",
+  "introducedDate": "2026-05-20",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Armed Services.",
+    "date": "2026-05-20"
+  },
+  "policyArea": {
+    "name": "Agriculture and Food"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001299",
+      "name": "Sen. Banks, Jim [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "B001305"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-05-20T21:12:18Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Armed Services Committee",
+      "systemCode": "ssas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-05-20T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-15",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 7547,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DOD and USDA Interagency Research Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-06-23T13:29:09Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001299",
+      "name": "Sen. Banks, Jim [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
+      "party": "R",
+      "state": "NC"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7547",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-15",
+          "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+        },
+        "number": 7547,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DOD and USDA Interagency Research Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:43Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/detail.json",
+      "endpoint": "bill/119/s/4607"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/text.json",
+      "endpoint": "bill/119/s/4607/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:44Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/cosponsors.json",
+      "endpoint": "bill/119/s/4607/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:45Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/committees.json",
+      "endpoint": "bill/119/s/4607/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:45Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/relatedbills.json",
+      "endpoint": "bill/119/s/4607/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:15:46Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4607/subjects.json",
+      "endpoint": "bill/119/s/4607/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-4607.json",
+  "known_limitations": []
+}

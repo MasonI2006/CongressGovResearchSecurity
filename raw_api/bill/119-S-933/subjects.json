@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 33,
+    "next": "https://api.congress.gov/v3/bill/119/s/933/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "933",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/933?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Administrative law and regulatory procedures",
+        "updateDate": "2026-03-17T13:58:35Z"
+      },
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-03-17T13:50:37Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-03-17T13:51:10Z"
+      },
+      {
+        "name": "Asia",
+        "updateDate": "2026-03-17T13:52:43Z"
+      },
+      {
+        "name": "Astronomy",
+        "updateDate": "2026-03-17T13:49:40Z"
+      },
+      {
+        "name": "China",
+        "updateDate": "2026-03-17T13:52:38Z"
+      },
+      {
+        "name": "Commuting",
+        "updateDate": "2026-03-17T13:36:56Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-03-17T13:54:26Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-03-17T13:50:31Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2026-03-17T13:35:43Z"
+      },
+      {
+        "name": "Earth sciences",
+        "updateDate": "2026-03-17T13:35:43Z"
+      },
+      {
+        "name": "Emergency communications systems",
+        "updateDate": "2026-03-17T13:49:29Z"
+      },
+      {
+        "name": "Employment and training programs",
+        "updateDate": "2026-03-17T13:52:01Z"
+      },
+      {
+        "name": "Geography and mapping",
+        "updateDate": "2026-03-17T13:54:07Z"
+      },
+      {
+        "name": "Government employee pay, benefits, personnel management",
+        "updateDate": "2026-03-17T13:36:56Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2026-03-17T13:50:51Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2026-03-17T13:50:56Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2026-03-17T13:52:27Z"
+      },
+      {
+        "name": "International scientific cooperation",
+        "updateDate": "2026-03-17T13:50:13Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-04-04T12:57:03Z"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "B001305",
+      "firstName": "Ted",
+      "fullName": "Sen. Budd, Ted [R-NC]",
+      "isOriginalCosponsor": true,
+      "lastName": "Budd",
+      "party": "R",
+      "sponsorshipDate": "2025-12-11",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/B001305?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "3468",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3468?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

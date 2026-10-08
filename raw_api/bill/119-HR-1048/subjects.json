@@ -1,0 +1,61 @@
+{
+  "pagination": {
+    "count": 11
+  },
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1048?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Civil actions and liability",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Contracts and agency",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Education programs funding",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Financial services and investments",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Subversive activities",
+        "updateDate": "2025-02-14T18:30:10Z"
+      },
+      {
+        "name": "Teaching, teachers, curricula",
+        "updateDate": "2025-02-14T18:30:10Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Education",
+      "updateDate": "2025-02-11T14:51:31Z"
+    }
+  }
+}

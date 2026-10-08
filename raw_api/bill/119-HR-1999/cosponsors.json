@@ -1,0 +1,28 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "F000450",
+      "district": 5,
+      "firstName": "Virginia",
+      "fullName": "Rep. Foxx, Virginia [R-NC-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "Foxx",
+      "party": "R",
+      "sponsorshipDate": "2025-03-10",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/F000450?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "1999",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1999?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

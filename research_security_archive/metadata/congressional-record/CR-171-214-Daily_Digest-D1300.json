@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-214-Daily Digest-D1300",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/214",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/12/18/171/214/CREC-2025-12-18-pt1-PgD1300.pdf",
+  "retrieved_at": "2026-10-02T09:10:43Z",
+  "http_status": 200,
+  "pdf_sha256": "0240023887460ffc53e9ddf134600336ee3f223fdbfcfe9258a72ed7f27856f3",
+  "pdf_bytes": 255324,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-214-Daily_Digest-D1300/issue.json",
+  "title": "Daily Digest/House Committee Meetings; Congressional Record Vol. 171, No. 214",
+  "update_date": "2025-12-22T13:21:23Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I214",
+  "document_identifier": "CREC-119-V171-I214-Daily_Digest-2",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "214",
+  "issueDate": "2025-12-18T05:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/House Committee Meetings; Congressional Record Vol. 171, No. 214",
+  "startPage": "D1300",
+  "endPage": "D1301",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:10:43Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-214-Daily_Digest-D1300/issue.json",
+      "endpoint": "daily-congressional-record/171/214"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:10:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-214-Daily_Digest-D1300/articles.json",
+      "endpoint": "daily-congressional-record/171/214/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-214-Daily_Digest-D1300.json",
+  "known_limitations": []
+}

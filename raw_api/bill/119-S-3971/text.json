@@ -1,0 +1,91 @@
+{
+  "pagination": {
+    "count": 4
+  },
+  "request": {
+    "billNumber": "3971",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3971?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": null,
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971enr.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971enr.pdf"
+        },
+        {
+          "type": "United States Legislative Markup",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971enr_uslm.xml"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971enr.xml"
+        }
+      ],
+      "type": "Enrolled Bill"
+    },
+    {
+      "date": "2026-03-03T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971es.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971es.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971es.xml"
+        }
+      ],
+      "type": "Engrossed in Senate"
+    },
+    {
+      "date": "2026-03-03T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971cps.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971cps.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3971/BILLS-119s3971cps.xml"
+        }
+      ],
+      "type": "Considered and Passed Senate"
+    },
+    {
+      "date": "2026-04-14T03:59:59Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/plaws/publ83/PLAW-119publ83.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/plaws/publ83/PLAW-119publ83.pdf"
+        },
+        {
+          "type": "United States Legislative Markup",
+          "url": "https://www.congress.gov/119/plaws/publ83/PLAW-119publ83_uslm.xml"
+        }
+      ],
+      "type": "Public Law"
+    }
+  ]
+}

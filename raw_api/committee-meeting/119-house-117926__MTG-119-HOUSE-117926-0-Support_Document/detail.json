@@ -1,0 +1,156 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Small Business",
+        "systemCode": "hssm00",
+        "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-02-26T15:00:00Z",
+    "eventId": "117926",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 58905,
+        "url": "https://api.congress.gov/v3/hearing/119/house/58905?format=json"
+      }
+    ],
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2360"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Letter for the Record - Waiver Request",
+        "url": "https://www.congress.gov/119/meeting/house/117926/documents/HHRG-119-SM00-20250226-SD003-U1.pdf"
+      },
+      {
+        "documentType": "Hearing: Member Roster",
+        "format": "PDF",
+        "name": "Hearing Attendance",
+        "url": "https://www.congress.gov/119/meeting/house/117926/documents/HHRG-119-SM00-20250226-MbrRoster-U1.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Public Notice",
+        "url": "https://www.congress.gov/119/meeting/house/117926/documents/HHRG-119-SM00-20250226-SD001-U1.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Memo",
+        "url": "https://www.congress.gov/119/meeting/house/117926/documents/HHRG-119-SM00-20250226-SD002-U2.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Fostering American Innovation: Insights into SBIR and STTR Programs",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T05:44:56Z",
+    "videos": [
+      {
+        "name": "Fostering American Innovation: Insights into SBIR/STTR Programs",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/117926"
+      },
+      {
+        "name": "Fostering American Innovation: Insights into SBIR/STTR Programs",
+        "url": "https://www.youtube.com/watch?v=fddbTWHJSzw"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-TTF-MiryektaC-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-TTF-MackeyM-20250226.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Bio-MiryektaC-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Wstate-MiryektaC-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-TTF-GloverJ-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Wstate-GloverJ-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Bio-MackeyM-20250226.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Wstate-MackeyM-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Wstate-MarinelliW-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Bio-MarinelliW-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-TTF-MarinelliW-20250226-U1.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117926/witnesses/HHRG-119-SM00-Bio-GloverJ-20250226-U1.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. William Marinelli",
+        "organization": "Physical Sciences Inc.",
+        "position": "President and Chief Executive Officer"
+      },
+      {
+        "name": "Ms. ML Mackey",
+        "organization": "Beacon Interactive Systems",
+        "position": "CEO and Co-founder"
+      },
+      {
+        "name": "Mr. Cyrus Miryekta",
+        "organization": "Ravelin US",
+        "position": "CEO"
+      },
+      {
+        "name": "Mr. Jere Glover",
+        "organization": "Small Business Technology Council and National Small Business Association",
+        "position": "Executive Director"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "117926",
+    "format": "json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "M001194",
+      "district": 2,
+      "firstName": "John",
+      "fullName": "Rep. Moolenaar, John R. [R-MI-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Moolenaar",
+      "middleName": "R.",
+      "party": "R",
+      "sponsorshipDate": "2025-03-10",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/M001194?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 21,
+    "countIncludingWithdrawnCosponsors": 21,
+    "prev": "https://api.congress.gov/v3/bill/119/hr/1048/cosponsors?offset=0&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1048?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

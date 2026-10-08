@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 74 (Tuesday, April 28, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. STEFANIK:\nH.R. 8558.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I Section 8 of the U.S. Constitution.\n[Page H3133]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/cosponsors?format=json"
+    },
+    "introducedDate": "2026-04-28",
+    "latestAction": {
+      "actionDate": "2026-04-28",
+      "text": "Referred to the House Committee on Science, Space, and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8558",
+    "number": "8558",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001196",
+        "district": 21,
+        "firstName": "Elise",
+        "fullName": "Rep. Stefanik, Elise M. [R-NY-21]",
+        "isByRequest": "N",
+        "lastName": "Stefanik",
+        "middleName": "M.",
+        "party": "R",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/S001196?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/text?format=json"
+    },
+    "title": "To amend the Research and Development, Competition, and Innovation Act to require each institution of higher education to certify as part of an application for a research and development award that such institution does not operate certain branch campuses, and for other purposes.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-19T23:25:37Z",
+    "updateDateIncludingText": "2026-09-19T23:25:37Z"
+  },
+  "request": {
+    "billNumber": "8558",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

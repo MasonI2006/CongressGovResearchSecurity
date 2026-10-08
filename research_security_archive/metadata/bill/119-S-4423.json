@@ -1,0 +1,167 @@
+{
+  "stable_id": "119-S-4423",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/4423",
+  "pdf_url": "https://www.congress.gov/119/bills/s4423/BILLS-119s4423is.pdf",
+  "retrieved_at": "2026-10-02T00:03:20Z",
+  "http_status": 200,
+  "pdf_sha256": "175486e43202d2477e518c0b3b0c09a1ce4023f2f64bad9ed59647ad62457d02",
+  "pdf_bytes": 245076,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-4423/detail.json",
+  "title": "A bill to amend the Research and Development, Competition, and Innovation Act to require each institution of higher education to certify as part of an application for a research and development award that such institution does not operate certain branch campuses, and for other purposes.",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "4423",
+  "document_identifier": "BILL-119-S-4423-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-04-28T04:00:00Z"
+  },
+  "type": "S",
+  "number": "4423",
+  "originChamber": "Senate",
+  "introducedDate": "2026-04-28",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2026-04-28"
+  },
+  "policyArea": {
+    "name": "Government Operations and Politics"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "party": "R",
+      "state": "FL"
+    }
+  ],
+  "cosponsorCount": 0,
+  "cosponsorBioguideIds": [],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-28T22:40:04Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-04-28T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-28",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 8558,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "To amend the Research and Development, Competition, and Innovation Act to require each institution of higher education to certify as part of an application for a research and development award that such institution does not operate certain branch campuses, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "party": "R",
+      "state": "FL"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-8558",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-04-28",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        },
+        "number": 8558,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Identical bill"
+          }
+        ],
+        "title": "To amend the Research and Development, Competition, and Innovation Act to require each institution of higher education to certify as part of an application for a research and development award that such institution does not operate certain branch campuses, and for other purposes.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8558?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:20Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/detail.json",
+      "endpoint": "bill/119/s/4423"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:19Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/text.json",
+      "endpoint": "bill/119/s/4423/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/cosponsors.json",
+      "endpoint": "bill/119/s/4423/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:22Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/committees.json",
+      "endpoint": "bill/119/s/4423/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:22Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/relatedbills.json",
+      "endpoint": "bill/119/s/4423/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:03:23Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4423/subjects.json",
+      "endpoint": "bill/119/s/4423/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-4423.json",
+  "known_limitations": []
+}

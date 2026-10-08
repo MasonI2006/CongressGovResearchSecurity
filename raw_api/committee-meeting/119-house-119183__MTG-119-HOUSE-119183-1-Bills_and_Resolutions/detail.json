@@ -1,0 +1,185 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology",
+        "systemCode": "hssy00",
+        "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-04-29T14:00:00Z",
+    "eventId": "119183",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-20260429-SD001.pdf"
+      },
+      {
+        "description": "H.R. 8462",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 8462",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119HR8462ih.pdf"
+      },
+      {
+        "description": "The Honorable Laura Gillen",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Laura Gillen",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-G000602-Amdt-075.pdf"
+      },
+      {
+        "description": "The Honorable Suhas Subramanyam",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Suhas Subramanyam",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001230-Amdt-112.pdf"
+      },
+      {
+        "description": "The Honorable Gabe Amo",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Gabe Amo",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-A000380-Amdt-072.pdf"
+      },
+      {
+        "description": "The Honorable Keith Self",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Keith Self",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001224-Amdt-161.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-F000477-Amdt-055.pdf"
+      },
+      {
+        "description": "The Honorable Pat Harrigan",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Pat Harrigan",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-H001101-Amdt-055.pdf"
+      },
+      {
+        "description": "The Honorable Keith Self",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Keith Self",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001224-Amdt-159.pdf"
+      },
+      {
+        "description": "The Honorable Christian D. Menefee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Christian D. Menefee",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-M001245-Amdt-006.pdf"
+      },
+      {
+        "description": "The Honorable George Whitesides",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable George Whitesides",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-W000830-Amdt-048.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-O000019-Amdt-063.pdf"
+      },
+      {
+        "description": "The Honorable Daniel Webster",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Daniel Webster",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-W000806-Amdt-036.pdf"
+      },
+      {
+        "description": "The Honorable Matt Van Epps",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Matt Van Epps",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-V000139-Amdt-008.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-O000019-Amdt-064.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-F000477-Amdt-054.pdf"
+      },
+      {
+        "description": "Markup Results",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Markup Results",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-20260429-SD002.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-MState-L000397-20260429.pdf"
+      },
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-MState-B001291-20260429.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "relatedItems": {
+      "bills": [
+        {
+          "congress": 119,
+          "number": "8462",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8462?format=json"
+        }
+      ]
+    },
+    "title": "Full Committee Markup",
+    "type": "Markup",
+    "updateDate": "2026-04-30T19:42:25Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup of the National Quantum Initiative Reauthorization Act",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119183"
+      },
+      {
+        "name": "Full Committee Markup of the National Quantum Initiative Reauthorization Act",
+        "url": "https://www.youtube.com/watch?v=OnlCe7f0I9M"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119183",
+    "format": "json"
+  }
+}

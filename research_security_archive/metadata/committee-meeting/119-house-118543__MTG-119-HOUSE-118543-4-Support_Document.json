@@ -1,0 +1,93 @@
+{
+  "stable_id": "119-house-118543__MTG-119-HOUSE-118543-4-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118543",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD002.pdf",
+  "retrieved_at": "2026-10-02T06:49:38Z",
+  "http_status": 200,
+  "pdf_sha256": "07cedd55b90be80e6e6e189bd993173cb74688ffc3d1717e8071f081f3c96f4c",
+  "pdf_bytes": 1145360,
+  "pdf_page_count": 146,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118543__MTG-119-HOUSE-118543-4-Support_Document/detail.json",
+  "title": "Fiscal Year 2026 National Security, Department of State, and Related Programs Bill",
+  "update_date": "2026-01-02T07:46:22Z",
+  "document_type": "Support Document",
+  "document_number": "118543",
+  "document_identifier": "MTG-119-HOUSE-118543-4-Support_Document",
+  "text_version": null,
+  "eventId": "118543",
+  "type": "Markup",
+  "meetingStatus": "Scheduled",
+  "date": "2025-07-23T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Appropriations",
+      "systemCode": "hsap00",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2359"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "FY26 National Security, Department of State, and Related Programs – Full Committee Mark",
+      "url": "https://www.congress.gov/119/meeting/house/118543/documents/BILLS-119-SC-AP-FY2026-AP00-FY26NSRPFullCommitteeMark.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "FY26 National Security, Department of State, and Related Programs – Roll Call Votes",
+      "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD004.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "FY26 National Security, Department of State, and Related Programs – Amendments",
+      "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD003.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice of FY26 Full Committee Markup – National Security, Department of State, and Related Programs Bill",
+      "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD001.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "FY26 National Security, Department of State, and Related Programs – Report",
+      "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD002.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "FY26 National Security, Department of State, and Related Programs – Report",
+    "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD002.pdf"
+  },
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:49:38Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118543__MTG-119-HOUSE-118543-4-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/118543"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118543__MTG-119-HOUSE-118543-4-Support_Document.json",
+  "known_limitations": []
+}

@@ -1,0 +1,36 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-07-23T18:30:00Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2025-03-05T19:30:00Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2025-03-05T16:37:34Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Small Business and Entrepreneurship Committee",
+      "systemCode": "sssb00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "853",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/853?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

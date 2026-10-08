@@ -1,0 +1,87 @@
+{
+  "pagination": {
+    "count": 4
+  },
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1048?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-03-31T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rfs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rfs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rfs.xml"
+        }
+      ],
+      "type": "Referred in Senate"
+    },
+    {
+      "date": "2025-03-27T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048eh.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048eh.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048eh.xml"
+        }
+      ],
+      "type": "Engrossed in House"
+    },
+    {
+      "date": "2025-03-14T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rh.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rh.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rh.xml"
+        }
+      ],
+      "type": "Reported in House"
+    },
+    {
+      "date": "2025-02-06T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "systemCode": "hlzs00",
+        "url": "https://api.congress.gov/v3/committee/house/hlzs00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-07-15T14:00:00Z",
+    "eventId": "119439",
+    "location": {
+      "building": "Cannon House Office Building",
+      "room": "390"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Hearing: Transcript",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/documents/HHRG-119-ZS00-Transcript-20260715.pdf"
+      },
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119439/documents/HHRG-119-ZS00-MState-B001291-20260715.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Protecting American Innovation: The Federal Research Security Enterprise",
+    "type": "Hearing",
+    "updateDate": "2026-07-20T16:42:20Z",
+    "videos": [
+      {
+        "name": "Protecting American Innovation: The Federal Research Security Enterprise",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119439"
+      },
+      {
+        "name": "Protecting American Innovation: The Federal Research Security Enterprise",
+        "url": "https://www.youtube.com/watch?v=Qx-K4zz-K88"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-TTF-KeiserR-20260715.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-Wstate-KeiserR-20260715.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-TTF-IsonJ-20260715.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-Wstate-IsonJ-20260715.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-TTF-ValdezP-20260715.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119439/witnesses/HHRG-119-ZS00-Wstate-ValdezP-20260715.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. Rebecca Keiser",
+        "organization": "National Science Foundation",
+        "position": "Acting Chief of Staff and Chief of Research Security Policy and Strategy"
+      },
+      {
+        "name": "Mr. Jeremy Ison",
+        "organization": "U.S. Department of Energy",
+        "position": "Chief of Staff to the Under Secretary for Science"
+      },
+      {
+        "name": "Dr. Patricia Valdez",
+        "organization": "National Institutes of Health",
+        "position": "Chief Extramural Research Integrity Officer"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119439",
+    "format": "json"
+  }
+}

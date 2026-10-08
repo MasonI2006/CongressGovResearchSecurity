@@ -1,0 +1,311 @@
+{
+  "stable_id": "119-house-119199__MTG-119-HOUSE-119199-23-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119199",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD027.pdf",
+  "retrieved_at": "2026-10-02T04:41:10Z",
+  "http_status": 200,
+  "pdf_sha256": "0da362a539ee7078a39a46125dfc9e483aa619d80eea55a923cbc4794bf3de82",
+  "pdf_bytes": 8839754,
+  "pdf_page_count": 792,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119199__MTG-119-HOUSE-119199-23-Support_Document/detail.json",
+  "title": "Oversight hearing titled “Examining the President's FY 2027 Budget Request for the Department of the Interior.”",
+  "update_date": "2026-08-18T21:56:49Z",
+  "document_type": "Support Document",
+  "document_number": "119199",
+  "document_identifier": "MTG-119-HOUSE-119199-23-Support_Document",
+  "text_version": null,
+  "eventId": "119199",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-05-13T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Natural Resources",
+      "systemCode": "hsii00",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Longworth House Office Building",
+    "room": "1324"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "Chairman Westerman FTR -- EIA U.S. battery capacity increased 66% in 2024 03.12.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Chairman Westerman FTR -- EIA U.S. battery capacity increased 66% in 2024 03.12.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD003.pdf"
+    },
+    {
+      "description": "Chairman Westerman FTR -- Research Paper The Battery Storage Delusion Utility-Scale Batteries Are No Silver Bullet 12.03.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Chairman Westerman FTR -- Research Paper The Battery Storage Delusion Utility-Scale Batteries Are No Silver Bullet 12.03.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD004.pdf"
+    },
+    {
+      "description": "Rep. Ansari FTR -- FY27 WaterSMART Budget Stakeholder Letter 01.16.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Ansari FTR -- FY27 WaterSMART Budget Stakeholder Letter 01.16.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD005.pdf"
+    },
+    {
+      "description": "Rep. Dexter FTR -- WAPO article Correspondents’ dinner lacked highest security level despite presence of top officials 04.26.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Dexter FTR -- WAPO article Correspondents’ dinner lacked highest security level despite presence of top officials 04.26.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD006.pdf"
+    },
+    {
+      "description": "Rep. Dingell FTR -- WSJ article Trump Delays Move to Lower Tariffs on Beef Imports 05.11.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Dingell FTR -- WSJ article Trump Delays Move to Lower Tariffs on Beef Imports 05.11.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD007.pdf"
+    },
+    {
+      "description": "Rep. Gosar FTR -- Letter to Senate Appropriators RE Hualapai Water Settlement 04.22.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Gosar FTR -- Letter to Senate Appropriators RE Hualapai Water Settlement 04.22.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD008.pdf"
+    },
+    {
+      "description": "Rep. Grijalva FTR -- AZ Luminaria Tohono O’odham Community College thriving as it tries to weather proposed deep cuts to tribal college funding 06.20.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Grijalva FTR -- AZ Luminaria Tohono O’odham Community College thriving as it tries to weather proposed deep cuts to tribal college funding 06.20.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD009.pdf"
+    },
+    {
+      "description": "Rep. Grijalva FTR -- Grist article How the Trump administration is putting hundreds of sacred sites at risk 05.29.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Grijalva FTR -- Grist article How the Trump administration is putting hundreds of sacred sites at risk 05.29.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD010.pdf"
+    },
+    {
+      "description": "Rep. Grijalva FTR -- ND Monitor artcile Federal cuts would be ‘death knell’ for North Dakota tribal colleges, campus presidents say 05.12.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Grijalva FTR -- ND Monitor artcile Federal cuts would be ‘death knell’ for North Dakota tribal colleges, campus presidents say 05.12.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD011.pdf"
+    },
+    {
+      "description": "Ranking Member Huffman FTR -- Ember article titled Chinese Energy Trends May 2026",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Ranking Member Huffman FTR -- Ember article titled Chinese Energy Trends May 2026",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD012.pdf"
+    },
+    {
+      "description": "Rep. Randall FTR -- NYT article Reflecting Pool Repairs Appear Uneven and Behind Schedule, Officials Say 05.12.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Randall FTR -- NYT article Reflecting Pool Repairs Appear Uneven and Behind Schedule, Officials Say 05.12.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD013.pdf"
+    },
+    {
+      "description": "Rep. Randall FTR -- NYT article Reflecting Pool Repairs to Cost $13.1 Million. Trump Had Promised $1.8 Million. 05.11.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Randall FTR -- NYT article Reflecting Pool Repairs to Cost $13.1 Million. Trump Had Promised $1.8 Million. 05.11.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD014.pdf"
+    },
+    {
+      "description": "Rep. Rivas FTR -- DOI IG Report 09.09.08",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Rivas FTR -- DOI IG Report 09.09.08",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD015.pdf"
+    },
+    {
+      "description": "Rep. Rivas FTR -- Santa Barbara News-Press article Two people suffer minor injuries in Carpinteria natural gas rig fire 05.11.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Rivas FTR -- Santa Barbara News-Press article Two people suffer minor injuries in Carpinteria natural gas rig fire 05.11.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD016.pdf"
+    },
+    {
+      "description": "Rep. Stansbury FTR -- IMF Report From Abundance to Thirst Dec 2022",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stansbury FTR -- IMF Report From Abundance to Thirst Dec 2022",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD017.pdf"
+    },
+    {
+      "description": "Rep. Stauber FTR -- NBC News article DC's not-so-reflecting pool is full of algae after $34 million renovation 09.26.12",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stauber FTR -- NBC News article DC's not-so-reflecting pool is full of algae after $34 million renovation 09.26.12",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD018.pdf"
+    },
+    {
+      "description": "Rep. Stauber FTR -- Politico article Trump’s reflecting pool spruce-up fails to charm preservationists 04.28.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stauber FTR -- Politico article Trump’s reflecting pool spruce-up fails to charm preservationists 04.28.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD019.pdf"
+    },
+    {
+      "description": "Rep. Stauber FTR -- Report The challenges of success Future wolf conservation and management in the U.S. 08.16.23",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stauber FTR -- Report The challenges of success Future wolf conservation and management in the U.S. 08.16.23",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD020.pdf"
+    },
+    {
+      "description": "Rep. Begich FTR -- FY23 NPS budget justification",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Begich FTR -- FY23 NPS budget justification",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD021.pdf"
+    },
+    {
+      "description": "Rep. Stauber FTR -- AZ and NV Gov Ltr to Gov Newsom 09.10.24",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stauber FTR -- AZ and NV Gov Ltr to Gov Newsom 09.10.24",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD022.pdf"
+    },
+    {
+      "description": "Rep. Stauber FTR -- DC Fox5 Annual Scrubbing of Lincoln Memorial Reflecting Pool underway 03.03.23",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stauber FTR -- DC Fox5 Annual Scrubbing of Lincoln Memorial Reflecting Pool underway 03.03.23",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD024.pdf"
+    },
+    {
+      "description": "Rep. Bentz FTR -- PBS News What's in the billion-dollar paragraph behind the WH ballroom debate 05.13.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Bentz FTR -- PBS News What's in the billion-dollar paragraph behind the WH ballroom debate 05.13.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD025.pdf"
+    },
+    {
+      "description": "Ranking Member Huffman FTR -- SEIA The Energy Storage Market Outlook Report 03.12.26",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Ranking Member Huffman FTR -- SEIA The Energy Storage Market Outlook Report 03.12.26",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD026.pdf"
+    },
+    {
+      "description": "Rep. Stansbury FTR -- NOAA FY27 Budget Estimates",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stansbury FTR -- NOAA FY27 Budget Estimates",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD027.pdf"
+    },
+    {
+      "description": "Rep. Stansbury FTR -- FWS FY 27 Budget",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stansbury FTR -- FWS FY 27 Budget",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD028.pdf"
+    },
+    {
+      "description": "Rep. Stansbury FTR -- DOI Budget in Brief FY 27",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Stansbury FTR -- DOI Budget in Brief FY 27",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD029.pdf"
+    },
+    {
+      "description": "Rep. Grijalva FTR -- AP article Tribal leaders say Trump administration failed to consult with them on Education Department changes 11.20.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Grijalva FTR -- AP article Tribal leaders say Trump administration failed to consult with them on Education Department changes 11.20.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD031.pdf"
+    },
+    {
+      "description": "Rep. Rivas FTR -- FR Notice O&G and Sulfur Operations in the OCS Revisions to the 2023 BPS and Well Control Rule",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Rivas FTR -- FR Notice O&G and Sulfur Operations in the OCS Revisions to the 2023 BPS and Well Control Rule",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD032.pdf"
+    },
+    {
+      "description": "Rep. Dexter FTR -- The WH Announces WH Ballroom Construction to Begin 07.31.25",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Dexter FTR -- The WH Announces WH Ballroom Construction to Begin 07.31.25",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD033.pdf"
+    },
+    {
+      "description": "Hearing Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD001.pdf"
+    },
+    {
+      "description": "Hearing Memo",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Memo",
+      "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD002.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "The Honorable Doug Burgum",
+      "organization": "U.S. Department of the Interior",
+      "position": "Secretary"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119199/witnesses/HHRG-119-II00-Wstate-BurgumD-20260513.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119199/witnesses/HHRG-119-II00-Bio-BurgumD-20260513.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119199/witnesses/HHRG-119-II00-TTF-BurgumD-20260513.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "Rep. Stansbury FTR -- NOAA FY27 Budget Estimates",
+    "url": "https://www.congress.gov/119/meeting/house/119199/documents/HHRG-119-II00-20260513-SD027.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "The Honorable Doug Burgum",
+      "party": null,
+      "state": "U.S. Department of the Interior",
+      "position": "Secretary"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:41:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119199__MTG-119-HOUSE-119199-23-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/119199"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119199__MTG-119-HOUSE-119199-23-Support_Document.json",
+  "known_limitations": []
+}

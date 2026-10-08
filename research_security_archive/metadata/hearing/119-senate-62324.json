@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-62324",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/62324",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg62324/CHRG-119shrg62324.pdf",
+  "retrieved_at": "2026-10-02T04:21:00Z",
+  "http_status": 200,
+  "pdf_sha256": "26d4b6e5d718006601f782191faa3729e4515db7d517551d0220ec25082aeb74",
+  "pdf_bytes": 4910034,
+  "pdf_page_count": 81,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-62324/detail.json",
+  "title": "NOMINATION OF PAUL DABBAR, NOMINEE TO BE DEPUTY SECRETARY, U.S. DEPARTMENT OF COMMERCE",
+  "update_date": "2025-12-24T03:21:13Z",
+  "document_type": "HRG",
+  "document_number": 62324,
+  "document_identifier": "HRG-119-SENATE-62324",
+  "text_version": null,
+  "jacketNumber": 62324,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-253",
+  "dates": [
+    {
+      "date": "2025-05-01"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Commerce Committee",
+      "systemCode": "sscm00",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC74974",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg62324/generated/CHRG-119shrg62324.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg62324/CHRG-119shrg62324.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:21:00Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-62324/detail.json",
+      "endpoint": "hearing/119/senate/62324"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-62324.json",
+  "known_limitations": []
+}

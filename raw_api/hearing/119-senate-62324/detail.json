@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-253",
+    "committees": [
+      {
+        "name": "Senate Commerce Committee",
+        "systemCode": "sscm00",
+        "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-05-01"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62324/generated/CHRG-119shrg62324.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62324/CHRG-119shrg62324.pdf"
+      }
+    ],
+    "jacketNumber": 62324,
+    "libraryOfCongressIdentifier": "LC74974",
+    "number": 253,
+    "title": "NOMINATION OF PAUL DABBAR, NOMINEE TO BE DEPUTY SECRETARY, U.S. DEPARTMENT OF COMMERCE",
+    "updateDate": "2025-12-24T03:21:13Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "62324"
+  }
+}

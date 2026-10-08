@@ -1,0 +1,71 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "2296",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
+        }
+      ],
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-39",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-07-15T04:00:00Z",
+      "number": 39,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/39/text?format=json"
+      },
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "type": "SRPT",
+      "updateDate": "2025-08-06T23:26:15Z"
+    },
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "2296",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
+        }
+      ],
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-39,Errata",
+      "committees": [],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": null,
+      "number": 39,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/39/text?format=json"
+      },
+      "title": null,
+      "type": "SRPT",
+      "updateDate": "2025-08-06T23:26:15Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "39",
+    "reportType": "srpt"
+  }
+}

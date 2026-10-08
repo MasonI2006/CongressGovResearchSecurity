@@ -1,0 +1,41 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "C001103",
+      "district": 1,
+      "firstName": "Earl",
+      "fullName": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Carter",
+      "middleName": "L. \"Buddy\"",
+      "party": "R",
+      "sponsorshipDate": "2026-02-24",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/C001103?format=json"
+    },
+    {
+      "bioguideId": "T000469",
+      "district": 20,
+      "firstName": "Paul",
+      "fullName": "Rep. Tonko, Paul [D-NY-20]",
+      "isOriginalCosponsor": true,
+      "lastName": "Tonko",
+      "party": "D",
+      "sponsorshipDate": "2026-02-24",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/T000469?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2,
+    "countIncludingWithdrawnCosponsors": 2
+  },
+  "request": {
+    "billNumber": "7656",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7656?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

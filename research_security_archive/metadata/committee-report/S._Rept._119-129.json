@@ -1,0 +1,78 @@
+{
+  "stable_id": "S. Rept. 119-129",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/srpt/129",
+  "pdf_url": "https://www.congress.gov/119/crpt/srpt129/CRPT-119srpt129.pdf",
+  "retrieved_at": "2026-10-02T03:33:47Z",
+  "http_status": 200,
+  "pdf_sha256": "3f45691b779bc085c2f286e5ff02d9529ef2000c6e851879f2b398bb755e6140",
+  "pdf_bytes": 482302,
+  "pdf_page_count": 10,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/S._Rept._119-129/detail.json",
+  "title": "NATIONAL PROGRAMMABLE CLOUD LABORATORIES NETWORK ACT OF 2025",
+  "update_date": "2026-08-20T22:41:41Z",
+  "document_type": "SRPT",
+  "document_number": "129-1",
+  "document_identifier": "RPT-119-SRPT-129-1",
+  "text_version": null,
+  "citation": "S. Rept. 119-129",
+  "type": "SRPT",
+  "number": 129,
+  "part": 1,
+  "chamber": "Senate",
+  "issueDate": "2026-07-13T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "3468",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3468?format=json"
+    }
+  ],
+  "reportType": "S.Rept.",
+  "sessionNumber": 2,
+  "people": [],
+  "committees": [
+    {
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-S-3468",
+      "payload": {
+        "congress": 119,
+        "number": "3468",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/3468?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:33:47Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-129/detail.json",
+      "endpoint": "committee-report/119/srpt/129"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:33:48Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-129/text.json",
+      "endpoint": "committee-report/119/srpt/129/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/S._Rept._119-129.json",
+  "known_limitations": []
+}

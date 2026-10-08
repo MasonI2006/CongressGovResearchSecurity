@@ -1,0 +1,41 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-26T15:02:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-24T17:01:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "1534",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1534?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

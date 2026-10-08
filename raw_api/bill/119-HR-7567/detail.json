@@ -1,0 +1,98 @@
+{
+  "bill": {
+    "actions": {
+      "count": 70,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/actions?format=json"
+    },
+    "amendments": {
+      "count": 31,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As introduced in the House of Representatives on February 13, 2026",
+        "pubDate": "2026-02-20T22:10:00Z",
+        "title": "Estimated Changes in Direct Spending Under H.R. 7567, the Farm, Food, and National Security Act of 2026",
+        "url": "https://www.cbo.gov/publication/62160"
+      },
+      {
+        "description": "As reported by the House Committee on Agriculture on April 21, 2026",
+        "pubDate": "2026-04-24T17:48:00Z",
+        "title": "H.R. 7567, Farm, Food, and National Security Act of 2026",
+        "url": "https://www.cbo.gov/publication/62376"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-620",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/620?format=json"
+      },
+      {
+        "citation": "H. Rept. 119-620,Book 2",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/620?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 31 (Friday, February 13, 2026)]\n[House]\n[Pages H2224-H2225]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. THOMPSON of Pennsylvania:\nH.R. 7567.\nCongress has the power to enact this legislation pursuant\nto the following:\nThe ability to regulate interstate commerce and with\nforeign Nations pursuant to\n[[Page H2225]]\nClause 3, Section 8, Article 1 includes the power to regulate\ncommodity prices, practices affecting them, and the trading\nor donation of the commodities to impoverished nations. In\naddition, the Congress has the power to provide for the\ngeneral Welfare of the United States under Clause1, Section\n8, Article which includes the power to promote the\ndevelopment of Rural America through research and extension\nof credit.\n</pre>",
+    "introducedDate": "2026-02-13",
+    "latestAction": {
+      "actionDate": "2026-05-19",
+      "text": "Received in the Senate."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7567",
+    "number": "7567",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Agriculture and Food"
+    },
+    "relatedBills": {
+      "count": 92,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "T000467",
+        "district": 15,
+        "firstName": "Glenn",
+        "fullName": "Rep. Thompson, Glenn [R-PA-15]",
+        "isByRequest": "N",
+        "lastName": "Thompson",
+        "party": "R",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/T000467?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 137,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/text?format=json"
+    },
+    "title": "Farm, Food, and National Security Act of 2026",
+    "titles": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-25T12:13:16Z",
+    "updateDateIncludingText": "2026-09-25T12:13:16Z"
+  },
+  "request": {
+    "billNumber": "7567",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

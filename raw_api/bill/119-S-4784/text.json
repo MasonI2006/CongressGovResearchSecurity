@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4784",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4784?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-06-15T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s4784/BILLS-119s4784rs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s4784/BILLS-119s4784rs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s4784/BILLS-119s4784rs.xml"
+        }
+      ],
+      "type": "Reported to Senate"
+    }
+  ]
+}

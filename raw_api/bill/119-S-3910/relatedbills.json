@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 7656,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "ReSCUE Oceans Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "3910",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3910?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

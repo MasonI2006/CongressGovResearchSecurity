@@ -1,0 +1,232 @@
+{
+  "stable_id": "119-house-118398__MTG-119-HOUSE-118398-7-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118398",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD004.pdf",
+  "retrieved_at": "2026-10-02T07:01:20Z",
+  "http_status": 200,
+  "pdf_sha256": "3bfdb993758d67ad8738e0a8a3a78fe0280cf0f6b8208b560fc00c62246ca8f5",
+  "pdf_bytes": 356090,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118398__MTG-119-HOUSE-118398-7-Support_Document/detail.json",
+  "title": "\"Securing America's Mineral Future: Unlocking the Economic Value Beneath Our Feet\"",
+  "update_date": "2026-01-02T07:25:51Z",
+  "document_type": "Support Document",
+  "document_number": "118398",
+  "document_identifier": "MTG-119-HOUSE-118398-7-Support_Document",
+  "text_version": null,
+  "eventId": "118398",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-06-24T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Small Business",
+      "systemCode": "hssm00",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2360"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Williams-REELEMENT TECHNOLOGIES-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD009.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Public Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD001.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Public Memo",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD002.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Williams-ROBERT ANDERSON-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD006.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Williams-ALLIANCE FOR MINERAL SECURITY-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD007.pdf"
+    },
+    {
+      "documentType": "Hearing: Member Roster",
+      "format": "PDF",
+      "name": "Attendance",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-MbrRoster.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Velazquez-ECOLOGICAL ECONOMICS-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD003.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Velazquez-NSF-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD004.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "UC-Velazquez-OUTDOOR ALLIANCE-Letter for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD005.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. Aaron Dowd",
+      "organization": "Rare Earth Salts",
+      "position": "Chief Executive Officer"
+    },
+    {
+      "name": "Mr. Harvey Kaye",
+      "organization": "U.S. Critical Materials",
+      "position": "Executive Director"
+    },
+    {
+      "name": "Mr. Ken Mushinski",
+      "organization": "Rare Element Resources",
+      "position": "President and Chief Executive Officer"
+    },
+    {
+      "name": "Dr. Laura Stoy",
+      "organization": "Rivalia Chemical Co.",
+      "position": "Founder and Chief Executive Officer"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-KayeH-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-KayeH-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-KayeH-20250624-U2.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-MushinskiK-20250624-U3.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-MushinskiK-20250624-U2.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-MushinskiK-20250624-U1.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-StoyL-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-StoyL-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-StoyL-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-DowdA-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-DowdA-20250624.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-DowdA-20250624.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "UC-Velazquez-NSF-Letter for the Record",
+    "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD004.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Aaron Dowd",
+      "party": null,
+      "state": "Rare Earth Salts",
+      "position": "Chief Executive Officer"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Harvey Kaye",
+      "party": null,
+      "state": "U.S. Critical Materials",
+      "position": "Executive Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Ken Mushinski",
+      "party": null,
+      "state": "Rare Element Resources",
+      "position": "President and Chief Executive Officer"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Laura Stoy",
+      "party": null,
+      "state": "Rivalia Chemical Co.",
+      "position": "Founder and Chief Executive Officer"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:01:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118398__MTG-119-HOUSE-118398-7-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/118398"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118398__MTG-119-HOUSE-118398-7-Support_Document.json",
+  "known_limitations": []
+}

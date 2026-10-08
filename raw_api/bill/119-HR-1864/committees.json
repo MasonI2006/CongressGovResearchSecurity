@@ -1,0 +1,41 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-05T15:01:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-05T15:01:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "1864",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1864?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

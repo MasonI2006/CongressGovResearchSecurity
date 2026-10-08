@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-17",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164."
+      },
+      "number": 854,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Risky Research Review Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/854?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1864",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1864?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

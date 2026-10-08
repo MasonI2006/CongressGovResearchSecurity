@@ -1,0 +1,122 @@
+{
+  "stable_id": "119-house-119484__MTG-119-HOUSE-119484-0-Member_Statements",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119484",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-B001291-20260722.pdf",
+  "retrieved_at": "2026-10-02T04:40:57Z",
+  "http_status": 200,
+  "pdf_sha256": "d210a1dd5eb98b651fdd7d5d539aad36e544560619b5b56c525352808a763c95",
+  "pdf_bytes": 228947,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119484__MTG-119-HOUSE-119484-0-Member_Statements/detail.json",
+  "title": "Unleashing the Golden Age of Science: Examining the Priorities of the FY2027 Research and Technology Enterprise",
+  "update_date": "2026-08-19T16:11:57Z",
+  "document_type": "Member Statements",
+  "document_number": "119484",
+  "document_identifier": "MTG-119-HOUSE-119484-0-Member_Statements",
+  "text_version": null,
+  "eventId": "119484",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-07-22T14:15:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "The Honorable Brian Babin",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-B001291-20260722.pdf"
+    },
+    {
+      "description": "The Honorable Zoe Lofgren",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-L000397-20260722.pdf"
+    },
+    {
+      "description": "Charter",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-20260722-SD002.pdf"
+    },
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-20260722-SD001.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "The Honorable Michael Kratsios",
+      "organization": "White House Office of Science and Technology Capacity",
+      "position": "Director"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-TTF-KratsiosM-20260722.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-Bio-KratsiosM-20260722.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-Wstate-KratsiosM-20260722.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Member Statements",
+    "name": "The Honorable Brian Babin",
+    "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-B001291-20260722.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "The Honorable Michael Kratsios",
+      "party": null,
+      "state": "White House Office of Science and Technology Capacity",
+      "position": "Director"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:40:57Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119484__MTG-119-HOUSE-119484-0-Member_Statements/detail.json",
+      "endpoint": "committee-meeting/119/house/119484"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119484__MTG-119-HOUSE-119484-0-Member_Statements.json",
+  "known_limitations": []
+}

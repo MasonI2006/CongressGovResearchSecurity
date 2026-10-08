@@ -1,0 +1,224 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Rules",
+        "systemCode": "hsru00",
+        "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-06-29T20:00:00Z",
+    "eventId": "118853",
+    "location": {
+      "building": "Capitol",
+      "room": "H-313"
+    },
+    "meetingDocuments": [
+      {
+        "description": "H.R. 8800 – National Defense Authorization Act for Fiscal Year 2027",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 8800 – National Defense Authorization Act for Fiscal Year 2027",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119hr8800rh.pdf"
+      },
+      {
+        "description": ":: Rules Committee Print 119-33 – Showing the text of H.R. 8800, as ordered reported by the Committee on Armed Services",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: Rules Committee Print 119-33 – Showing the text of H.R. 8800, as ordered reported by the Committee on Armed Services",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/rcp_h8800_xml.pdf"
+      },
+      {
+        "description": ":: H. Rept. 119-698 – Report from the Committee on Armed Services to accompany H.R. 8800",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-698 – Report from the Committee on Armed Services to accompany H.R. 8800",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/CRPT-119hrpt698.pdf"
+      },
+      {
+        "description": "H.R. 8884 - Removing Barriers to Work for Disabled Americans Act",
+        "documentType": "Bills and Resolutions",
+        "format": "Formatted XML",
+        "name": "H.R. 8884 - Removing Barriers to Work for Disabled Americans Act",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119hr8884ih.xml"
+      },
+      {
+        "description": ":: Rules Committee Print 119-34 – Showing the text of H.R. 8884, as reported by the Committee on Ways and Means",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: Rules Committee Print 119-34 – Showing the text of H.R. 8884, as reported by the Committee on Ways and Means",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119119-34rh.pdf"
+      },
+      {
+        "description": "H. Res. 1383 – Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H. Res. 1383 – Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119hres1383ih.pdf"
+      },
+      {
+        "description": "H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119hr8595rh.pdf"
+      },
+      {
+        "description": ":: H. Rept. 119-631 – Report from the Committee on Appropriations to accompany H.R. 8595",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-631 – Report from the Committee on Appropriations to accompany H.R. 8595",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/CRPT-119hrpt631.pdf"
+      },
+      {
+        "description": "H.R. 8884 - Removing Barriers to Work for Disabled Americans Act",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 8884 - Removing Barriers to Work for Disabled Americans Act",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119hr8884rh.pdf"
+      },
+      {
+        "description": ":: H. Rept. 119-714 – Report from the Committee on Ways and Means to accompany H.R. 8884",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-714 – Report from the Committee on Ways and Means to accompany H.R. 8884",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/CRPT-119hrpt714.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-4-M000312-Amdt-4.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-5-M000312-Amdt-5.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-6-M000312-Amdt-6.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-7-M000312-Amdt-7.pdf"
+      },
+      {
+        "description": "The Honorable Mr. McGovern",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-8-M000312-Amdt-8.pdf"
+      },
+      {
+        "description": "The Honorable Ms. Scanlon",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Ms. Scanlon",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-9-S001205-Amdt-9.pdf"
+      },
+      {
+        "description": "The Honorable Ms. Scanlon",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Ms. Scanlon",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/BILLS-119-10-S001205-Amdt-10.pdf"
+      },
+      {
+        "description": "H. Res. 1398 – Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "H. Res. 1398 – Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/HMTG-119-RU00-20260629-SD001.pdf"
+      },
+      {
+        "description": ":: H. Rept. 119-718 – Report from the Committee on Rules to accompany H. Res. 1398",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-718 – Report from the Committee on Rules to accompany H. Res. 1398",
+        "url": "https://www.congress.gov/119/meeting/house/118853/documents/CRPT-119hrpt718.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "relatedItems": {
+      "bills": [
+        {
+          "congress": 119,
+          "number": "8884",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8884?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "8800",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "1383",
+          "type": "HRES",
+          "url": "https://api.congress.gov/v3/bill/119/hres/1383?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "8595",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8595?format=json"
+        }
+      ]
+    },
+    "title": "H.R. 8800 – National Defense Authorization Act for Fiscal Year 2027; H.R. 8884 – Removing Barriers to Work for Disabled Americans Act; H. Res. 1383 – Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.; H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027",
+    "type": "Meeting",
+    "updateDate": "2026-07-13T22:26:44Z",
+    "videos": [
+      {
+        "name": "Rules Committee Hearing H.R. 8800, H.R. 8884, H. Res. 1383, H.R. 8595",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118853"
+      },
+      {
+        "name": "Rules Committee Hearing H.R. 8800, H.R. 8884, H. Res. 1383, H.R. 8595",
+        "url": "https://www.youtube.com/watch?v=yPxww0MOvI0"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118853",
+    "format": "json"
+  }
+}

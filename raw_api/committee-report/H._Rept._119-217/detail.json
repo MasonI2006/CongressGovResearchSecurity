@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "4779",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/4779?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-217",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-07-25T04:00:00Z",
+      "number": 217,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/217/text?format=json"
+      },
+      "title": "NATIONAL SECURITY, DEPARTMENT OF STATE, AND RELATED PROGRAMS APPROPRIATIONS BILL, 2026",
+      "type": "HRPT",
+      "updateDate": "2025-08-15T16:27:28Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "217",
+    "reportType": "hrpt"
+  }
+}

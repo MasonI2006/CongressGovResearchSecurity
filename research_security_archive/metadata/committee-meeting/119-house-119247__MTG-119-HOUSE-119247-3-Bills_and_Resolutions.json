@@ -1,0 +1,672 @@
+{
+  "stable_id": "119-house-119247__MTG-119-HOUSE-119247-3-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119247",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt620-pt1.pdf",
+  "retrieved_at": "2026-10-02T05:25:59Z",
+  "http_status": 200,
+  "pdf_sha256": "17c470e1d3e0d19c0e542d187ee4bd397bf5c52ee9187e33601cd2d44c7d1afa",
+  "pdf_bytes": 2346634,
+  "pdf_page_count": 815,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119247__MTG-119-HOUSE-119247-3-Bills_and_Resolutions/detail.json",
+  "title": "H.R. 7567 – Farm, Food, and National Security Act of 2026; H.R. 2616 – Stopping Indoctrination and Protecting Kids Act; S. Con. Res. 33 – Setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.; S. 1318 – [Foreign Intelligence Accountability Act]; H.R. 1346 – Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+  "update_date": "2026-04-29T17:33:42Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "119247",
+  "document_identifier": "MTG-119-HOUSE-119247-3-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "119247",
+  "type": "Meeting",
+  "meetingStatus": "Scheduled",
+  "date": "2026-04-27T17:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Rules",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "H-313"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "2616",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2616?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "2617",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2617?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "7567",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1346",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1346?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1318",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1318?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "33",
+        "type": "SCONRES",
+        "url": "https://api.congress.gov/v3/bill/119/sconres/33?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "description": "H.R. 7567 – Farm, Food, and National Security Act of 2026",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 7567 – Farm, Food, and National Security Act of 2026",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119hr7567rh.pdf"
+    },
+    {
+      "description": ":: Rules Committee Print 119-22 – Showing the text of H.R. 7567, as ordered reported by the Committee on Agriculture, with modifications.",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-22 – Showing the text of H.R. 7567, as ordered reported by the Committee on Agriculture, with modifications.",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/rcp_h7567_xml.pdf"
+    },
+    {
+      "description": ":: Comparative Print – Showing the differences between H.R. 7567, as ordered reported, and Rules Committee Print 119-22.",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Comparative Print – Showing the differences between H.R. 7567, as ordered reported, and Rules Committee Print 119-22.",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/bill-to-bill_h7567_rh_xml-002-to_rcp_h7567_xml-002-2.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-620, Book 1 of 2 – Report from the Committee on Agriculture to accompany H.R. 7567",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-620, Book 1 of 2 – Report from the Committee on Agriculture to accompany H.R. 7567",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt620-pt1.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-620, Book 2 of 2 – Report from the Committee on Agriculture to accompany H.R. 7567",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-620, Book 2 of 2 – Report from the Committee on Agriculture to accompany H.R. 7567",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt620-pt2.pdf"
+    },
+    {
+      "description": "H.R. 2616 - Stopping Indoctrination and Protecting Kids Act",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 2616 - Stopping Indoctrination and Protecting Kids Act",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119hr2616rh.pdf"
+    },
+    {
+      "description": ":: Rules Committee Print 119-26 – Showing the text of H.R. 2616 and H.R. 2617, as reported by the Committee on Education and Workforce",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-26 – Showing the text of H.R. 2616 and H.R. 2617, as reported by the Committee on Education and Workforce",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/rcp_h2616_h2617_xml_0.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-441 – Report from the Committee on Education and the Workforce to accompany H.R. 2616",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-441 – Report from the Committee on Education and the Workforce to accompany H.R. 2616",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt441.pdf"
+    },
+    {
+      "description": ":: H.R. 2617 – Say No to Indoctrination Act",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H.R. 2617 – Say No to Indoctrination Act",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119hr2617rh.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-442 – Report from the Committee on Education and the Workforce to accompany H.R. 2617",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-442 – Report from the Committee on Education and the Workforce to accompany H.R. 2617",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt442.pdf"
+    },
+    {
+      "description": "S. Con. Res. 33 - Setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "S. Con. Res. 33 - Setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119sconres33es.pdf"
+    },
+    {
+      "description": "S. 1318 – [Foreign Intelligence Accountability Act]",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "S. 1318 – [Foreign Intelligence Accountability Act]",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119s1318es.pdf"
+    },
+    {
+      "description": ":: Rules Committee Print 119-27 – Showing the text of the Foreign Intelligence Accountability Act",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-27 – Showing the text of the Foreign Intelligence Accountability Act",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119119-27ih.pdf"
+    },
+    {
+      "description": "H.R. 1346 – Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1346 – Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119hr1346ih.pdf"
+    },
+    {
+      "description": ":: Rules Committee Print 119-28",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-28",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119119-28ih.pdf"
+    },
+    {
+      "description": "H. Res. 1224 – Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "H. Res. 1224 – Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/HMTG-119-RU00-20260427-SD001.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-628 – Report from the Committee on Rules to accompany H. Res. 1224",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-628 – Report from the Committee on Rules to accompany H. Res. 1224",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/HMTG-119-RU00-20260427-SD002.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-4-S001205-Amdt-4.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-5-S001205-Amdt-5.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-6-S001205-Amdt-6.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-7-M000312-Amdt-7.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-8-M000312-Amdt-8.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-9-M000312-Amdt-9.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-10-M000312-Amdt-10.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-11-M000312-Amdt-11.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-12-M000312-Amdt-12.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-13-M000312-Amdt-13.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-14-M000312-Amdt-14.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-15-M000312-Amdt-15.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-16-S001205-Amdt-16.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-17-S001205-Amdt-17.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-18-S001205-Amdt-18.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-19-L000273-Amdt-19.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-20-L000273-Amdt-20.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-21-L000273-Amdt-21.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-22-M000312-Amdt-22.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-23-M000312-Amdt-23.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-24-M000312-Amdt-24.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-25-N000191-Amdt-25.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-26-N000191-Amdt-26.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-27-M000312-Amdt-27.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-28-N000191-Amdt-28.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-29-N000191-Amdt-29.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-30-N000191-Amdt-30.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-31-N000191-Amdt-31.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-32-L000273-Amdt-32.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-33-S001205-Amdt-33.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-34-S001205-Amdt-34.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-35-N000191-Amdt-35.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-36-N000191-Amdt-36.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-37-N000191-Amdt-37.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-38-S001205-Amdt-38.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-39-S001205-Amdt-39.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-40-N000191-Amdt-40.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-41-N000191-Amdt-41.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-42-N000191-Amdt-42.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-43-N000191-Amdt-43.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-44-L000273-Amdt-44.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-45-N000191-Amdt-45.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-46-S001205-Amdt-46.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-270-S001205-Amdt-270.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-48-S001205-Amdt-48.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-49-S001205-Amdt-49.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-50-M000312-Amdt-50.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-51-L000273-Amdt-51.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-52-L000273-Amdt-52.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-53-N000191-Amdt-53.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-54-M000312-Amdt-54.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-55-N000191-Amdt-55.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-56-L000273-Amdt-56.pdf"
+    },
+    {
+      "description": "The Honorable Mr. Neguse",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-57-N000191-Amdt-57.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Leger Fernández",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/119247/documents/BILLS-119-58-L000273-Amdt-58.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": ":: H. Rept. 119-620, Book 1 of 2 – Report from the Committee on Agriculture to accompany H.R. 7567",
+    "url": "https://www.congress.gov/119/meeting/house/119247/documents/CRPT-119hrpt620-pt1.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "2616",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/2616?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "2617",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/2617?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "7567",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1346",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1346?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1318",
+            "type": "S",
+            "url": "https://api.congress.gov/v3/bill/119/s/1318?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "33",
+            "type": "SCONRES",
+            "url": "https://api.congress.gov/v3/bill/119/sconres/33?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:25:59Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119247__MTG-119-HOUSE-119247-3-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/119247"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119247__MTG-119-HOUSE-119247-3-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

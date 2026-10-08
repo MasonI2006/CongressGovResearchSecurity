@@ -1,0 +1,94 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology",
+        "systemCode": "hssy00",
+        "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-07-22T14:15:00Z",
+    "eventId": "119484",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-B001291-20260722.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-MState-L000397-20260722.pdf"
+      },
+      {
+        "description": "Charter",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Charter",
+        "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-20260722-SD002.pdf"
+      },
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119484/documents/HHRG-119-SY00-20260722-SD001.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Unleashing the Golden Age of Science: Examining the Priorities of the FY2027 Research and Technology Enterprise",
+    "type": "Hearing",
+    "updateDate": "2026-08-19T16:11:57Z",
+    "videos": [
+      {
+        "name": "\"Examining the Priorities of the FY2027 Research and Technology Enterprise\"",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119484"
+      },
+      {
+        "name": "\"Examining the Priorities of the FY2027 Research and Technology Enterprise\"",
+        "url": "https://www.youtube.com/watch?v=SLqi22MdCFU"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-TTF-KratsiosM-20260722.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-Bio-KratsiosM-20260722.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119484/witnesses/HHRG-119-SY00-Wstate-KratsiosM-20260722.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "The Honorable Michael Kratsios",
+        "organization": "White House Office of Science and Technology Capacity",
+        "position": "Director"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119484",
+    "format": "json"
+  }
+}

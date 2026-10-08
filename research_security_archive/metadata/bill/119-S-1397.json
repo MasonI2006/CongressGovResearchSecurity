@@ -1,0 +1,197 @@
+{
+  "stable_id": "119-S-1397",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/1397",
+  "pdf_url": "https://www.congress.gov/119/bills/s1397/BILLS-119s1397rs.pdf",
+  "retrieved_at": "2026-10-01T18:10:21Z",
+  "http_status": 200,
+  "pdf_sha256": "2a1b9979e997fc6b31fa21df3d22bfdd4ba4c30096536cf0ff608cda0631d66b",
+  "pdf_bytes": 271568,
+  "pdf_page_count": 12,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-1397/detail.json",
+  "title": "International Quantum Research Exchange Act",
+  "update_date": "2025-10-09T03:26:15Z",
+  "document_type": "S",
+  "document_number": "1397",
+  "document_identifier": "BILL-119-S-1397-Reported_to_Senate",
+  "text_version": {
+    "type": "Reported to Senate",
+    "date": "2025-06-18T04:00:00Z"
+  },
+  "type": "S",
+  "number": "1397",
+  "originChamber": "Senate",
+  "introducedDate": "2025-04-09",
+  "latestAction": {
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 92.",
+    "date": "2025-06-18"
+  },
+  "policyArea": {
+    "name": "International Affairs"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "party": "D",
+      "state": "NH"
+    }
+  ],
+  "cosponsorCount": 3,
+  "cosponsorBioguideIds": [
+    "Y000064",
+    "C001088",
+    "K000367"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2025-06-12T20:11:55Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2025-06-12T20:11:39Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-06-12T20:11:27Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2025-06-12T20:11:04Z"
+    },
+    {
+      "name": "Intergovernmental relations",
+      "updateDate": "2025-06-12T20:12:04Z"
+    },
+    {
+      "name": "International organizations and cooperation",
+      "updateDate": "2025-06-12T20:10:47Z"
+    },
+    {
+      "name": "International scientific cooperation",
+      "updateDate": "2025-06-12T20:10:56Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2025-06-12T20:12:12Z"
+    },
+    {
+      "name": "Science and engineering education",
+      "updateDate": "2025-06-12T20:12:19Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-06-18T18:17:23Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-06-05T14:30:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-04-09T20:44:51Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Foreign Relations Committee",
+      "systemCode": "ssfr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Reported to Senate",
+    "date": "2025-06-18T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2025-10-09T03:26:15Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "party": "D",
+      "state": "NH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "party": "D",
+      "state": "DE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
+      "party": "D",
+      "state": "MN"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/detail.json",
+      "endpoint": "bill/119/s/1397"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/text.json",
+      "endpoint": "bill/119/s/1397/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:22Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/cosponsors.json",
+      "endpoint": "bill/119/s/1397/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:24Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/committees.json",
+      "endpoint": "bill/119/s/1397/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:25Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/relatedbills.json",
+      "endpoint": "bill/119/s/1397/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:23Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1397/subjects.json",
+      "endpoint": "bill/119/s/1397/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-1397.json",
+  "known_limitations": []
+}

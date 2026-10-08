@@ -1,0 +1,425 @@
+{
+  "stable_id": "119-HR-7273",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/7273",
+  "pdf_url": "https://www.congress.gov/119/bills/hr7273/BILLS-119hr7273ih.pdf",
+  "retrieved_at": "2026-10-01T23:24:21Z",
+  "http_status": 200,
+  "pdf_sha256": "1343932525feee43b3485bdb8d4493488c2f766ff1edf4d3b8910e6882b50c91",
+  "pdf_bytes": 450789,
+  "pdf_page_count": 131,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-7273/detail.json",
+  "title": "NASA Reauthorization Act of 2026",
+  "update_date": "2026-06-04T18:46:37Z",
+  "document_type": "HR",
+  "document_number": "7273",
+  "document_identifier": "BILL-119-HR-7273-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-01-30T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "7273",
+  "originChamber": "House",
+  "introducedDate": "2026-01-30",
+  "latestAction": {
+    "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 37 - 0.",
+    "date": "2026-02-04"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "party": "R",
+      "state": "TX"
+    }
+  ],
+  "cosponsorCount": 3,
+  "cosponsorBioguideIds": [
+    "L000397",
+    "H001099",
+    "F000477"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Agricultural research",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Air quality",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Appropriations",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Atmospheric science and weather",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Aviation and airports",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Climate change and greenhouse gases",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Education programs funding",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Environmental assessment, monitoring, research",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Environmental technology",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Geography and mapping",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "International organizations and cooperation",
+      "updateDate": "2026-02-10T17:18:42Z"
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "updateDate": "2026-02-10T17:18:42Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-04T15:00:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-01-30T15:32:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-01-30T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 6638,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require a report on merits and options for establishing an institute relating to space resources, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6638?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-03",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 5122,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "NASA Talent Exchange Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+      },
+      "number": 2600,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ASCEND Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-29",
+        "text": "Ordered to be Reported by Voice Vote."
+      },
+      "number": 2313,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Celestial Time Standardization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 390,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ACERO Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/390?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-06-04T18:46:37Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001099",
+      "name": "Rep. Haridopolos, Mike [R-FL-8]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "party": "D",
+      "state": "NC"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-6638",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-12-11",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        },
+        "number": 6638,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To require a report on merits and options for establishing an institute relating to space resources, and for other purposes.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/6638?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5122",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-03",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        },
+        "number": 5122,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "NASA Talent Exchange Program Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2600",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-24",
+          "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+        },
+        "number": 2600,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "ASCEND Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2313",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-04-29",
+          "text": "Ordered to be Reported by Voice Vote."
+        },
+        "number": 2313,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Celestial Time Standardization Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-390",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-24",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        },
+        "number": 390,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "ACERO Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/390?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/detail.json",
+      "endpoint": "bill/119/hr/7273"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/text.json",
+      "endpoint": "bill/119/hr/7273/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/cosponsors.json",
+      "endpoint": "bill/119/hr/7273/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:22Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/committees.json",
+      "endpoint": "bill/119/hr/7273/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:23Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/relatedbills.json",
+      "endpoint": "bill/119/hr/7273/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:24:24Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7273/subjects.json",
+      "endpoint": "bill/119/hr/7273/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-7273.json",
+  "known_limitations": []
+}

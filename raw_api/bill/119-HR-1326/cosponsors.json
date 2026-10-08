@@ -1,0 +1,40 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "L000397",
+      "district": 18,
+      "firstName": "Zoe",
+      "fullName": "Rep. Lofgren, Zoe [D-CA-18]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lofgren",
+      "party": "D",
+      "sponsorshipDate": "2025-02-13",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000397?format=json"
+    },
+    {
+      "bioguideId": "T000478",
+      "district": 24,
+      "firstName": "Claudia",
+      "fullName": "Rep. Tenney, Claudia [R-NY-24]",
+      "isOriginalCosponsor": false,
+      "lastName": "Tenney",
+      "party": "R",
+      "sponsorshipDate": "2025-02-21",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/T000478?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2,
+    "countIncludingWithdrawnCosponsors": 2
+  },
+  "request": {
+    "billNumber": "1326",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1326?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "pagination": {
+    "count": 6
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-04",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 938,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "No Contracts with Foreign Adversaries Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/938?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-05",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1023,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "RIFA Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1023?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-05",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1018,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "INSTRUCT Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1018?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-25",
+        "actionTime": "14:28:50",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": 242,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 24) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\"; providing for consideration of the joint resolution (H.J. Res. 75) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\"; and providing for consideration of the bill (H.R. 1048) to amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-03",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1296,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DETERRENT Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1296?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-10",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1999,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Disclose GIFT Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1048?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

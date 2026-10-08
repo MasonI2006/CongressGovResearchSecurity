@@ -1,0 +1,71 @@
+{
+  "bill": {
+    "actions": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/actions?format=json"
+    },
+    "committees": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 73 (Monday, April 27, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. LIEU:\nH.R. 8516.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\n[Page H3124]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/cosponsors?format=json"
+    },
+    "introducedDate": "2026-04-27",
+    "latestAction": {
+      "actionDate": "2026-04-27",
+      "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
+    "number": "8516",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000582",
+        "district": 36,
+        "firstName": "Ted",
+        "fullName": "Rep. Lieu, Ted [D-CA-36]",
+        "isByRequest": "N",
+        "lastName": "Lieu",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/L000582?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/text?format=json"
+    },
+    "title": "American Leadership in AI Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-19T23:23:43Z",
+    "updateDateIncludingText": "2026-09-19T23:23:43Z"
+  },
+  "request": {
+    "billNumber": "8516",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

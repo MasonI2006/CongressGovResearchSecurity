@@ -1,0 +1,344 @@
+{
+  "pagination": {
+    "count": 20
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 275."
+      },
+      "number": 1320,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Servicewomen and Veterans Menopause Research Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1320?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-16",
+        "text": "Received in the Senate."
+      },
+      "number": 2876,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "University of Utah Research Park Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2876?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-11",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 337."
+      },
+      "number": 1453,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "University of Utah Research Park Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1453?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-09",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 2745,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Federal Firefighter Cancer Detection and Prevention Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2745?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 2809,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Transparency in Contracting Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2809?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-04",
+        "actionTime": "10:33:00",
+        "text": "Held at the desk."
+      },
+      "number": 4161,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Maverick Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4161?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-24",
+        "actionTime": "14:11:58",
+        "text": "Held at the desk."
+      },
+      "number": 4164,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4164?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-26",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 4219,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Abraham Accords Defense Cooperation Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4219?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-14",
+        "text": "Received in the Senate."
+      },
+      "number": 8800,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-04",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4683,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "WARP Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4683?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-15",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 9322,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Abraham Accords Defense Cooperation Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9322?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-23",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9413,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Military Family Limb Loss Support Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9413?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-23",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4858,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Alaska National Guard Rural Community Revival Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4858?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-03",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 5211,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to require the Under Secretary of Defense for Policy and the Chairman of the Joint Chiefs of Staff to submit a strategy for cyber cooperation in the Indo-Pacific region, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5211?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-06",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 5340,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to require a drone posture review.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5340?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-06",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 5343,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Military Leadership Removal Transparency Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5343?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-06",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 5345,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to provide for the delivery of artificial intelligence functional bills of materials, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5345?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-08",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4707,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Responsible Artificial Intelligence Defense Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4707?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-07",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 5375,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ARCH Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5375?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "4784",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4784?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

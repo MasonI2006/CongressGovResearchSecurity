@@ -1,0 +1,72 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Appropriations",
+        "systemCode": "hsap00",
+        "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-09-10T14:30:00Z",
+    "eventId": "118544",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2359"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY26 Commerce, Justice, Science, and Related Agencies – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/118544/documents/BILLS-119-FC-AP-FY2026-AP00-FY26CJSFullCommitteeMark.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice of FY26 Full Committee Markup – Commerce, Justice, Science, and Related Agencies Bill",
+        "url": "https://www.congress.gov/119/meeting/house/118544/documents/HMKP-119-AP00-20250910-SD001.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Commerce, Justice, Science, and Related Agencies – Report",
+        "url": "https://www.congress.gov/119/meeting/house/118544/documents/HMKP-119-AP00-20250910-SD002.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Commerce, Justice, Science, and Related Agencies – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/118544/documents/HMKP-119-AP00-20250910-SD003.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Commerce, Justice, Science, and Related Agencies – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/118544/documents/HMKP-119-AP00-20250910-SD004.pdf"
+      }
+    ],
+    "meetingStatus": "Rescheduled",
+    "title": "Fiscal Year 2026 Commerce, Justice, Science, and Related Agencies Bill",
+    "type": "Markup",
+    "updateDate": "2026-01-02T07:46:46Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup of FY26 Commerce, Justice, Science, and Related Agencies Bill",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118544"
+      },
+      {
+        "name": "Full Committee Markup of FY26 Commerce, Justice, Science, and Related Agencies Bill",
+        "url": "https://www.youtube.com/watch?v=kB2zq7ykPTg"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118544",
+    "format": "json"
+  }
+}

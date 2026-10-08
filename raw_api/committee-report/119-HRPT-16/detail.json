@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "1048",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-16",
+      "committees": [
+        {
+          "name": "Education and Workforce Committee",
+          "systemCode": "hsed00",
+          "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-03-14T04:00:00Z",
+      "number": 16,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/16/text?format=json"
+      },
+      "title": "DEFENDING EDUCATION TRANSPARENCY AND ENDING ROGUE REGIMES ENGAGING IN NEFARIOUS TRANS- ACTIONS ACT",
+      "type": "HRPT",
+      "updateDate": "2025-05-27T14:12:40Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "16",
+    "reportType": "hrpt"
+  }
+}

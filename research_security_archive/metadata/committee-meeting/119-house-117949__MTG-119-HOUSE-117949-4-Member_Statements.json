@@ -1,0 +1,155 @@
+{
+  "stable_id": "119-house-117949__MTG-119-HOUSE-117949-4-Member_Statements",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117949",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY20-MState-B001291-20250212.pdf",
+  "retrieved_at": "2026-10-02T07:47:04Z",
+  "http_status": 200,
+  "pdf_sha256": "014f947b322042f8acb6667f144dbabb4846855d60b27120325be2467ffbb296",
+  "pdf_bytes": 133444,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117949__MTG-119-HOUSE-117949-4-Member_Statements/detail.json",
+  "title": "Step by Step: The Artemis Program and NASA's Path To Human Exploration of the Moon, Mars, and Beyond",
+  "update_date": "2026-01-02T05:46:30Z",
+  "document_type": "Member Statements",
+  "document_number": "117949",
+  "document_identifier": "MTG-119-HOUSE-117949-4-Member_Statements",
+  "text_version": null,
+  "eventId": "117949",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-02-26T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Space and Aeronautics",
+      "systemCode": "hssy16",
+      "url": "https://api.congress.gov/v3/committee/house/hssy16?format=json"
+    }
+  ],
+  "location": null,
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Mike Haridopolos",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY16-MState-H001099-20250226.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY16-MState-L000397-20250226.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY16-MState-F000477-20250226.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY16-20250226-SD001.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY20-MState-B001291-20250212.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY16-20250226-SD002.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. Dan Dumbacher",
+      "organization": "Purdue University",
+      "position": "Adjunct Professor"
+    },
+    {
+      "name": "Dr. Scott Pace",
+      "organization": "Space Policy Institute, George Washington University",
+      "position": "Director"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-Wstate-DumbacherD-20250226.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-Bio-DumbacherD-20250226.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-TTF-DumbacherD-20250226.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-TTF-PaceS-20250226.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-Bio-PaceS-20250226.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117949/witnesses/HHRG-119-SY16-Wstate-PaceS-20250226.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Member Statements",
+    "name": "The Honorable Brian Babin",
+    "url": "https://www.congress.gov/119/meeting/house/117949/documents/HHRG-119-SY20-MState-B001291-20250212.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Dan Dumbacher",
+      "party": null,
+      "state": "Purdue University",
+      "position": "Adjunct Professor"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Scott Pace",
+      "party": null,
+      "state": "Space Policy Institute, George Washington University",
+      "position": "Director"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:47:04Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117949__MTG-119-HOUSE-117949-4-Member_Statements/detail.json",
+      "endpoint": "committee-meeting/119/house/117949"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117949__MTG-119-HOUSE-117949-4-Member_Statements.json",
+  "known_limitations": []
+}

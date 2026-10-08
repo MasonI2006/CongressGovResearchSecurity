@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-64653",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/64653",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg64653/CHRG-119shrg64653.pdf",
+  "retrieved_at": "2026-10-02T04:06:03Z",
+  "http_status": 200,
+  "pdf_sha256": "80f5f5727b9156364c846f520c439ea68cd1ef508a612184b2cd5d6ff1eed833",
+  "pdf_bytes": 783527,
+  "pdf_page_count": 83,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-64653/detail.json",
+  "title": "MEASURING WHAT MATTERS: SCIENCE, STANDARDS, AND STRATEGIC COMPETITION",
+  "update_date": "2026-10-02T01:21:23Z",
+  "document_type": "HRG",
+  "document_number": 64653,
+  "document_identifier": "HRG-119-SENATE-64653",
+  "text_version": null,
+  "jacketNumber": 64653,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-527",
+  "dates": [
+    {
+      "date": "2026-07-21"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Commerce Committee",
+      "systemCode": "sscm00",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC76022",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg64653/generated/CHRG-119shrg64653.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg64653/CHRG-119shrg64653.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:06:03Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-64653/detail.json",
+      "endpoint": "hearing/119/senate/64653"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-64653.json",
+  "known_limitations": []
+}

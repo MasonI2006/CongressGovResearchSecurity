@@ -1,0 +1,98 @@
+{
+  "stable_id": "119-SAMDT-3150",
+  "collection": "amendment",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/amendment/119/samdt/3150",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/07/30/171/131/CREC-2025-07-30-pt1-PgS4925-2.pdf",
+  "retrieved_at": "2026-10-02T02:02:34Z",
+  "http_status": 200,
+  "pdf_sha256": "c9b1f2720a0eab96147e4107f507dd1ca852c368b8f83b1244e50e5030a3cd91",
+  "pdf_bytes": 260587,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "html",
+  "raw_api_json_path": "raw_api/amendment/119-SAMDT-3150/detail.json",
+  "title": null,
+  "update_date": "2025-07-30T20:13:51Z",
+  "document_type": "SAMDT",
+  "document_number": "3150",
+  "document_identifier": "AMDT-119-SAMDT-3150-Submitted",
+  "text_version": {
+    "type": "Submitted",
+    "date": "2025-07-30T04:00:00Z"
+  },
+  "type": "SAMDT",
+  "number": "3150",
+  "chamber": "Senate",
+  "description": null,
+  "purpose": null,
+  "submittedDate": "2025-07-30T04:00:00Z",
+  "latestAction": {
+    "text": null,
+    "date": "2025-07-30",
+    "actionCode": "91000",
+    "type": "Floor"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "E000295"
+    }
+  ],
+  "amendedBill": {
+    "congress": 119,
+    "type": "S",
+    "number": "2296",
+    "originChamber": "Senate",
+    "title": "National Defense Authorization Act for Fiscal Year 2026"
+  },
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "E000295",
+      "name": "Sen. Ernst, Joni [R-IA]",
+      "party": "R",
+      "state": "IA"
+    }
+  ],
+  "committees": [],
+  "related_items": [
+    {
+      "relation_type": "amended_bill",
+      "related_key": "119-S-2296",
+      "payload": {
+        "congress": 119,
+        "type": "S",
+        "number": "2296",
+        "originChamber": "Senate",
+        "title": "National Defense Authorization Act for Fiscal Year 2026"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:02:34Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-3150/detail.json",
+      "endpoint": "amendment/119/samdt/3150"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:02:33Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-3150/text.json",
+      "endpoint": "amendment/119/samdt/3150/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:02:35Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-3150/actions.json",
+      "endpoint": "amendment/119/samdt/3150/actions"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/amendment/119-SAMDT-3150.json",
+  "known_limitations": []
+}

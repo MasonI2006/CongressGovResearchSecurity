@@ -1,0 +1,79 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Armed Services Subcommittee on Cyber, Information Technologies, and Innovation",
+        "systemCode": "hsas35",
+        "url": "https://api.congress.gov/v3/committee/house/hsas35?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-05-06T19:30:00Z",
+    "eventId": "118200",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2212"
+    },
+    "meetingStatus": "Scheduled",
+    "title": "Science, Technology, and Innovation Posture",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T06:43:24Z",
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-MazolJ-20250506.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-BeckD-20250506.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-BeckD-20250506.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-MazolJ-20250506.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-RumfordG-20250506.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-RumfordG-20250506.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. Doug Beck",
+        "organization": "Defense Innovation Unit",
+        "position": "Director"
+      },
+      {
+        "name": "Mr. George Rumford",
+        "organization": "Test Resource Management Center",
+        "position": "Director"
+      },
+      {
+        "name": "Mr. James Mazol",
+        "organization": "Office of the Secretary of Defense",
+        "position": "Performing the Duties of the Under Secretary of Defense for Research and Engineering and Chief Technology Officer"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118200",
+    "format": "json"
+  }
+}

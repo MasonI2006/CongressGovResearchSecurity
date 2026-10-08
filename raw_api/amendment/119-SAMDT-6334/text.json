@@ -1,0 +1,29 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "amendmentNumber": "6334",
+    "amendmentType": "samdt",
+    "amendmentUrl": "https://api.congress.gov/v3/amendment/119/samdt/6334?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-06-24T04:00:00Z",
+      "formats": [
+        {
+          "type": "HTML",
+          "url": "https://www.congress.gov/119/crec/2026/06/24/172/106/modified/CREC-2026-06-24-pt1-PgS3456-4.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2026/06/24/172/106/CREC-2026-06-24-pt1-PgS3456-4.pdf"
+        }
+      ],
+      "type": "Submitted"
+    }
+  ]
+}

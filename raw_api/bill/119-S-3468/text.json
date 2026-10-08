@@ -1,0 +1,51 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "3468",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3468?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-07-13T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468rs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468rs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468rs.xml"
+        }
+      ],
+      "type": "Reported to Senate"
+    },
+    {
+      "date": "2025-12-11T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3468/BILLS-119s3468is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

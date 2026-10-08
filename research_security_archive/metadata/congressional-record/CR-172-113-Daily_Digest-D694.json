@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-172-113-Daily Digest-D694",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/172/113",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/07/13/172/113/CREC-2026-07-13-pt1-PgD694-3.pdf",
+  "retrieved_at": "2026-10-02T08:33:03Z",
+  "http_status": 200,
+  "pdf_sha256": "306e1cc3146297454c972b5e21c2b51aac5123f0a6ac98dd7d675cd6701ebbd7",
+  "pdf_bytes": 279670,
+  "pdf_page_count": 6,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-172-113-Daily_Digest-D694/issue.json",
+  "title": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 172, No. 113",
+  "update_date": "2026-07-15T12:10:37Z",
+  "document_type": "CREC-daily",
+  "document_number": "V172I113",
+  "document_identifier": "CREC-119-V172-I113-Daily_Digest-2",
+  "text_version": null,
+  "volumeNumber": 172,
+  "issueNumber": "113",
+  "issueDate": "2026-07-13T04:00:00Z",
+  "sessionNumber": 2,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 172, No. 113",
+  "startPage": "D694",
+  "endPage": "D699",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:33:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-113-Daily_Digest-D694/issue.json",
+      "endpoint": "daily-congressional-record/172/113"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:33:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-113-Daily_Digest-D694/articles.json",
+      "endpoint": "daily-congressional-record/172/113/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-172-113-Daily_Digest-D694.json",
+  "known_limitations": []
+}

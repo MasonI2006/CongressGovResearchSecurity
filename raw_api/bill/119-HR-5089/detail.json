@@ -1,0 +1,76 @@
+{
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 143 (Tuesday, September 2, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. LUCAS:\nH.R. 5089.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, Clause 18:\n``The Congress shall have Power . . . To make all Laws\nwhich shall be necessary and proper for carrying into\nExecution the foregoing Powers, and all other Powers vested\nby this Constitution in the Government of the United States,\nor in any Department or Officer thereof.''\n[Page H3757]\n</pre>",
+    "cosponsors": {
+      "count": 26,
+      "countIncludingWithdrawnCosponsors": 26,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/cosponsors?format=json"
+    },
+    "introducedDate": "2025-09-02",
+    "latestAction": {
+      "actionDate": "2025-09-10",
+      "text": "Ordered to be Reported (Amended) by Voice Vote."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5089",
+    "number": "5089",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000491",
+        "district": 3,
+        "firstName": "Frank",
+        "fullName": "Rep. Lucas, Frank D. [R-OK-3]",
+        "isByRequest": "N",
+        "lastName": "Lucas",
+        "middleName": "D.",
+        "party": "R",
+        "state": "OK",
+        "url": "https://api.congress.gov/v3/member/L000491?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 13,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/text?format=json"
+    },
+    "title": "Weather Act Reauthorization Act of 2025",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5089/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-10-01T20:41:28Z",
+    "updateDateIncludingText": "2026-10-01T20:41:28Z"
+  },
+  "request": {
+    "billNumber": "5089",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

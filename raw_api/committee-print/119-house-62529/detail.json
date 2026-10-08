@@ -1,0 +1,42 @@
+{
+  "committeePrint": [
+    {
+      "associatedBills": [
+        {
+          "congress": 119,
+          "number": "1071",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "119-3",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "congress": 119,
+      "jacketNumber": 62529,
+      "number": "3",
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-print/119/house/62529/text?format=json"
+      },
+      "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2026",
+      "updateDate": "2026-08-20T19:28:43Z"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "62529"
+  }
+}

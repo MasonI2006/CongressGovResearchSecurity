@@ -1,0 +1,152 @@
+{
+  "stable_id": "119-S-3952",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3952",
+  "pdf_url": "https://www.congress.gov/119/bills/s3952/BILLS-119s3952is.pdf",
+  "retrieved_at": "2026-10-01T23:37:30Z",
+  "http_status": 200,
+  "pdf_sha256": "ffddfbb4011740c5acbcb3ad47e4559b4d105c4ab7f6ded5ad7049365ca93462",
+  "pdf_bytes": 349537,
+  "pdf_page_count": 65,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3952/detail.json",
+  "title": "Future of Artificial Intelligence Innovation Act of 2026",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3952",
+  "document_identifier": "BILL-119-S-3952-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-26T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3952",
+  "originChamber": "Senate",
+  "introducedDate": "2026-02-26",
+  "latestAction": {
+    "text": "Star Print ordered on the bill.",
+    "date": "2026-03-19"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 3,
+  "cosponsorBioguideIds": [
+    "C000127",
+    "B001243",
+    "H000273"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-26T19:40:33Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-26T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C000127",
+      "name": "Sen. Cantwell, Maria [D-WA]",
+      "party": "D",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "party": "R",
+      "state": "TN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H000273",
+      "name": "Sen. Hickenlooper, John W. [D-CO]",
+      "party": "D",
+      "state": "CO"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/detail.json",
+      "endpoint": "bill/119/s/3952"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:29Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/text.json",
+      "endpoint": "bill/119/s/3952/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:31Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/cosponsors.json",
+      "endpoint": "bill/119/s/3952/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:32Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/committees.json",
+      "endpoint": "bill/119/s/3952/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:33Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/relatedbills.json",
+      "endpoint": "bill/119/s/3952/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:37:33Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3952/subjects.json",
+      "endpoint": "bill/119/s/3952/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3952.json",
+  "known_limitations": []
+}

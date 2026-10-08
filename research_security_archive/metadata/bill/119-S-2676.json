@@ -1,0 +1,136 @@
+{
+  "stable_id": "119-S-2676",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/2676",
+  "pdf_url": "https://www.congress.gov/119/bills/s2676/BILLS-119s2676is.pdf",
+  "retrieved_at": "2026-10-01T22:08:29Z",
+  "http_status": 200,
+  "pdf_sha256": "22fb1cf72473c3cec3f5f3e6b3f0738dd0d0320aee5dd264820fa85ebe315508",
+  "pdf_bytes": 261248,
+  "pdf_page_count": 13,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-2676/detail.json",
+  "title": "Cloud LAB Act of 2025",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "2676",
+  "document_identifier": "BILL-119-S-2676-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2025-08-01T04:00:00Z"
+  },
+  "type": "S",
+  "number": "2676",
+  "originChamber": "Senate",
+  "introducedDate": "2025-08-01",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2025-08-01"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "K000394"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-08-01T23:39:53Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2025-08-01T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-16T16:27:22Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000394",
+      "name": "Sen. Kim, Andy [D-NJ]",
+      "party": "D",
+      "state": "NJ"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:29Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/detail.json",
+      "endpoint": "bill/119/s/2676"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:28Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/text.json",
+      "endpoint": "bill/119/s/2676/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/cosponsors.json",
+      "endpoint": "bill/119/s/2676/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:31Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/committees.json",
+      "endpoint": "bill/119/s/2676/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:32Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/relatedbills.json",
+      "endpoint": "bill/119/s/2676/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:08:32Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-2676/subjects.json",
+      "endpoint": "bill/119/s/2676/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-2676.json",
+  "known_limitations": []
+}

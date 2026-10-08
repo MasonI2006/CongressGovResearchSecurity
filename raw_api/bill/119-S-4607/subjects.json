@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4607",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4607?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Agriculture and Food",
+      "updateDate": "2026-06-23T01:53:31Z"
+    }
+  }
+}

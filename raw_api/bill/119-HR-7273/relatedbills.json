@@ -1,0 +1,100 @@
+{
+  "pagination": {
+    "count": 5
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 6638,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require a report on merits and options for establishing an institute relating to space resources, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6638?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-03",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 5122,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "NASA Talent Exchange Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+      },
+      "number": 2600,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ASCEND Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-29",
+        "text": "Ordered to be Reported by Voice Vote."
+      },
+      "number": 2313,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Celestial Time Standardization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 390,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ACERO Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/390?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7273?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

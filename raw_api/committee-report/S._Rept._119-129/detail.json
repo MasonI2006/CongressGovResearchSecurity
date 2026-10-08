@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "3468",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/3468?format=json"
+        }
+      ],
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-129",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-07-13T04:00:00Z",
+      "number": 129,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/129/text?format=json"
+      },
+      "title": "NATIONAL PROGRAMMABLE CLOUD LABORATORIES NETWORK ACT OF 2025",
+      "type": "SRPT",
+      "updateDate": "2026-08-20T22:41:41Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "129",
+    "reportType": "srpt"
+  }
+}

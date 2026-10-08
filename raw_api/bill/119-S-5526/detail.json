@@ -1,0 +1,60 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/5526/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5526/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2026-09-24",
+    "latestAction": {
+      "actionDate": "2026-09-24",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 683."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5526",
+    "number": "5526",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Agriculture and Food"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001236",
+        "firstName": "John",
+        "fullName": "Sen. Boozman, John [R-AR]",
+        "isByRequest": "N",
+        "lastName": "Boozman",
+        "party": "R",
+        "state": "AR",
+        "url": "https://api.congress.gov/v3/member/B001236?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5526/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5526/text?format=json"
+    },
+    "title": "Agricultural Act of 2026",
+    "titles": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/s/5526/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-29T15:10:56Z",
+    "updateDateIncludingText": "2026-09-29T15:10:56Z"
+  },
+  "request": {
+    "billNumber": "5526",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

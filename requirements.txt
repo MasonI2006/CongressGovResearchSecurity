@@ -1,0 +1,6 @@
+requests>=2.31
+tqdm>=4.66
+beautifulsoup4>=4.12
+pypdf>=4.0
+cryptography>=3.1
+pikepdf>=8.0

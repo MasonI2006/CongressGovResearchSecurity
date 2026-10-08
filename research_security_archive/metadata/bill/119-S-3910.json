@@ -1,0 +1,176 @@
+{
+  "stable_id": "119-S-3910",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3910",
+  "pdf_url": "https://www.congress.gov/119/bills/s3910/BILLS-119s3910is.pdf",
+  "retrieved_at": "2026-10-01T23:36:18Z",
+  "http_status": 200,
+  "pdf_sha256": "0480dfbe4e6fea102e0fc8c466883125c21ca5d3522b1f8c009efbcf073c9439",
+  "pdf_bytes": 320497,
+  "pdf_page_count": 51,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3910/detail.json",
+  "title": "ReSCUE Oceans Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3910",
+  "document_identifier": "BILL-119-S-3910-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-25T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3910",
+  "originChamber": "Senate",
+  "introducedDate": "2026-02-25",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2026-02-25"
+  },
+  "policyArea": {
+    "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001194",
+      "name": "Sen. Schatz, Brian [D-HI]",
+      "party": "D",
+      "state": "HI"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "M001153"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-25T16:43:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-25T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 7656,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "ReSCUE Oceans Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001194",
+      "name": "Sen. Schatz, Brian [D-HI]",
+      "party": "D",
+      "state": "HI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001153",
+      "name": "Sen. Murkowski, Lisa [R-AK]",
+      "party": "R",
+      "state": "AK"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7656",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-24",
+          "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        },
+        "number": 7656,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Identical bill"
+          }
+        ],
+        "title": "ReSCUE Oceans Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7656?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:18Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/detail.json",
+      "endpoint": "bill/119/s/3910"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:17Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/text.json",
+      "endpoint": "bill/119/s/3910/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:18Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/cosponsors.json",
+      "endpoint": "bill/119/s/3910/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:19Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/committees.json",
+      "endpoint": "bill/119/s/3910/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:20Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/relatedbills.json",
+      "endpoint": "bill/119/s/3910/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:36:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3910/subjects.json",
+      "endpoint": "bill/119/s/3910/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3910.json",
+  "known_limitations": []
+}

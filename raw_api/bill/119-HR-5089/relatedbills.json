@@ -1,0 +1,67 @@
+{
+  "pagination": {
+    "count": 3
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-07",
+        "actionTime": "12:07:54",
+        "text": "Held at the desk."
+      },
+      "number": 1626,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1626?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-08",
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-431, Part I."
+      },
+      "number": 2250,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2250?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-24",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "number": 4073,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Tsunami Warning, Research, and Education Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4073?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "5089",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/5089?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

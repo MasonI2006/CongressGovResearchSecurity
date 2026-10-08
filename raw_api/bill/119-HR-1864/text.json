@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "1864",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1864?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-03-05T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr1864/BILLS-119hr1864ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr1864/BILLS-119hr1864ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr1864/BILLS-119hr1864ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

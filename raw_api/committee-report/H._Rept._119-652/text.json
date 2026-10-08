@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "652",
+    "reportType": "hrpt"
+  },
+  "text": [
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/hrpt652/generated/CRPT-119hrpt652.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/hrpt652/CRPT-119hrpt652.pdf"
+        }
+      ]
+    }
+  ]
+}

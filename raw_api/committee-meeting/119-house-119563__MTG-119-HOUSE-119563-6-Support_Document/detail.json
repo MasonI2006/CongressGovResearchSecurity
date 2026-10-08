@@ -1,0 +1,130 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+        "systemCode": "hssy21",
+        "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-09-16T14:00:00Z",
+    "eventId": "119563",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD001.pdf"
+      },
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD002-U1.pdf"
+      },
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-B001291-20260916.pdf"
+      },
+      {
+        "description": "The Honorable Richard McCormick",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Richard McCormick",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-M001218-20260916.pdf"
+      },
+      {
+        "description": "The Honorable Emilia Sykes",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Emilia Sykes",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-S001223-20260916.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-MState-L000397-20260916.pdf"
+      },
+      {
+        "description": "Charter",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Charter",
+        "url": "https://www.congress.gov/119/meeting/house/119563/documents/HHRG-119-SY21-20260916-SD003.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Balancing Biotechnology Innovation and Biosecurity: Securing U.S. Leadership in a Global Race",
+    "type": "Hearing",
+    "updateDate": "2026-09-16T20:26:44Z",
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-GronvallG-20260916.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-FranzA-20260916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-FranzA-20260916.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-HodgesJ-20260916.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-Bio-GronvallG-20260916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119563/witnesses/HHRG-119-SY21-TTF-HodgesJ-20260916.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. Joshua Hodges",
+        "organization": "Hoover Institute",
+        "position": "Visiting Fellow"
+      },
+      {
+        "name": "Dr. Anemone Franz",
+        "organization": "American Enterprise Institute",
+        "position": "Visiting Research Fellow"
+      },
+      {
+        "name": "Dr. Gigi Gronvall",
+        "organization": "Johns Hopkins Bloomberg School of Public Health",
+        "position": "Professor"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119563",
+    "format": "json"
+  }
+}

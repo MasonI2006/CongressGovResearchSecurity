@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-32-Daily Digest-D158",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/32",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/02/18/171/32/CREC-2025-02-18-pt1-PgD158-5.pdf",
+  "retrieved_at": "2026-10-02T10:08:22Z",
+  "http_status": 200,
+  "pdf_sha256": "59cae823706dbf3a5d95305d18e84366c544561e9789101ecef22de6454b2799",
+  "pdf_bytes": 282492,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-32-Daily_Digest-D158/issue.json",
+  "title": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 32",
+  "update_date": "2025-02-19T10:48:22Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I32",
+  "document_identifier": "CREC-119-V171-I32-Daily_Digest-1",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "32",
+  "issueDate": "2025-02-18T05:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 32",
+  "startPage": "D158",
+  "endPage": "D159",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:08:22Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-32-Daily_Digest-D158/issue.json",
+      "endpoint": "daily-congressional-record/171/32"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:08:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-32-Daily_Digest-D158/articles.json",
+      "endpoint": "daily-congressional-record/171/32/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-32-Daily_Digest-D158.json",
+  "known_limitations": []
+}

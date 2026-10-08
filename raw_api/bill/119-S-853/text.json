@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "853",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/853?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-03-05T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s853/BILLS-119s853is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s853/BILLS-119s853is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s853/BILLS-119s853is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

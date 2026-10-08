@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-15",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 7547,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DOD and USDA Interagency Research Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "4607",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4607?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

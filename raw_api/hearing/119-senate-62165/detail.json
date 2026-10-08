@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-217",
+    "committees": [
+      {
+        "name": "Senate Government Operations Committee",
+        "systemCode": "ssga00",
+        "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-11-19"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62165/generated/CHRG-119shrg62165.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62165/CHRG-119shrg62165.pdf"
+      }
+    ],
+    "jacketNumber": 62165,
+    "libraryOfCongressIdentifier": "LC75201",
+    "number": 217,
+    "title": "NOMINATIONS OF JOHN WALK AND THOMAS BELL",
+    "updateDate": "2026-06-12T03:36:41Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "62165"
+  }
+}

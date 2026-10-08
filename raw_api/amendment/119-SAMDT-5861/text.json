@@ -1,0 +1,29 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "amendmentNumber": "5861",
+    "amendmentType": "samdt",
+    "amendmentUrl": "https://api.congress.gov/v3/amendment/119/samdt/5861?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-06-18T04:00:00Z",
+      "formats": [
+        {
+          "type": "HTML",
+          "url": "https://www.congress.gov/119/crec/2026/06/18/172/103/modified/CREC-2026-06-18-pt1-PgS2943-2.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2026/06/18/172/103/CREC-2026-06-18-pt1-PgS2943-2.pdf"
+        }
+      ],
+      "type": "Submitted"
+    }
+  ]
+}

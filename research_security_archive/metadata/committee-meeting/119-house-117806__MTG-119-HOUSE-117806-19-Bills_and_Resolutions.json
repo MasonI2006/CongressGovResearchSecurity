@@ -1,0 +1,201 @@
+{
+  "stable_id": "119-house-117806__MTG-119-HOUSE-117806-19-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117806",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119hr3838rh.pdf",
+  "retrieved_at": "2026-10-02T08:02:31Z",
+  "http_status": 200,
+  "pdf_sha256": "f7a997dcf5736c253876c4ae89455846abaca80efb43319da75824f203b07414",
+  "pdf_bytes": 2393080,
+  "pdf_page_count": 1240,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117806__MTG-119-HOUSE-117806-19-Bills_and_Resolutions/detail.json",
+  "title": "H.R. 3838- Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026; H.R. 3486- Stop Illegal Entry Act of 2025",
+  "update_date": "2026-01-02T05:22:49Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "117806",
+  "document_identifier": "MTG-119-HOUSE-117806-19-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "117806",
+  "type": "Meeting",
+  "meetingStatus": "Scheduled",
+  "date": "2025-09-08T18:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Rules",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "H-313"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-8 - Showing the text of H.R. 3838, as reported by the Committee on Armed Services, with modifications",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/rcp_h3838_xml_3.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Comparative Print: Comparing the base document H.R. 3838, as reported by the Committee on Armed Services, and Rules Committee Print 119-8",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/bill-to-bill_h3838_rh_xml-57-28-to_rcp_h3838_xml_0.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-200, Report from the Committee on Judiciary to accompany H.R. 3486",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/CRPT-119hrpt200.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-4-M000312-Amdt-4.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-7-M000312-Amdt-7.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-11-N000191-Amdt-11.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-15-L000273-Amdt-15.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-9-S001205-Amdt-9.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-10-S001205-Amdt-10.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. Neguse",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-12-N000191-Amdt-12.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-13-L000273-Amdt-13.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-14-L000273-Amdt-14.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 3486 - Stop Illegal Entry Act of 2025",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119hr3486rh.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-255 – Report from the Committee on Rules to accompany H. Res. 682",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/CRPT-119hrpt255.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-5-M000312-Amdt-5.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-6-M000312-Amdt-6.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 3838- Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119hr3838rh.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-231, Report from the Committee on Armed Services to accompany H.R. 3838",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/CRPT-119hrpt231.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119-8-S001205-Amdt-8.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "H. Res. 682 – Providing for consideration of the bill (H.R. 3838) to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes, and providing for consideration of the bill (H.R. 3486) to amend the Immigration and Nationality Act to increase penalties for individuals who illegally enter and reenter the United States after being removed, and for other purposes.",
+      "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119hres682rh.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": "H.R. 3838- Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "url": "https://www.congress.gov/119/meeting/house/117806/documents/BILLS-119hr3838rh.pdf"
+  },
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:02:31Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117806__MTG-119-HOUSE-117806-19-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/117806"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117806__MTG-119-HOUSE-117806-19-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

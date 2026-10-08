@@ -1,0 +1,371 @@
+{
+  "stable_id": "119-S-1296",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/1296",
+  "pdf_url": "https://www.congress.gov/119/bills/s1296/BILLS-119s1296is.pdf",
+  "retrieved_at": "2026-10-01T18:10:18Z",
+  "http_status": 200,
+  "pdf_sha256": "34457c62a15f605af30fa50473e5f143362ef21095787c653a9a75164fa66b5d",
+  "pdf_bytes": 318542,
+  "pdf_page_count": 53,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-1296/detail.json",
+  "title": "DETERRENT Act",
+  "update_date": "2026-07-14T11:00:13Z",
+  "document_type": "S",
+  "document_number": "1296",
+  "document_identifier": "BILL-119-S-1296-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2025-04-03T04:00:00Z"
+  },
+  "type": "S",
+  "number": "1296",
+  "originChamber": "Senate",
+  "introducedDate": "2025-04-03",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+    "date": "2025-04-03"
+  },
+  "policyArea": {
+    "name": "Education"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "T000476",
+      "name": "Sen. Tillis, Thomas [R-NC]",
+      "party": "R",
+      "state": "NC"
+    }
+  ],
+  "cosponsorCount": 24,
+  "cosponsorBioguideIds": [
+    "C001075",
+    "B001243",
+    "C001047",
+    "C001056",
+    "E000295",
+    "G000386",
+    "S001217",
+    "R000618",
+    "S001227",
+    "L000571",
+    "R000584",
+    "C000880",
+    "C001035",
+    "R000605",
+    "K000393",
+    "T000278",
+    "B001305",
+    "C001095",
+    "B001299",
+    "M001243",
+    "C001096",
+    "F000479",
+    "S001198",
+    "L000575"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-04-03T20:19:13Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-04-03T20:19:13Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2025-04-03T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-31",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1048,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DETERRENT Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-07-14T11:00:13Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "T000476",
+      "name": "Sen. Tillis, Thomas [R-NC]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001075",
+      "name": "Sen. Cassidy, Bill [R-LA]",
+      "party": "R",
+      "state": "LA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "party": "R",
+      "state": "TN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001047",
+      "name": "Sen. Capito, Shelley Moore [R-WV]",
+      "party": "R",
+      "state": "WV"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001056",
+      "name": "Sen. Cornyn, John [R-TX]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "E000295",
+      "name": "Sen. Ernst, Joni [R-IA]",
+      "party": "R",
+      "state": "IA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000386",
+      "name": "Sen. Grassley, Chuck [R-IA]",
+      "party": "R",
+      "state": "IA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000618",
+      "name": "Sen. Ricketts, Pete [R-NE]",
+      "party": "R",
+      "state": "NE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001227",
+      "name": "Sen. Schmitt, Eric [R-MO]",
+      "party": "R",
+      "state": "MO"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000571",
+      "name": "Sen. Lummis, Cynthia M. [R-WY]",
+      "party": "R",
+      "state": "WY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000584",
+      "name": "Sen. Risch, James E. [R-ID]",
+      "party": "R",
+      "state": "ID"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C000880",
+      "name": "Sen. Crapo, Mike [R-ID]",
+      "party": "R",
+      "state": "ID"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001035",
+      "name": "Sen. Collins, Susan M. [R-ME]",
+      "party": "R",
+      "state": "ME"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000605",
+      "name": "Sen. Rounds, Mike [R-SD]",
+      "party": "R",
+      "state": "SD"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000393",
+      "name": "Sen. Kennedy, John [R-LA]",
+      "party": "R",
+      "state": "LA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000278",
+      "name": "Sen. Tuberville, Tommy [R-AL]",
+      "party": "R",
+      "state": "AL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001095",
+      "name": "Sen. Cotton, Tom [R-AR]",
+      "party": "R",
+      "state": "AR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001299",
+      "name": "Sen. Banks, Jim [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001243",
+      "name": "Sen. McCormick, David [R-PA]",
+      "party": "R",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "party": "R",
+      "state": "ND"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000479",
+      "name": "Sen. Fetterman, John [D-PA]",
+      "party": "D",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000575",
+      "name": "Sen. Lankford, James [R-OK]",
+      "party": "R",
+      "state": "OK"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1048",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-31",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+        },
+        "number": 1048,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DETERRENT Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:18Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/detail.json",
+      "endpoint": "bill/119/s/1296"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:18Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/text.json",
+      "endpoint": "bill/119/s/1296/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:19Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/cosponsors.json",
+      "endpoint": "bill/119/s/1296/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T20:44:07Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/cosponsors_page_1.json",
+      "endpoint": "https://api.congress.gov/v3/bill/119/s/1296/cosponsors?offset=20&limit=20&format=json"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/committees.json",
+      "endpoint": "bill/119/s/1296/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/relatedbills.json",
+      "endpoint": "bill/119/s/1296/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:19Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1296/subjects.json",
+      "endpoint": "bill/119/s/1296/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-1296.json",
+  "known_limitations": []
+}

@@ -1,0 +1,73 @@
+{
+  "stable_id": "119-house-62529",
+  "collection": "committee-print",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-print/119/house/62529",
+  "pdf_url": "https://www.congress.gov/119/cprt/HPRT62529/CPRT-119HPRT62529.pdf",
+  "retrieved_at": "2026-10-01T18:02:54Z",
+  "http_status": 200,
+  "pdf_sha256": "69c14414f4699e128d92f54a3dc8553ba051f06ed73be81d1b231bb6e5a66be7",
+  "pdf_bytes": 2582695,
+  "pdf_page_count": 964,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-print/119-house-62529/detail.json",
+  "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2026",
+  "update_date": "2026-08-20T19:28:43Z",
+  "document_type": "CPRT",
+  "document_number": 62529,
+  "document_identifier": "CPRT-119-HOUSE-62529",
+  "text_version": null,
+  "jacketNumber": 62529,
+  "number": "3",
+  "chamber": "House",
+  "citation": "119-3",
+  "committees": [
+    {
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "associatedBills": [
+    {
+      "congress": 119,
+      "number": "1071",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
+    }
+  ],
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-S-1071",
+      "payload": {
+        "congress": 119,
+        "number": "1071",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-print/119-house-62529/detail.json",
+      "endpoint": "committee-print/119/house/62529"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-print/119-house-62529/text.json",
+      "endpoint": "committee-print/119/house/62529/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-print/119-house-62529.json",
+  "known_limitations": []
+}

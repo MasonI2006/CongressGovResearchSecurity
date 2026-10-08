@@ -1,0 +1,49 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-12-10T22:24:21Z",
+          "name": "Unknown"
+        },
+        {
+          "date": "2025-12-10T21:37:11Z",
+          "name": "Unknown"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-08-02T01:56:44Z",
+          "name": "Discharged From"
+        },
+        {
+          "date": "2025-03-14T14:48:33Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Veterans' Affairs Committee",
+      "systemCode": "ssva00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

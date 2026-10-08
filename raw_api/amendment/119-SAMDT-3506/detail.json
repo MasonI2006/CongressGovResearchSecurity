@@ -1,0 +1,46 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/3506/actions?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "2296",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "type": "S",
+      "updateDateIncludingText": "2026-07-23",
+      "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "number": "3506",
+    "sponsors": [
+      {
+        "bioguideId": "B001299",
+        "firstName": "Jim",
+        "fullName": "Sen. Banks, Jim [R-IN]",
+        "lastName": "Banks",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/B001299?format=json"
+      }
+    ],
+    "submittedDate": "2025-08-01T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/3506/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2025-08-01T18:56:34Z"
+  },
+  "request": {
+    "amendmentNumber": "3506",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

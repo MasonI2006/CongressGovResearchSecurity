@@ -1,0 +1,29 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "amendmentNumber": "6838",
+    "amendmentType": "samdt",
+    "amendmentUrl": "https://api.congress.gov/v3/amendment/119/samdt/6838?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-09-28T04:00:00Z",
+      "formats": [
+        {
+          "type": "HTML",
+          "url": "https://www.congress.gov/119/crec/2026/09/28/172/153/modified/CREC-2026-09-28-pt1-PgS5080.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2026/09/28/172/153/CREC-2026-09-28-pt1-PgS5080.pdf"
+        }
+      ],
+      "type": "Submitted"
+    }
+  ]
+}

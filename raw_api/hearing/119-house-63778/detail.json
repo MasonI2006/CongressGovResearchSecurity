@@ -1,0 +1,40 @@
+{
+  "hearing": {
+    "chamber": "House",
+    "citation": "H.Hrg.119",
+    "committees": [
+      {
+        "name": "House Homeland Security (Select) Committee",
+        "systemCode": "hshm00",
+        "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2026-02-11"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg63778/generated/CHRG-119hhrg63778.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg63778/CHRG-119hhrg63778.pdf"
+      }
+    ],
+    "jacketNumber": 63778,
+    "libraryOfCongressIdentifier": "LC75707",
+    "title": "SURVEYING THE THREAT OF AGROTERRORISM, PART II: ASSESSING FEDERAL GOVERNMENT EFFORTS",
+    "updateDate": "2026-06-27T03:34:19Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "63778"
+  }
+}

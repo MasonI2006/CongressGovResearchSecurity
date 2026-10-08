@@ -1,0 +1,75 @@
+{
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 22 (Friday, January 30, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. BABIN:\nH.R. 7273.\nCongress has the power to enact this legislation pursuant\nto the following:\nU.S. Constitution, Article I, Section 8, Clause 18:\n``The Congress shall have Power . . . To make all Laws\nwhich shall be necessary and proper for carrying into\nExecution the forgoing Powers, and all other Powers vested by\nthis Constitution in the Government of the United States, or\nin any Department or Officer thereof.''\n[Page H1922]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/cosponsors?format=json"
+    },
+    "introducedDate": "2026-01-30",
+    "latestAction": {
+      "actionDate": "2026-02-04",
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 37 - 0."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7273",
+    "number": "7273",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001291",
+        "district": 36,
+        "firstName": "Brian",
+        "fullName": "Rep. Babin, Brian [R-TX-36]",
+        "isByRequest": "N",
+        "lastName": "Babin",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/B001291?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 30,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/text?format=json"
+    },
+    "title": "NASA Reauthorization Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7273/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-06-04T18:46:37Z",
+    "updateDateIncludingText": "2026-06-04T18:46:37Z"
+  },
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

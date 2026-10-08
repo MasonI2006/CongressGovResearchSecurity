@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-33",
+    "committees": [
+      {
+        "name": "Senate Foreign Relations Committee",
+        "systemCode": "ssfr00",
+        "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-01-30"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg59774/generated/CHRG-119shrg59774.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg59774/CHRG-119shrg59774.pdf"
+      }
+    ],
+    "jacketNumber": 59774,
+    "libraryOfCongressIdentifier": "LC74116",
+    "number": 33,
+    "title": "THE MALIGN INFLUENCE OF THE PEOPLE'S REPUBLIC OF CHINA AT HOME AND ABROAD: RECOMMENDATIONS FOR POLICY MAKERS",
+    "updateDate": "2025-10-09T03:36:29Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "59774"
+  }
+}

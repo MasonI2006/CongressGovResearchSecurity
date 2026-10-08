@@ -1,0 +1,81 @@
+{
+  "pagination": {
+    "count": 16
+  },
+  "request": {
+    "billNumber": "1326",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1326?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Agricultural practices and innovations",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Agricultural research",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Alternative and renewable resources",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Climate change and greenhouse gases",
+        "updateDate": "2025-03-25T14:31:44Z"
+      },
+      {
+        "name": "Department of Agriculture",
+        "updateDate": "2025-03-25T14:31:44Z"
+      },
+      {
+        "name": "Department of Energy",
+        "updateDate": "2025-03-25T14:31:44Z"
+      },
+      {
+        "name": "Energy research",
+        "updateDate": "2025-03-25T14:31:44Z"
+      },
+      {
+        "name": "Energy storage, supplies, demand",
+        "updateDate": "2025-03-25T14:31:44Z"
+      },
+      {
+        "name": "Fires",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Forests, forestry, trees",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Pest management",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2025-03-25T14:31:43Z"
+      },
+      {
+        "name": "Water use and supply",
+        "updateDate": "2025-03-25T14:31:43Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Agriculture and Food",
+      "updateDate": "2025-03-19T13:56:14Z"
+    }
+  }
+}

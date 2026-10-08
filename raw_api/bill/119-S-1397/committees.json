@@ -1,0 +1,36 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-06-18T18:17:23Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-06-05T14:30:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-04-09T20:44:51Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Foreign Relations Committee",
+      "systemCode": "ssfr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "1397",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1397?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

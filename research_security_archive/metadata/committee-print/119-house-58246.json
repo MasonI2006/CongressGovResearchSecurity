@@ -1,0 +1,89 @@
+{
+  "stable_id": "119-house-58246",
+  "collection": "committee-print",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-print/119/house/58246",
+  "pdf_url": "https://www.congress.gov/119/cprt/HPRT58246/CPRT-119HPRT58246.pdf",
+  "retrieved_at": "2026-10-01T18:09:16Z",
+  "http_status": 200,
+  "pdf_sha256": "5cb1633664ac82bcce65429d2f04b816dfada726e3f9b8942293528107ee4379",
+  "pdf_bytes": 3493348,
+  "pdf_page_count": 1420,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-print/119-house-58246/detail.json",
+  "title": "SERVICEMEMBER QUALITY OF LIFE IMPROVEMENT AND NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025",
+  "update_date": "2025-03-07T20:52:10Z",
+  "document_type": "CPRT",
+  "document_number": 58246,
+  "document_identifier": "CPRT-119-HOUSE-58246",
+  "text_version": null,
+  "jacketNumber": 58246,
+  "number": "2",
+  "chamber": "House",
+  "citation": "119-2",
+  "committees": [
+    {
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "associatedBills": [
+    {
+      "congress": 118,
+      "number": "5009",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/118/hr/5009?format=json"
+    },
+    {
+      "congress": 118,
+      "number": "5009",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/118/hr/5009?format=json"
+    }
+  ],
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "118-HR-5009",
+      "payload": {
+        "congress": 118,
+        "number": "5009",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/118/hr/5009?format=json"
+      }
+    },
+    {
+      "relation_type": "associated_bill",
+      "related_key": "118-HR-5009",
+      "payload": {
+        "congress": 118,
+        "number": "5009",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/118/hr/5009?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:16Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-print/119-house-58246/detail.json",
+      "endpoint": "committee-print/119/house/58246"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:16Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-print/119-house-58246/text.json",
+      "endpoint": "committee-print/119/house/58246/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-print/119-house-58246.json",
+  "known_limitations": []
+}

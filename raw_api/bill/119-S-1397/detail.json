@@ -1,0 +1,73 @@
+{
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the Senate Committee on Foreign Relations on June 5, 2025",
+        "pubDate": "2025-06-18T16:03:00Z",
+        "title": "S. 1397, International Quantum Research Exchange Act",
+        "url": "https://www.cbo.gov/publication/61487"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/cosponsors?format=json"
+    },
+    "introducedDate": "2025-04-09",
+    "latestAction": {
+      "actionDate": "2025-06-18",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 92."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1397",
+    "number": "1397",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "International Affairs"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001181",
+        "firstName": "Jeanne",
+        "fullName": "Sen. Shaheen, Jeanne [D-NH]",
+        "isByRequest": "N",
+        "lastName": "Shaheen",
+        "party": "D",
+        "state": "NH",
+        "url": "https://api.congress.gov/v3/member/S001181?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 10,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/text?format=json"
+    },
+    "title": "International Quantum Research Exchange Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/1397/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-10-09T03:26:15Z",
+    "updateDateIncludingText": "2025-10-09T03:26:15Z"
+  },
+  "request": {
+    "billNumber": "1397",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

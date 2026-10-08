@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-54-Daily Digest-D291",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/54",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/03/25/171/54/CREC-2025-03-25-pt1-PgD291.pdf",
+  "retrieved_at": "2026-10-02T10:01:45Z",
+  "http_status": 200,
+  "pdf_sha256": "88024850c5c48a18b4670899203dcac2f5006c28c8cde43046b48910f8c8b570",
+  "pdf_bytes": 258251,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-54-Daily_Digest-D291/issue.json",
+  "title": "Daily Digest/House of Representatives; Congressional Record Vol. 171, No. 54",
+  "update_date": "2025-03-26T10:59:16Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I54",
+  "document_identifier": "CREC-119-V171-I54-Daily_Digest-3",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "54",
+  "issueDate": "2025-03-25T04:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/House of Representatives; Congressional Record Vol. 171, No. 54",
+  "startPage": "D291",
+  "endPage": "D292",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:01:45Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-54-Daily_Digest-D291/issue.json",
+      "endpoint": "daily-congressional-record/171/54"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:01:43Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-54-Daily_Digest-D291/articles.json",
+      "endpoint": "daily-congressional-record/171/54/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-54-Daily_Digest-D291.json",
+  "known_limitations": []
+}

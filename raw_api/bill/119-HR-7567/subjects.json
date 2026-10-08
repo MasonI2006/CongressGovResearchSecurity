@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 137,
+    "next": "https://api.congress.gov/v3/bill/119/hr/7567/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "7567",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7567?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Administrative law and regulatory procedures",
+        "updateDate": "2026-04-27T16:28:18Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-04-27T16:24:30Z"
+      },
+      {
+        "name": "Agricultural conservation and pollution",
+        "updateDate": "2026-04-27T16:15:10Z"
+      },
+      {
+        "name": "Agricultural education",
+        "updateDate": "2026-04-27T16:15:24Z"
+      },
+      {
+        "name": "Agricultural equipment and machinery",
+        "updateDate": "2026-04-27T16:15:31Z"
+      },
+      {
+        "name": "Agricultural insurance",
+        "updateDate": "2026-04-27T16:15:39Z"
+      },
+      {
+        "name": "Agricultural marketing and promotion",
+        "updateDate": "2026-04-27T16:15:48Z"
+      },
+      {
+        "name": "Agricultural practices and innovations",
+        "updateDate": "2026-04-27T16:15:58Z"
+      },
+      {
+        "name": "Agricultural prices, subsidies, credit",
+        "updateDate": "2026-04-27T16:16:09Z"
+      },
+      {
+        "name": "Agricultural research",
+        "updateDate": "2026-04-27T16:16:19Z"
+      },
+      {
+        "name": "Agricultural trade",
+        "updateDate": "2026-04-27T16:16:38Z"
+      },
+      {
+        "name": "Alaska",
+        "updateDate": "2026-04-27T16:36:34Z"
+      },
+      {
+        "name": "Alaska Natives and Hawaiians",
+        "updateDate": "2026-04-27T16:36:17Z"
+      },
+      {
+        "name": "Alcoholic beverages",
+        "updateDate": "2026-04-27T16:16:47Z"
+      },
+      {
+        "name": "Alternative and renewable resources",
+        "updateDate": "2026-04-27T16:34:09Z"
+      },
+      {
+        "name": "Animal and plant health",
+        "updateDate": "2026-04-27T16:16:58Z"
+      },
+      {
+        "name": "Animal protection and human-animal relationships",
+        "updateDate": "2026-04-27T16:35:01Z"
+      },
+      {
+        "name": "Aquaculture",
+        "updateDate": "2026-04-27T16:17:06Z"
+      },
+      {
+        "name": "Argentina",
+        "updateDate": "2026-04-27T16:37:05Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Agriculture and Food",
+      "updateDate": "2026-06-15T18:03:39Z"
+    }
+  }
+}

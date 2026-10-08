@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-60023",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/60023",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg60023/CHRG-119shrg60023.pdf",
+  "retrieved_at": "2026-10-02T04:12:45Z",
+  "http_status": 200,
+  "pdf_sha256": "e34f3408d2c51ccc4176ac634fd02955d299d598c76ce77730d98571c933ddc1",
+  "pdf_bytes": 16705228,
+  "pdf_page_count": 105,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-60023/detail.json",
+  "title": "MACGREGOR AND DANLY NOMINATIONS",
+  "update_date": "2026-06-12T04:06:28Z",
+  "document_type": "HRG",
+  "document_number": 60023,
+  "document_identifier": "HRG-119-SENATE-60023",
+  "text_version": null,
+  "jacketNumber": 60023,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-47",
+  "dates": [
+    {
+      "date": "2025-04-02"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75087",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg60023/generated/CHRG-119shrg60023.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg60023/CHRG-119shrg60023.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:12:45Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-60023/detail.json",
+      "endpoint": "hearing/119/senate/60023"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-60023.json",
+  "known_limitations": []
+}

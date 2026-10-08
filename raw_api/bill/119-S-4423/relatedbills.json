@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-28",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 8558,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "To amend the Research and Development, Competition, and Innovation Act to require each institution of higher education to certify as part of an application for a research and development award that such institution does not operate certain branch campuses, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8558?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "4423",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4423?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

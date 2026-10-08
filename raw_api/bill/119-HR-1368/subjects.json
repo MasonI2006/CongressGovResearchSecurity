@@ -1,0 +1,57 @@
+{
+  "pagination": {
+    "count": 10
+  },
+  "request": {
+    "billNumber": "1368",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1368?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Biological and life sciences",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Department of Energy",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Earth sciences",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Intergovernmental relations",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "National Aeronautics and Space Administration",
+        "updateDate": "2025-03-25T14:35:59Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2025-03-25T14:35:59Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-03-17T16:44:07Z"
+    }
+  }
+}

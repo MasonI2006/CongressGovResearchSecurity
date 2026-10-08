@@ -1,0 +1,520 @@
+{
+  "stable_id": "119-HR-5089",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/5089",
+  "pdf_url": "https://www.congress.gov/119/bills/hr5089/BILLS-119hr5089ih.pdf",
+  "retrieved_at": "2026-10-01T22:16:27Z",
+  "http_status": 200,
+  "pdf_sha256": "864eb5cc1917dd7e9936be9c19b85fa298754d1d7685c2d68eff114cf93ac67f",
+  "pdf_bytes": 527175,
+  "pdf_page_count": 180,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-5089/detail.json",
+  "title": "Weather Act Reauthorization Act of 2025",
+  "update_date": "2026-10-01T20:41:28Z",
+  "document_type": "HR",
+  "document_number": "5089",
+  "document_identifier": "BILL-119-HR-5089-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-09-02T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "5089",
+  "originChamber": "House",
+  "introducedDate": "2025-09-02",
+  "latestAction": {
+    "text": "Ordered to be Reported (Amended) by Voice Vote.",
+    "date": "2025-09-10"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "L000491",
+      "name": "Rep. Lucas, Frank D. [R-OK-3]",
+      "party": "R",
+      "state": "OK"
+    }
+  ],
+  "cosponsorCount": 26,
+  "cosponsorBioguideIds": [
+    "L000397",
+    "B001291",
+    "B001278",
+    "W000814",
+    "S001215",
+    "F000459",
+    "R000305",
+    "F000472",
+    "F000477",
+    "H001099",
+    "W000830",
+    "M001222",
+    "A000380",
+    "R000603",
+    "M001238",
+    "T000478",
+    "F000476",
+    "M001232",
+    "F000483",
+    "M001218",
+    "M001236",
+    "G000602",
+    "B001295",
+    "B001307",
+    "N000147",
+    "V000138"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Aquatic ecology",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Atmospheric science and weather",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Aviation and airports",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Disaster relief and insurance",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Emergency communications systems",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Hydrology and hydrography",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Natural disasters",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Public contracts and procurement",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Public-private cooperation",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Spacecraft and satellites",
+      "updateDate": "2025-09-16T19:58:13Z"
+    },
+    {
+      "name": "Water quality",
+      "updateDate": "2025-09-16T19:58:13Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-10T19:53:39Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-09-02T16:03:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:03:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Natural Resources Committee",
+      "systemCode": "hsii00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-09-02T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-07",
+        "actionTime": "12:07:54",
+        "text": "Held at the desk."
+      },
+      "number": 1626,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1626?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-08",
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-431, Part I."
+      },
+      "number": 2250,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2250?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-24",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "number": 4073,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Tsunami Warning, Research, and Education Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4073?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-10-01T20:41:28Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "L000491",
+      "name": "Rep. Lucas, Frank D. [R-OK-3]",
+      "party": "R",
+      "state": "OK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "party": "D",
+      "state": "OR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+      "party": "R",
+      "state": "TN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000305",
+      "name": "Rep. Ross, Deborah K. [D-NC-2]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000472",
+      "name": "Rep. Franklin, Scott [R-FL-18]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001099",
+      "name": "Rep. Haridopolos, Mike [R-FL-8]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000830",
+      "name": "Rep. Whitesides, George [D-CA-27]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "party": "R",
+      "state": "OH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "A000380",
+      "name": "Rep. Amo, Gabe [D-RI-1]",
+      "party": "D",
+      "state": "RI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000603",
+      "name": "Rep. Rouzer, David [R-NC-7]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "party": "D",
+      "state": "DE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000478",
+      "name": "Rep. Tenney, Claudia [R-NY-24]",
+      "party": "R",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000476",
+      "name": "Rep. Frost, Maxwell [D-FL-10]",
+      "party": "D",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001232",
+      "name": "Rep. McClain Delaney, April [D-MD-6]",
+      "party": "D",
+      "state": "MD"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000483",
+      "name": "Rep. Friedman, Laura [D-CA-30]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001236",
+      "name": "Rep. Moore, Tim [R-NC-14]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000602",
+      "name": "Rep. Gillen, Laura [D-NY-4]",
+      "party": "D",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001295",
+      "name": "Rep. Bost, Mike [R-IL-12]",
+      "party": "R",
+      "state": "IL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "party": "D",
+      "state": "DC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "party": "D",
+      "state": "VA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-1626",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-01-07",
+          "actionTime": "12:07:54",
+          "text": "Held at the desk."
+        },
+        "number": 1626,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1626?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2250",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-01-08",
+          "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-431, Part I."
+        },
+        "number": 2250,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "National Landslide Preparedness Act Reauthorization Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2250?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-4073",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-06-24",
+          "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+        },
+        "number": 4073,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Tsunami Warning, Research, and Education Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/4073?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:27Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/detail.json",
+      "endpoint": "bill/119/hr/5089"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/text.json",
+      "endpoint": "bill/119/hr/5089/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:28Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/cosponsors.json",
+      "endpoint": "bill/119/hr/5089/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:29Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/committees.json",
+      "endpoint": "bill/119/hr/5089/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/relatedbills.json",
+      "endpoint": "bill/119/hr/5089/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:16:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-5089/subjects.json",
+      "endpoint": "bill/119/hr/5089/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-5089.json",
+  "known_limitations": []
+}

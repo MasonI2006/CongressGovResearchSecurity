@@ -1,0 +1,28 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-25T16:43:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "3910",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3910?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

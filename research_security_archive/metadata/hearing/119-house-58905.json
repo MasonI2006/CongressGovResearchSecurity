@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-house-58905",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/house/58905",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119hhrg58905/CHRG-119hhrg58905.pdf",
+  "retrieved_at": "2026-10-02T03:49:25Z",
+  "http_status": 200,
+  "pdf_sha256": "d64b495b0080475b492b1d8c7b8b869518ddd5925eba8d96b309490f8a8bfc62",
+  "pdf_bytes": 27087549,
+  "pdf_page_count": 88,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-house-58905/detail.json",
+  "title": "FOSTERING AMERICAN INNOVATION: INSIGHTS INTO SBIR AND STTR PROGRAMS",
+  "update_date": "2026-06-12T04:19:26Z",
+  "document_type": "HRG",
+  "document_number": 58905,
+  "document_identifier": "HRG-119-HOUSE-58905",
+  "text_version": null,
+  "jacketNumber": 58905,
+  "chamber": "House",
+  "citation": "H.Hrg.119-3",
+  "dates": [
+    {
+      "date": "2025-02-26"
+    }
+  ],
+  "committees": [
+    {
+      "name": "House Small Business (Select) Committee",
+      "systemCode": "hssm00",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75047",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg58905/generated/CHRG-119hhrg58905.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg58905/CHRG-119hhrg58905.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:49:25Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-house-58905/detail.json",
+      "endpoint": "hearing/119/house/58905"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-house-58905.json",
+  "known_limitations": []
+}

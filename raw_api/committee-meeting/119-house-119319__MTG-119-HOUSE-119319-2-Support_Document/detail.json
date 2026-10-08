@@ -1,0 +1,105 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Appropriations",
+        "systemCode": "hsap00",
+        "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-05-20T15:00:00Z",
+    "eventId": "119319",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2359"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Notice of FY27 Full Committee Markup – Energy and Water Development and Related Agencies Bill and Legislative Branch Bill",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice of FY27 Full Committee Markup – Energy and Water Development and Related Agencies Bill and Legislative Branch Bill",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD001.pdf"
+      },
+      {
+        "description": "FY27 Energy and Water Development and Related Agencies – Full Committee Mark",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY27 Energy and Water Development and Related Agencies – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/BILLS-119-FC-AP-FY2027-AP00-FY27EWFullCommitteeMark.pdf"
+      },
+      {
+        "description": "FY27 Energy and Water Development and Related Agencies – Report",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Energy and Water Development and Related Agencies – Report",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD002.pdf"
+      },
+      {
+        "description": "FY27 Legislative Branch – Full Committee Mark",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY27 Legislative Branch – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/BILLS-119-FC-AP-FY2027-AP00-FY27LegBranchFullCommitteeMark.pdf"
+      },
+      {
+        "description": "FY27 Legislative Branch – Report",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Legislative Branch – Report",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD003.pdf"
+      },
+      {
+        "description": "FY27 Legislative Branch – Amendments",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Legislative Branch – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD004.pdf"
+      },
+      {
+        "description": "FY27 Energy and Water Development and Related Agencies – Amendments",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Energy and Water Development and Related Agencies – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD005.pdf"
+      },
+      {
+        "description": "FY27 Energy and Water Development and Related Agencies – Roll Call Votes",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Energy and Water Development and Related Agencies – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD006.pdf"
+      },
+      {
+        "description": "FY27 Legislative Branch – Roll Call Votes",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY27 Legislative Branch – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/119319/documents/HMKP-119-AP00-20260520-SD007.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Fiscal Year 2027 Energy and Water Development and Related Agencies Bill and Fiscal Year 2027 Legislative Branch Bill",
+    "type": "Markup",
+    "updateDate": "2026-05-21T21:50:00Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup of FY27 Energy and Water Development, and Legislative Branch Bills",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119319"
+      },
+      {
+        "name": "Full Committee Markup of FY27 Energy and Water Development, and Legislative Branch Bills",
+        "url": "https://www.youtube.com/watch?v=Q4G3v9erq2Y"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119319",
+    "format": "json"
+  }
+}

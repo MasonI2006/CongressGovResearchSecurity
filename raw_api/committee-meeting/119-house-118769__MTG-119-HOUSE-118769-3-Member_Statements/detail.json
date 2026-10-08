@@ -1,0 +1,162 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+        "systemCode": "hssy21",
+        "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-12-18T15:00:00Z",
+    "eventId": "118769",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-B001291-20251218.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-L000397-20251218.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Charter",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD002.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Emilia Strong Sykes",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-S001223-20251218.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Richard McCormick",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-M001218-20251218.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD001.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Research Security: Examining the Implementation of the CHIPS and Science Act and NSPM-33",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T08:36:14Z",
+    "videos": [
+      {
+        "name": "Research Security: Examining the Implementation of the CHIPS and Science Act and NSPM-33",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118769"
+      },
+      {
+        "name": "Research Security: Examining the Implementation of the CHIPS and Science Act and NSPM-33",
+        "url": "https://www.youtube.com/watch?v=D6VPpu2KQ_Q"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-KeiserR-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-ValdezP-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-EvansD-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-TildenJ-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-KeiserR-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-TildenJ-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-KeiserR-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-TildenJ-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-EvansD-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-EvansD-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-ValdezP-20251218.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-ValdezP-20251218.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. Rebecca Keiser",
+        "organization": "U.S. National Science Foundation",
+        "position": "Acting Chief of Staff"
+      },
+      {
+        "name": "Dr. Daniel Evans",
+        "organization": "National Aeronautics and Space Administration",
+        "position": "Associate Deputy Associate Administrator for Research"
+      },
+      {
+        "name": "Dr. Patricia Valdez",
+        "organization": "U.S. National Institute of Health",
+        "position": "Chief Extramural Research Integrity"
+      },
+      {
+        "name": "Mr. Jay Tilden",
+        "organization": "U.S. Department of Energy",
+        "position": "Director of Office of Intelligence and Counterintelligence"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118769",
+    "format": "json"
+  }
+}

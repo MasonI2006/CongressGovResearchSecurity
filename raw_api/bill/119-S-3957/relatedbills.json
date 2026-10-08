@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-03",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 1290,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1290?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "3957",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3957?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

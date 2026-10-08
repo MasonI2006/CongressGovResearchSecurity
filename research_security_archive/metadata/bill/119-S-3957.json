@@ -1,0 +1,176 @@
+{
+  "stable_id": "119-S-3957",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3957",
+  "pdf_url": "https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf",
+  "retrieved_at": "2026-10-01T23:38:59Z",
+  "http_status": 200,
+  "pdf_sha256": "a8da8b965ad1b0f40fa318d6d1699a4a8ba2165134f74b1d9edf8d0b8c3a7910",
+  "pdf_bytes": 311307,
+  "pdf_page_count": 43,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3957/detail.json",
+  "title": "NSF AI Education Act of 2026",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3957",
+  "document_identifier": "BILL-119-S-3957-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-03-02T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3957",
+  "originChamber": "Senate",
+  "introducedDate": "2026-03-02",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2026-03-02"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "M000934",
+      "name": "Sen. Moran, Jerry [R-KS]",
+      "party": "R",
+      "state": "KS"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "C000127"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-03-02T21:39:01Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-03-02T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-03",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 1290,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1290?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "M000934",
+      "name": "Sen. Moran, Jerry [R-KS]",
+      "party": "R",
+      "state": "KS"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C000127",
+      "name": "Sen. Cantwell, Maria [D-WA]",
+      "party": "D",
+      "state": "WA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-1290",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-04-03",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        },
+        "number": 1290,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1290?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:38:59Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/detail.json",
+      "endpoint": "bill/119/s/3957"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:38:58Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/text.json",
+      "endpoint": "bill/119/s/3957/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:00Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/cosponsors.json",
+      "endpoint": "bill/119/s/3957/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:01Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/committees.json",
+      "endpoint": "bill/119/s/3957/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:01Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/relatedbills.json",
+      "endpoint": "bill/119/s/3957/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:39:02Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3957/subjects.json",
+      "endpoint": "bill/119/s/3957/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3957.json",
+  "known_limitations": []
+}

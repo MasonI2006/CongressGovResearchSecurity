@@ -1,0 +1,27 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "C001098",
+      "firstName": "Ted",
+      "fullName": "Sen. Cruz, Ted [R-TX]",
+      "isOriginalCosponsor": true,
+      "lastName": "Cruz",
+      "party": "R",
+      "sponsorshipDate": "2025-03-14",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/C001098?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

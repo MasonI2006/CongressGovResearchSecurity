@@ -1,0 +1,65 @@
+{
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/cosponsors?format=json"
+    },
+    "introducedDate": "2025-08-01",
+    "latestAction": {
+      "actionDate": "2025-08-01",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2676",
+    "number": "2676",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "Y000064",
+        "firstName": "Todd",
+        "fullName": "Sen. Young, Todd [R-IN]",
+        "isByRequest": "N",
+        "lastName": "Young",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/text?format=json"
+    },
+    "title": "Cloud LAB Act of 2025",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/2676/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-16T16:27:22Z"
+  },
+  "request": {
+    "billNumber": "2676",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

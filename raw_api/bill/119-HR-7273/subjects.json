@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 30,
+    "next": "https://api.congress.gov/v3/bill/119/hr/7273/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7273?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Agricultural research",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Air quality",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Appropriations",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Atmospheric science and weather",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Aviation and airports",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Climate change and greenhouse gases",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Education programs funding",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Environmental assessment, monitoring, research",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Environmental technology",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Geography and mapping",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "International organizations and cooperation",
+        "updateDate": "2026-02-10T17:18:42Z"
+      },
+      {
+        "name": "National Aeronautics and Space Administration",
+        "updateDate": "2026-02-10T17:18:42Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2026-02-02T14:41:28Z"
+    }
+  }
+}

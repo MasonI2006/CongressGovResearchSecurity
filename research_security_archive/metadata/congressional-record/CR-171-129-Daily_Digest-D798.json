@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-129-Daily Digest-D798",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/129",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28-pt1-PgD798-5.pdf",
+  "retrieved_at": "2026-10-02T09:37:46Z",
+  "http_status": 200,
+  "pdf_sha256": "c379b0f6ac68e3620d80933eeb41429c185a29b81554000dc48ea58199bcef05",
+  "pdf_bytes": 270831,
+  "pdf_page_count": 4,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-129-Daily_Digest-D798/issue.json",
+  "title": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 129",
+  "update_date": "2025-07-29T09:56:17Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I129",
+  "document_identifier": "CREC-119-V171-I129-Daily_Digest-1",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "129",
+  "issueDate": "2025-07-28T04:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 129",
+  "startPage": "D798",
+  "endPage": "D801",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:37:46Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-129-Daily_Digest-D798/issue.json",
+      "endpoint": "daily-congressional-record/171/129"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:37:45Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-129-Daily_Digest-D798/articles.json",
+      "endpoint": "daily-congressional-record/171/129/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-129-Daily_Digest-D798.json",
+  "known_limitations": []
+}

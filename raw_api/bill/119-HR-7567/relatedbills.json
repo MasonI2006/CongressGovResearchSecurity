@@ -1,0 +1,1567 @@
+{
+  "pagination": {
+    "count": 92
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 6779,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "USDA Loan Modernization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6779?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 5562,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Tropical Plant Health Initiative Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5562?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 2897,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Tropical Plant Health Initiative Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2897?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-23",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 8472,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Support for Ownership and Investment in Land Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8472?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+      },
+      "number": 5866,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require the Secretary of Agriculture to release a reversionary interest in certain land in the Black River State Forest in Millston, Wisconsin, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5866?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-20",
+        "text": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development."
+      },
+      "number": 1246,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Investing in Rural America Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1246?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-28",
+        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+      },
+      "number": 598,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "FIR Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/598?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-19",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "number": 1230,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AG VETS Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1230?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-14",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 387,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Texas Agricultural Producers Assistance Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/387?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-24",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "number": 1713,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Agricultural Risk Review Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1713?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-11",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 1213,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Forest Data Modernization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1213?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-11",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 517,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Forest Data Modernization Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/517?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committees on Foreign Affairs, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 1576,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Protecting American Agriculture from Foreign Adversaries Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1576?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-10",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 2811,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SNAP Staffing Flexibility Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2811?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-14",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "number": 2268,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Agricultural Risk Review Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2268?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-18",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 2307,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To establish the Commission on National Agricultural Statistics Service Modernization to modernize the data collection and reporting processes of the National Agricultural Statistics Service, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2307?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-28",
+        "text": "Referred to the Subcommittee on Livestock, Dairy, and Poultry."
+      },
+      "number": 1648,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A–PLUS Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1648?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 7426,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "USDA Express Loan Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7426?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 7264,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Restoring America’s Floodplains Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7264?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-13",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 6385,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farm Transitions Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6385?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-05",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 3112,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Fairness for Fruits and Vegetables Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3112?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 5471,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Advancing Quality U.S. Aquaculture Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5471?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-13",
+        "text": "Referred to the Subcommittee on Nutrition and Foreign Agriculture."
+      },
+      "number": 4782,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Local Farmers Feeding our Communities Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4782?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-28",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 1613,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Protecting Mushroom Farmers Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1613?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-23",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 4673,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Save Our Bacon Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4673?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-13",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 1725,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Healthy Dog Importation Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1725?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-13",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 3349,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Healthy Dog Importation Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3349?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-30",
+        "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 3125,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Rural Broadband Assistance Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3125?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 7464,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "TEMP Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7464?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-14",
+        "text": "Referred to the Subcommittee on Livestock, Dairy, and Poultry."
+      },
+      "number": 388,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Cattle Fever Tick Eradication Program Enhancement Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/388?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-14",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 295,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Fair Milk Pricing for Farmers Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/295?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 4400,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farmers First Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4400?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 2282,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farmers First Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2282?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-13",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 581,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Fair Milk Pricing for Farmers Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/581?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-14",
+        "text": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development."
+      },
+      "number": 291,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "CAREERS Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/291?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-10-27",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 209."
+      },
+      "number": 1262,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to require the Secretary of Agriculture to release a reversionary interest in certain land in the Black River State Forest in Millston, Wisconsin, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1262?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-09",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 1999,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "USDA CROP Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1999?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-12",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 3991,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Research for Healthy Soils Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3991?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on Nutrition and Foreign Agriculture."
+      },
+      "number": 7469,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SNAP Online Access Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7469?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-29",
+        "actionTime": "13:25:00",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": 1224,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1224?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-25",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 4134,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Flood Resiliency and Land Stewardship Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4134?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-01",
+        "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 2558,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SAFETY Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2558?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-26",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 4155,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "American Agricultural Security Research Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4155?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-18",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 2518,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Fishing Industry Credit Enhancement Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2518?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 7476,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Water Infrastructure Assistance Reauthorization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7476?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-10",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 2812,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Youth Lead Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2812?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-18",
+        "text": "Referred to the Subcommittee on Nutrition and Foreign Agriculture."
+      },
+      "number": 2326,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Dietary Guidelines Reform Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2326?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-30",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": 5620,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Prioritizing Offensive Agricultural Disputes and Enforcement Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5620?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 1302,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "GRAIN DRY Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1302?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-20",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 7475,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Expedited Guaranteed Lender Pilot Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7475?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-13",
+        "text": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development."
+      },
+      "number": 5037,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Middle Mile for Rural America Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5037?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-04",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 1952,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Future FARMER Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1952?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-10",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 2839,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AG2PI Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2839?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-28",
+        "text": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development."
+      },
+      "number": 1592,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SOLAR Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1592?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-14",
+        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+      },
+      "number": 289,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SAP Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/289?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-11",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 8722,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require the Secretary of Agriculture to enter into a memoranda of understanding with CFIUS with respect to reports under AFIDA and to update the AFIDA handbook.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8722?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-11",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 8723,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "FIGHT Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8723?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-27",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 8533,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farmer to Farmer Education Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8533?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-21",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 8403,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend the Food and Nutrition Act of 2008 to modify the definition of food.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8403?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-21",
+        "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 8424,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Promoting Access to Local Agriculture Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8424?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-03",
+        "text": "Referred to the Subcommittee on Nutrition and Foreign Agriculture."
+      },
+      "number": 8157,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Risk-based Oversight for Integrity Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8157?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-11",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4483,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Promoting Access to Local Agriculture Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4483?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-23",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 485."
+      },
+      "number": 2787,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Grasslands Grazing Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2787?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-11",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 25 - 14."
+      },
+      "number": 6300,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Grasslands Grazing Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6300?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-02",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4654,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Expanding Market Access Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4654?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-02",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4655,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farm Credit Adjustment Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4655?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-21",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4628,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to direct the Secretary of Agriculture to establish an initiative to address the availability, quality, and cost of childcare in rural areas, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4628?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-07",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 3246,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Violet’s Law",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3246?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-05",
+        "text": "Ordered to be Reported (Amended) by Unanimous Consent."
+      },
+      "number": 3553,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "BRUSH Fires Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3553?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 5854,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Sustainable Agriculture Research Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5854?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-06",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 6944,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require the Secretary of Agriculture to make cost-share grants for retrofitting agricultural tractors with rollover protection structures, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6944?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-16",
+        "text": "Committee on Energy and Natural Resources. Hearings held."
+      },
+      "number": 2709,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Save Our Sequoias Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2709?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-02",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4651,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Increasing Insurance Access for Specialty Crops Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4651?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-15",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 8502,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "HARVEST Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8502?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-16",
+        "text": "Committee on Energy and Natural Resources. Hearings held."
+      },
+      "number": 4103,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Save Our Sequoias Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4103?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-05",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 7851,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Checkoff Transparency Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7851?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-13",
+        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+      },
+      "number": 6277,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SAWMILL Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6277?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 1618,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Precision Agriculture Satellite Connectivity Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1618?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-02",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "number": 5781,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "MATCH Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5781?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-05",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 3580,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to require the Secretary of Agriculture to make cost-share grants for retrofitting agricultural tractors with rollover protection structures, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3580?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-14",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 1769,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farmer to Farmer Education Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1769?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-09",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 2221,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "SAWMILL Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2221?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-25",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 1107,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "MATCH Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1107?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-26",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 5614,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "If You See It, Squish It Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5614?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-24",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": 3009,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "TREES Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3009?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-15",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": 3457,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend the Food Security Act of 1985 with respect to the feral swine eradication and control program, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3457?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-11",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 3843,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "TEMP Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3843?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-13",
+        "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+      },
+      "number": 5010,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Farm Credit Adjustment Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5010?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-02",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 4661,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Ensuring Disaster Recovery and Resilience for Specialty Crops Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4661?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-04",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 263."
+      },
+      "number": 4550,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "United States Grain Standards Reauthorization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4550?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-03",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": 5218,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Colonel Gary LaGrange AgVets Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5218?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "7567",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7567?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

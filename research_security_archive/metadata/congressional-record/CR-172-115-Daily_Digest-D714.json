@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-172-115-Daily Digest-D714",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/172/115",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/07/15/172/115/CREC-2026-07-15-pt1-PgD714.pdf",
+  "retrieved_at": "2026-10-02T08:32:23Z",
+  "http_status": 200,
+  "pdf_sha256": "000ee5b6b05bb26ecbc994177f2217fa031459e8fdb8d5f721ef1cfdb13ab767",
+  "pdf_bytes": 283107,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-172-115-Daily_Digest-D714/issue.json",
+  "title": "Daily Digest/House Committee Meetings; Congressional Record Vol. 172, No. 115",
+  "update_date": "2026-07-16T13:44:18Z",
+  "document_type": "CREC-daily",
+  "document_number": "V172I115",
+  "document_identifier": "CREC-119-V172-I115-Daily_Digest-3",
+  "text_version": null,
+  "volumeNumber": 172,
+  "issueNumber": "115",
+  "issueDate": "2026-07-15T04:00:00Z",
+  "sessionNumber": 2,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/House Committee Meetings; Congressional Record Vol. 172, No. 115",
+  "startPage": "D714",
+  "endPage": "D716",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:32:23Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-115-Daily_Digest-D714/issue.json",
+      "endpoint": "daily-congressional-record/172/115"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:32:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-115-Daily_Digest-D714/articles.json",
+      "endpoint": "daily-congressional-record/172/115/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-172-115-Daily_Digest-D714.json",
+  "known_limitations": []
+}

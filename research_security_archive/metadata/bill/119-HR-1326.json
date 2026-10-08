@@ -1,0 +1,244 @@
+{
+  "stable_id": "119-HR-1326",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1326",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1326/BILLS-119hr1326rfs.pdf",
+  "retrieved_at": "2026-10-01T18:09:33Z",
+  "http_status": 200,
+  "pdf_sha256": "43a5a576ebc183885c880e975064b6aae81e56850bc6f4a468f4903a680f6f46",
+  "pdf_bytes": 213999,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1326/detail.json",
+  "title": "DOE and USDA Interagency Research Act",
+  "update_date": "2026-09-08T18:09:59Z",
+  "document_type": "HR",
+  "document_number": "1326",
+  "document_identifier": "BILL-119-HR-1326-Referred_in_Senate",
+  "text_version": {
+    "type": "Referred in Senate",
+    "date": "2025-03-25T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1326",
+  "originChamber": "House",
+  "introducedDate": "2025-02-13",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+    "date": "2025-03-25"
+  },
+  "policyArea": {
+    "name": "Agriculture and Food"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "L000491",
+      "name": "Rep. Lucas, Frank D. [R-OK-3]",
+      "party": "R",
+      "state": "OK"
+    }
+  ],
+  "cosponsorCount": 2,
+  "cosponsorBioguideIds": [
+    "L000397",
+    "T000478"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Agricultural practices and innovations",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Agricultural research",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Alternative and renewable resources",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Climate change and greenhouse gases",
+      "updateDate": "2025-03-25T14:31:44Z"
+    },
+    {
+      "name": "Department of Agriculture",
+      "updateDate": "2025-03-25T14:31:44Z"
+    },
+    {
+      "name": "Department of Energy",
+      "updateDate": "2025-03-25T14:31:44Z"
+    },
+    {
+      "name": "Energy research",
+      "updateDate": "2025-03-25T14:31:44Z"
+    },
+    {
+      "name": "Energy storage, supplies, demand",
+      "updateDate": "2025-03-25T14:31:44Z"
+    },
+    {
+      "name": "Fires",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Forests, forestry, trees",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Pest management",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-03-25T14:31:43Z"
+    },
+    {
+      "name": "Water use and supply",
+      "updateDate": "2025-03-25T14:31:43Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-25T18:33:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-13T14:00:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-03-14T20:37:10Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Conservation, Research, and Biotechnology Subcommittee",
+          "systemCode": "hsag14",
+          "url": "https://api.congress.gov/v3/committee/house/hsag14?format=json"
+        }
+      ],
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-13T14:00:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Referred in Senate",
+    "date": "2025-03-25T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "L000491",
+      "name": "Rep. Lucas, Frank D. [R-OK-3]",
+      "party": "R",
+      "state": "OK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000478",
+      "name": "Rep. Tenney, Claudia [R-NY-24]",
+      "party": "R",
+      "state": "NY"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:33Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/detail.json",
+      "endpoint": "bill/119/hr/1326"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:33Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/text.json",
+      "endpoint": "bill/119/hr/1326/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:34Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/cosponsors.json",
+      "endpoint": "bill/119/hr/1326/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:35Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/committees.json",
+      "endpoint": "bill/119/hr/1326/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:36Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/relatedbills.json",
+      "endpoint": "bill/119/hr/1326/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:34Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1326/subjects.json",
+      "endpoint": "bill/119/hr/1326/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1326.json",
+  "known_limitations": []
+}

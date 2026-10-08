@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "House",
+    "citation": "H.Hrg.119-3",
+    "committees": [
+      {
+        "name": "House Small Business (Select) Committee",
+        "systemCode": "hssm00",
+        "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-02-26"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58905/generated/CHRG-119hhrg58905.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58905/CHRG-119hhrg58905.pdf"
+      }
+    ],
+    "jacketNumber": 58905,
+    "libraryOfCongressIdentifier": "LC75047",
+    "number": 3,
+    "title": "FOSTERING AMERICAN INNOVATION: INSIGHTS INTO SBIR AND STTR PROGRAMS",
+    "updateDate": "2026-06-12T04:19:26Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "58905"
+  }
+}

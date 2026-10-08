@@ -1,0 +1,14 @@
+{
+  "pagination": {
+    "count": 0
+  },
+  "relatedBills": [],
+  "request": {
+    "billNumber": "8198",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/8198?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

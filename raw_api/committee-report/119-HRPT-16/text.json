@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "16",
+    "reportType": "hrpt"
+  },
+  "text": [
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/hrpt16/generated/CRPT-119hrpt16.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/hrpt16/CRPT-119hrpt16.pdf"
+        }
+      ]
+    }
+  ]
+}

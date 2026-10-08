@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7801",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7801?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-03-04T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr7801/BILLS-119hr7801ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr7801/BILLS-119hr7801ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr7801/BILLS-119hr7801ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

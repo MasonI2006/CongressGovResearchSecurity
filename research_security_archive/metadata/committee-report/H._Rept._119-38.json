@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-38",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/38",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt38/CRPT-119hrpt38.pdf",
+  "retrieved_at": "2026-10-02T03:06:02Z",
+  "http_status": 200,
+  "pdf_sha256": "f01c3be8b958cd1f4ad7791e55931f9ab1120b1b1baca6c8b9c2c7e2525bc06b",
+  "pdf_bytes": 243757,
+  "pdf_page_count": 13,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-38/detail.json",
+  "title": "PROVIDING FOR CONSIDERATION OF THE JOINT RESOLUTION (H.J. RES. 24) PROVIDING FOR CONGRESSIONAL DISAPPROVAL UNDER CHAPTER 8 OF TITLE 5, UNITED STATES CODE, OF THE RULE SUBMITTED BY THE DEPARTMENT OF ENERGY RELATING TO \"ENERGY CONSERVATION PRO- GRAM: ENERGY CONSERVATION STANDARDS FOR WALK-IN COOLERS AND WALK-IN FREEZERS\"; PROVIDING FOR CONSIDERATION OF THE JOINT RESOLUTION (H.J. RES. 75) PROVIDING FOR CONGRESSIONAL DIS- APPROVAL UNDER CHAPTER 8 OF TITLE 5, UNITED STATES CODE, OF THE RULE SUBMITTED BY THE OFFICE OF ENERGY EFFICIENCY AND RENEWABLE ENERGY, DEPARTMENT OF ENERGY RELATING TO \"EN- ERGY CONSERVATION PROGRAM: ENERGY CONSERVATION STANDARDS FOR COMMERCIAL REFRIG",
+  "update_date": "2025-05-27T14:12:43Z",
+  "document_type": "HRPT",
+  "document_number": "38-1",
+  "document_identifier": "RPT-119-HRPT-38-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-38",
+  "type": "HRPT",
+  "number": 38,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-03-24T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "242",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Rules Committee",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HRES-242",
+      "payload": {
+        "congress": 119,
+        "number": "242",
+        "type": "HRES",
+        "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:06:02Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-38/detail.json",
+      "endpoint": "committee-report/119/hrpt/38"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:06:03Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-38/text.json",
+      "endpoint": "committee-report/119/hrpt/38/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-38.json",
+  "known_limitations": []
+}

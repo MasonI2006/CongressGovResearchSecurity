@@ -1,0 +1,759 @@
+{
+  "stable_id": "119-house-119333__MTG-119-HOUSE-119333-11-Committee_Amendment",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119333",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000388-Amdt-SPFEB1.pdf",
+  "retrieved_at": "2026-10-02T05:05:12Z",
+  "http_status": 200,
+  "pdf_sha256": "4270aea5d06ac43a84f80ca1e0575d81512ee7bb378b03ba15b0a61580d5086d",
+  "pdf_bytes": 2778669,
+  "pdf_page_count": 86,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119333__MTG-119-HOUSE-119333-11-Committee_Amendment/detail.json",
+  "title": "H.R. 8800 - National Defense Authorization Act for Fiscal Year 2027",
+  "update_date": "2026-06-08T18:03:41Z",
+  "document_type": "Committee Amendment",
+  "document_number": "119333",
+  "document_identifier": "MTG-119-HOUSE-119333-11-Committee_Amendment",
+  "text_version": null,
+  "eventId": "119333",
+  "type": "Markup",
+  "meetingStatus": "Scheduled",
+  "date": "2026-06-04T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Armed Services",
+      "systemCode": "hsas00",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2118"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "8800",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "description": "Subcommittee on Intelligence and Special Operations Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Intelligence and Special Operations Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-ISO.pdf"
+    },
+    {
+      "description": "Subcommittee on Military Personnel Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Military Personnel Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-MLP.pdf"
+    },
+    {
+      "description": "Subcommittee on Strategic Forces Print: H.R.8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Strategic Forces Print: H.R.8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-STR.pdf"
+    },
+    {
+      "description": "Chairman's Mark: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Chairman's Mark: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-CHM.pdf"
+    },
+    {
+      "description": "Subcommittee on Seapower and Projection Forces Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Seapower and Projection Forces Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-SPF.pdf"
+    },
+    {
+      "description": "Subcommittee on Tactical Air and Land Forces Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Tactical Air and Land Forces Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-TAL.pdf"
+    },
+    {
+      "description": "Subcommittee on Cyber, Information Technologies, and Innovation Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Cyber, Information Technologies, and Innovation Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-CIT.pdf"
+    },
+    {
+      "description": "Subcommittee on Readiness Print: H.R. 8800",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "Subcommittee on Readiness Print: H.R. 8800",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119HR8800ih-RDY.pdf"
+    },
+    {
+      "description": "Subcommittee on Military Personnel En Bloc #2 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Military Personnel En Bloc #2 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-F000246-Amdt-MLPEB2.pdf"
+    },
+    {
+      "description": "Subcommittee on Tactical Air and Land Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Tactical Air and Land Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-W000804-Amdt-TALEB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Strategic Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Strategic Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-D000616-Amdt-STREB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Seapower and Projection Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Seapower and Projection Forces En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000388-Amdt-SPFEB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Cyber, Information Technologies, and Innovation En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Cyber, Information Technologies, and Innovation En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-B001298-Amdt-CITEB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Readiness En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Readiness En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-B001301-Amdt-RDYEB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Readiness En Bloc #2 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Readiness En Bloc #2 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-B001301-Amdt-RDYEB2.pdf"
+    },
+    {
+      "description": "Subcommittee on Military Personnel En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Military Personnel En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-F000246-Amdt-MLPEB1.pdf"
+    },
+    {
+      "description": "Subcommittee on Military Personnel En Bloc #3 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Military Personnel En Bloc #3 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-F000246-Amdt-MLPEB3.pdf"
+    },
+    {
+      "description": "Subcommittee on Intelligence and Special Operations En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Subcommittee on Intelligence and Special Operations En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000304-Amdt-ISOEB1.pdf"
+    },
+    {
+      "description": "Log 5997r1 - Cisneros (Not Agreed to by Recorded Vote, 27y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5997r1 - Cisneros (Not Agreed to by Recorded Vote, 27y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001123-Amdt-5997r1.pdf"
+    },
+    {
+      "description": "Log 6668r1 - Bell (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6668r1 - Bell (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-B001324-Amdt-6668r1.pdf"
+    },
+    {
+      "description": "Log 6757 - Mace (Agreed to by Recorded Vote, 29y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6757 - Mace (Agreed to by Recorded Vote, 29y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M000194-Amdt-6757.pdf"
+    },
+    {
+      "description": "Log 6656r1 - Crow (Not Agreed to by Recorded Vote, 26y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6656r1 - Crow (Not Agreed to by Recorded Vote, 26y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001121-Amdt-6656r1.pdf"
+    },
+    {
+      "description": "Log 6815 - Garamendi (Not Agreed to by Recorded Vote, 27y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6815 - Garamendi (Not Agreed to by Recorded Vote, 27y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6815.pdf"
+    },
+    {
+      "description": "Log 6808r1 - Carbajal (Not Agreed to by Recorded Vote, 27y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6808r1 - Carbajal (Not Agreed to by Recorded Vote, 27y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001112-Amdt-6808r1.pdf"
+    },
+    {
+      "description": "Log 6769 - Ryan (Not Agreed to by Recorded Vote, 26y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6769 - Ryan (Not Agreed to by Recorded Vote, 26y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000579-Amdt-6769.pdf"
+    },
+    {
+      "description": "Log 6429 - Tokuda (Not Agreed to by Recorded Vote, 26y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6429 - Tokuda (Not Agreed to by Recorded Vote, 26y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-T000487-Amdt-6429.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #1 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #1 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB1.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #2 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #2 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB2.pdf"
+    },
+    {
+      "description": "Log 6834 - Smith (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6834 - Smith (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-S000510-Amdt-6834.pdf"
+    },
+    {
+      "description": "Log 6843 - Smith (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6843 - Smith (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-S000510-Amdt-6843.pdf"
+    },
+    {
+      "description": "Log 6123r1 - Moulton (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6123r1 - Moulton (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M001196-Amdt-6123r1.pdf"
+    },
+    {
+      "description": "Log 6087 - Smith (Not Agreed to by Recorded Vote, 26y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6087 - Smith (Not Agreed to by Recorded Vote, 26y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-S000510-Amdt-6087.pdf"
+    },
+    {
+      "description": "Log 6681 - Jacobs (Not Agreed to by Recorded Vote, 14y-42n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6681 - Jacobs (Not Agreed to by Recorded Vote, 14y-42n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6681.pdf"
+    },
+    {
+      "description": "Log 6537r1 - Jacobs (Not Agreed to by Recorded Vote, 27y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6537r1 - Jacobs (Not Agreed to by Recorded Vote, 27y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6537r1.pdf"
+    },
+    {
+      "description": "Log 6453r1 - Jackson (Not Agreed to by Recorded Vote, 20y-35n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6453r1 - Jackson (Not Agreed to by Recorded Vote, 20y-35n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000304-Amdt-6453r1.pdf"
+    },
+    {
+      "description": "Log 6081r1 - Mace (Agreed to by Recorded Vote, 29y-26n-1p)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6081r1 - Mace (Agreed to by Recorded Vote, 29y-26n-1p)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M000194-Amdt-6081r1.pdf"
+    },
+    {
+      "description": "Log 6127 - Moulton (Not Agreed to by Recorded Vote, 27y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6127 - Moulton (Not Agreed to by Recorded Vote, 27y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M001196-Amdt-6127.pdf"
+    },
+    {
+      "description": "Log 6897 - Khanna (Not Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6897 - Khanna (Not Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000389-Amdt-6897.pdf"
+    },
+    {
+      "description": "Log 6378 - Houlahan (Not Agreed to by Recorded Vote, 24y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6378 - Houlahan (Not Agreed to by Recorded Vote, 24y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-6378.pdf"
+    },
+    {
+      "description": "Log 6382r3 - Houlahan (Not Agreed to by Recorded Vote, 24y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6382r3 - Houlahan (Not Agreed to by Recorded Vote, 24y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-6382r3.pdf"
+    },
+    {
+      "description": "Log 6649 - Ryan (Not Agreed to by Recorded Vote, 25y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6649 - Ryan (Not Agreed to by Recorded Vote, 25y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000579-Amdt-6649.pdf"
+    },
+    {
+      "description": "Log 6386r6 - Houlahan (Not Agreed to by Recorded Vote, 26y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6386r6 - Houlahan (Not Agreed to by Recorded Vote, 26y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-6386r6.pdf"
+    },
+    {
+      "description": "Log 6132r2 - Moulton (Not Agreed to by Recorded Vote, 26y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6132r2 - Moulton (Not Agreed to by Recorded Vote, 26y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M001196-Amdt-6132r2.pdf"
+    },
+    {
+      "description": "Log 6611r2 - Mace (Not Agreed to by Recorded Vote, 26y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6611r2 - Mace (Not Agreed to by Recorded Vote, 26y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M000194-Amdt-6611r2.pdf"
+    },
+    {
+      "description": "Log 6148 - Mace (Not Agreed to by Recorded Vote, 25y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6148 - Mace (Not Agreed to by Recorded Vote, 25y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M000194-Amdt-6148.pdf"
+    },
+    {
+      "description": "Log 6635r1 - Mace (Not Agreed to by Recorded Vote, 27y-27n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6635r1 - Mace (Not Agreed to by Recorded Vote, 27y-27n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M000194-Amdt-6635r1.pdf"
+    },
+    {
+      "description": "Log 6476r2 - Higgins (Not Agreed to by Recorded Vote, 25y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6476r2 - Higgins (Not Agreed to by Recorded Vote, 25y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001077-Amdt-6476r2.pdf"
+    },
+    {
+      "description": "Log 6552r1 - Jacobs (Not Agreed to by Recorded Vote, 25y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6552r1 - Jacobs (Not Agreed to by Recorded Vote, 25y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6552r1.pdf"
+    },
+    {
+      "description": "Log 6527r1 - Goodlander (Not Agreed to by Recorded Vote, 26y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6527r1 - Goodlander (Not Agreed to by Recorded Vote, 26y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6527r1.pdf"
+    },
+    {
+      "description": "Log 6482r1 - Goodlander (Not Agreed to by Recorded Vote, 27y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6482r1 - Goodlander (Not Agreed to by Recorded Vote, 27y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6482r1.pdf"
+    },
+    {
+      "description": "Log 6777 - Jacobs (Not Agreed to by Recorded Vote, 27y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6777 - Jacobs (Not Agreed to by Recorded Vote, 27y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6777.pdf"
+    },
+    {
+      "description": "Log 6105 - Strickland (Not Agreed to by Recorded Vote, 26y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6105 - Strickland (Not Agreed to by Recorded Vote, 26y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-S001159-Amdt-6105.pdf"
+    },
+    {
+      "description": "Log 6093 - Houlahan (Not Agreed to by Recorded Vote, 28y-28n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6093 - Houlahan (Not Agreed to by Recorded Vote, 28y-28n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-6093.pdf"
+    },
+    {
+      "description": "Log 6638r2 - Golden (Not Agreed to by Recorded Vote, 17y-39n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6638r2 - Golden (Not Agreed to by Recorded Vote, 17y-39n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000592-Amdt-6638r2.pdf"
+    },
+    {
+      "description": "Log 5987r1 - Cisneros (Not Agreed to by Recorded Vote, 27y-28n-1p)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5987r1 - Cisneros (Not Agreed to by Recorded Vote, 27y-28n-1p)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001123-Amdt-5987r1.pdf"
+    },
+    {
+      "description": "Log 6857r1 - Garamendi (Not Agreed to by Recorded Vote, 23y-33n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6857r1 - Garamendi (Not Agreed to by Recorded Vote, 23y-33n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6857r1.pdf"
+    },
+    {
+      "description": "Log 6855r1 - Garamendi (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6855r1 - Garamendi (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6855r1.pdf"
+    },
+    {
+      "description": "Log 6877r1 - Garamendi (Not Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6877r1 - Garamendi (Not Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6877r1.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #3 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #3 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB3.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #4 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #4 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB4.pdf"
+    },
+    {
+      "description": "Log 6859 - Vasquez (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6859 - Vasquez (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-V000136-Amdt-6859-Enbloc-6859.pdf"
+    },
+    {
+      "description": "Log 5963 - Bell (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5963 - Bell (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-B001324-Amdt-5963.pdf"
+    },
+    {
+      "description": "Log 6330 - Moylan (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6330 - Moylan (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M001219-Amdt-6330.pdf"
+    },
+    {
+      "description": "Log 5735 - Houlahan (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5735 - Houlahan (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-5735.pdf"
+    },
+    {
+      "description": "Log 6128r1 - Moulton (Not Agreed to by Recorded Vote, 27y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6128r1 - Moulton (Not Agreed to by Recorded Vote, 27y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-M001196-Amdt-6128r1.pdf"
+    },
+    {
+      "description": "Log 6464r1 - Goodlander (Not Agreed to by Recorded Vote, 27y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6464r1 - Goodlander (Not Agreed to by Recorded Vote, 27y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6464r1.pdf"
+    },
+    {
+      "description": "Log 6454r1 - Goodlander (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6454r1 - Goodlander (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6454r1.pdf"
+    },
+    {
+      "description": "Log 6626r2 - Ryan (Not Agreed to by Recorded Vote, 26y-30n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6626r2 - Ryan (Not Agreed to by Recorded Vote, 26y-30n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000579-Amdt-6626r2.pdf"
+    },
+    {
+      "description": "Log 6435r2 - Keating (Not Agreed to by Recorded Vote, 27y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6435r2 - Keating (Not Agreed to by Recorded Vote, 27y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000375-Amdt-6435r2.pdf"
+    },
+    {
+      "description": "Log 6137r1 - Keating (Not agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6137r1 - Keating (Not agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000375-Amdt-6137r1.pdf"
+    },
+    {
+      "description": "Log 6096r3 - Keating (Not Agreed to by Recorded Vote, 27y-29n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6096r3 - Keating (Not Agreed to by Recorded Vote, 27y-29n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000375-Amdt-6096r3.pdf"
+    },
+    {
+      "description": "Log 6819 - Jacobs (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6819 - Jacobs (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6819.pdf"
+    },
+    {
+      "description": "Log 6816r3 - Jacobs (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6816r3 - Jacobs (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000305-Amdt-6816r3.pdf"
+    },
+    {
+      "description": "Log 6623 - Ryan (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6623 - Ryan (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000579-Amdt-6623.pdf"
+    },
+    {
+      "description": "Log 6722 - Deluzio (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6722 - Deluzio (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-D000530-Amdt-6722.pdf"
+    },
+    {
+      "description": "Log 6479 - Goodlander (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6479 - Goodlander (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6479.pdf"
+    },
+    {
+      "description": "Log 6459 - Goodlander (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6459 - Goodlander (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6459.pdf"
+    },
+    {
+      "description": "Log 5732 - Houlahan (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5732 - Houlahan (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001085-Amdt-5732.pdf"
+    },
+    {
+      "description": "Log 6309 - Courtney (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6309 - Courtney (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001069-Amdt-6309.pdf"
+    },
+    {
+      "description": "Log 6253 - Crow (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6253 - Crow (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001121-Amdt-6253.pdf"
+    },
+    {
+      "description": "Log 6873r1 - Garamendi (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6873r1 - Garamendi (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6873r1.pdf"
+    },
+    {
+      "description": "Log 6803r1 - Tran (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6803r1 - Tran (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-T000491-Amdt-6803r1.pdf"
+    },
+    {
+      "description": "Log 5764r1 - Tokuda (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 5764r1 - Tokuda (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-T000487-Amdt-5764r1.pdf"
+    },
+    {
+      "description": "Log 6840 - Tran (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6840 - Tran (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-T000491-Amdt-6840.pdf"
+    },
+    {
+      "description": "Log 6689 - Carbajal (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6689 - Carbajal (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-C001112-Amdt-6689.pdf"
+    },
+    {
+      "description": "Log 6723 - Deluzio (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6723 - Deluzio (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-D000530-Amdt-6723.pdf"
+    },
+    {
+      "description": "Log 6155r1 - Harrigan (Agreed to by Recorded Vote, 47y-9n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6155r1 - Harrigan (Agreed to by Recorded Vote, 47y-9n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-H001101-Amdt-6155r1.pdf"
+    },
+    {
+      "description": "Log 6827r3 -Garamendi (Not Agreed to by Recorded Vote, 25y-31n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6827r3 -Garamendi (Not Agreed to by Recorded Vote, 25y-31n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000559-Amdt-6827r2.pdf"
+    },
+    {
+      "description": "Log 6922r1 - Norcross (Agreed to by Recorded Vote, 30y-26n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6922r1 - Norcross (Agreed to by Recorded Vote, 30y-26n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-N000188-Amdt-6922r1.pdf"
+    },
+    {
+      "description": "Log 6825r2 - Strickland (Agreed to by Recorded Vote, 29y-27n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6825r2 - Strickland (Agreed to by Recorded Vote, 29y-27n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-S001159-Amdt-6825r2.pdf"
+    },
+    {
+      "description": "Log 6448 - Goodlander (Offered and Withdrawn)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6448 - Goodlander (Offered and Withdrawn)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-G000604-Amdt-6448.pdf"
+    },
+    {
+      "description": "Log 6820 - Jackson (Agreed to by Recorded Vote, 29y-27n)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Log 6820 - Jackson (Agreed to by Recorded Vote, 29y-27n)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-J000304-Amdt-6820.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #5 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #5 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB5.pdf"
+    },
+    {
+      "description": "Chairman's En Bloc #6 (Agreed to by Voice Vote)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Chairman's En Bloc #6 (Agreed to by Voice Vote)",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-R000575-Amdt-CHMEB6.pdf"
+    },
+    {
+      "description": "H.R. 8800 – FY27 NDAA Markup - Recorded Votes #1 through #47",
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "H.R. 8800 – FY27 NDAA Markup - Recorded Votes #1 through #47",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/CRPT-119-AS00-Vote1-47-20260604.pdf"
+    },
+    {
+      "description": "H.R. 8800 - FY27 NDAA Markup Amendment Roster, Outcomes, and Cosponsors",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "H.R. 8800 - FY27 NDAA Markup Amendment Roster, Outcomes, and Cosponsors",
+      "url": "https://www.congress.gov/119/meeting/house/119333/documents/HMKP-119-AS00-20260604-SD001.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Committee Amendment",
+    "name": "Subcommittee on Seapower and Projection Forces En Bloc #1 (Agreed to by Voice Vote)",
+    "url": "https://www.congress.gov/119/meeting/house/119333/documents/BILLS-119-HR8800-K000388-Amdt-SPFEB1.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "8800",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:05:12Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119333__MTG-119-HOUSE-119333-11-Committee_Amendment/detail.json",
+      "endpoint": "committee-meeting/119/house/119333"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119333__MTG-119-HOUSE-119333-11-Committee_Amendment.json",
+  "known_limitations": []
+}

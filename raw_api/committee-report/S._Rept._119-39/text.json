@@ -1,0 +1,68 @@
+{
+  "pagination": {
+    "count": 6
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "39",
+    "reportType": "srpt"
+  },
+  "text": [
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/srpt39/generated/CRPT-119srpt39.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/srpt39/CRPT-119srpt39.pdf"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/srpt39/generated/CRPT-119srpt39.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/srpt39/CRPT-119srpt39.pdf"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "Y",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/srpt39/generated/CRPT-119srpt39err-ERRATA.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "Y",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/srpt39/CRPT-119srpt39err-ERRATA.pdf"
+        }
+      ]
+    }
+  ]
+}

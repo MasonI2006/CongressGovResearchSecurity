@@ -1,0 +1,220 @@
+{
+  "stable_id": "119-house-119183__MTG-119-HOUSE-119183-1-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119183",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119HR8462ih.pdf",
+  "retrieved_at": "2026-10-02T05:25:07Z",
+  "http_status": 200,
+  "pdf_sha256": "3de0232579f9b0729cdb87c29fdbccb19ebafb5805110021fa62a2c08135d43f",
+  "pdf_bytes": 378110,
+  "pdf_page_count": 91,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119183__MTG-119-HOUSE-119183-1-Bills_and_Resolutions/detail.json",
+  "title": "Full Committee Markup",
+  "update_date": "2026-04-30T19:42:25Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "119183",
+  "document_identifier": "MTG-119-HOUSE-119183-1-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "119183",
+  "type": "Markup",
+  "meetingStatus": "Scheduled",
+  "date": "2026-04-29T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "8462",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8462?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-20260429-SD001.pdf"
+    },
+    {
+      "description": "H.R. 8462",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 8462",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119HR8462ih.pdf"
+    },
+    {
+      "description": "The Honorable Laura Gillen",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Laura Gillen",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-G000602-Amdt-075.pdf"
+    },
+    {
+      "description": "The Honorable Suhas Subramanyam",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Suhas Subramanyam",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001230-Amdt-112.pdf"
+    },
+    {
+      "description": "The Honorable Gabe Amo",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Gabe Amo",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-A000380-Amdt-072.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001224-Amdt-161.pdf"
+    },
+    {
+      "description": "The Honorable Valerie P. Foushee",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-F000477-Amdt-055.pdf"
+    },
+    {
+      "description": "The Honorable Pat Harrigan",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Pat Harrigan",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-H001101-Amdt-055.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-S001224-Amdt-159.pdf"
+    },
+    {
+      "description": "The Honorable Christian D. Menefee",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Christian D. Menefee",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-M001245-Amdt-006.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-W000830-Amdt-048.pdf"
+    },
+    {
+      "description": "The Honorable Jay Obernolte",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Jay Obernolte",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-O000019-Amdt-063.pdf"
+    },
+    {
+      "description": "The Honorable Daniel Webster",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Daniel Webster",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-W000806-Amdt-036.pdf"
+    },
+    {
+      "description": "The Honorable Matt Van Epps",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Matt Van Epps",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-V000139-Amdt-008.pdf"
+    },
+    {
+      "description": "The Honorable Jay Obernolte",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Jay Obernolte",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-O000019-Amdt-064.pdf"
+    },
+    {
+      "description": "The Honorable Valerie P. Foushee",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119-HR8462-F000477-Amdt-054.pdf"
+    },
+    {
+      "description": "Markup Results",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Markup Results",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-20260429-SD002.pdf"
+    },
+    {
+      "description": "The Honorable Zoe Lofgren",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-MState-L000397-20260429.pdf"
+    },
+    {
+      "description": "The Honorable Brian Babin",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/119183/documents/HMKP-119-SY00-MState-B001291-20260429.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": "H.R. 8462",
+    "url": "https://www.congress.gov/119/meeting/house/119183/documents/BILLS-119HR8462ih.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "8462",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/8462?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:25:07Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119183__MTG-119-HOUSE-119183-1-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/119183"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119183__MTG-119-HOUSE-119183-1-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

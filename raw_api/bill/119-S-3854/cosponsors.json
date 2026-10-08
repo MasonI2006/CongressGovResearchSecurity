@@ -1,0 +1,27 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "B001243",
+      "firstName": "Marsha",
+      "fullName": "Sen. Blackburn, Marsha [R-TN]",
+      "isOriginalCosponsor": true,
+      "lastName": "Blackburn",
+      "party": "R",
+      "sponsorshipDate": "2026-02-12",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/B001243?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "3854",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3854?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-10T19:53:39Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-09-02T16:03:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:03:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Natural Resources Committee",
+      "systemCode": "hsii00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "5089",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/5089?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

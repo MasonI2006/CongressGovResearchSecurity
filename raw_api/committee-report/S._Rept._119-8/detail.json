@@ -1,0 +1,36 @@
+{
+  "committeeReports": [
+    {
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-8",
+      "committees": [
+        {
+          "name": "Homeland Security and Governmental Affairs Committee",
+          "systemCode": "ssga00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-03-31T04:00:00Z",
+      "number": 8,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/8/text?format=json"
+      },
+      "title": "ACTIVITIES OF THE COMMITTEE ON HOMELAND SECURITY AND GOVERNMENTAL AFFAIRS",
+      "type": "SRPT",
+      "updateDate": "2025-05-27T14:12:56Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "8",
+    "reportType": "srpt"
+  }
+}

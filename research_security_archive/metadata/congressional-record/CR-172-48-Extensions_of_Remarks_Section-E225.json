@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-172-48-Extensions of Remarks Section-E225",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/172/48",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/03/17/172/48/CREC-2026-03-17-pt1-PgE225-3.pdf",
+  "retrieved_at": "2026-10-02T08:54:12Z",
+  "http_status": 200,
+  "pdf_sha256": "7b9d8302fc0465cfceae60655fce9d0f69055c0cfb7b225adb95b0497984d9ad",
+  "pdf_bytes": 282233,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-172-48-Extensions_of_Remarks_Section-E225/issue.json",
+  "title": "SMALL BUSINESS INNOVATION AND ECONOMIC SECURITY ACT; Congressional Record Vol. 172, No. 48",
+  "update_date": "2026-03-18T16:03:25Z",
+  "document_type": "CREC-daily",
+  "document_number": "V172I48",
+  "document_identifier": "CREC-119-V172-I48-Extensions_of_Remarks_Section-7",
+  "text_version": null,
+  "volumeNumber": 172,
+  "issueNumber": "48",
+  "issueDate": "2026-03-17T04:00:00Z",
+  "sessionNumber": 2,
+  "section": "Extensions of Remarks Section",
+  "articleTitle": "SMALL BUSINESS INNOVATION AND ECONOMIC SECURITY ACT; Congressional Record Vol. 172, No. 48",
+  "startPage": "E225",
+  "endPage": "E225",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:54:12Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-48-Extensions_of_Remarks_Section-E225/issue.json",
+      "endpoint": "daily-congressional-record/172/48"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:54:00Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-172-48-Extensions_of_Remarks_Section-E225/articles.json",
+      "endpoint": "daily-congressional-record/172/48/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-172-48-Extensions_of_Remarks_Section-E225.json",
+  "known_limitations": []
+}

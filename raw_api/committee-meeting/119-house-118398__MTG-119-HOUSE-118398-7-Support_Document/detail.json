@@ -1,0 +1,186 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Small Business",
+        "systemCode": "hssm00",
+        "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-06-24T14:00:00Z",
+    "eventId": "118398",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 60853,
+        "url": "https://api.congress.gov/v3/hearing/119/house/60853?format=json"
+      }
+    ],
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2360"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Williams-REELEMENT TECHNOLOGIES-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD009.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Public Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD001.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Public Memo",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD002.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Williams-ROBERT ANDERSON-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD006.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Williams-ALLIANCE FOR MINERAL SECURITY-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD007.pdf"
+      },
+      {
+        "documentType": "Hearing: Member Roster",
+        "format": "PDF",
+        "name": "Attendance",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-MbrRoster.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Velazquez-ECOLOGICAL ECONOMICS-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD003.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Velazquez-NSF-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD004.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "UC-Velazquez-OUTDOOR ALLIANCE-Letter for the Record",
+        "url": "https://www.congress.gov/119/meeting/house/118398/documents/HHRG-119-SM00-20250624-SD005.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "\"Securing America's Mineral Future: Unlocking the Economic Value Beneath Our Feet\"",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T07:25:51Z",
+    "videos": [
+      {
+        "name": "Securing America's Mineral Future: Unlocking the Economic Value Beneath Our Feet",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118398"
+      },
+      {
+        "name": "Securing America's Mineral Future: Unlocking the Economic Value Beneath Our Feet",
+        "url": "https://www.youtube.com/watch?v=vaPFV_vrn9o"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-KayeH-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-KayeH-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-KayeH-20250624-U2.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-MushinskiK-20250624-U3.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-MushinskiK-20250624-U2.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-MushinskiK-20250624-U1.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-StoyL-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-StoyL-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-StoyL-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Bio-DowdA-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-TTF-DowdA-20250624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118398/witnesses/HHRG-119-SM00-Wstate-DowdA-20250624.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. Aaron Dowd",
+        "organization": "Rare Earth Salts",
+        "position": "Chief Executive Officer"
+      },
+      {
+        "name": "Mr. Harvey Kaye",
+        "organization": "U.S. Critical Materials",
+        "position": "Executive Director"
+      },
+      {
+        "name": "Mr. Ken Mushinski",
+        "organization": "Rare Element Resources",
+        "position": "President and Chief Executive Officer"
+      },
+      {
+        "name": "Dr. Laura Stoy",
+        "organization": "Rivalia Chemical Co.",
+        "position": "Founder and Chief Executive Officer"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118398",
+    "format": "json"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-17T18:37:48Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-07-30T14:00:08Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-05T16:53:32Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "854",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/854?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

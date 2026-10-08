@@ -1,0 +1,28 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-24T17:44:39Z",
+          "name": "Reported Original Measure"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Agriculture, Nutrition, and Forestry Committee",
+      "systemCode": "ssaf00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssaf00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "5526",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/5526?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

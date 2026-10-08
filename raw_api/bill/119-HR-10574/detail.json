@@ -1,0 +1,67 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 152 (Thursday, September 24, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. LOFGREN:\nH.R. 10574.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8.\n[Page H6005]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/cosponsors?format=json"
+    },
+    "introducedDate": "2026-09-24",
+    "latestAction": {
+      "actionDate": "2026-09-24",
+      "text": "Referred to the House Committee on Science, Space, and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10574",
+    "number": "10574",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Energy"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000397",
+        "district": 18,
+        "firstName": "Zoe",
+        "fullName": "Rep. Lofgren, Zoe [D-CA-18]",
+        "isByRequest": "N",
+        "lastName": "Lofgren",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/L000397?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/text?format=json"
+    },
+    "title": "American Leadership in Fusion Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10574/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-10-01T20:09:14Z",
+    "updateDateIncludingText": "2026-10-01T20:09:14Z"
+  },
+  "request": {
+    "billNumber": "10574",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

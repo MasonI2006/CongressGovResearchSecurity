@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 331,
+    "next": "https://api.congress.gov/v3/bill/119/s/1071/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Accounting and auditing",
+        "updateDate": "2026-07-28T15:53:24Z"
+      },
+      {
+        "name": "Administrative law and regulatory procedures",
+        "updateDate": "2026-07-28T15:47:56Z"
+      },
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-07-08T16:35:37Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-07-28T17:29:54Z"
+      },
+      {
+        "name": "Afghanistan",
+        "updateDate": "2026-07-28T16:55:06Z"
+      },
+      {
+        "name": "Africa",
+        "updateDate": "2026-07-28T17:51:45Z"
+      },
+      {
+        "name": "Air quality",
+        "updateDate": "2026-07-28T17:46:00Z"
+      },
+      {
+        "name": "Alabama",
+        "updateDate": "2026-07-28T15:42:51Z"
+      },
+      {
+        "name": "Alaska",
+        "updateDate": "2026-07-28T17:14:07Z"
+      },
+      {
+        "name": "Alaska Natives and Hawaiians",
+        "updateDate": "2026-07-28T18:52:19Z"
+      },
+      {
+        "name": "Albania",
+        "updateDate": "2026-07-28T19:06:47Z"
+      },
+      {
+        "name": "Alliances",
+        "updateDate": "2026-07-28T16:57:43Z"
+      },
+      {
+        "name": "Alternative treatments",
+        "updateDate": "2026-07-28T15:50:47Z"
+      },
+      {
+        "name": "Animal protection and human-animal relationships",
+        "updateDate": "2026-07-28T15:40:23Z"
+      },
+      {
+        "name": "Appropriations",
+        "updateDate": "2026-07-28T17:39:37Z"
+      },
+      {
+        "name": "Arctic and polar regions",
+        "updateDate": "2026-07-28T17:51:11Z"
+      },
+      {
+        "name": "Arizona",
+        "updateDate": "2026-07-28T16:54:43Z"
+      },
+      {
+        "name": "Arkansas",
+        "updateDate": "2026-07-28T17:28:57Z"
+      },
+      {
+        "name": "Armed Forces Retirement Home",
+        "updateDate": "2026-07-28T17:04:31Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Armed Forces and National Security",
+      "updateDate": "2025-05-12T14:50:04Z"
+    }
+  }
+}

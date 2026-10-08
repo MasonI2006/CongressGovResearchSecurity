@@ -1,0 +1,108 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Appropriations",
+        "systemCode": "hsap00",
+        "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-07-17T14:00:00Z",
+    "eventId": "118505",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2359"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Interim Suballocation of the Budget Allocations – Updated Report",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD004.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Transportation, Housing and Urban Development, and Related Agencies – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD005.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Energy and Water Development and Related Agencies – Report",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD003.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Transportation, Housing and Urban Development, and Related Agencies – Report",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD002.PDF"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY26 Transportation, Housing and Urban Development, and Related Agencies – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/BILLS-119-FC-AP-FY2026-AP00-FY26THUDFullCommitteeMark.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY26 Energy and Water Development and Related Agencies – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/BILLS-119-FC-AP-FY2026-AP00-FY26EnergyWaterFullCommitteeMark.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice of FY26 Full Committee Markup – Transportation, Housing and Urban Development, and Related Agencies Bill, Energy and Water Development and Related Agencies Bill, Updated Interim Subcommittee Allocations",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD001.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Energy and Water Development and Related Agencies – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD006.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Transportation, Housing and Urban Development, and Related Agencies – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD007.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Energy and Water Development and Related Agencies – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD008.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 Updated Interim Suballocation of the Budget Allocations – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/118505/documents/HMKP-119-AP00-20250717-SD009.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Fiscal Year 2026 Transportation, Housing and Urban Development, and Related Agencies Bill, Fiscal Year 2026 Energy and Water Development and Related Agencies Bill, and Updated Interim Subcommittee Allocations",
+    "type": "Markup",
+    "updateDate": "2026-01-02T07:39:41Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup of FY26 THUD and Energy & Water Bills, Updated Subcommittee Allocations",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118505"
+      },
+      {
+        "name": "Full Committee Markup of FY26 THUD and Energy & Water Bills, Updated Subcommittee Allocations",
+        "url": "https://www.youtube.com/watch?v=Pn9S6-Cyi7Y"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118505",
+    "format": "json"
+  }
+}

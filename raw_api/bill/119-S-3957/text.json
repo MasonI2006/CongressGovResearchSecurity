@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "3957",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3957?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-03-02T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

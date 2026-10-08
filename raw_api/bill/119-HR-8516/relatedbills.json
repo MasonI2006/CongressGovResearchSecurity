@@ -1,0 +1,168 @@
+{
+  "pagination": {
+    "count": 9
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-09",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 3809,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AI Grand Challenges Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3809?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-25",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0."
+      },
+      "number": 2385,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "CREATE AI Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-15",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 3460,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AI Whistleblower Protection Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3460?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-09",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 7434,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AI Grand Challenges Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7434?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-19",
+        "text": "Committee on Health, Education, Labor, and Pensions. Hearings held."
+      },
+      "number": 1269,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Promoting United States Leadership in Standards Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1269?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-15",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1792,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "AI Whistleblower Protection Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1792?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-04",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 3707,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "NSF and USDA Interagency Research Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 3679,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Small Business Artificial Intelligence Advancement Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3679?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-21",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote."
+      },
+      "number": 9326,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "USA Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9326?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "8516",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/8516?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

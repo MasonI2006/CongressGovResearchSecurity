@@ -1,0 +1,73 @@
+{
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the Senate Committee on Foreign Relations on October 22, 2025",
+        "pubDate": "2025-10-28T20:18:00Z",
+        "title": "S. 1000, a bill to establish an Ambassador-at-Large for Arctic Affairs",
+        "url": "https://www.cbo.gov/publication/61843"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 10,
+      "countIncludingWithdrawnCosponsors": 10,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-12",
+    "latestAction": {
+      "actionDate": "2025-10-30",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 231."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1000",
+    "number": "1000",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "International Affairs"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001153",
+        "firstName": "Lisa",
+        "fullName": "Sen. Murkowski, Lisa [R-AK]",
+        "isByRequest": "N",
+        "lastName": "Murkowski",
+        "party": "R",
+        "state": "AK",
+        "url": "https://api.congress.gov/v3/member/M001153?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 17,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/text?format=json"
+    },
+    "title": "A bill to establish an Ambassador-at-Large for Arctic Affairs.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1000/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-12-17T17:24:24Z",
+    "updateDateIncludingText": "2025-12-17T17:24:24Z"
+  },
+  "request": {
+    "billNumber": "1000",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

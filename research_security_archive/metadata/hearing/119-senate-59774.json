@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-59774",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/59774",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg59774/CHRG-119shrg59774.pdf",
+  "retrieved_at": "2026-10-02T04:23:22Z",
+  "http_status": 200,
+  "pdf_sha256": "f8c6c0de6b5f49bb8b0e6d38a5eb3d411cc6057fd95b6090b24fdfd053b5c66d",
+  "pdf_bytes": 21228875,
+  "pdf_page_count": 109,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-59774/detail.json",
+  "title": "THE MALIGN INFLUENCE OF THE PEOPLE'S REPUBLIC OF CHINA AT HOME AND ABROAD: RECOMMENDATIONS FOR POLICY MAKERS",
+  "update_date": "2025-10-09T03:36:29Z",
+  "document_type": "HRG",
+  "document_number": 59774,
+  "document_identifier": "HRG-119-SENATE-59774",
+  "text_version": null,
+  "jacketNumber": 59774,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-33",
+  "dates": [
+    {
+      "date": "2025-01-30"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Foreign Relations Committee",
+      "systemCode": "ssfr00",
+      "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC74116",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg59774/generated/CHRG-119shrg59774.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg59774/CHRG-119shrg59774.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:23:22Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-59774/detail.json",
+      "endpoint": "hearing/119/senate/59774"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-59774.json",
+  "known_limitations": []
+}

@@ -1,0 +1,60 @@
+{
+  "stable_id": "S. Rept. 119-8",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/srpt/8",
+  "pdf_url": "https://www.congress.gov/119/crpt/srpt8/CRPT-119srpt8.pdf",
+  "retrieved_at": "2026-10-02T03:29:37Z",
+  "http_status": 200,
+  "pdf_sha256": "6061f34ed7c6272bd86298506c33f7ef9c461aea957b4e9ced170f14cb13b800",
+  "pdf_bytes": 531613,
+  "pdf_page_count": 131,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/S._Rept._119-8/detail.json",
+  "title": "ACTIVITIES OF THE COMMITTEE ON HOMELAND SECURITY AND GOVERNMENTAL AFFAIRS",
+  "update_date": "2025-05-27T14:12:56Z",
+  "document_type": "SRPT",
+  "document_number": "8-1",
+  "document_identifier": "RPT-119-SRPT-8-1",
+  "text_version": null,
+  "citation": "S. Rept. 119-8",
+  "type": "SRPT",
+  "number": 8,
+  "part": 1,
+  "chamber": "Senate",
+  "issueDate": "2025-03-31T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [],
+  "reportType": "S.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:29:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-8/detail.json",
+      "endpoint": "committee-report/119/srpt/8"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:29:38Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-8/text.json",
+      "endpoint": "committee-report/119/srpt/8/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/S._Rept._119-8.json",
+  "known_limitations": []
+}

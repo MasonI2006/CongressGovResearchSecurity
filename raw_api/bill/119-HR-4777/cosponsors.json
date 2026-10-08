@@ -1,0 +1,28 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "M001215",
+      "district": 1,
+      "firstName": "Mariannette",
+      "fullName": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Miller-Meeks",
+      "party": "R",
+      "sponsorshipDate": "2025-08-15",
+      "state": "IA",
+      "url": "https://api.congress.gov/v3/member/M001215?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "4777",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/4777?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-213-Daily Digest-D1291",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/213",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/12/17/171/213/CREC-2025-12-17-pt1-PgD1291.pdf",
+  "retrieved_at": "2026-10-02T09:11:03Z",
+  "http_status": 200,
+  "pdf_sha256": "a2b0025dca6b5e3de9121036272bf41b34d77e3dd8a12de1f578f08c3e6e18e5",
+  "pdf_bytes": 158601,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-213-Daily_Digest-D1291/issue.json",
+  "title": "Daily Digest/COMMITTEE MEETINGS FOR 2025-12-18; Congressional Record Vol. 171, No. 213",
+  "update_date": "2025-12-18T20:35:52Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I213",
+  "document_identifier": "CREC-119-V171-I213-Daily_Digest-1",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "213",
+  "issueDate": "2025-12-17T05:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/COMMITTEE MEETINGS FOR 2025-12-18; Congressional Record Vol. 171, No. 213",
+  "startPage": "D1291",
+  "endPage": "D1291",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:11:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-213-Daily_Digest-D1291/issue.json",
+      "endpoint": "daily-congressional-record/171/213"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:11:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-213-Daily_Digest-D1291/articles.json",
+      "endpoint": "daily-congressional-record/171/213/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-213-Daily_Digest-D1291.json",
+  "known_limitations": []
+}

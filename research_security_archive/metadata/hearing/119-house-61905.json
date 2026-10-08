@@ -1,0 +1,70 @@
+{
+  "stable_id": "119-house-61905",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/house/61905",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119hhrg61905/CHRG-119hhrg61905.pdf",
+  "retrieved_at": "2026-10-02T03:51:37Z",
+  "http_status": 200,
+  "pdf_sha256": "8de058decb89ddcef92765d7da7a3783dc81121734b8f92a3c170ff5b4902075",
+  "pdf_bytes": 76588638,
+  "pdf_page_count": 371,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-house-61905/detail.json",
+  "title": "Departments of Labor, Health and Human Services, Education, and Related Agencies Appropriations for 2026",
+  "update_date": "2026-06-12T02:21:54Z",
+  "document_type": "HRG",
+  "document_number": 61905,
+  "document_identifier": "HRG-119-HOUSE-61905",
+  "text_version": null,
+  "jacketNumber": 61905,
+  "chamber": "House",
+  "citation": "H.Hrg.119 Part 3",
+  "dates": [
+    {
+      "date": "2025-05-14"
+    },
+    {
+      "date": "2025-05-15"
+    },
+    {
+      "date": "2025-05-21"
+    }
+  ],
+  "committees": [
+    {
+      "name": "House Appropriations Committee",
+      "systemCode": "hsap00",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75335",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg61905/generated/CHRG-119hhrg61905.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg61905/CHRG-119hhrg61905.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:51:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-house-61905/detail.json",
+      "endpoint": "hearing/119/house/61905"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-house-61905.json",
+  "known_limitations": []
+}

@@ -1,0 +1,358 @@
+{
+  "stable_id": "119-house-118342__MTG-119-HOUSE-118342-28-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118342",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD016-U16.pdf",
+  "retrieved_at": "2026-10-02T07:10:27Z",
+  "http_status": 200,
+  "pdf_sha256": "5f13f8499f56486ea2bdc5d88193e4c546b7f6054e47c7f40dcb6c7ec4b5cc39",
+  "pdf_bytes": 1478488,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118342__MTG-119-HOUSE-118342-28-Support_Document/detail.json",
+  "title": "“The Elite Universities Cartel: A History of Anticompetitive Collusion Inflating the Cost of Higher Education”",
+  "update_date": "2026-01-02T07:15:09Z",
+  "document_type": "Support Document",
+  "document_number": "118342",
+  "document_identifier": "MTG-119-HOUSE-118342-28-Support_Document",
+  "text_version": null,
+  "eventId": "118342",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-06-04T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Judiciary Subcommittee on Administrative State, Regulatory Reform, and Antitrust",
+      "systemCode": "hsju05",
+      "url": "https://api.congress.gov/v3/committee/house/hsju05?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2141"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Document number 753-18 filed in the case of Henry v. Brown University on December 16, 2024, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD029-U29.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Plaintiffs’ memorandum of law in support of their motion for class certification in the case of Corzo v. Brown, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD026-U26.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A press release from the Department of Justice, titled “Consent Decree Settles Charge of Conspiracy to Restrain Price Competition on Financial Aid Against Major Universities.”, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD027-U27.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article by Sahaj Sharda, titled “How to Crush the Ivy League Cartel.”, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD028-U28.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A graphic titled \"Benefitting Society and the Economy: Academic Technology Transfer for 2023\", submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD030-U30.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from American Enterprise Institute titled “America’s R&D Rethink Threatens Its Innovation Supremacy” dated April 1, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD007-U7.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from The New York Times titled “These Are the U.S. Universities Most Dependent on International Students” dated May 23, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD013-U13.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from the Wall Street Journal titled “Harvard Has Trained So Many Chinese Communist Officials, They Call It Their ‘Party School’” dated June 1, 2025, submitted for the Record by Mr. Baumgartner of WA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD001-U1.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Bellwether titled “Declining Enrollment is Leading to School Closures. How Can Districts Limit the Harm to Their Most Vulnerable Students?” dated October 5, 2023, submitted for the Record by Mr. Nadler of NY.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD005-U5.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from The New York Times titled “Losing International Students Could Devastate Many Colleges” dated April 19, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD012-U12.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from The New York Times titled “U.S. Scientists Warn That Trump’s Cuts Will Set Off a Brain Drain” dated June 3, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD011-U11.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from The New York Times titled “China Really Wants to Attract Talented Scientists. Trump Just Helped.” dated June 4, 2025, submitted for the Record by Mr. Nadler of NY.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD002-U2.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Orange County Register titled “Trump is crushing America’s AI leadership. We still have time to fix it.” Dated April 23, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD015-U15.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from American Immigration Council titled “New American Fortune 500 in 2024” dated September 9, 2024., submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD017-U17.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A press release from the Rubio Campaign titled “Rubio Campaign Press Release – Trump University is an Absolute Scam. Get the Facts About Pending Litigation.” Dated March 4, 2016, submitted for the Record by Mr. Raskin of MD.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD019-U19.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A graphic from AUTM titled “Driving the Innovation Economy: Academic Technology Transfer in Numbers”, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD008-U8.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A document from Biotechnology Innovation Organization (BIO) and AUTM titled “Economic Contributions of University/Nonprofit Inventions in the United States: 1996-2020, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD009-U9.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from New America titled “The House Reconciliation Bill Makes College Less Affordable – All to Pay for Tax Cuts for Millionaires and Billionaires”, submitted for the Record by Mr. Nadler of NY.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD004-U4.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Hechinger Report titled “The number of 18-year-olds is about to drop sharply, packing a wallop for colleges – and the economy” dated January 8, 2025, submitted for the Record by Mr. Nadler of NY.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD003-U3.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from The New York Times titled “JD Vance Wanted to ‘Aggressively Attack’ American Universities. His Wish Has Been Trump’s Command” dated June 3, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD014-U14.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from American Progress titled “Congressional Republicans’ Proposed Budget Reconciliation Bill Imperils 4.4 Million Pell Grant Recipients” dated May 13, 2025, submitted for the Record by Mr. Raskin of MD.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD018-U18.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from USA Today titled “Trump University settlement finalized by judge at $25 million” dated April 10, 2018, submitted for the Record by Ms. Balint of VT.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD021-U21.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from ABC News titled “Judge finalizes $25 million settlement for ‘victims of Donald Trump’s fraudulent university’” dated April 9, 2018, submitted for the Record by Ms. Balint of VT.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD020-U20.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Chicago Booth Review titled “Who’s at Fault for Student-Loan Defaults?” dated May 13, 2019, submitted for the Record by Mr. Nadler of NY.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD006-U6.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Ivy Coach, titled “Ivy League Tuition and Fees for 2024–2025,” comparing tuition rates among the eight Ivy Leage school, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD022-U22.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from Ivy Coach, titled “Ivy League Admission Statistics,” comparing the acceptance rates among the eight Ivy League schools, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD023-U23.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A Washington Post article, titled “Students Overpaid Elite Colleges $685 Million, ‘Price-fixing’ Suit Says.”, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD024-U24.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A press release from Berger Montague, titled “Plaintiffs in Elite University Price-Fixing Case Settle with Caltech and John Hopkins.”, submitted for the Record by Mr. Fitzgerald of WI.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD025-U25.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "A document titled “Costs of Federally Sponsored Research”, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD016-U16.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "An article from American Enterprise Institute titled “Federal R&D Cuts Would Be Another (Massive) Unforced Policy Error” dated April 18, 2025, submitted for the Record by Mr. Correa of CA.",
+      "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD010-U10.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Preston Cooper",
+      "organization": "American Enterprise Institute",
+      "position": "Senior Fellow"
+    },
+    {
+      "name": "Mr. Alex Shieh",
+      "organization": "Class of 2027",
+      "position": "Brown University"
+    },
+    {
+      "name": "Mr. Scott Martin",
+      "organization": "Hausfeld LLP",
+      "position": "Partner"
+    },
+    {
+      "name": "Ms. Julie Margetta Morgan",
+      "organization": "The Century Foundation",
+      "position": "President"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Bio-CooperP-20250604-U1.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Wstate-CooperP-20250604-U2.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-TTF-CooperP-20250604-U3.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Bio-ShiehA-20250604-U7.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Wstate-ShiehA-20250604-U8.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-TTF-ShiehA-20250604-U9.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Bio-MartinS-20250604-U4.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Wstate-MartinS-20250604-U5.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-TTF-MartinS-20250604-U6.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Bio-MargettaMorganJ-20250604-U10.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-Wstate-MargettaMorganJ-20250604-U11.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118342/witnesses/HHRG-119-JU05-TTF-MargettaMorganJ-20250604-U12.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "A document titled “Costs of Federally Sponsored Research”, submitted for the Record by Mr. Correa of CA.",
+    "url": "https://www.congress.gov/119/meeting/house/118342/documents/HHRG-119-JU05-20250604-SD016-U16.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Preston Cooper",
+      "party": null,
+      "state": "American Enterprise Institute",
+      "position": "Senior Fellow"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Alex Shieh",
+      "party": null,
+      "state": "Class of 2027",
+      "position": "Brown University"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Scott Martin",
+      "party": null,
+      "state": "Hausfeld LLP",
+      "position": "Partner"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Julie Margetta Morgan",
+      "party": null,
+      "state": "The Century Foundation",
+      "position": "President"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:10:27Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118342__MTG-119-HOUSE-118342-28-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/118342"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118342__MTG-119-HOUSE-118342-28-Support_Document.json",
+  "known_limitations": []
+}

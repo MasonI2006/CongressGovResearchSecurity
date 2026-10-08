@@ -1,0 +1,71 @@
+{
+  "bill": {
+    "actions": {
+      "count": 20,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/actions?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/cosponsors?format=json"
+    },
+    "introducedDate": "2026-03-03",
+    "latestAction": {
+      "actionDate": "2026-04-13",
+      "text": "Became Public Law No: 119-83."
+    },
+    "laws": [
+      {
+        "number": "119-83",
+        "type": "Public Law"
+      }
+    ],
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3971",
+    "number": "3971",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "E000295",
+        "firstName": "Joni",
+        "fullName": "Sen. Ernst, Joni [R-IA]",
+        "isByRequest": "N",
+        "lastName": "Ernst",
+        "party": "R",
+        "state": "IA",
+        "url": "https://api.congress.gov/v3/member/E000295?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/subjects?format=json"
+    },
+    "summaries": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/text?format=json"
+    },
+    "title": "Small Business Innovation and Economic Security Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/3971/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-07-30T16:27:39Z",
+    "updateDateIncludingText": "2026-07-30T16:27:39Z"
+  },
+  "request": {
+    "billNumber": "3971",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

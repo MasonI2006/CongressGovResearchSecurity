@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "8800",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-698",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-06-15T04:00:00Z",
+      "number": 698,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/698/text?format=json"
+      },
+      "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2027",
+      "type": "HRPT",
+      "updateDate": "2026-07-30T16:27:34Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "698",
+    "reportType": "hrpt"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "682",
+          "type": "HRES",
+          "url": "https://api.congress.gov/v3/bill/119/hres/682?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-255",
+      "committees": [
+        {
+          "name": "Rules Committee",
+          "systemCode": "hsru00",
+          "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-09-09T04:00:00Z",
+      "number": 255,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/255/text?format=json"
+      },
+      "title": "PROVIDING FOR CONSIDERATION OF THE BILL (H.R. 3838) TO AUTHORIZE APPROPRIATIONS FOR FISCAL YEAR 2026 FOR MILITARY ACTIVITIES OF THE DEPARTMENT OF DEFENSE, FOR MILITARY CONSTRUCTION, AND FOR DEFENSE ACTIVITIES OF THE DEPARTMENT OF ENERGY, TO PRESCRIBE MILITARY PERSONNEL STRENGTHS FOR SUCH FISCAL YEAR, AND FOR OTHER PURPOSES, AND PROVIDING FOR CONSIDERATION OF THE BILL (H.R. 3486) TO AMEND THE IMMIGRATION AND NATIONALITY ACT TO INCREASE PENALTIES FOR INDIVIDUALS WHO ILLEGALLY ENTER AND REENTER THE UNITED STATES AFTER BEING REMOVED, AND FOR OTHER PURPOSES",
+      "type": "HRPT",
+      "updateDate": "2026-02-11T17:27:33Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "255",
+    "reportType": "hrpt"
+  }
+}

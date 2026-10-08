@@ -1,0 +1,148 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+        "systemCode": "hssy21",
+        "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-06-24T14:00:00Z",
+    "eventId": "119390",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-20260624-SD001.pdf"
+      },
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-MState-B001291-20260624.pdf"
+      },
+      {
+        "description": "The Honorable Richard McCormick",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Richard McCormick",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-MState-M001218-20260624.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-MState-L000397-20260624.pdf"
+      },
+      {
+        "description": "The Honorable Emilia Strong Sykes",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Emilia Strong Sykes",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-MState-S001223-20260624.pdf"
+      },
+      {
+        "description": "Hearing Charter",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Charter",
+        "url": "https://www.congress.gov/119/meeting/house/119390/documents/HHRG-119-SY21-20260624-SD002.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Safeguarding Federal Research Funds: The False Claims Act's Role in Combating Grant Fraud",
+    "type": "Hearing",
+    "updateDate": "2026-06-24T21:43:02Z",
+    "videos": [
+      {
+        "name": "“Safeguarding Federal Research Funds: The False Claims Act's Role in Combating Grant Fraud\"",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119390"
+      },
+      {
+        "name": "“Safeguarding Federal Research Funds: The False Claims Act's Role in Combating Grant Fraud\"",
+        "url": "https://www.youtube.com/watch?v=3f4CKiIAzGM"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-TTF-SteinauR-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Bio-SpringmannJ-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Bio-JennyB-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Wstate-SteinauR-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Bio-SteinauR-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Wstate-SpringmannJ-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Bio-SpringmannJ-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Wstate-JennyB-20260624.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119390/witnesses/HHRG-119-SY21-Bio-JennyB-20260624.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Ms. Brenna Jenny",
+        "organization": "U.S. Department of Justice",
+        "position": "Deputy Assistant Attorney General for Commercial Litigation Branch"
+      },
+      {
+        "name": "Mr. Robert Steinau",
+        "organization": "National Aeronautics and Space Administration Office of Inspector General",
+        "position": "Senior Official Performing the Duties of Inspector General"
+      },
+      {
+        "name": "Ms. Jennifer Springmann",
+        "organization": "U.S. National Science Foundation, Office of Inspector General",
+        "position": "Special Agent in Charge"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119390",
+    "format": "json"
+  }
+}

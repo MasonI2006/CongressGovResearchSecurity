@@ -1,0 +1,84 @@
+{
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the Senate Committee on Commerce, Science, and Transportation on February 12, 2026",
+        "pubDate": "2026-07-08T19:29:00Z",
+        "title": "S. 3468, National Programmable Cloud Laboratories Network Act of 2025",
+        "url": "https://www.cbo.gov/publication/62560"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "S. Rept. 119-129",
+        "url": "https://api.congress.gov/v3/committee-report/119/SRPT/129?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/cosponsors?format=json"
+    },
+    "introducedDate": "2025-12-11",
+    "latestAction": {
+      "actionDate": "2026-07-13",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 451."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3468",
+    "number": "3468",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "F000479",
+        "firstName": "John",
+        "fullName": "Sen. Fetterman, John [D-PA]",
+        "isByRequest": "N",
+        "lastName": "Fetterman",
+        "middleName": "K.",
+        "party": "D",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/F000479?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/text?format=json"
+    },
+    "title": "National Programmable Cloud Laboratories Network Act of 2025",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/3468/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T20:05:32Z",
+    "updateDateIncludingText": "2026-09-16T16:27:22Z"
+  },
+  "request": {
+    "billNumber": "3468",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

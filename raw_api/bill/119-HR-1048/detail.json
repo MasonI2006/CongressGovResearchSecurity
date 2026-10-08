@@ -1,0 +1,93 @@
+{
+  "bill": {
+    "actions": {
+      "count": 37,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/actions?format=json"
+    },
+    "amendments": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Education and Workforce on February 12, 2025",
+        "pubDate": "2025-03-10T18:01:00Z",
+        "title": "H.R. 1048, DETERRENT Act",
+        "url": "https://www.cbo.gov/publication/61244"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-16",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/16?format=json"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 25 (Thursday, February 6, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. BAUMGARTNER:\nH.R. 1048.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\n[Page H556]\n</pre>",
+    "cosponsors": {
+      "count": 21,
+      "countIncludingWithdrawnCosponsors": 21,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/cosponsors?format=json"
+    },
+    "introducedDate": "2025-02-06",
+    "latestAction": {
+      "actionDate": "2025-03-31",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1048",
+    "number": "1048",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Education"
+    },
+    "relatedBills": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001322",
+        "district": 5,
+        "firstName": "Michael",
+        "fullName": "Rep. Baumgartner, Michael [R-WA-5]",
+        "isByRequest": "N",
+        "lastName": "Baumgartner",
+        "party": "R",
+        "state": "WA",
+        "url": "https://api.congress.gov/v3/member/B001322?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/text?format=json"
+    },
+    "title": "DETERRENT Act",
+    "titles": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-07-10T17:08:29Z",
+    "updateDateIncludingText": "2026-07-13T19:41:43Z"
+  },
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

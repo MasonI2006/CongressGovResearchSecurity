@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "477",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/477?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-02-14T12:41:15Z"
+    }
+  }
+}

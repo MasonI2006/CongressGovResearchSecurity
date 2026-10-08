@@ -1,0 +1,71 @@
+{
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 36 (Tuesday, February 24, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. BONAMICI:\nH.R. 7656.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the U.S. Constitution.\n[Page H2296]\n</pre>",
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/cosponsors?format=json"
+    },
+    "introducedDate": "2026-02-24",
+    "latestAction": {
+      "actionDate": "2026-02-24",
+      "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7656",
+    "number": "7656",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Public Lands and Natural Resources"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001278",
+        "district": 1,
+        "firstName": "Suzanne",
+        "fullName": "Rep. Bonamici, Suzanne [D-OR-1]",
+        "isByRequest": "N",
+        "lastName": "Bonamici",
+        "party": "D",
+        "state": "OR",
+        "url": "https://api.congress.gov/v3/member/B001278?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/text?format=json"
+    },
+    "title": "ReSCUE Oceans Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/7656/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-03-17T18:59:19Z",
+    "updateDateIncludingText": "2026-03-17T18:59:19Z"
+  },
+  "request": {
+    "billNumber": "7656",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

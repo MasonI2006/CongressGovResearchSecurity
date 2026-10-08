@@ -1,0 +1,83 @@
+{
+  "pagination": {
+    "count": 4
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-03",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 5122,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "NASA Talent Exchange Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-29",
+        "text": "Ordered to be Reported by Voice Vote."
+      },
+      "number": 2313,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Celestial Time Standardization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-10-29",
+        "text": "Star Print ordered on report 119-82."
+      },
+      "number": 582,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Astronaut Ground Travel Support Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/582?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+      },
+      "number": 2600,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ASCEND Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "933",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/933?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

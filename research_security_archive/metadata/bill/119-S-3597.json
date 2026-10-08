@@ -1,0 +1,361 @@
+{
+  "stable_id": "119-S-3597",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3597",
+  "pdf_url": "https://www.congress.gov/119/bills/s3597/BILLS-119s3597is.pdf",
+  "retrieved_at": "2026-10-01T23:16:02Z",
+  "http_status": 200,
+  "pdf_sha256": "9ea767b289b89877f8dbf14c998274f479a550cc57223d3966e951ce032833c6",
+  "pdf_bytes": 394588,
+  "pdf_page_count": 99,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3597/detail.json",
+  "title": "National Quantum Initiative Reauthorization Act of 2026",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3597",
+  "document_identifier": "BILL-119-S-3597-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-01-08T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3597",
+  "originChamber": "Senate",
+  "introducedDate": "2026-01-08",
+  "latestAction": {
+    "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+    "date": "2026-04-14"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 19,
+  "cosponsorBioguideIds": [
+    "C000127",
+    "D000618",
+    "D000563",
+    "B001243",
+    "L000570",
+    "B001305",
+    "B001230",
+    "R000605",
+    "S000148",
+    "F000479",
+    "M001243",
+    "K000394",
+    "S001232",
+    "W000437",
+    "D000622",
+    "M001242",
+    "H000273",
+    "C001114",
+    "S001150"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Atmospheric science and weather",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Congressional committees",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Elementary and secondary education",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Government lending and loan guarantees",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Infrastructure development",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "International organizations and cooperation",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "International scientific cooperation",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Retail and wholesale trades",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Science and engineering education",
+      "updateDate": "2026-07-21T18:36:21Z"
+    },
+    {
+      "name": "Student aid and college costs",
+      "updateDate": "2026-07-21T18:36:22Z"
+    },
+    {
+      "name": "Technology assessment",
+      "updateDate": "2026-07-21T18:36:21Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-14T14:00:12Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-01-08T15:44:03Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-01-08T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:10:00Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C000127",
+      "name": "Sen. Cantwell, Maria [D-WA]",
+      "party": "D",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000618",
+      "name": "Sen. Daines, Steve [R-MT]",
+      "party": "R",
+      "state": "MT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000563",
+      "name": "Sen. Durbin, Richard J. [D-IL]",
+      "party": "D",
+      "state": "IL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "party": "R",
+      "state": "TN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000570",
+      "name": "Sen. Luján, Ben Ray [D-NM]",
+      "party": "D",
+      "state": "NM"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001230",
+      "name": "Sen. Baldwin, Tammy [D-WI]",
+      "party": "D",
+      "state": "WI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000605",
+      "name": "Sen. Rounds, Mike [R-SD]",
+      "party": "R",
+      "state": "SD"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S000148",
+      "name": "Sen. Schumer, Charles E. [D-NY]",
+      "party": "D",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000479",
+      "name": "Sen. Fetterman, John [D-PA]",
+      "party": "D",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001243",
+      "name": "Sen. McCormick, David [R-PA]",
+      "party": "R",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000394",
+      "name": "Sen. Kim, Andy [D-NJ]",
+      "party": "D",
+      "state": "NJ"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001232",
+      "name": "Sen. Sheehy, Tim [R-MT]",
+      "party": "R",
+      "state": "MT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000437",
+      "name": "Sen. Wicker, Roger F. [R-MS]",
+      "party": "R",
+      "state": "MS"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000622",
+      "name": "Sen. Duckworth, Tammy [D-IL]",
+      "party": "D",
+      "state": "IL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001242",
+      "name": "Sen. Moreno, Bernie [R-OH]",
+      "party": "R",
+      "state": "OH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H000273",
+      "name": "Sen. Hickenlooper, John W. [D-CO]",
+      "party": "D",
+      "state": "CO"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001114",
+      "name": "Sen. Curtis, John R. [R-UT]",
+      "party": "R",
+      "state": "UT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001150",
+      "name": "Sen. Schiff, Adam B. [D-CA]",
+      "party": "D",
+      "state": "CA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:02Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/detail.json",
+      "endpoint": "bill/119/s/3597"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/text.json",
+      "endpoint": "bill/119/s/3597/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/cosponsors.json",
+      "endpoint": "bill/119/s/3597/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:04Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/committees.json",
+      "endpoint": "bill/119/s/3597/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:04Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/relatedbills.json",
+      "endpoint": "bill/119/s/3597/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:16:05Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3597/subjects.json",
+      "endpoint": "bill/119/s/3597/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3597.json",
+  "known_limitations": []
+}

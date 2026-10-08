@@ -1,0 +1,47 @@
+{
+  "hearing": {
+    "chamber": "House",
+    "citation": "H.Hrg.119 Part 3",
+    "committees": [
+      {
+        "name": "House Appropriations Committee",
+        "systemCode": "hsap00",
+        "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-05-14"
+      },
+      {
+        "date": "2025-05-15"
+      },
+      {
+        "date": "2025-05-21"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg61905/generated/CHRG-119hhrg61905.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg61905/CHRG-119hhrg61905.pdf"
+      }
+    ],
+    "jacketNumber": 61905,
+    "libraryOfCongressIdentifier": "LC75335",
+    "part": 3,
+    "title": "Departments of Labor, Health and Human Services, Education, and Related Agencies Appropriations for 2026",
+    "updateDate": "2026-06-12T02:21:54Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "61905"
+  }
+}

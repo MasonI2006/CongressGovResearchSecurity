@@ -1,0 +1,29 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "amendmentNumber": "3150",
+    "amendmentType": "samdt",
+    "amendmentUrl": "https://api.congress.gov/v3/amendment/119/samdt/3150?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-07-30T04:00:00Z",
+      "formats": [
+        {
+          "type": "HTML",
+          "url": "https://www.congress.gov/119/crec/2025/07/30/171/131/modified/CREC-2025-07-30-pt1-PgS4925-2.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2025/07/30/171/131/CREC-2025-07-30-pt1-PgS4925-2.pdf"
+        }
+      ],
+      "type": "Submitted"
+    }
+  ]
+}

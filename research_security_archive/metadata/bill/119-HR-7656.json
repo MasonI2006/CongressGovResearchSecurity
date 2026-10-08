@@ -1,0 +1,197 @@
+{
+  "stable_id": "119-HR-7656",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/7656",
+  "pdf_url": "https://www.congress.gov/119/bills/hr7656/BILLS-119hr7656ih.pdf",
+  "retrieved_at": "2026-10-01T23:35:11Z",
+  "http_status": 200,
+  "pdf_sha256": "9d54e0185157b265890a74df483d2097c4d26fddf0339a349c5ae1673fea0d52",
+  "pdf_bytes": 320679,
+  "pdf_page_count": 51,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-7656/detail.json",
+  "title": "ReSCUE Oceans Act",
+  "update_date": "2026-03-17T18:59:19Z",
+  "document_type": "HR",
+  "document_number": "7656",
+  "document_identifier": "BILL-119-HR-7656-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-02-24T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "7656",
+  "originChamber": "House",
+  "introducedDate": "2026-02-24",
+  "latestAction": {
+    "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "date": "2026-02-24"
+  },
+  "policyArea": {
+    "name": "Public Lands and Natural Resources"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "party": "D",
+      "state": "OR"
+    }
+  ],
+  "cosponsorCount": 2,
+  "cosponsorBioguideIds": [
+    "C001103",
+    "T000469"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-24T15:01:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Natural Resources Committee",
+      "systemCode": "hsii00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-02-24T15:01:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-02-24T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-25",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 3910,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "ReSCUE Oceans Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3910?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-03-17T18:59:19Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "party": "D",
+      "state": "OR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000469",
+      "name": "Rep. Tonko, Paul [D-NY-20]",
+      "party": "D",
+      "state": "NY"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-3910",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-25",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        },
+        "number": 3910,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Identical bill"
+          }
+        ],
+        "title": "ReSCUE Oceans Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/3910?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:11Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/detail.json",
+      "endpoint": "bill/119/hr/7656"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/text.json",
+      "endpoint": "bill/119/hr/7656/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:12Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/cosponsors.json",
+      "endpoint": "bill/119/hr/7656/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:12Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/committees.json",
+      "endpoint": "bill/119/hr/7656/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:13Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/relatedbills.json",
+      "endpoint": "bill/119/hr/7656/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:35:14Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7656/subjects.json",
+      "endpoint": "bill/119/hr/7656/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-7656.json",
+  "known_limitations": []
+}

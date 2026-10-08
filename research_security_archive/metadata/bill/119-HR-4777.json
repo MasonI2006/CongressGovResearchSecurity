@@ -1,0 +1,149 @@
+{
+  "stable_id": "119-HR-4777",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/4777",
+  "pdf_url": "https://www.congress.gov/119/bills/hr4777/BILLS-119hr4777ih.pdf",
+  "retrieved_at": "2026-10-01T22:01:10Z",
+  "http_status": 200,
+  "pdf_sha256": "2e97684e9473543c4701e08f98d69191806ea83e2330bca303a74bc914598b1a",
+  "pdf_bytes": 334749,
+  "pdf_page_count": 63,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-4777/detail.json",
+  "title": "INNOVATE Act",
+  "update_date": "2025-09-16T15:56:10Z",
+  "document_type": "HR",
+  "document_number": "4777",
+  "document_identifier": "BILL-119-HR-4777-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-07-25T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "4777",
+  "originChamber": "House",
+  "introducedDate": "2025-07-25",
+  "latestAction": {
+    "text": "Referred to the Committee on Small Business, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "date": "2025-07-25"
+  },
+  "policyArea": {
+    "name": "Commerce"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "W000816",
+      "name": "Rep. Williams, Roger [R-TX-25]",
+      "party": "R",
+      "state": "TX"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "M001215"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-07-25T15:00:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-07-25T15:00:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Small Business Committee",
+      "systemCode": "hssm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-07-25T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2025-09-16T15:56:10Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "W000816",
+      "name": "Rep. Williams, Roger [R-TX-25]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001215",
+      "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+      "party": "R",
+      "state": "IA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:10Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/detail.json",
+      "endpoint": "bill/119/hr/4777"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:09Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/text.json",
+      "endpoint": "bill/119/hr/4777/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:11Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/cosponsors.json",
+      "endpoint": "bill/119/hr/4777/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:12Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/committees.json",
+      "endpoint": "bill/119/hr/4777/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:12Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/relatedbills.json",
+      "endpoint": "bill/119/hr/4777/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:01:13Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-4777/subjects.json",
+      "endpoint": "bill/119/hr/4777/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-4777.json",
+  "known_limitations": []
+}

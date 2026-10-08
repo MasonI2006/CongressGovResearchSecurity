@@ -1,0 +1,183 @@
+{
+  "stable_id": "119-house-117977__MTG-119-HOUSE-117977-3-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117977",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD001.pdf",
+  "retrieved_at": "2026-10-02T07:44:41Z",
+  "http_status": 200,
+  "pdf_sha256": "752edf238e508b8d74fd18437cf0df473e71e0644e7a7040e3ccfee05080057f",
+  "pdf_bytes": 274013,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117977__MTG-119-HOUSE-117977-3-Support_Document/detail.json",
+  "title": "Assessing the Threat to U.S. Funded Research",
+  "update_date": "2026-01-02T05:55:37Z",
+  "document_type": "Support Document",
+  "document_number": "117977",
+  "document_identifier": "MTG-119-HOUSE-117977-3-Support_Document",
+  "text_version": null,
+  "eventId": "117977",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-03-05T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+      "systemCode": "hssy21",
+      "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+    }
+  ],
+  "location": null,
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD002.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-L000397-20250305.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-B001291-20250305.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD001.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Emilia S. Sykes",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-S001223-20250305.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Rich McCormick",
+      "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-M001218-20250305.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. John Sargent",
+      "organization": "Congressional Research Service",
+      "position": "Retired, Specialist in Science and Technology Policy"
+    },
+    {
+      "name": "Mr. Jeffrey Stoff",
+      "organization": "Center for Research Security",
+      "position": "President"
+    },
+    {
+      "name": "Dr. Maria Zuber",
+      "organization": "MIT",
+      "position": "E.A. Griswold Professor of Geophysics and Presidential Advisor for Science and Technology Policy"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-SargentJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-ZuberM-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-StoffJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-SargentJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-StoffJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-ZuberM-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-SargentJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-StoffJ-20250305.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-ZuberM-20250305.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "Notice",
+    "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD001.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. John Sargent",
+      "party": null,
+      "state": "Congressional Research Service",
+      "position": "Retired, Specialist in Science and Technology Policy"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Jeffrey Stoff",
+      "party": null,
+      "state": "Center for Research Security",
+      "position": "President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Maria Zuber",
+      "party": null,
+      "state": "MIT",
+      "position": "E.A. Griswold Professor of Geophysics and Presidential Advisor for Science and Technology Policy"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:44:41Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117977__MTG-119-HOUSE-117977-3-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/117977"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117977__MTG-119-HOUSE-117977-3-Support_Document.json",
+  "known_limitations": []
+}

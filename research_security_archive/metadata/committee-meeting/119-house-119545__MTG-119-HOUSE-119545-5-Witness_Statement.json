@@ -1,0 +1,192 @@
+{
+  "stable_id": "119-house-119545__MTG-119-HOUSE-119545-5-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119545",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-JohnsonM-20260915.pdf",
+  "retrieved_at": "2026-10-01T18:48:03Z",
+  "http_status": 200,
+  "pdf_sha256": "420367fe56f40799ba915161915a8c13a60b164972f5fb753e4f46d2b17af6a5",
+  "pdf_bytes": 580809,
+  "pdf_page_count": 21,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119545__MTG-119-HOUSE-119545-5-Witness_Statement/detail.json",
+  "title": "Trojan Horses: Covert Foreign Malign Influence Operations in America",
+  "update_date": "2026-09-15T22:34:41Z",
+  "document_type": "Witness Statement",
+  "document_number": "119545",
+  "document_identifier": "MTG-119-HOUSE-119545-5-Witness_Statement",
+  "text_version": null,
+  "eventId": "119545",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-09-15T18:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Foreign Affairs South and Central Asia Subcommittee",
+      "systemCode": "hsfa19",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa19?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2172"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "Hearing Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119545/documents/HHRG-119-FA19-20260915-SD001-U1.pdf"
+    },
+    {
+      "description": "Member Attendance",
+      "documentType": "Hearing: Member Roster",
+      "format": "PDF",
+      "name": "Member Attendance",
+      "url": "https://www.congress.gov/119/meeting/house/119545/documents/HHRG-119-FA19-20260915-MbrRoster.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Matthew Johnson",
+      "organization": "The Jamestown Foundation",
+      "position": "Senior Fellow"
+    },
+    {
+      "name": "Mr. Sam Lyman",
+      "organization": "Bitcoin Policy Institute",
+      "position": "Head of Research"
+    },
+    {
+      "name": "Mr. Donald Sherman",
+      "organization": "Citizens for Responsibility and Ethics in Washington",
+      "position": "President and Chief Executive Officer"
+    },
+    {
+      "name": "Mr. Mike Gonzalez",
+      "organization": "The Heritage Foundation",
+      "position": "Angeles T. Arredondo E Pluribus Unum Senior Fellow"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-GonzalezM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-GonzalezM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-JohnsonM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-JohnsonM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-JohnsonM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-LymanS-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-LymanS-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-LymanS-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-GonzalezM-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-ShermanD-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-ShermanD-20260915.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-ShermanD-20260915.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-JohnsonM-20260915.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Matthew Johnson",
+      "party": null,
+      "state": "The Jamestown Foundation",
+      "position": "Senior Fellow"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Sam Lyman",
+      "party": null,
+      "state": "Bitcoin Policy Institute",
+      "position": "Head of Research"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Donald Sherman",
+      "party": null,
+      "state": "Citizens for Responsibility and Ethics in Washington",
+      "position": "President and Chief Executive Officer"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Mike Gonzalez",
+      "party": null,
+      "state": "The Heritage Foundation",
+      "position": "Angeles T. Arredondo E Pluribus Unum Senior Fellow"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:48:03Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119545__MTG-119-HOUSE-119545-5-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/119545"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119545__MTG-119-HOUSE-119545-5-Witness_Statement.json",
+  "known_limitations": []
+}

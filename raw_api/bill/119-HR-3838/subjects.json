@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 248,
+    "next": "https://api.congress.gov/v3/bill/119/hr/3838/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "3838",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/3838?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Accounting and auditing",
+        "updateDate": "2025-09-12T18:56:40Z"
+      },
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-07-18T18:21:57Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2025-07-18T18:21:41Z"
+      },
+      {
+        "name": "Alabama",
+        "updateDate": "2025-09-12T19:00:45Z"
+      },
+      {
+        "name": "Alaska",
+        "updateDate": "2025-09-12T19:09:06Z"
+      },
+      {
+        "name": "Alliances",
+        "updateDate": "2025-09-12T18:58:52Z"
+      },
+      {
+        "name": "Animal protection and human-animal relationships",
+        "updateDate": "2025-09-12T18:52:18Z"
+      },
+      {
+        "name": "Appropriations",
+        "updateDate": "2025-09-12T18:49:15Z"
+      },
+      {
+        "name": "Arab-Israeli relations",
+        "updateDate": "2025-09-12T18:58:16Z"
+      },
+      {
+        "name": "Architecture",
+        "updateDate": "2025-09-12T19:02:22Z"
+      },
+      {
+        "name": "Arizona",
+        "updateDate": "2025-09-12T19:01:18Z"
+      },
+      {
+        "name": "Arkansas",
+        "updateDate": "2025-09-12T18:51:18Z"
+      },
+      {
+        "name": "Armed Forces Retirement Home",
+        "updateDate": "2025-09-12T18:59:47Z"
+      },
+      {
+        "name": "Art, artists, authorship",
+        "updateDate": "2025-09-12T19:03:51Z"
+      },
+      {
+        "name": "Asia",
+        "updateDate": "2025-09-12T18:53:26Z"
+      },
+      {
+        "name": "Assault and harassment offenses",
+        "updateDate": "2025-09-12T18:53:17Z"
+      },
+      {
+        "name": "Atmospheric science and weather",
+        "updateDate": "2025-09-12T18:51:08Z"
+      },
+      {
+        "name": "Australia",
+        "updateDate": "2025-09-12T19:03:06Z"
+      },
+      {
+        "name": "Aviation and airports",
+        "updateDate": "2025-09-05T11:47:28Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Armed Forces and National Security",
+      "updateDate": "2025-07-16T15:16:36Z"
+    }
+  }
+}

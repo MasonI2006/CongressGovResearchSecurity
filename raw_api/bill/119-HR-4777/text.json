@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4777",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/4777?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-07-25T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr4777/BILLS-119hr4777ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr4777/BILLS-119hr4777ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr4777/BILLS-119hr4777ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

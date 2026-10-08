@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "45",
+    "reportType": "srpt"
+  },
+  "text": [
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/crpt/srpt45/generated/CRPT-119srpt45.htm"
+        }
+      ]
+    },
+    {
+      "formats": [
+        {
+          "isErrata": "N",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crpt/srpt45/CRPT-119srpt45.pdf"
+        }
+      ]
+    }
+  ]
+}

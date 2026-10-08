@@ -1,0 +1,400 @@
+{
+  "pagination": {
+    "count": 114,
+    "next": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=20&limit=20&format=json"
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3541,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to increase competition in Defense contracting, and for other purposes.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3541?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6631,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Establishing Cyber Security Educational Programs at Academic Institutions Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6631?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-18",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 2133,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to repeal the Caesar Syria Civilian Protection Act of 2019.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2133?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-09",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6514,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Protecting Animals in Military Training Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6514?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5987,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Total Force Family Education Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5987?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-06",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 1898,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Military Helicopter Training Safety Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1898?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-18",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "number": 3558,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Guard Protective Zone Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3558?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-16",
+        "text": "Committee on Energy and Natural Resources. Hearings held."
+      },
+      "number": 2644,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Camden National Battlefield Park Study Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2644?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-19",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": 6910,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "United States International Development Corporation Chief Development Officer Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6910?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-16",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6759,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require the Secretary of Defense to establish a pilot program for emerging technologies for moisture control and mitigation in covered housing, to standardize certain mold remediation guidelines, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6759?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-16",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5400,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To amend title 10, United States Code, to require the Secretary of Defense to annually review the amount of financial assistance for child care and youth program services providers provided by the Secretary.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5400?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-08",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": 3388,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "SERVE Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3388?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6557,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "The Center for Strategic Deterrence and Weapons of Mass Destruction Studies Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6557?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-17",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "number": 2959,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Hudson River Protection Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2959?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": 5131,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Public Lands Military Readiness Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5131?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-09",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 1988,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to prohibit the participation of males in athletic programs or activities at the military service academies that are designated for women or girls.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1988?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-24",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 30 - 0."
+      },
+      "number": 7448,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Modernizing and Improving the National Terrorism Advisory System Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7448?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6584,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Cyber Talent Development and Recruitment Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6584?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-02",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "number": 6410,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Atlantic Coast Shipping Safety Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6410?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6664,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To establish a Biotechnology Management Office in the Department of Defense and to provide support for the research and development of bioindustrial manufacturing processes, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6664?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

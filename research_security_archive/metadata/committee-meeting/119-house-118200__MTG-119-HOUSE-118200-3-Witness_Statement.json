@@ -1,0 +1,134 @@
+{
+  "stable_id": "119-house-118200__MTG-119-HOUSE-118200-3-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118200",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-MazolJ-20250506.pdf",
+  "retrieved_at": "2026-10-02T07:22:54Z",
+  "http_status": 200,
+  "pdf_sha256": "02156b6b960de18bcfebfc2972ec41f575bba35653554ad76b5bf5c249e79afc",
+  "pdf_bytes": 206641,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118200__MTG-119-HOUSE-118200-3-Witness_Statement/detail.json",
+  "title": "Science, Technology, and Innovation Posture",
+  "update_date": "2026-01-02T06:43:24Z",
+  "document_type": "Witness Statement",
+  "document_number": "118200",
+  "document_identifier": "MTG-119-HOUSE-118200-3-Witness_Statement",
+  "text_version": null,
+  "eventId": "118200",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-05-06T19:30:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Armed Services Subcommittee on Cyber, Information Technologies, and Innovation",
+      "systemCode": "hsas35",
+      "url": "https://api.congress.gov/v3/committee/house/hsas35?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2212"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [],
+  "witnesses": [
+    {
+      "name": "Mr. Doug Beck",
+      "organization": "Defense Innovation Unit",
+      "position": "Director"
+    },
+    {
+      "name": "Mr. George Rumford",
+      "organization": "Test Resource Management Center",
+      "position": "Director"
+    },
+    {
+      "name": "Mr. James Mazol",
+      "organization": "Office of the Secretary of Defense",
+      "position": "Performing the Duties of the Under Secretary of Defense for Research and Engineering and Chief Technology Officer"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-MazolJ-20250506.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-BeckD-20250506.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-BeckD-20250506.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-MazolJ-20250506.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-RumfordG-20250506.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Bio-RumfordG-20250506.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/118200/witnesses/HHRG-119-AS35-Wstate-MazolJ-20250506.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Doug Beck",
+      "party": null,
+      "state": "Defense Innovation Unit",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. George Rumford",
+      "party": null,
+      "state": "Test Resource Management Center",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. James Mazol",
+      "party": null,
+      "state": "Office of the Secretary of Defense",
+      "position": "Performing the Duties of the Under Secretary of Defense for Research and Engineering and Chief Technology Officer"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:22:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118200__MTG-119-HOUSE-118200-3-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/118200"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118200__MTG-119-HOUSE-118200-3-Witness_Statement.json",
+  "known_limitations": []
+}

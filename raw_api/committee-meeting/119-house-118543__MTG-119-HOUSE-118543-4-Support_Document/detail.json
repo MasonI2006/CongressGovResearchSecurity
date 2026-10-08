@@ -1,0 +1,72 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Appropriations",
+        "systemCode": "hsap00",
+        "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-07-23T14:00:00Z",
+    "eventId": "118543",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2359"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "FY26 National Security, Department of State, and Related Programs – Full Committee Mark",
+        "url": "https://www.congress.gov/119/meeting/house/118543/documents/BILLS-119-SC-AP-FY2026-AP00-FY26NSRPFullCommitteeMark.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 National Security, Department of State, and Related Programs – Roll Call Votes",
+        "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD004.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 National Security, Department of State, and Related Programs – Amendments",
+        "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD003.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice of FY26 Full Committee Markup – National Security, Department of State, and Related Programs Bill",
+        "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD001.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "FY26 National Security, Department of State, and Related Programs – Report",
+        "url": "https://www.congress.gov/119/meeting/house/118543/documents/HMKP-119-AP00-20250723-SD002.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Fiscal Year 2026 National Security, Department of State, and Related Programs Bill",
+    "type": "Markup",
+    "updateDate": "2026-01-02T07:46:22Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup of FY26 National Security, Department of State, and Related Programs Bill",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118543"
+      },
+      {
+        "name": "Full Committee Markup of FY26 National Security, Department of State, and Related Programs Bill",
+        "url": "https://www.youtube.com/watch?v=lQnpl1K8dVY"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118543",
+    "format": "json"
+  }
+}

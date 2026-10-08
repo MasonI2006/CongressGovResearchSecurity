@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4441",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4441?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2026-05-18T20:14:25Z"
+    }
+  }
+}

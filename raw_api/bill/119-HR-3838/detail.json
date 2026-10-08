@@ -1,0 +1,93 @@
+{
+  "bill": {
+    "actions": {
+      "count": 82,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/actions?format=json"
+    },
+    "amendments": {
+      "count": 26,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Armed Services on July 15, 2025",
+        "pubDate": "2025-08-13T12:34:00Z",
+        "title": "H.R. 3838, Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+        "url": "https://www.cbo.gov/publication/61655"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-231",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/231?format=json"
+      }
+    ],
+    "committees": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 98 (Monday, June 9, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. ROGERS of Alabama:\nH.R. 3838.\nCongress has the power to enact this legislation pursuant\nto the following:\nClause 12, clause 13, and clause 14 of section 8 of article\nI of the Constitution.\n[Page H2569]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/cosponsors?format=json"
+    },
+    "introducedDate": "2025-06-09",
+    "latestAction": {
+      "actionDate": "2025-09-30",
+      "text": "Received in the Senate."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3838",
+    "number": "3838",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 29,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "R000575",
+        "district": 3,
+        "firstName": "Mike",
+        "fullName": "Rep. Rogers, Mike D. [R-AL-3]",
+        "isByRequest": "N",
+        "lastName": "Rogers",
+        "party": "R",
+        "state": "AL",
+        "url": "https://api.congress.gov/v3/member/R000575?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 248,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/text?format=json"
+    },
+    "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "titles": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3838/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T19:31:27Z",
+    "updateDateIncludingText": "2026-09-08T19:31:27Z"
+  },
+  "request": {
+    "billNumber": "3838",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

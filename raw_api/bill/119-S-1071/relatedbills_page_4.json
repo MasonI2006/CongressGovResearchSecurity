@@ -1,0 +1,416 @@
+{
+  "pagination": {
+    "count": 114,
+    "next": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=100&limit=20&format=json",
+    "prev": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=60&limit=20&format=json"
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-18",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 100."
+      },
+      "number": 1900,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Taiwan Non-Discrimination Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1900?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-16",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 2307,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Sound Insulation Treatment Repair and Replacement Program Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2307?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": 5131,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Public Lands Military Readiness Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5131?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-09",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 1988,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to prohibit the participation of males in athletic programs or activities at the military service academies that are designated for women or girls.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1988?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-18",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 2133,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to repeal the Caesar Syria Civilian Protection Act of 2019.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2133?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "number": 4383,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Sound Insulation Treatment Repair and Replacement Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4383?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-16",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5400,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To amend title 10, United States Code, to require the Secretary of Defense to annually review the amount of financial assistance for child care and youth program services providers provided by the Secretary.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5400?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-18",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5466,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "GUARD Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5466?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": 5962,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To authorize the Department of Justice and the Department of State to provide law enforcement and intelligence technical assistance, training, capacity building, and advisory support to the Government of Ukraine to achieve the exchange of prisoners of war, the release of civilian detainees, and the return of forcibly transferred Ukrainian children, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5962?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5987,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Total Force Family Education Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5987?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-10",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6009,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Defense Biotechnology Strategy Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6009?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-01",
+        "text": "Read twice and referred to the Select Committee on Intelligence."
+      },
+      "number": 3291,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Enhanced COVID-19 Transparency Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3291?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-01",
+        "text": "Read twice and referred to the Select Committee on Intelligence."
+      },
+      "number": 3288,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to require the Director of National Intelligence to develop a strategy on intelligence coordination and sharing relating to critical and emerging technologies.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3288?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-02",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "number": 6410,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Atlantic Coast Shipping Safety Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6410?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3163,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to require the Secretary of Defense to seek to engage appropriate officials of Taiwan in a joint program with Taiwan to enable the fielding of uncrewed systems and counter-uncrewed systems capabilities.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3163?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-04",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "number": 6456,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6456?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-09",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6514,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Protecting Animals in Military Training Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6514?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-08",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": 3388,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "SERVE Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3388?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-09",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6510,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "National Military Civilian Medical Surge Program Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6510?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

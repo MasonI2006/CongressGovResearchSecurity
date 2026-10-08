@@ -1,0 +1,2213 @@
+{
+  "stable_id": "119-HR-8800",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/8800",
+  "pdf_url": "https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800eh.pdf",
+  "retrieved_at": "2026-10-02T00:14:17Z",
+  "http_status": 200,
+  "pdf_sha256": "fb6cf578e5df8501c16b3096e7c450fb57c3a2dd9e9add403b9651d6c9e4ea93",
+  "pdf_bytes": 3340455,
+  "pdf_page_count": 2586,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-8800/detail.json",
+  "title": "National Defense Authorization Act for Fiscal Year 2027",
+  "update_date": "2026-09-22T21:00:15Z",
+  "document_type": "HR",
+  "document_number": "8800",
+  "document_identifier": "BILL-119-HR-8800-Engrossed_in_House",
+  "text_version": {
+    "type": "Engrossed in House",
+    "date": "2026-07-22T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "8800",
+  "originChamber": "House",
+  "introducedDate": "2026-05-13",
+  "latestAction": {
+    "text": "Received in the Senate.",
+    "date": "2026-09-14"
+  },
+  "policyArea": {
+    "name": "Armed Forces and National Security"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "R000575",
+      "name": "Rep. Rogers, Mike D. [R-AL-3]",
+      "party": "R",
+      "state": "AL"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "S000510"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-08-31T16:43:19Z"
+    },
+    {
+      "name": "Appropriations",
+      "updateDate": "2026-08-31T16:14:19Z"
+    },
+    {
+      "name": "Arms control and nonproliferation",
+      "updateDate": "2026-08-31T17:00:12Z"
+    },
+    {
+      "name": "Aviation and airports",
+      "updateDate": "2026-08-31T16:24:40Z"
+    },
+    {
+      "name": "Building construction",
+      "updateDate": "2026-08-31T17:05:21Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-08-31T16:43:35Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-08-31T16:35:43Z"
+    },
+    {
+      "name": "Data collection, sharing, protection",
+      "updateDate": "2026-08-31T16:59:37Z"
+    },
+    {
+      "name": "Department of Defense",
+      "updateDate": "2026-08-31T16:14:10Z"
+    },
+    {
+      "name": "Europe",
+      "updateDate": "2026-08-31T16:35:27Z"
+    },
+    {
+      "name": "Government buildings, facilities, and property",
+      "updateDate": "2026-08-31T17:05:28Z"
+    },
+    {
+      "name": "Intelligence activities, surveillance, classified information",
+      "updateDate": "2026-08-31T16:32:03Z"
+    },
+    {
+      "name": "Israel",
+      "updateDate": "2026-08-31T16:32:26Z"
+    },
+    {
+      "name": "Middle East",
+      "updateDate": "2026-08-31T16:35:33Z"
+    },
+    {
+      "name": "Military assistance, sales, and agreements",
+      "updateDate": "2026-08-31T16:24:53Z"
+    },
+    {
+      "name": "Military civil functions",
+      "updateDate": "2026-08-31T16:24:58Z"
+    },
+    {
+      "name": "Military command and structure",
+      "updateDate": "2026-08-31T16:25:25Z"
+    },
+    {
+      "name": "Military medicine",
+      "updateDate": "2026-08-31T16:25:36Z"
+    },
+    {
+      "name": "Military personnel and dependents",
+      "updateDate": "2026-08-31T16:24:07Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Intelligence (Permanent Select) Committee",
+      "systemCode": "hlig00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Veterans' Affairs Committee",
+      "systemCode": "hsvr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Ways and Means Committee",
+      "systemCode": "hswm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Small Business Committee",
+      "systemCode": "hssm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Natural Resources Committee",
+      "systemCode": "hsii00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Transportation and Infrastructure Committee",
+      "systemCode": "hspw00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "name": "Bills of Interest - Exchange of Letters"
+        }
+      ],
+      "chamber": "House",
+      "name": "Budget Committee",
+      "systemCode": "hsbu00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-07-22T20:32:13Z",
+          "name": "Unknown"
+        },
+        {
+          "date": "2026-07-22T20:25:41Z",
+          "name": "Unknown"
+        },
+        {
+          "date": "2026-06-15T14:33:00Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2026-06-04T23:00:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-05-13T14:02:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Engrossed in House",
+    "date": "2026-07-22T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-20",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10130,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Army Quantum Readiness Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10130?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-31",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10189,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense AI Reliability and Reporting Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10189?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10483,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Bone Marrow Radiation Shielding Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10483?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10479,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Quantum Benchmark Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10479?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10482,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Dashboard for MILCON Projects Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10482?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10484,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Covered AI Prohibition Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10484?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 10480,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Medal of Honor Access and Liaison Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10480?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-04",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9153,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend the National Defense Authorization Act for Fiscal Year 2025 to exempt certain military installations from guidance regarding the maintenance of the aggregate square footage of facilities of the Department of Defense.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9153?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-27",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4276)"
+      },
+      "number": 4784,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-26",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9024,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Harry Lew and Danny Chen Military Justice Reform Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9024?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-04",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": 872,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/872?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 2035,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "American Cargo for American Ships Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2035?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-26",
+        "text": "Forwarded by Subcommittee to Full Committee by Voice Vote."
+      },
+      "number": 2164,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Dayton National Cemetery Expansion Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2164?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-29",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 3640,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Oath of Exit Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3640?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-26",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 4189,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Secretary of the Navy to recognize certain aspects of the National Navy UDT-SEAL Museum in Fort Pierce, Florida, as a national memorial, national memorial garden, and national K9 memorial, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4189?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-08-22",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5025,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Restoring Merit in the Military Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5025?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-02",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 7745,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To establish certain requirements relating to wellness checks for the health and welfare of certain members of the Armed Forces, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7745?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-13",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "number": 7924,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Trucking Security and CCP Disclosure Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7924?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-12",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4077,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Trucking Security and CCP Disclosure Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4077?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-20",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 8384,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To provide for the conveyance of certain property to the Utah National Guard located in Lehi, Utah, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8384?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5176,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Industry Pricing Transparency Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5176?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5208,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend title 37, United States Code, to exclude the basic allowance for housing from the calculation of gross household income for purposes of the basic needs allowance for eligible members of the Armed Forces.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5208?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6797,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Bipartisan IVF for Military Families Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6797?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-04",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 7350,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Fishing Vessel Financing Improvement Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7350?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-02",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9091,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Industrial Base Advanced Manufacturing Enhancement Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9091?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-26",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9027,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Military and Veterans Fuel Discount Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9027?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-29",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9082,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Honesty and Trust in Service Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9082?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-14",
+        "text": "Ordered to be Reported (Amended) by Voice Vote."
+      },
+      "number": 6444,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Blast Overpressure Research and Mitigation Task Force Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6444?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-22",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4375,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "RETAIN Act of 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4375?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-03",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6383,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Brandon Act Training and Protocol Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6383?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-04",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 40 - 1."
+      },
+      "number": 7274,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Federal Acquisition Security Council Improvement Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7274?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-01",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 2557,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "IVF for Military Families Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2557?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-10",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 2259,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Protecting Military Bases from Connected Vehicles of Concern Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2259?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-14",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 4381,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Secretary of Defense to establish a pilot program regarding treating pregnancy as a qualifying event for enrollment in TRICARE Select.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4381?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-26",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5586,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "TRICARE Transition Transparency Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5586?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-13",
+        "actionTime": "17:23:12",
+        "text": "VACATING PROCEEDINGS - Mr. Steil asked unanimous consent that the ordering of a recorded vote on the question of reconsideration of the vote on adoption on H. Res. 1398 be vacated to the end that the motion to reconsider be laid on the table. Agreed to without objection."
+      },
+      "number": 1398,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1398?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9241,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "No Equipment Left Behind Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9241?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-23",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9909,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Small Unmanned Aircraft Systems Operational Test, Evaluation, and Training Corridor Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9909?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-29",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9046,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "COVID-19 Military Mandate Transparency Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9046?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-25",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9465,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Combat Pay Protection Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9465?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-29",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9534,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Wildfire Response Modernization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9534?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-22",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9863,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Director of the Defense Health Agency to submit to Congress a report on the feasibility of establishing a pilot program that establishes a behavioral neurology fellowship program to provide training opportunities with respect to treating members of the Armed Forces and veterans with traumatic brain injuries.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9863?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-06",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 5348,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Depot Data Transparency Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/5348?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-21",
+        "actionTime": "14:40:00",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": 1438,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the concurrent resolution (H. Con. Res. 113) establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036; providing for consideration of the bill (H.R. 7008) to amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes; providing for consideration of the bill (H.R. 6955) to make improvements to the Federal banking laws, and for other purposes; providing for consideration of the bill (H.R. 9770) making continuing appropriations for fiscal year 2027, and for other purposes; and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1438?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-26",
+        "text": "Considered by Senate (Message from the House considered). (consideration: CR S1647)"
+      },
+      "number": 1383,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Veterans Accessibility Advisory Committee Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1383?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-08-20",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 10126,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DEMAND Act of 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10126?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-20",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 9794,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Secretary of Defense to establish the Senator Robert J. Dole Greatest Generation Education Program.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9794?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-22T21:00:15Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "R000575",
+      "name": "Rep. Rogers, Mike D. [R-AL-3]",
+      "party": "R",
+      "state": "AL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S000510",
+      "name": "Rep. Smith, Adam [D-WA-9]",
+      "party": "D",
+      "state": "WA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10130",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-08-20",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10130,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Army Quantum Readiness Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10130?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10189",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-08-31",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10189,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Defense AI Reliability and Reporting Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10189?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10483",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-09-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10483,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Bone Marrow Radiation Shielding Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10483?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10479",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-09-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10479,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Quantum Benchmark Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10479?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10482",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-09-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10482,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Dashboard for MILCON Projects Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10482?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10484",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-09-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10484,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Covered AI Prohibition Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10484?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10480",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-09-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 10480,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Medal of Honor Access and Liaison Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10480?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9153",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-04",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9153,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To amend the National Defense Authorization Act for Fiscal Year 2025 to exempt certain military installations from guidance regarding the maintenance of the aggregate square footage of facilities of the Department of Defense.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9153?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-4784",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-27",
+          "text": "Motion to proceed to consideration of measure made in Senate. (CR S4276)"
+        },
+        "number": 4784,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          },
+          {
+            "identifiedBy": "House",
+            "type": "Related bill"
+          }
+        ],
+        "title": "National Defense Authorization Act for Fiscal Year 2027",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9024",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-26",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9024,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Harry Lew and Danny Chen Military Justice Reform Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9024?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-872",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-04",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+        },
+        "number": 872,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/872?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2035",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-06-10",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        },
+        "number": 2035,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "American Cargo for American Ships Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2035?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2164",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-03-26",
+          "text": "Forwarded by Subcommittee to Full Committee by Voice Vote."
+        },
+        "number": 2164,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Dayton National Cemetery Expansion Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2164?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-3640",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-05-29",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 3640,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Oath of Exit Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/3640?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-4189",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-06-26",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 4189,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To direct the Secretary of the Navy to recognize certain aspects of the National Navy UDT-SEAL Museum in Fort Pierce, Florida, as a national memorial, national memorial garden, and national K9 memorial, and for other purposes.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/4189?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5025",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-08-22",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 5025,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Restoring Merit in the Military Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5025?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7745",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-03-02",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 7745,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To establish certain requirements relating to wellness checks for the health and welfare of certain members of the Armed Forces, and for other purposes.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7745?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7924",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-03-13",
+          "text": "Referred to the Subcommittee on Highways and Transit."
+        },
+        "number": 7924,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Trucking Security and CCP Disclosure Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7924?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-4077",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-03-12",
+          "text": "Read twice and referred to the Committee on Armed Services."
+        },
+        "number": 4077,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Trucking Security and CCP Disclosure Act of 2026",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/4077?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-8384",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-04-20",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 8384,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To provide for the conveyance of certain property to the Utah National Guard located in Lehi, Utah, and for other purposes.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8384?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5176",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-08",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 5176,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Defense Industry Pricing Transparency Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5176?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5208",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-08",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 5208,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To amend title 37, United States Code, to exclude the basic allowance for housing from the calculation of gross household income for purposes of the basic needs allowance for eligible members of the Armed Forces.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5208?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-6797",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-12-17",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 6797,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Bipartisan IVF for Military Families Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/6797?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7350",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-04",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 7350,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Fishing Vessel Financing Improvement Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7350?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9091",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-02",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9091,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Defense Industrial Base Advanced Manufacturing Enhancement Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9091?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9027",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-26",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9027,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Military and Veterans Fuel Discount Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9027?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9082",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-29",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9082,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Honesty and Trust in Service Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9082?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-6444",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-14",
+          "text": "Ordered to be Reported (Amended) by Voice Vote."
+        },
+        "number": 6444,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Blast Overpressure Research and Mitigation Task Force Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/6444?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-4375",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-04-22",
+          "text": "Read twice and referred to the Committee on Armed Services."
+        },
+        "number": 4375,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "RETAIN Act of 2026",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/4375?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-6383",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-12-03",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 6383,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Brandon Act Training and Protocol Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/6383?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-7274",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-04",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 40 - 1."
+        },
+        "number": 7274,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Federal Acquisition Security Council Improvement Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7274?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2557",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-04-01",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 2557,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "IVF for Military Families Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2557?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-2259",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-07-10",
+          "text": "Read twice and referred to the Committee on Armed Services."
+        },
+        "number": 2259,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Protecting Military Bases from Connected Vehicles of Concern Act of 2025",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/2259?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-4381",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-07-14",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 4381,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To direct the Secretary of Defense to establish a pilot program regarding treating pregnancy as a qualifying event for enrollment in TRICARE Select.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/4381?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5586",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-26",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 5586,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "TRICARE Transition Transparency Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5586?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HRES-1398",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-13",
+          "actionTime": "17:23:12",
+          "text": "VACATING PROCEEDINGS - Mr. Steil asked unanimous consent that the ordering of a recorded vote on the question of reconsideration of the vote on adoption on H. Res. 1398 be vacated to the end that the motion to reconsider be laid on the table. Agreed to without objection."
+        },
+        "number": 1398,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "House",
+            "type": "Related bill"
+          },
+          {
+            "identifiedBy": "House",
+            "type": "Procedurally related"
+          }
+        ],
+        "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
+        "type": "HRES",
+        "url": "https://api.congress.gov/v3/bill/119/hres/1398?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9241",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-10",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9241,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "No Equipment Left Behind Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9241?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9909",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-23",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9909,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Small Unmanned Aircraft Systems Operational Test, Evaluation, and Training Corridor Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9909?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9046",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-29",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9046,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "COVID-19 Military Mandate Transparency Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9046?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9465",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-25",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9465,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Combat Pay Protection Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9465?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9534",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-06-29",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9534,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Wildfire Response Modernization Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9534?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9863",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-22",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9863,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To direct the Director of the Defense Health Agency to submit to Congress a report on the feasibility of establishing a pilot program that establishes a behavioral neurology fellowship program to provide training opportunities with respect to treating members of the Armed Forces and veterans with traumatic brain injuries.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9863?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-5348",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-08-06",
+          "text": "Read twice and referred to the Committee on Armed Services."
+        },
+        "number": 5348,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Depot Data Transparency Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/5348?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HRES-1438",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-21",
+          "actionTime": "14:40:00",
+          "text": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "number": 1438,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "House",
+            "type": "Related bill"
+          },
+          {
+            "identifiedBy": "House",
+            "type": "Procedurally related"
+          }
+        ],
+        "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the concurrent resolution (H. Con. Res. 113) establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036; providing for consideration of the bill (H.R. 7008) to amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes; providing for consideration of the bill (H.R. 6955) to make improvements to the Federal banking laws, and for other purposes; providing for consideration of the bill (H.R. 9770) making continuing appropriations for fiscal year 2027, and for other purposes; and for other purposes.",
+        "type": "HRES",
+        "url": "https://api.congress.gov/v3/bill/119/hres/1438?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-1383",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-03-26",
+          "text": "Considered by Senate (Message from the House considered). (consideration: CR S1647)"
+        },
+        "number": 1383,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "House",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Veterans Accessibility Advisory Committee Act of 2025",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1383?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-10126",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-08-20",
+          "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        },
+        "number": 10126,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DEMAND Act of 2026",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/10126?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-9794",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-07-20",
+          "text": "Referred to the House Committee on Armed Services."
+        },
+        "number": 9794,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "To direct the Secretary of Defense to establish the Senator Robert J. Dole Greatest Generation Education Program.",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9794?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:17Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/detail.json",
+      "endpoint": "bill/119/hr/8800"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:16Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/text.json",
+      "endpoint": "bill/119/hr/8800/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:18Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/cosponsors.json",
+      "endpoint": "bill/119/hr/8800/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:19Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/committees.json",
+      "endpoint": "bill/119/hr/8800/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:20Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/relatedbills.json",
+      "endpoint": "bill/119/hr/8800/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:14:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8800/subjects.json",
+      "endpoint": "bill/119/hr/8800/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-8800.json",
+  "known_limitations": []
+}

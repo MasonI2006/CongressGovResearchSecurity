@@ -1,0 +1,28 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-01-16T14:09:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "477",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/477?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-20-Daily Digest-D98",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/20",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/01/30/171/20/CREC-2025-01-30-pt1-PgD98.pdf",
+  "retrieved_at": "2026-10-02T10:12:30Z",
+  "http_status": 200,
+  "pdf_sha256": "070a9afe9e19adcf8d067025ca78c1c73f181480af08d086bc4a2f6002ea3260",
+  "pdf_bytes": 254390,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-20-Daily_Digest-D98/issue.json",
+  "title": "Daily Digest/Senate Committee Meetings; Congressional Record Vol. 171, No. 20",
+  "update_date": "2025-01-31T09:44:13Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I20",
+  "document_identifier": "CREC-119-V171-I20-Daily_Digest-5",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "20",
+  "issueDate": "2025-01-30T05:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/Senate Committee Meetings; Congressional Record Vol. 171, No. 20",
+  "startPage": "D98",
+  "endPage": "D98",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:12:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-20-Daily_Digest-D98/issue.json",
+      "endpoint": "daily-congressional-record/171/20"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:12:24Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-20-Daily_Digest-D98/articles.json",
+      "endpoint": "daily-congressional-record/171/20/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-20-Daily_Digest-D98.json",
+  "known_limitations": []
+}

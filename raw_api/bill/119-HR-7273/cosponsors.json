@@ -1,0 +1,53 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "L000397",
+      "district": 18,
+      "firstName": "Zoe",
+      "fullName": "Rep. Lofgren, Zoe [D-CA-18]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lofgren",
+      "party": "D",
+      "sponsorshipDate": "2026-01-30",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000397?format=json"
+    },
+    {
+      "bioguideId": "H001099",
+      "district": 8,
+      "firstName": "Mike",
+      "fullName": "Rep. Haridopolos, Mike [R-FL-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Haridopolos",
+      "party": "R",
+      "sponsorshipDate": "2026-01-30",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/H001099?format=json"
+    },
+    {
+      "bioguideId": "F000477",
+      "district": 4,
+      "firstName": "Valerie",
+      "fullName": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "party": "D",
+      "sponsorshipDate": "2026-01-30",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/F000477?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 3,
+    "countIncludingWithdrawnCosponsors": 3
+  },
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7273?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

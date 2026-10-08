@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-129",
+    "committees": [
+      {
+        "name": "Senate Commerce Committee",
+        "systemCode": "sscm00",
+        "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-02-12"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg61273/generated/CHRG-119shrg61273.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg61273/CHRG-119shrg61273.pdf"
+      }
+    ],
+    "jacketNumber": 61273,
+    "libraryOfCongressIdentifier": "LC74590",
+    "number": 129,
+    "title": "NUUK AND CRANNY: LOOKING AT THE ARCTIC AND GREENLAND'S GEOSTRATEGIC IMPORTANCE TO U.S. INTERESTS",
+    "updateDate": "2026-02-05T03:36:16Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "61273"
+  }
+}

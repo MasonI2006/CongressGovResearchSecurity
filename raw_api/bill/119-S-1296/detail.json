@@ -1,0 +1,74 @@
+{
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 24,
+      "countIncludingWithdrawnCosponsors": 24,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/cosponsors?format=json"
+    },
+    "introducedDate": "2025-04-03",
+    "latestAction": {
+      "actionDate": "2025-04-03",
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1296",
+    "number": "1296",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Education"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "T000476",
+        "firstName": "Thomas",
+        "fullName": "Sen. Tillis, Thomas [R-NC]",
+        "isByRequest": "N",
+        "lastName": "Tillis",
+        "middleName": "Roland",
+        "party": "R",
+        "state": "NC",
+        "url": "https://api.congress.gov/v3/member/T000476?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/text?format=json"
+    },
+    "title": "DETERRENT Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/1296/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-07-14T11:00:13Z",
+    "updateDateIncludingText": "2026-07-14T11:00:13Z"
+  },
+  "request": {
+    "billNumber": "1296",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

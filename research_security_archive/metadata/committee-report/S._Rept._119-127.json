@@ -1,0 +1,78 @@
+{
+  "stable_id": "S. Rept. 119-127",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/srpt/127",
+  "pdf_url": "https://www.congress.gov/119/crpt/srpt127/CRPT-119srpt127.pdf",
+  "retrieved_at": "2026-10-02T03:33:42Z",
+  "http_status": 200,
+  "pdf_sha256": "855aec25d7fa37c3314b2427afe1ab16349202c0437d35b1a9116a2e97d94c03",
+  "pdf_bytes": 1618571,
+  "pdf_page_count": 648,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/S._Rept._119-127/detail.json",
+  "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2027",
+  "update_date": "2026-07-30T16:27:34Z",
+  "document_type": "SRPT",
+  "document_number": "127-1",
+  "document_identifier": "RPT-119-SRPT-127-1",
+  "text_version": null,
+  "citation": "S. Rept. 119-127",
+  "type": "SRPT",
+  "number": 127,
+  "part": 1,
+  "chamber": "Senate",
+  "issueDate": "2026-06-15T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "4784",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    }
+  ],
+  "reportType": "S.Rept.",
+  "sessionNumber": 2,
+  "people": [],
+  "committees": [
+    {
+      "name": "Armed Services Committee",
+      "systemCode": "ssas00",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-S-4784",
+      "payload": {
+        "congress": 119,
+        "number": "4784",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:33:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-127/detail.json",
+      "endpoint": "committee-report/119/srpt/127"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:33:43Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/S._Rept._119-127/text.json",
+      "endpoint": "committee-report/119/srpt/127/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/S._Rept._119-127.json",
+  "known_limitations": []
+}

@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7547",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7547?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Agriculture and Food",
+      "updateDate": "2026-05-29T15:49:46Z"
+    }
+  }
+}

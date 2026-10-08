@@ -1,0 +1,65 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/cosponsors?format=json"
+    },
+    "introducedDate": "2026-02-26",
+    "latestAction": {
+      "actionDate": "2026-03-19",
+      "text": "Star Print ordered on the bill."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3952",
+    "number": "3952",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "Y000064",
+        "firstName": "Todd",
+        "fullName": "Sen. Young, Todd [R-IN]",
+        "isByRequest": "N",
+        "lastName": "Young",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/text?format=json"
+    },
+    "title": "Future of Artificial Intelligence Innovation Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3952/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "request": {
+    "billNumber": "3952",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

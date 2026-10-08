@@ -1,0 +1,1393 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Agriculture",
+        "systemCode": "hsag00",
+        "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+      }
+    ],
+    "congress": 119,
+    "continuations": [
+      {
+        "continuationDate": "2026-03-04T13:00:00Z"
+      }
+    ],
+    "date": "2026-03-03T23:00:00Z",
+    "eventId": "118990",
+    "location": {
+      "building": "Longworth House Office Building",
+      "room": "1300"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Report_HR7567",
+        "documentType": "Committee Report",
+        "format": "PDF",
+        "name": "Report_HR7567",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/HRPT-119-7567-p1.pdf"
+      },
+      {
+        "description": "H.R. 7567, the \"Farm, Food, and National Security Act of 2026,\" as amended, was ordered reported favorably to the House by a vote of 34 yeas and 17 nays. RC #32",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 7567, the \"Farm, Food, and National Security Act of 2026,\" as amended, was ordered reported favorably to the House by a vote of 34 yeas and 17 nays. RC #32",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-1197567ih.pdf"
+      },
+      {
+        "description": "Amendment #001, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #001, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-01-J000301-Amdt-01.pdf"
+      },
+      {
+        "description": "Section-by-Section_HR7567",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Section-by-Section_HR7567",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/HMKP-119-AG00-20260303-SD002.pdf"
+      },
+      {
+        "description": "Amendment #002, offered by Ms. Budzinski of Illinois, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #002, offered by Ms. Budzinski of Illinois, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-02-B001315-Amdt-02.pdf"
+      },
+      {
+        "description": "Amendment #003, offered by Ms. De La Cruz of Texas, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #003, offered by Ms. De La Cruz of Texas, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-03-D000594-Amdt-03.pdf"
+      },
+      {
+        "description": "Amendment #004, offered by Mr. Newhouse of Washington, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #004, offered by Mr. Newhouse of Washington, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-04-N000189-Amdt-04.pdf"
+      },
+      {
+        "description": "Amendment #005, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #005, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-05-T000467-Amdt-05.pdf"
+      },
+      {
+        "description": "Amendment #006, offered by Mr. Crawford of Arkansas, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #006, offered by Mr. Crawford of Arkansas, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-06-C001087-Amdt-06.pdf"
+      },
+      {
+        "description": "Amendment #007, offered by Mr. Kelly of Mississippi, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #007, offered by Mr. Kelly of Mississippi, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-07-K000388-Amdt-07.pdf"
+      },
+      {
+        "description": "Amendment #033, offered by Ms. Salinas of Oregon, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #033, offered by Ms. Salinas of Oregon, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-33-S001226-Amdt-33.pdf"
+      },
+      {
+        "description": "Amendment #008, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #008, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-08-J000304-Amdt-08.pdf"
+      },
+      {
+        "description": "Amendment #009, offered by Mr. Baird of Indiana, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #009, offered by Mr. Baird of Indiana, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-09-B001307-Amdt-09.pdf"
+      },
+      {
+        "description": "Amendment #010, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #010, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-10-J000301-Amdt-10.pdf"
+      },
+      {
+        "description": "Agenda_03.03.2026",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Agenda_03.03.2026",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/HMKP-119-AG00-20260303-SD003.pdf"
+      },
+      {
+        "description": "Amendment #013, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #013, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-13-J000304-Amdt-13.pdf"
+      },
+      {
+        "description": "Amendment #014, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #014, offered by Mr. Jackson of Texas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-14-J000304-Amdt-14.pdf"
+      },
+      {
+        "description": "Amendment #015, offered by Mr. Baird of Indiana, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #015, offered by Mr. Baird of Indiana, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-15-B001307-Amdt-15.pdf"
+      },
+      {
+        "description": "Amendment #016, offered by Mr. Mann of Kansas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #016, offered by Mr. Mann of Kansas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-16-M000871-Amdt-16.pdf"
+      },
+      {
+        "description": "Amendment #018, offered by Mr. Finstad of Minnesota, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #018, offered by Mr. Finstad of Minnesota, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-18-F000475-Amdt-18.pdf"
+      },
+      {
+        "description": "Amendment #019, offered by Mr. Finstad of Minnesota, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #019, offered by Mr. Finstad of Minnesota, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-19-F000475-Amdt-19.pdf"
+      },
+      {
+        "description": "Amendment #020, offered by Mr. Finstad of Minnesota, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #020, offered by Mr. Finstad of Minnesota, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-20-F000475-Amdt-20.pdf"
+      },
+      {
+        "description": "Amendment #024, offered by Mr. Carbajal of California, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #024, offered by Mr. Carbajal of California, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-24-C001112-Amdt-24.pdf"
+      },
+      {
+        "description": "Amendment #025, offered by Mr. Carbajal of California, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #025, offered by Mr. Carbajal of California, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-25-C001112-Amdt-25.pdf"
+      },
+      {
+        "description": "Amendment #030, offered by Ms. Brown of Ohio, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #030, offered by Ms. Brown of Ohio, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-30-B001313-Amdt-30.pdf"
+      },
+      {
+        "description": "Amendment #034, offered by Ms. Salinas of Oregon, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #034, offered by Ms. Salinas of Oregon, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-34-S001226-Amdt-34.pdf"
+      },
+      {
+        "description": "Amendment #039, offered by Mr. Harris of North Carolina, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #039, offered by Mr. Harris of North Carolina, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-39-H001102-Amdt-39.pdf"
+      },
+      {
+        "description": "Amendment #069, offered by Ms. Davids of Kansas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #069, offered by Ms. Davids of Kansas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-69-D000629-Amdt-69.pdf"
+      },
+      {
+        "description": "Amendment #070, offered by Ms. Davids of Kansas, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #070, offered by Ms. Davids of Kansas, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-70-D000629-Amdt-70.pdf"
+      },
+      {
+        "description": "Amendment #072, offered by Ms. Davids of Kansas, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #072, offered by Ms. Davids of Kansas, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-72-D000629-Amdt-72.pdf"
+      },
+      {
+        "description": "Amendment #040, offered by Mr. Harris of North Carolina, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #040, offered by Mr. Harris of North Carolina, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-40-H001102-Amdt-40.pdf"
+      },
+      {
+        "description": "Amendment #041, offered by Mr. Riley of New York, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #041, offered by Mr. Riley of New York, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-41-R000622-Amdt-41.pdf"
+      },
+      {
+        "description": "Amendment #042, offered by Mr. Riley of New York, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #042, offered by Mr. Riley of New York, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-42-R000622-Amdt-42.pdf"
+      },
+      {
+        "description": "Amendment #045, offered by Mr. Riley of New York, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #045, offered by Mr. Riley of New York, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-45-R000622-Amdt-45.pdf"
+      },
+      {
+        "description": "Amendment #047, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #047, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-47-V000136-Amdt-47.pdf"
+      },
+      {
+        "description": "Amendment #049, offered by Ms. Pingree of Maine, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #049, offered by Ms. Pingree of Maine, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-49-P000597-Amdt-49.pdf"
+      },
+      {
+        "description": "Amendment #056, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #056, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-56-M001237-Amdt-56.pdf"
+      },
+      {
+        "description": "Amendment #057, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #057, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-57-M001237-Amdt-57.pdf"
+      },
+      {
+        "description": "Amendment #058, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #058, offered by Ms. McDonald Rivet of Michigan, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-58-M001237-Amdt-58.pdf"
+      },
+      {
+        "description": "Amendment #059, offered by Mr. Costa of California, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #059, offered by Mr. Costa of California, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-59-C001059-Amdt-59.pdf"
+      },
+      {
+        "description": "Amendment #074, offered by Mr. Gray of California, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #074, offered by Mr. Gray of California, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-74-G000605-Amdt-74.pdf"
+      },
+      {
+        "description": "Amendment #076, offered by Mr. Figures of Alabama, NOT AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #076, offered by Mr. Figures of Alabama, NOT AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-76-F000481-Amdt-76.pdf"
+      },
+      {
+        "description": "Amendment #077, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #077, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-77-C001059-Amdt-77.pdf"
+      },
+      {
+        "description": "Amendment #081, offered by Mrs. McClain Delaney of Maryland, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #081, offered by Mrs. McClain Delaney of Maryland, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-81-M001232-Amdt-81.pdf"
+      },
+      {
+        "description": "Amendment #084, offered by Mrs. McClain Delaney of Maryland, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #084, offered by Mrs. McClain Delaney of Maryland, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-84-M001232-Amdt-84.pdf"
+      },
+      {
+        "description": "Amendment #087, offered by Mr. Figures of Alabama, NOT AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #087, offered by Mr. Figures of Alabama, NOT AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-87-F000481-Amdt-87.pdf"
+      },
+      {
+        "description": "Amendment #100, offered by Mr. Vindman of Virginia, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #100, offered by Mr. Vindman of Virginia, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-100-V000138-Amdt-100.pdf"
+      },
+      {
+        "description": "Amendment #104, offered by Mr. Vindman of Virginia, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #104, offered by Mr. Vindman of Virginia, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-104-V000138-Amdt-104.pdf"
+      },
+      {
+        "description": "Amendment #106, offered by Mr. Sorensen of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #04",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #106, offered by Mr. Sorensen of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #04",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-106-S001225-Amdt-106.pdf"
+      },
+      {
+        "description": "Amendment #107, offered by Ms. Tokuda of Hawaii, not germane.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #107, offered by Ms. Tokuda of Hawaii, not germane.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-107-T000487-Amdt-107.pdf"
+      },
+      {
+        "description": "Amendment #120, offered by Mr. Thanedar of Michigan, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #120, offered by Mr. Thanedar of Michigan, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-120-T000488-Amdt-120.pdf"
+      },
+      {
+        "description": "Amendment #124, offered by Mr. Van Orden of Wisconsin, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #124, offered by Mr. Van Orden of Wisconsin, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-124-V000135-Amdt-124.pdf"
+      },
+      {
+        "description": "Amendment #142, offered by Mrs. Hayes of Connecticut, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #142, offered by Mrs. Hayes of Connecticut, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-142-H001081-Amdt-142.pdf"
+      },
+      {
+        "description": "Amendment #143, offered by Mrs. Hayes of Connecticut, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #143, offered by Mrs. Hayes of Connecticut, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-143-H001081-Amdt-143.pdf"
+      },
+      {
+        "description": "Amendment #144, offered by Ms. McDonald Rivet of Michigan, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #144, offered by Ms. McDonald Rivet of Michigan, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-144-M001237-Amdt-144.pdf"
+      },
+      {
+        "description": "Amendment #145, offered by Mr. DesJarlais of Tennessee, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #145, offered by Mr. DesJarlais of Tennessee, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-145-D000616-Amdt-145.pdf"
+      },
+      {
+        "description": "Amendment #147, offered by Mr. Vasquez of New Mexico, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #147, offered by Mr. Vasquez of New Mexico, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-147-V000136-Amdt-147.pdf"
+      },
+      {
+        "description": "Amendment #137, offered by Mr. Crawford of Arkansas, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #137, offered by Mr. Crawford of Arkansas, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-137-C001087-Amdt-137.pdf"
+      },
+      {
+        "description": "Amendment #138, offered by Mr. Nunn of Iowa, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #138, offered by Mr. Nunn of Iowa, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-138-N000193-Amdt-138.pdf"
+      },
+      {
+        "description": "Amendment #139, offered by Ms. Adams of North Carolina, NOT AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #139, offered by Ms. Adams of North Carolina, NOT AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-139-A000370-Amdt-139.pdf"
+      },
+      {
+        "description": "Amendment #140, offered by Mr. Vasquez of New Mexico, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #10",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #140, offered by Mr. Vasquez of New Mexico, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #10",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-140-V000136-Amdt-140.pdf"
+      },
+      {
+        "description": "Amendment #141, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #141, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-141-C001087-Amdt-141.pdf"
+      },
+      {
+        "description": "Amendment #061, offered by Mr. Costa of California, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #061, offered by Mr. Costa of California, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-61-C001059-Amdt-61.pdf"
+      },
+      {
+        "description": "Amendment #075, offered by Mr. Gray of California, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #075, offered by Mr. Gray of California, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-75-G000605-Amdt-75.pdf"
+      },
+      {
+        "description": "Amendment #122, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #122, offered by Mr. Vasquez of New Mexico, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-122-V000136-Amdt-122.pdf"
+      },
+      {
+        "description": "Amendment #146, offered by Ms. Craig of Minnesota, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #26",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #146, offered by Ms. Craig of Minnesota, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #26",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-146-C001119-Amdt-146.pdf"
+      },
+      {
+        "description": "Amendment #126, offered by Mrs. Cammack of Florida, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #126, offered by Mrs. Cammack of Florida, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-126-C001039-Amdt-126.pdf"
+      },
+      {
+        "description": "Amendment #127, offered by Ms. Brown of Ohio, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #05",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #127, offered by Ms. Brown of Ohio, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #05",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-127-B001313-Amdt-127.pdf"
+      },
+      {
+        "description": "Amendment #128, offered by Ms. Tokuda of Hawaii, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #11",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #128, offered by Ms. Tokuda of Hawaii, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #11",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-128-T000487-Amdt-128.pdf"
+      },
+      {
+        "description": "Amendment #129, offered by Mr. Mannion of New York, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #129, offered by Mr. Mannion of New York, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-129-M001231-Amdt-129.pdf"
+      },
+      {
+        "description": "Amendment #130, offered by Mrs. McClain Delaney of Maryland, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #130, offered by Mrs. McClain Delaney of Maryland, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-130-M001232-Amdt-130.pdf"
+      },
+      {
+        "description": "Amendment #131, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #131, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-131-M001232-Amdt-131.pdf"
+      },
+      {
+        "description": "Amendment #148, offered by Mr. Vasquez of New Mexico, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #148, offered by Mr. Vasquez of New Mexico, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-148-V000136-Amdt-148.pdf"
+      },
+      {
+        "description": "Amendment #149, offered by Mr. Sorensen of Illinois, not germane.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #149, offered by Mr. Sorensen of Illinois, not germane.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-149-S001225-Amdt-149.pdf"
+      },
+      {
+        "description": "Amendment #132, offered by Mr. Rouzer of North Carolina, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #132, offered by Mr. Rouzer of North Carolina, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-132-R000603-Amdt-132.pdf"
+      },
+      {
+        "description": "Amendment #133, offered by Mr. Rouzer of North Carolina, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #133, offered by Mr. Rouzer of North Carolina, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-133-R000603-Amdt-133.pdf"
+      },
+      {
+        "description": "Amendment #134, offered by Mr. Jackson of Illinois, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #134, offered by Mr. Jackson of Illinois, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-134-J000309-Amdt-134.pdf"
+      },
+      {
+        "description": "Amendment #135, offered by Mr. Jackson of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #22",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #135, offered by Mr. Jackson of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #22",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-135-J000309-Amdt-135.pdf"
+      },
+      {
+        "description": "Amendment #136, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #136, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-136-T000487-Amdt-136.pdf"
+      },
+      {
+        "description": "Manager's Amendment to H.R. 7567, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Manager's Amendment to H.R. 7567, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-1197567pih-ManagersAmendment.pdf"
+      },
+      {
+        "description": "Amendment #105, offered by Mr. Vindman of Virginia, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #30",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #105, offered by Mr. Vindman of Virginia, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #30",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-105-V000138-Amdt-105.pdf"
+      },
+      {
+        "description": "Amendment #150, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #150, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-150-C001059-Amdt-150.pdf"
+      },
+      {
+        "description": "Amendment #060, offered by Mr. Costa of California, NOT AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #060, offered by Mr. Costa of California, NOT AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-60-C001059-Amdt-60.pdf"
+      },
+      {
+        "description": "Amendment #090, offered by Mr. Davis of North Carolina, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #090, offered by Mr. Davis of North Carolina, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-90-D000230-Amdt-90.pdf"
+      },
+      {
+        "description": "Amendment #017, offered by Mr. Rose of Tennessee, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #017, offered by Mr. Rose of Tennessee, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-17-R000612-Amdt-17.pdf"
+      },
+      {
+        "description": "Amendment #053, offered by Ms. Budzinski of Illinois, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #053, offered by Ms. Budzinski of Illinois, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-53-B001315-Amdt-53.pdf"
+      },
+      {
+        "description": "Amendment #152, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #152, offered by Mr. Johnson of South Dakota, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-152-J000301-Amdt-152.pdf"
+      },
+      {
+        "description": "Amendment #032, offered by Mr. Vasquez of New Mexico, was withdrawn.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #032, offered by Mr. Vasquez of New Mexico, was withdrawn.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-32-V000136-Amdt-32.pdf"
+      },
+      {
+        "description": "Amendment #046, offered by Mr. Vasquez of New Mexico, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #046, offered by Mr. Vasquez of New Mexico, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-46-V000136-Amdt-46.pdf"
+      },
+      {
+        "description": "Amendment #151, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #151, offered by Mr. Thompson of Pennsylvania, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-151-T000467-Amdt-151.pdf"
+      },
+      {
+        "description": "Amendment #153, offered by Ms. De La Cruz of Texas, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #153, offered by Ms. De La Cruz of Texas, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-153-D000594-Amdt-153.pdf"
+      },
+      {
+        "description": "Amendment #021, offered by Mr. David Scott of Georgia, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #021, offered by Mr. David Scott of Georgia, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-21-S001157-Amdt-21.pdf"
+      },
+      {
+        "description": "Amendment #023, offered by Mr. Carbajal of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #023, offered by Mr. Carbajal of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-23-C001112-Amdt-23.pdf"
+      },
+      {
+        "description": "Amendment #031, offered by Mr. Feenstra of Iowa, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #031, offered by Mr. Feenstra of Iowa, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-31-F000446-Amdt-31.pdf"
+      },
+      {
+        "description": "Amendment #037, offered by Mr. Harris of North Carolina, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #037, offered by Mr. Harris of North Carolina, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-37-H001102-Amdt-37.pdf"
+      },
+      {
+        "description": "Amendment #044, offered by Mr. Riley of New York, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #044, offered by Mr. Riley of New York, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-44-R000622-Amdt-44.pdf"
+      },
+      {
+        "description": "Amendment #048, offered by Ms. Pingree of Maine, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #048, offered by Ms. Pingree of Maine, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-48-A000370-Amdt-48.pdf"
+      },
+      {
+        "description": "Amendment #050, offered by Ms. Pingree of Maine, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #050, offered by Ms. Pingree of Maine, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-50-P000597-Amdt-50.pdf"
+      },
+      {
+        "description": "Amendment #052, offered by Ms. Budzinski of Illinois, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #052, offered by Ms. Budzinski of Illinois, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-52-B001315-Amdt-52.pdf"
+      },
+      {
+        "description": "Amendment #054, offered by Ms. Budzinski of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #03",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #054, offered by Ms. Budzinski of Illinois, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #03",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-54-B001315-Amdt-54.pdf"
+      },
+      {
+        "description": "Amendment #055, offered by Ms. Budzinski of Illinois, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #055, offered by Ms. Budzinski of Illinois, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-55-B001315-Amdt-55.pdf"
+      },
+      {
+        "description": "Amendment #062, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #062, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-62-C001059-Amdt-62.pdf"
+      },
+      {
+        "description": "Amendment #063, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #063, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-63-C001059-Amdt-63.pdf"
+      },
+      {
+        "description": "Amendment #064, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #064, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-64-C001059-Amdt-64.pdf"
+      },
+      {
+        "description": "Amendment #065, offered by Mrs. Hayes of Connecticut, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #065, offered by Mrs. Hayes of Connecticut, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-65-H001081-Amdt-65.pdf"
+      },
+      {
+        "description": "Amendment #066, offered by Mr. Vasquez of New Mexico, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #066, offered by Mr. Vasquez of New Mexico, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-66-V000136-Amdt-66.pdf"
+      },
+      {
+        "description": "Amendment #067, offered by Mr. Costa of California, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #067, offered by Mr. Costa of California, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-67-C001059-Amdt-67.pdf"
+      },
+      {
+        "description": "Amendment #071, offered by Ms. Davids of Kansas, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #071, offered by Ms. Davids of Kansas, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-71-D000629-Amdt-71.pdf"
+      },
+      {
+        "description": "Amendment #073, offered by Ms. Davids of Kansas, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #073, offered by Ms. Davids of Kansas, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-73-D000629-Amdt-73.pdf"
+      },
+      {
+        "description": "Amendment #078, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #078, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-78-M001232-Amdt-78.pdf"
+      },
+      {
+        "description": "Amendment #079, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #079, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-79-M001232-Amdt-79.pdf"
+      },
+      {
+        "description": "Amendment #080, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #080, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-80-M001232-Amdt-80.pdf"
+      },
+      {
+        "description": "Amendment #093, offered by Ms. Adams of North Carolina, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #093, offered by Ms. Adams of North Carolina, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-93-A000370-Amdt-93.pdf"
+      },
+      {
+        "description": "Amendment #094, offered by Ms. Adams of North Carolina, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #094, offered by Ms. Adams of North Carolina, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-94-A000370-Amdt-94.pdf"
+      },
+      {
+        "description": "Amendment #095, offered by Ms. Adams of North Carolina, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #095, offered by Ms. Adams of North Carolina, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-95-A000370-Amdt-95.pdf"
+      },
+      {
+        "description": "Amendment #096, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #096, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-96-T000487-Amdt-96.pdf"
+      },
+      {
+        "description": "Amendment #097, offered by Ms. Pingree of Maine, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #097, offered by Ms. Pingree of Maine, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-97-P000597-Amdt-97.pdf"
+      },
+      {
+        "description": "Amendment #099, offered by Mr. Van Orden of Wisconsin, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #099, offered by Mr. Van Orden of Wisconsin, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-99-V000135-Amdt-99.pdf"
+      },
+      {
+        "description": "Amendment #101, offered by Mr. Vindman of Virginia, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #101, offered by Mr. Vindman of Virginia, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-101-V000138-Amdt-101.pdf"
+      },
+      {
+        "description": "Amendment #102, offered by Mr. Vindman of Virginia, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #102, offered by Mr. Vindman of Virginia, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-102-V000138-Amdt-102.pdf"
+      },
+      {
+        "description": "Amendment #103, offered by Mr. Vindman of Virginia, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #103, offered by Mr. Vindman of Virginia, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-103-V000138-Amdt-103.pdf"
+      },
+      {
+        "description": "Amendment #109, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #109, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-109-T000487-Amdt-109.pdf"
+      },
+      {
+        "description": "Amendment #110, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #110, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-110-T000487-Amdt-110.pdf"
+      },
+      {
+        "description": "Amendment #111, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #111, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-111-T000487-Amdt-111.pdf"
+      },
+      {
+        "description": "Amendment #082, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #082, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-82-M001232-Amdt-82.pdf"
+      },
+      {
+        "description": "Amendment #083, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #083, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-83-M001232-Amdt-83.pdf"
+      },
+      {
+        "description": "Amendment #085, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #085, offered by Mrs. McClain Delaney of Maryland, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-85-M001232-Amdt-85.pdf"
+      },
+      {
+        "description": "Amendment #089, offered by Mr. Figures of Alabama, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #089, offered by Mr. Figures of Alabama, was included in En Bloc #1 and AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-89-F000481-Amdt-89.pdf"
+      },
+      {
+        "description": "Amendment #112, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #112, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-112-T000487-Amdt-112.pdf"
+      },
+      {
+        "description": "Amendment #113, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #113, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-113-T000487-Amdt-113.pdf"
+      },
+      {
+        "description": "Amendment #114, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #114, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-114-T000487-Amdt-114.pdf"
+      },
+      {
+        "description": "Amendment #115, offered by Ms. Tokuda of Hawaii, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #115, offered by Ms. Tokuda of Hawaii, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-115-T000487-Amdt-115.pdf"
+      },
+      {
+        "description": "Amendment #116, offered by Mr. Vindman of Virginia, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #116, offered by Mr. Vindman of Virginia, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-116-V000138-Amdt-116.pdf"
+      },
+      {
+        "description": "Amendment #117, offered by Mr. Thanedar of Michigan, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #14",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #117, offered by Mr. Thanedar of Michigan, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #14",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-117-T000488-Amdt-117.pdf"
+      },
+      {
+        "description": "Amendment #118, offered by Mr. Thanedar of Michigan, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #31",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #118, offered by Mr. Thanedar of Michigan, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #31",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-118-T000488-Amdt-118.pdf"
+      },
+      {
+        "description": "Amendment #119 offered by Mr. Thanedar of Michigan, as amended by the Second Degree Amendment offered by Mr. Mann of Kansas, AGREED to by a vote of 51 yes and 0 nays. RC #25",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #119 offered by Mr. Thanedar of Michigan, as amended by the Second Degree Amendment offered by Mr. Mann of Kansas, AGREED to by a vote of 51 yes and 0 nays. RC #25",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-119-T000488-Amdt-119.pdf"
+      },
+      {
+        "description": "Amendment #121, offered by Mr. Riley of New York, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #121, offered by Mr. Riley of New York, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-121-R000622-Amdt-121.pdf"
+      },
+      {
+        "description": "Amendment #123, offered by Mr. Wied of Wisconsin, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #123, offered by Mr. Wied of Wisconsin, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-123-W000829-Amdt-123.pdf"
+      },
+      {
+        "description": "Amendment #125, offered by Mr. Van Orden of Wisconsin, not offered.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #125, offered by Mr. Van Orden of Wisconsin, not offered.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-125-V000135-Amdt-125.pdf"
+      },
+      {
+        "description": "Second Degree Amendment to Amendment #119, offered by Mr. Mann of Kansas, AGREED to by a vote of 29 yeas and 22 nays. RC #24",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Second Degree Amendment to Amendment #119, offered by Mr. Mann of Kansas, AGREED to by a vote of 29 yeas and 22 nays. RC #24",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-119-N000193-Amdt-119.pdf"
+      },
+      {
+        "description": "Amendment #022, offered by Mr. David Scott of Georgia, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #16",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #022, offered by Mr. David Scott of Georgia, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #16",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-22-S001157-Amdt-22.pdf"
+      },
+      {
+        "description": "Amendment #026, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #15",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #026, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #15",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-26-H001081-Amdt-26.pdf"
+      },
+      {
+        "description": "Amendment #027, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #21",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #027, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #21",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-27-H001081-Amdt-27.pdf"
+      },
+      {
+        "description": "Amendment #028, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #07",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #028, offered by Mrs. Hayes of Connecticut, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #07",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-28-H001081-Amdt-28.pdf"
+      },
+      {
+        "description": "Amendment #029, offered by Ms. Brown of Ohio, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #09",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #029, offered by Ms. Brown of Ohio, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #09",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-29-B001313-Amdt-29.pdf"
+      },
+      {
+        "description": "Amendment #035, offered by Ms. Salinas of Oregon, NOT AGREED to by a vote of 23 yeas and 27 nays. RC #19",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #035, offered by Ms. Salinas of Oregon, NOT AGREED to by a vote of 23 yeas and 27 nays. RC #19",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-35-S001226-Amdt-35.pdf"
+      },
+      {
+        "description": "Amendment #036, offered by Mr. Harris of North Carolina, AGREED to by a vote of 27 yeas and 24 nays. RC #27",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #036, offered by Mr. Harris of North Carolina, AGREED to by a vote of 27 yeas and 24 nays. RC #27",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-36-H001102-Amdt-36.pdf"
+      },
+      {
+        "description": "Amendment #038, offered by Mr. Harris of North Carolina, AGREED to by a vote of 26 yeas and 25 nays. RC #17",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #038, offered by Mr. Harris of North Carolina, AGREED to by a vote of 26 yeas and 25 nays. RC #17",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-38-H001102-Amdt-38.pdf"
+      },
+      {
+        "description": "Amendment #051, offered by Ms. Pingree of Maine, NOT AGREED to by a vote of 22 yeas and 28 nays. RC #20",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #051, offered by Ms. Pingree of Maine, NOT AGREED to by a vote of 22 yeas and 28 nays. RC #20",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-51-P000597-Amdt-51.pdf"
+      },
+      {
+        "description": "Amendment #068, offered by Ms. Davids of Kansas, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #23",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #068, offered by Ms. Davids of Kansas, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #23",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-68-D000629-Amdt-68.pdf"
+      },
+      {
+        "description": "Amendment #086, offered by Mrs. McClain Delaney of Maryland, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #29",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #086, offered by Mrs. McClain Delaney of Maryland, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #29",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-86-M001232-Amdt-86.pdf"
+      },
+      {
+        "description": "Amendment #088, offered by Mr. Figures of Alabama, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #12",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #088, offered by Mr. Figures of Alabama, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #12",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-88-F000481-Amdt-88.pdf"
+      },
+      {
+        "description": "Amendment #091, offered by Ms. Adams of North Carolina, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #18",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #091, offered by Ms. Adams of North Carolina, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #18",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-91-A000370-Amdt-91.pdf"
+      },
+      {
+        "description": "Amendment #092, offered by Ms. Adams of North Carolina, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #08",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #092, offered by Ms. Adams of North Carolina, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #08",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-92-A000370-Amdt-92.pdf"
+      },
+      {
+        "description": "Amendment #108, offered by Ms. Tokuda of Hawaii, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #28",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #108, offered by Ms. Tokuda of Hawaii, NOT AGREED to by a vote of 24 yeas and 27 nays. RC #28",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-108-T000487-Amdt-108.pdf"
+      },
+      {
+        "description": "RC #01: Motion to table the appeal of the ruling of the Chair offered by Mr. Rouzer of North Carolina",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #01: Motion to table the appeal of the ruling of the Chair offered by Mr. Rouzer of North Carolina",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote001-20260303.pdf"
+      },
+      {
+        "description": "RC #02: Motion to table the appeal of the ruling of the Chair, offered by Mr. Lucas of Oklahoma",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #02: Motion to table the appeal of the ruling of the Chair, offered by Mr. Lucas of Oklahoma",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote002-20260303.pdf"
+      },
+      {
+        "description": "RC #03: Amendment #54, offered by Ms. Budzinski of Illinois",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #03: Amendment #54, offered by Ms. Budzinski of Illinois",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote003-20260303.pdf"
+      },
+      {
+        "description": "RC #04: Amendment #106, offered by Mr. Sorensen of Illinois",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #04: Amendment #106, offered by Mr. Sorensen of Illinois",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote004-20260303.pdf"
+      },
+      {
+        "description": "RC #05: Amendment #127, offered by Ms. Brown of Ohio",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #05: Amendment #127, offered by Ms. Brown of Ohio",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote005-20260303.pdf"
+      },
+      {
+        "description": "RC #06: Amendment #98, offered by Mr. Vindman of Virginia",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #06: Amendment #98, offered by Mr. Vindman of Virginia",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote006-20260303.pdf"
+      },
+      {
+        "description": "RC #07: Amendment #28, offered by Mrs. Hayes of Connecticut",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #07: Amendment #28, offered by Mrs. Hayes of Connecticut",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote007-20260303.pdf"
+      },
+      {
+        "description": "RC #08: Amendment #92, offered by Ms. Adams of North Carolina",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #08: Amendment #92, offered by Ms. Adams of North Carolina",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote008-20260303.pdf"
+      },
+      {
+        "description": "RC #09: Amendment #29, offered by Ms. Brown of Ohio",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #09: Amendment #29, offered by Ms. Brown of Ohio",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote009-20260303.pdf"
+      },
+      {
+        "description": "RC #10: Amendment #14, offered by Mr. Vasquez of New Mexico",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #10: Amendment #14, offered by Mr. Vasquez of New Mexico",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote010-20260303.pdf"
+      },
+      {
+        "description": "RC #11: Amendment #128, offered by Ms. Tokuda of Hawaii",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #11: Amendment #128, offered by Ms. Tokuda of Hawaii",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote011-20260303.pdf"
+      },
+      {
+        "description": "RC #12: Amendment #88, offered by Mr. Figures of Alabama",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #12: Amendment #88, offered by Mr. Figures of Alabama",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote012-20260303.pdf"
+      },
+      {
+        "description": "RC #13: Amendment #43, offered by Mr. Riley of New York",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #13: Amendment #43, offered by Mr. Riley of New York",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote013-20260303.pdf"
+      },
+      {
+        "description": "RC #14: Amendment #117, offered by Mr. Thanedar of Michigan",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #14: Amendment #117, offered by Mr. Thanedar of Michigan",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote014-20260303.pdf"
+      },
+      {
+        "description": "RC #16: Amendment #22, offered by Mr. David Scott of Georgia",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #16: Amendment #22, offered by Mr. David Scott of Georgia",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote016-20260303.pdf"
+      },
+      {
+        "description": "RC #17: Amendment #38, offered by Mr. Harris of North Carolina",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #17: Amendment #38, offered by Mr. Harris of North Carolina",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote017-20260303.pdf"
+      },
+      {
+        "description": "RC #18: Amendment #91, offered by Ms. Adams of North Carolina",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #18: Amendment #91, offered by Ms. Adams of North Carolina",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote018-20260303.pdf"
+      },
+      {
+        "description": "RC #19: Amendment #35, offered by Ms. Salinas of Oregon",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #19: Amendment #35, offered by Ms. Salinas of Oregon",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote019-20260303.pdf"
+      },
+      {
+        "description": "RC #20: Amendment #51, offered by Ms. Pingree of Maine",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #20: Amendment #51, offered by Ms. Pingree of Maine",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote020-20260303.pdf"
+      },
+      {
+        "description": "RC #21: Amendment #27, offered by Mrs. Hayes of Connecticut",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #21: Amendment #27, offered by Mrs. Hayes of Connecticut",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote021-20260303.pdf"
+      },
+      {
+        "description": "RC #22: Amendment #135, offered by Mr. Jackson of Illinois",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #22: Amendment #135, offered by Mr. Jackson of Illinois",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote022-20260303.pdf"
+      },
+      {
+        "description": "RC #23: Amendment #68, offered by Ms. Davids of Kansas",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #23: Amendment #68, offered by Ms. Davids of Kansas",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote023-20260303.pdf"
+      },
+      {
+        "description": "RC #24: Second Degree Amendment to Amendment #119, offered by Mr. Mann of Kansas",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #24: Second Degree Amendment to Amendment #119, offered by Mr. Mann of Kansas",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote024-20260303.pdf"
+      },
+      {
+        "description": "RC #25: Amendment #119, as amended by the Second Degree Amendment, offered by Mr. Thanedar of Michigan",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #25: Amendment #119, as amended by the Second Degree Amendment, offered by Mr. Thanedar of Michigan",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote025-20260303.pdf"
+      },
+      {
+        "description": "RC #27: Amendment #36, offered by Mr. Harris of North Carolina",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #27: Amendment #36, offered by Mr. Harris of North Carolina",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote036-20260303.pdf"
+      },
+      {
+        "description": "RC #28: Amendment #108, offered by Ms. Tokuda of Hawaii",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #28: Amendment #108, offered by Ms. Tokuda of Hawaii",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote028-20260303.pdf"
+      },
+      {
+        "description": "RC #29: Amendment #86, offered by Mrs. McClain Delaney of Maryland",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #29: Amendment #86, offered by Mrs. McClain Delaney of Maryland",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote029-20260303.pdf"
+      },
+      {
+        "description": "RC #30: Amendment #105, offered by Mr. Vindman of Virginia",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #30: Amendment #105, offered by Mr. Vindman of Virginia",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote030-20260303.pdf"
+      },
+      {
+        "description": "RC #31: Amendment #118, offered by Mr. Thanedar of Michigan",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #31: Amendment #118, offered by Mr. Thanedar of Michigan",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote031-20260303.pdf"
+      },
+      {
+        "description": "RC #32: Motion to report H.R. 7567, as amended, favorably to the House with the recommendation that it pass, offered by Mr. Austin Scott of Georgia",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #32: Motion to report H.R. 7567, as amended, favorably to the House with the recommendation that it pass, offered by Mr. Austin Scott of Georgia",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote032-20260303.pdf"
+      },
+      {
+        "description": "Amendment #043, offered by Mr. Riley of New York, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #13",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #043, offered by Mr. Riley of New York, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #13",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-43-R000622-Amdt-43.pdf"
+      },
+      {
+        "description": "RC #26: Amendment #146, offered by Ms. Craig of Minnesota",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "RC #26: Amendment #146, offered by Ms. Craig of Minnesota",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/CRPT-119-AG00-Vote026-20260303.pdf"
+      },
+      {
+        "description": "Amendment #012, offered by Mr. Austin Scott of Georgia, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #012, offered by Mr. Austin Scott of Georgia, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-12-S001189-Amdt-12.pdf"
+      },
+      {
+        "description": "Amendment #011, offered by Mr. Wied of Wisconsin, AGREED to by a voice vote.",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #011, offered by Mr. Wied of Wisconsin, AGREED to by a voice vote.",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-11-W000829-Amdt-11.pdf"
+      },
+      {
+        "description": "Amendment #098, offered by Mr. Vindman of Virginia, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #06",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Amendment #098, offered by Mr. Vindman of Virginia, NOT AGREED to by a vote of 25 yeas and 26 nays. RC #06",
+        "url": "https://www.congress.gov/119/meeting/house/118990/documents/BILLS-119-98-V000138-Amdt-98.pdf"
+      }
+    ],
+    "meetingStatus": "Rescheduled",
+    "title": "\"To consider H.R. 7567, the Farm, Food, and National Security Act of 2026\"",
+    "type": "Markup",
+    "updateDate": "2026-04-27T18:57:14Z",
+    "videos": [
+      {
+        "name": "MARKUP: \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118990"
+      },
+      {
+        "name": "MARKUP: \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.youtube.com/watch?v=qtJ5_oxILr8"
+      },
+      {
+        "name": "MARKUP Day Two (pt.2): \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118990"
+      },
+      {
+        "name": "MARKUP Day Two (pt.2): \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.youtube.com/watch?v=AP8W238q-GY"
+      },
+      {
+        "name": "MARKUP Day Two: \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118990"
+      },
+      {
+        "name": "MARKUP Day Two: \"The Farm, Food, and National Security Act of 2026\"",
+        "url": "https://www.youtube.com/watch?v=BCALjyDnUHM"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118990",
+    "format": "json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-45",
+    "committees": [
+      {
+        "name": "Senate Energy and Natural Resources Committee",
+        "systemCode": "sseg00",
+        "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-02-20"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg60021/generated/CHRG-119shrg60021.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg60021/CHRG-119shrg60021.pdf"
+      }
+    ],
+    "jacketNumber": 60021,
+    "libraryOfCongressIdentifier": "LC75033",
+    "number": 45,
+    "title": "RESEARCH SECURITY RISKS POSED BY FOREIGN NATIONALS FROM COUNTRIES OF RISK WORKING AT THE DEPARTMENT OF ENERGY'S NATIONAL LABORATORIES AND NECESSARY MITIGATION STEPS",
+    "updateDate": "2026-06-12T04:21:26Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "60021"
+  }
+}

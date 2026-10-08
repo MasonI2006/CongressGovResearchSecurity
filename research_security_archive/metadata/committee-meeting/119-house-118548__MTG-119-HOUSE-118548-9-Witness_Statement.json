@@ -1,0 +1,184 @@
+{
+  "stable_id": "119-house-118548__MTG-119-HOUSE-118548-9-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118548",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-VanierM-20250916.pdf",
+  "retrieved_at": "2026-10-02T06:49:28Z",
+  "http_status": 200,
+  "pdf_sha256": "3ea7dbd2d61f0da136f818a21d012825323b62d75fe328dd31ae3435027b6970",
+  "pdf_bytes": 105239,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118548__MTG-119-HOUSE-118548-9-Witness_Statement/detail.json",
+  "title": "“Surveying the Threat of Agroterrorism: Perspectives on Food, Agriculture, and Veterinary Defense”",
+  "update_date": "2026-01-02T07:47:46Z",
+  "document_type": "Witness Statement",
+  "document_number": "118548",
+  "document_identifier": "MTG-119-HOUSE-118548-9-Witness_Statement",
+  "text_version": null,
+  "eventId": "118548",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-09-16T18:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "Homeland Security Subcommittee on Emergency Management and Technology",
+      "systemCode": "hshm12",
+      "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+    }
+  ],
+  "location": {
+    "building": "Cannon House Office Building",
+    "room": "310"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118548/documents/HHRG-119-HM12-20250916-SD001.pdf"
+    },
+    {
+      "documentType": "Hearing: Witness List",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/documents/HHRG-119-HM12-WList-20250916.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Daniel Wims, PhD",
+      "organization": "Alabama A&M University",
+      "position": "President"
+    },
+    {
+      "name": "Cris Young, DVM, MPH, DACVPM, COL USA (Ret.)",
+      "organization": "Auburn University",
+      "position": "Professor of Practice, College of Veterinary Medicine"
+    },
+    {
+      "name": "Asha George, DrPH",
+      "organization": "Bipartisan Commission on Biodefense",
+      "position": "Executive Director"
+    },
+    {
+      "name": "Marty Vanier",
+      "organization": "Kansas State University",
+      "position": "Director, National Agricultural Biosecurity Center; Associate Director, Biosecurity Research Institute"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-VanierM-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-GeorgeDrPHA-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-VanierM-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-YoungDVMMPHDACVPMCOLUSARetC-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-GeorgeDrPHA-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-WimsPhDD-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-WimsPhDD-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-VanierM-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-GeorgeDrPHA-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-WimsPhDD-20250916.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-YoungDVMMPHDACVPMCOLUSARetC-20250916.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-VanierM-20250916.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Daniel Wims, PhD",
+      "party": null,
+      "state": "Alabama A&M University",
+      "position": "President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Cris Young, DVM, MPH, DACVPM, COL USA (Ret.)",
+      "party": null,
+      "state": "Auburn University",
+      "position": "Professor of Practice, College of Veterinary Medicine"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Asha George, DrPH",
+      "party": null,
+      "state": "Bipartisan Commission on Biodefense",
+      "position": "Executive Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Marty Vanier",
+      "party": null,
+      "state": "Kansas State University",
+      "position": "Director, National Agricultural Biosecurity Center; Associate Director, Biosecurity Research Institute"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:49:28Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118548__MTG-119-HOUSE-118548-9-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/118548"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118548__MTG-119-HOUSE-118548-9-Witness_Statement.json",
+  "known_limitations": []
+}

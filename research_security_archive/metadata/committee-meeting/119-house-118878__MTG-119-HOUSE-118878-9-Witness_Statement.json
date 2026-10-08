@@ -1,0 +1,202 @@
+{
+  "stable_id": "119-house-118878__MTG-119-HOUSE-118878-9-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118878",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-KushmerickJ-20260122.pdf",
+  "retrieved_at": "2026-10-02T06:16:48Z",
+  "http_status": 200,
+  "pdf_sha256": "6ccf472174413e380462a7d2368ee0fa1453574a1b8de95b43941fe5742dc5b0",
+  "pdf_bytes": 186487,
+  "pdf_page_count": 6,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118878__MTG-119-HOUSE-118878-9-Witness_Statement/detail.json",
+  "title": "Assessing U.S. Leadership in Quantum Science and Technology",
+  "update_date": "2026-02-02T05:06:02Z",
+  "document_type": "Witness Statement",
+  "document_number": "118878",
+  "document_identifier": "MTG-119-HOUSE-118878-9-Witness_Statement",
+  "text_version": null,
+  "eventId": "118878",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-01-22T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/118878/documents/HHRG-119-SY00-MState-L000397-20260122.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/118878/documents/HHRG-119-SY00-20260122-SD002.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/118878/documents/HHRG-119-SY00-MState-B001291-20260122.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118878/documents/HHRG-119-SY00-20260122-SD001.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Tanner Crowder",
+      "organization": "Department of Energy",
+      "position": "Quantum Information Science Lead, Office of Science"
+    },
+    {
+      "name": "Dr. James Kushmerick",
+      "organization": "National Institute of Standards and Technology",
+      "position": "Director, Physical Measurement Laboratory"
+    },
+    {
+      "name": "Dr. Mark Clampin",
+      "organization": "National Aeronautics and Space Administration",
+      "position": "Deputy Associate Administrator, Science Mission Directorate"
+    },
+    {
+      "name": "Dr. Saul Gonzalez",
+      "organization": "National Science Foundation",
+      "position": "Deputy Directorate Head, Directorate for Mathematical and Physical Sciences"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-TTF-KushmerickJ-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-TTF-ClampinM-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-TTF-CrowderT-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-TTF-GonzalezS-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Bio-KushmerickJ-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-KushmerickJ-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Bio-GonzalezS-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-GonzalezS-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Bio-ClampinM-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-ClampinM-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Bio-CrowderT-20260122.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-CrowderT-20260122.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/118878/witnesses/HHRG-119-SY00-Wstate-KushmerickJ-20260122.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Tanner Crowder",
+      "party": null,
+      "state": "Department of Energy",
+      "position": "Quantum Information Science Lead, Office of Science"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. James Kushmerick",
+      "party": null,
+      "state": "National Institute of Standards and Technology",
+      "position": "Director, Physical Measurement Laboratory"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Mark Clampin",
+      "party": null,
+      "state": "National Aeronautics and Space Administration",
+      "position": "Deputy Associate Administrator, Science Mission Directorate"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Saul Gonzalez",
+      "party": null,
+      "state": "National Science Foundation",
+      "position": "Deputy Directorate Head, Directorate for Mathematical and Physical Sciences"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:16:48Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118878__MTG-119-HOUSE-118878-9-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/118878"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118878__MTG-119-HOUSE-118878-9-Witness_Statement.json",
+  "known_limitations": []
+}

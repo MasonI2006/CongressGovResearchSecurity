@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "4553",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/4553?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-213",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-07-21T04:00:00Z",
+      "number": 213,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/213/text?format=json"
+      },
+      "title": "ENERGY AND WATER DEVELOPMENT AND RELATED AGENCIES APPROPRIATIONS BILL, 2026",
+      "type": "HRPT",
+      "updateDate": "2025-08-30T16:27:27Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "213",
+    "reportType": "hrpt"
+  }
+}

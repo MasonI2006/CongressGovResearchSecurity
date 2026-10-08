@@ -1,0 +1,210 @@
+{
+  "stable_id": "119-HR-7547",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/7547",
+  "pdf_url": "https://www.congress.gov/119/bills/hr7547/BILLS-119hr7547ih.pdf",
+  "retrieved_at": "2026-10-01T23:34:00Z",
+  "http_status": 200,
+  "pdf_sha256": "24d84b3e774b82dbc17af4096e4958a100609cde9119b09b4f4d0ce75301a647",
+  "pdf_bytes": 258682,
+  "pdf_page_count": 12,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-7547/detail.json",
+  "title": "DOD and USDA Interagency Research Act",
+  "update_date": "2026-09-12T08:05:49Z",
+  "document_type": "HR",
+  "document_number": "7547",
+  "document_identifier": "BILL-119-HR-7547-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-02-12T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "7547",
+  "originChamber": "House",
+  "introducedDate": "2026-02-12",
+  "latestAction": {
+    "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+    "date": "2026-06-15"
+  },
+  "policyArea": {
+    "name": "Agriculture and Food"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "M001233",
+      "name": "Rep. Messmer, Mark B. [R-IN-8]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 2,
+  "cosponsorBioguideIds": [
+    "D000230",
+    "H001085"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-12T14:03:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2026-06-15T15:05:47Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Conservation, Research, and Biotechnology Subcommittee",
+          "systemCode": "hsag14",
+          "url": "https://api.congress.gov/v3/committee/house/hsag14?format=json"
+        }
+      ],
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-02-12T14:02:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-02-12T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-20",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4607,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DOD and USDA Interagency Research Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4607?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-12T08:05:50Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "M001233",
+      "name": "Rep. Messmer, Mark B. [R-IN-8]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001085",
+      "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+      "party": "D",
+      "state": "PA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-4607",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-05-20",
+          "text": "Read twice and referred to the Committee on Armed Services."
+        },
+        "number": 4607,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DOD and USDA Interagency Research Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/4607?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:34:00Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/detail.json",
+      "endpoint": "bill/119/hr/7547"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:33:59Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/text.json",
+      "endpoint": "bill/119/hr/7547/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:34:01Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/cosponsors.json",
+      "endpoint": "bill/119/hr/7547/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:34:02Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/committees.json",
+      "endpoint": "bill/119/hr/7547/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:34:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/relatedbills.json",
+      "endpoint": "bill/119/hr/7547/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:34:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-7547/subjects.json",
+      "endpoint": "bill/119/hr/7547/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-7547.json",
+  "known_limitations": []
+}

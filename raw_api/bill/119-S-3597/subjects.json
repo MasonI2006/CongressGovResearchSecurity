@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 21,
+    "next": "https://api.congress.gov/v3/bill/119/s/3597/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "3597",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3597?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Atmospheric science and weather",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Congressional committees",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Elementary and secondary education",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Government lending and loan guarantees",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Infrastructure development",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "International organizations and cooperation",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "International scientific cooperation",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Retail and wholesale trades",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Science and engineering education",
+        "updateDate": "2026-07-21T18:36:21Z"
+      },
+      {
+        "name": "Student aid and college costs",
+        "updateDate": "2026-07-21T18:36:22Z"
+      },
+      {
+        "name": "Technology assessment",
+        "updateDate": "2026-07-21T18:36:21Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2026-02-06T13:52:27Z"
+    }
+  }
+}

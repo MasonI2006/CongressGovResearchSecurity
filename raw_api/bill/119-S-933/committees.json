@@ -1,0 +1,32 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-03-04T16:02:36Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-11T17:01:49Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "933",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/933?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

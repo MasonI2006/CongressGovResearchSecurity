@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-25",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 3910,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Identical bill"
+        }
+      ],
+      "title": "ReSCUE Oceans Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3910?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "7656",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7656?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

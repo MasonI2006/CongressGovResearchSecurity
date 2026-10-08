@@ -1,0 +1,444 @@
+{
+  "stable_id": "119-house-118903__MTG-119-HOUSE-118903-34-Committee_Amendment",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118903",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001323-Amdt-24.pdf",
+  "retrieved_at": "2026-10-02T05:43:53Z",
+  "http_status": 200,
+  "pdf_sha256": "bec4a5698da5a4ebf3dd704a35d7085fcc2aed0f740796a41c349f8388ea6667",
+  "pdf_bytes": 47672,
+  "pdf_page_count": 5,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118903__MTG-119-HOUSE-118903-34-Committee_Amendment/detail.json",
+  "title": "Full Committee Markup",
+  "update_date": "2026-04-22T13:21:18Z",
+  "document_type": "Committee Amendment",
+  "document_number": "118903",
+  "document_identifier": "MTG-119-HOUSE-118903-34-Committee_Amendment",
+  "text_version": null,
+  "eventId": "118903",
+  "type": "Markup",
+  "meetingStatus": "Scheduled",
+  "date": "2026-02-04T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "7273",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7273?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/HMKP-119-SY00-20260204-SD001.pdf"
+    },
+    {
+      "description": "Updated Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Updated Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/HMKP-119-SY00-20260204-SD001-U1.pdf"
+    },
+    {
+      "description": "NASA Reauthorization Act of 2026",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "NASA Reauthorization Act of 2026",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119HR7273ih.pdf"
+    },
+    {
+      "description": "The Honorable Brian Babin",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/HMKP-119-SY00-MState-B001291-20260204.pdf"
+    },
+    {
+      "description": "The Honorable Zoe Lofgren",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/HMKP-119-SY00-MState-L000397-20260204.pdf"
+    },
+    {
+      "description": "2.4.26 Markup Results",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "2.4.26 Markup Results",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/HMKP-119-SY00-20260204-SD003.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self (TX)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self (TX)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001224-Amdt-9.pdf"
+    },
+    {
+      "description": "The Honorable Emilia Strong Sykes (OH)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Emilia Strong Sykes (OH)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001223-Amdt-97.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-034.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-035.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-36.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-35.pdf"
+    },
+    {
+      "description": "The Honorable Haley M. Stevens (MI)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Haley M. Stevens (MI)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001215-Amdt-26.pdf"
+    },
+    {
+      "description": "The Honorable Mike Haridopolos (FL)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mike Haridopolos (FL)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-H001099-Amdt-29.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-31.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self (TX)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self (TX)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001224-Amdt-20.pdf"
+    },
+    {
+      "description": "The Honorable Haley M. Stevens (MI)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Haley M. Stevens (MI)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001215-Amdt-7.pdf"
+    },
+    {
+      "description": "The Honorable Daniel Webster (FL)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Daniel Webster (FL)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000806-Amdt-31.pdf"
+    },
+    {
+      "description": "The Honorable Daniel Webster (FL)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Daniel Webster (FL)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000806-Amdt-30.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-32.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-34.pdf"
+    },
+    {
+      "description": "The Honorable George Whitesides (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable George Whitesides (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000830-Amdt-37.pdf"
+    },
+    {
+      "description": "The Honorable Brian Babin (TX)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin (TX)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001291-Amdt-1.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self (TX)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self (TX)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001224-Amdt-16.pdf"
+    },
+    {
+      "description": "The Honorable Laura Friedman (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Laura Friedman (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-F000483-Amdt-23.pdf"
+    },
+    {
+      "description": "The Honorable Luz M. Rivas (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Luz M. Rivas (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-R000620-Amdt-25.pdf"
+    },
+    {
+      "description": "The Honorable April McClain Delaney (MD)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable April McClain Delaney (MD)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-M001232-Amdt-072.pdf"
+    },
+    {
+      "description": "The Honorable Jay Obernolte (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Jay Obernolte (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-O000019-Amdt-51.pdf"
+    },
+    {
+      "description": "The Honorable Andrea Salinas (OR)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Andrea Salinas (OR)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001226-Amdt-4.pdf"
+    },
+    {
+      "description": "The Honorable Valerie P. Foushee (NC)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee (NC)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-F000477-Amdt-28.pdf"
+    },
+    {
+      "description": "The Honorable Richard McCormick (GA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Richard McCormick (GA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-M001218-Amdt-22.pdf"
+    },
+    {
+      "description": "The Honorable Luz M. Rivas (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Luz M. Rivas (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-R000620-Amdt-24.pdf"
+    },
+    {
+      "description": "The Honorable Andrea Salinas (OR)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Andrea Salinas (OR)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001226-Amdt-3.pdf"
+    },
+    {
+      "description": "The Honorable Gabe Amo (RI)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Gabe Amo (RI)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-A000380-Amdt-6.pdf"
+    },
+    {
+      "description": "The Honorable Nicholas J. Begich III (AK)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Nicholas J. Begich III (AK)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001323-Amdt-24.pdf"
+    },
+    {
+      "description": "The Honorable Donald S. Beyer Jr. (VA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Donald S. Beyer Jr. (VA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119115ih.pdf"
+    },
+    {
+      "description": "The Honorable Laura Gillen (NY)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Laura Gillen (NY)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-G000602-Amdt-21.pdf"
+    },
+    {
+      "description": "The Honorable April McClain Dleaney (MD)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable April McClain Dleaney (MD)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-M001232-Amdt-26.pdf"
+    },
+    {
+      "description": "The Honorable April McClain Delaney (MD)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable April McClain Delaney (MD)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-M001232-Amdt-30.pdf"
+    },
+    {
+      "description": "The Honorable Mike Kennedy (UT)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mike Kennedy (UT)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-K000403-Amdt-33.pdf"
+    },
+    {
+      "description": "The Honorable Donald S. Beyer Jr. (VA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Donald S. Beyer Jr. (VA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001292-Amdt-114.pdf"
+    },
+    {
+      "description": "The Honorable Valerie P. Foushee (NC)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee (NC)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-F000477-Amdt-29.pdf"
+    },
+    {
+      "description": "The Honorable Vince Fong (CA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Vince Fong (CA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-F000480-Amdt-32.pdf"
+    },
+    {
+      "description": "The Honorable Sarah McBride (DE)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Sarah McBride (DE)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-M001238-Amdt-32.pdf"
+    },
+    {
+      "description": "The Honorable Andrea Salinas (OR)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Andrea Salinas (OR)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001226-Amdt-19.pdf"
+    },
+    {
+      "description": "The Honorable Keith Self (TX)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Keith Self (TX)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-S001224-Amdt-14.pdf"
+    },
+    {
+      "description": "The Honorable Daniel Webster (FL)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Daniel Webster (FL)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-W000806-Amdt-32.pdf"
+    },
+    {
+      "description": "The Honorable Donald S. Beyer Jr. (VA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Donald S. Beyer Jr. (VA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001292-Amdt-8.pdf"
+    },
+    {
+      "description": "The Honorable Valerie P. Foushee (NC)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Valerie P. Foushee (NC)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-F000477-Amdt-27.pdf"
+    },
+    {
+      "description": "The Honorable Donald S. Beyer Jr. (VA)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Donald S. Beyer Jr. (VA)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001292-Amdt-116.pdf"
+    },
+    {
+      "description": "The Honorable Suzanne Bonamici (OR)",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Suzanne Bonamici (OR)",
+      "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001278-Amdt-75.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Committee Amendment",
+    "name": "The Honorable Nicholas J. Begich III (AK)",
+    "url": "https://www.congress.gov/119/meeting/house/118903/documents/BILLS-119-HR7273-B001323-Amdt-24.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "7273",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/7273?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:43:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118903__MTG-119-HOUSE-118903-34-Committee_Amendment/detail.json",
+      "endpoint": "committee-meeting/119/house/118903"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118903__MTG-119-HOUSE-118903-34-Committee_Amendment.json",
+  "known_limitations": []
+}

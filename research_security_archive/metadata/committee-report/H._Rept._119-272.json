@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-272",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/272",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt272/CRPT-119hrpt272.pdf",
+  "retrieved_at": "2026-10-02T03:12:53Z",
+  "http_status": 200,
+  "pdf_sha256": "68e0f4c0920188ad7baae1c28baab40d45b31d091a53e50986d9734fb597996b",
+  "pdf_bytes": 2368648,
+  "pdf_page_count": 267,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-272/detail.json",
+  "title": "COMMERCE, JUSTICE, SCIENCE, AND RELATED AGENCIES APPROPRIATIONS BILL, 2026",
+  "update_date": "2026-02-04T04:26:28Z",
+  "document_type": "HRPT",
+  "document_number": "272-1",
+  "document_identifier": "RPT-119-HRPT-272-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-272",
+  "type": "HRPT",
+  "number": 272,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-09-12T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "5342",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5342?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-5342",
+      "payload": {
+        "congress": 119,
+        "number": "5342",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5342?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:12:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-272/detail.json",
+      "endpoint": "committee-report/119/hrpt/272"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:12:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-272/text.json",
+      "endpoint": "committee-report/119/hrpt/272/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-272.json",
+  "known_limitations": []
+}

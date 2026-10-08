@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-62893",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/62893",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg62893/CHRG-119shrg62893.pdf",
+  "retrieved_at": "2026-10-02T04:16:03Z",
+  "http_status": 200,
+  "pdf_sha256": "085038b32cc38b26e7dafd8d108cd032e08cbf9b20211eb2995420253b457cd5",
+  "pdf_bytes": 6237337,
+  "pdf_page_count": 146,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-62893/detail.json",
+  "title": "TO CONSIDER THE NOMINATION OF STEPHEN A. FEINBERG TO BE DEPUTY SECRETARY OF DEFENSE",
+  "update_date": "2026-06-12T02:36:48Z",
+  "document_type": "HRG",
+  "document_number": 62893,
+  "document_identifier": "HRG-119-SENATE-62893",
+  "text_version": null,
+  "jacketNumber": 62893,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-295",
+  "dates": [
+    {
+      "date": "2025-02-25"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Armed Services Committee",
+      "systemCode": "ssas00",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75256",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg62893/generated/CHRG-119shrg62893.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg62893/CHRG-119shrg62893.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:16:03Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-62893/detail.json",
+      "endpoint": "hearing/119/senate/62893"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-62893.json",
+  "known_limitations": []
+}

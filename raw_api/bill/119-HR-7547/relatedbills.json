@@ -1,0 +1,32 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-05-20",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 4607,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DOD and USDA Interagency Research Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/4607?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "7547",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7547?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-nochamber-61410",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/nochamber/61410",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119jhrg61410/CHRG-119jhrg61410.pdf",
+  "retrieved_at": "2026-10-02T04:25:47Z",
+  "http_status": 200,
+  "pdf_sha256": "33ed3e18ac9d0a83d63fe67611bca187f6ccec2e0b267f642839c403cda992ee",
+  "pdf_bytes": 15096868,
+  "pdf_page_count": 103,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-nochamber-61410/detail.json",
+  "title": "STAND WITH TAIWAN: COUNTERING THE PRC'S POLITICAL WARFARE AND TRANSNATIONAL REPRESSION",
+  "update_date": "2026-02-05T03:36:22Z",
+  "document_type": "HRG",
+  "document_number": 61410,
+  "document_identifier": "HRG-119-NOCHAMBER-61410",
+  "text_version": null,
+  "jacketNumber": 61410,
+  "chamber": "NoChamber",
+  "citation": "J.Hrg.119",
+  "dates": [
+    {
+      "date": "2025-07-23"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Congressional-Executive Commission on China",
+      "systemCode": "jcpk00",
+      "url": "https://api.congress.gov/v3/committee/joint/jcpk00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC74746",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119jhrg61410/generated/CHRG-119jhrg61410.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119jhrg61410/CHRG-119jhrg61410.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:25:47Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-nochamber-61410/detail.json",
+      "endpoint": "hearing/119/nochamber/61410"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-nochamber-61410.json",
+  "known_limitations": []
+}

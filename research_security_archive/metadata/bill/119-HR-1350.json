@@ -1,0 +1,194 @@
+{
+  "stable_id": "119-HR-1350",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1350",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1350/BILLS-119hr1350rfs.pdf",
+  "retrieved_at": "2026-10-01T18:09:29Z",
+  "http_status": 200,
+  "pdf_sha256": "b1f8e0e0ebe913e61bc3e15b621cd7e8f33d912b43963134742db50e8348b3c2",
+  "pdf_bytes": 213780,
+  "pdf_page_count": 7,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1350/detail.json",
+  "title": "DOE and NSF Interagency Research Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "HR",
+  "document_number": "1350",
+  "document_identifier": "BILL-119-HR-1350-Referred_in_Senate",
+  "text_version": {
+    "type": "Referred in Senate",
+    "date": "2025-03-25T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1350",
+  "originChamber": "House",
+  "introducedDate": "2025-02-13",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2025-03-25"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "party": "D",
+      "state": "MI"
+    }
+  ],
+  "cosponsorCount": 2,
+  "cosponsorBioguideIds": [
+    "B001307",
+    "M001238"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Biological and life sciences",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Department of Energy",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Earth sciences",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Intergovernmental relations",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "National Science Foundation",
+      "updateDate": "2025-03-25T14:33:55Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-03-25T14:33:55Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-25T18:33:54Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-13T14:09:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Referred in Senate",
+    "date": "2025-03-25T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "party": "D",
+      "state": "DE"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:29Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/detail.json",
+      "endpoint": "bill/119/hr/1350"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:29Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/text.json",
+      "endpoint": "bill/119/hr/1350/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:30Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/cosponsors.json",
+      "endpoint": "bill/119/hr/1350/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:31Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/committees.json",
+      "endpoint": "bill/119/hr/1350/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:32Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/relatedbills.json",
+      "endpoint": "bill/119/hr/1350/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:30Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1350/subjects.json",
+      "endpoint": "bill/119/hr/1350/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1350.json",
+  "known_limitations": []
+}

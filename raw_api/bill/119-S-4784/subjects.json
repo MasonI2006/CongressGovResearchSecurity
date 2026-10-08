@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 22,
+    "next": "https://api.congress.gov/v3/bill/119/s/4784/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "4784",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4784?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-08-31T17:46:11Z"
+      },
+      {
+        "name": "Appropriations",
+        "updateDate": "2026-08-31T17:46:17Z"
+      },
+      {
+        "name": "Arms control and nonproliferation",
+        "updateDate": "2026-08-31T17:47:09Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-08-31T17:47:33Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-08-31T17:47:26Z"
+      },
+      {
+        "name": "Data collection, sharing, protection",
+        "updateDate": "2026-08-31T17:49:20Z"
+      },
+      {
+        "name": "Defense Nuclear Facilities Safety Board",
+        "updateDate": "2026-08-31T18:19:42Z"
+      },
+      {
+        "name": "Department of Defense",
+        "updateDate": "2026-08-31T17:49:42Z"
+      },
+      {
+        "name": "Europe",
+        "updateDate": "2026-08-31T17:49:53Z"
+      },
+      {
+        "name": "Government buildings, facilities, and property",
+        "updateDate": "2026-08-31T17:47:18Z"
+      },
+      {
+        "name": "Government employee pay, benefits, personnel management",
+        "updateDate": "2026-08-31T18:19:56Z"
+      },
+      {
+        "name": "Intelligence activities, surveillance, classified information",
+        "updateDate": "2026-08-31T17:50:12Z"
+      },
+      {
+        "name": "Middle East",
+        "updateDate": "2026-08-31T17:50:19Z"
+      },
+      {
+        "name": "Military assistance, sales, and agreements",
+        "updateDate": "2026-08-31T17:51:41Z"
+      },
+      {
+        "name": "Military medicine",
+        "updateDate": "2026-08-31T17:52:02Z"
+      },
+      {
+        "name": "Military operations and strategy",
+        "updateDate": "2026-08-31T17:52:09Z"
+      },
+      {
+        "name": "Military personnel and dependents",
+        "updateDate": "2026-08-31T17:56:42Z"
+      },
+      {
+        "name": "Military procurement, research, weapons development",
+        "updateDate": "2026-08-31T17:59:26Z"
+      },
+      {
+        "name": "Public contracts and procurement",
+        "updateDate": "2026-08-31T17:59:41Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Armed Forces and National Security",
+      "updateDate": "2026-06-22T21:07:06Z"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "4441",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/4441?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-04-29T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s4441/BILLS-119s4441is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s4441/BILLS-119s4441is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s4441/BILLS-119s4441is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

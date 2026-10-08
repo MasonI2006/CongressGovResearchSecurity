@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 95 (Wednesday, June 4, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. BAIRD:\nH.R. 3707.\nCongress has the power to enact this legislation pursuant\nto the following:\nU.S. Constitution, Article I, Section 8, Clause 18:\n``The Congress shall have Power . . . To make all Laws\nwhich shall be necessary and proper for carrying into\nExecution the forgoing Powers, and all other Powers vested by\nthis Constitution in the Government of the United States, or\nin any Department or Officer thereof.''\n[Page H2469]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/cosponsors?format=json"
+    },
+    "introducedDate": "2025-06-04",
+    "latestAction": {
+      "actionDate": "2025-06-04",
+      "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3707",
+    "number": "3707",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001307",
+        "district": 4,
+        "firstName": "James",
+        "fullName": "Rep. Baird, James R. [R-IN-4]",
+        "isByRequest": "N",
+        "lastName": "Baird",
+        "middleName": "R.",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/B001307?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/text?format=json"
+    },
+    "title": "NSF and USDA Interagency Research Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3707/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-05-21T20:43:08Z",
+    "updateDateIncludingText": "2026-05-21T20:43:08Z"
+  },
+  "request": {
+    "billNumber": "3707",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

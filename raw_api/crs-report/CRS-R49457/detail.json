@@ -1,0 +1,74 @@
+{
+  "CRSReport": {
+    "authors": [
+      {
+        "author": "Mark P. Keightley"
+      },
+      {
+        "author": "Maggie McCarty"
+      }
+    ],
+    "contentType": "Reports",
+    "currentVersion": 1,
+    "formats": [
+      {
+        "format": "PDF",
+        "url": "https://www.congress.gov/crs_external_products/R/PDF/R49457/R49457.1.pdf"
+      },
+      {
+        "format": "HTML",
+        "url": "https://www.congress.gov/crs_external_products/R/HTML/R49457.html"
+      }
+    ],
+    "id": "R49457",
+    "publishDate": "2026-10-01T04:00:00Z",
+    "relatedMaterials": [
+      {
+        "URL": "https://api.congress.gov/v3/law/96/pub/153",
+        "congress": 96,
+        "number": "96-153",
+        "title": null,
+        "type": "PUB"
+      },
+      {
+        "URL": "https://api.congress.gov/v3/law/97/pub/35",
+        "congress": 97,
+        "number": "97-35",
+        "title": null,
+        "type": "PUB"
+      },
+      {
+        "URL": "https://api.congress.gov/v3/law/101/pub/625",
+        "congress": 101,
+        "number": "101-625",
+        "title": null,
+        "type": "PUB"
+      },
+      {
+        "URL": "https://api.congress.gov/v3/law/99/pub/576",
+        "congress": 99,
+        "number": "99-576",
+        "title": null,
+        "type": "PUB"
+      },
+      {
+        "URL": "https://api.congress.gov/v3/law/91/pub/152",
+        "congress": 91,
+        "number": "91-152",
+        "title": null,
+        "type": "PUB"
+      }
+    ],
+    "status": "Active",
+    "summary": "Housing affordability is an area of interest for policymakers and the public. There are a variety of ways to measure housing affordability, with the most common being the housing-cost-to-income ratio approach (hereinafter, “ratio approach”). This approach considers housing “unaffordable” if housing costs exceed 30% of household income. Recently, the residual income approach—which defines housing as “affordable” if the difference between household income and housing costs is sufficient to pay for some socially acceptable basket of non-housing necessities—has gained attention from researchers due to its ability to address some of the shortcomings of the ratio approach. Understanding the conceptual and empirical differences between these approaches is important, because the concept of what is affordable influences subsidy levels in federal assistance programs, research on family economic well-being, and reports on the health of the nation’s housing market.\nThis report compares the ratio and residual income approaches to measuring housing affordability. While these two measures often show similar overarching housing affordability patterns, they can generate different estimates of the extent of affordability challenges for certain subpopulations. Using data from the 2023 American Community Survey, CRS found the following among non-elderly U.S. households:\nCompared to the residual income approach, the ratio approach estimates lower rates of housing affordability challenges for all households, low-income households, and households with children.\nApproximately 53.0% of households did not face housing affordability challenges under either approach, 31.8% faced challenges under both approaches, and 15.2% faced challenges according to only one of the approaches.\nUnder the residual income approach, it would require more than three times as much additional household income—from work or public subsidies—to alleviate housing affordability challenges than is required under the ratio approach. \nCRS analysis of the 2023 American Housing Survey found that the two approaches produce similar results when estimating the percentage of households facing various indicators of housing insecurity (e.g., difficulty affording housing payments, threat of eviction). Additionally, both approaches found that households with housing affordability challenges were approximately twice as likely as those without such challenges to report having difficulty making housing payments and experiencing involuntary moves. Thus, even though the housing-cost-to-income ratio may not fully capture the prevalence of housing affordability challenges in the United States, it does serve to reflect households’ experiences with housing insecurity. \n",
+    "title": "Measuring Housing Affordability",
+    "topics": [],
+    "updateDate": "2026-10-01T13:40:19Z",
+    "url": "www.congress.gov/crs-report/R49457"
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "report_id": "r49457"
+  }
+}

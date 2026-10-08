@@ -1,0 +1,37 @@
+{
+  "pagination": {
+    "count": 5
+  },
+  "request": {
+    "billNumber": "901",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/901?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-03-11T18:36:20Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2025-03-11T18:36:20Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2025-03-11T18:36:20Z"
+      },
+      {
+        "name": "U.S. and foreign investments",
+        "updateDate": "2025-03-11T18:36:20Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-03-04T16:49:38Z"
+    }
+  }
+}

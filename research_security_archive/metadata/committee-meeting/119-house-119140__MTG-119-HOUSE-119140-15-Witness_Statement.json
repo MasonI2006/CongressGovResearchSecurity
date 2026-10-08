@@ -1,0 +1,199 @@
+{
+  "stable_id": "119-house-119140__MTG-119-HOUSE-119140-15-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119140",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Wstate-Owen-SmithJ-20260415.pdf",
+  "retrieved_at": "2026-10-02T05:48:49Z",
+  "http_status": 200,
+  "pdf_sha256": "621f9e3975054e556587168048dbc68cbe59a7024d2c9313d6dcb82a4aebba06",
+  "pdf_bytes": 604010,
+  "pdf_page_count": 10,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119140__MTG-119-HOUSE-119140-15-Witness_Statement/detail.json",
+  "title": "The State of Scientific Publishing: Assessing Trends, Emerging Issues, and Policy Considerations",
+  "update_date": "2026-04-15T16:04:35Z",
+  "document_type": "Witness Statement",
+  "document_number": "119140",
+  "document_identifier": "MTG-119-HOUSE-119140-15-Witness_Statement",
+  "text_version": null,
+  "eventId": "119140",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-04-15T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+      "systemCode": "hssy21",
+      "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-20260415-SD001.pdf"
+    },
+    {
+      "description": "Notice Update 1",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice Update 1",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-20260415-SD002.pdf"
+    },
+    {
+      "description": "Charter",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-20260415-SD003.pdf"
+    },
+    {
+      "description": "The Honorable Brian Babin",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-MState-B001291-20260415.pdf"
+    },
+    {
+      "description": "The Honorable Zoe Lofgren",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-MState-L000397-20260415.pdf"
+    },
+    {
+      "description": "The Honorable Richard McCormick",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Richard McCormick",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-MState-M001218-20260415.pdf"
+    },
+    {
+      "description": "The Honorable Emilia Strong Sykes",
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Emilia Strong Sykes",
+      "url": "https://www.congress.gov/119/meeting/house/119140/documents/HHRG-119-SY21-MState-S001223-20260415.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. Carl Maxwell",
+      "organization": "Assocation of American Publishers",
+      "position": "Senior Vice President, Public Policy"
+    },
+    {
+      "name": "Ms. Kate Travis",
+      "organization": "Retraction Watch",
+      "position": "Managing Editor"
+    },
+    {
+      "name": "Dr. Jason Owen-Smith",
+      "organization": "Institute for Research on Innovation & Science, University of Michigan",
+      "position": "Executive Director"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-TTF-Owen-SmithJ-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-TTF-MaxwellC-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-TTF-TravisK-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Bio-MaxwellC-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Wstate-MaxwellC-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Bio-TravisK-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Wstate-TravisK-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Bio-Owen-SmithJ-20260415.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Wstate-Owen-SmithJ-20260415.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/119140/witnesses/HHRG-119-SY21-Wstate-Owen-SmithJ-20260415.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Carl Maxwell",
+      "party": null,
+      "state": "Assocation of American Publishers",
+      "position": "Senior Vice President, Public Policy"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Kate Travis",
+      "party": null,
+      "state": "Retraction Watch",
+      "position": "Managing Editor"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Jason Owen-Smith",
+      "party": null,
+      "state": "Institute for Research on Innovation & Science, University of Michigan",
+      "position": "Executive Director"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:48:49Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119140__MTG-119-HOUSE-119140-15-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/119140"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119140__MTG-119-HOUSE-119140-15-Witness_Statement.json",
+  "known_limitations": []
+}

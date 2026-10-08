@@ -1,0 +1,57 @@
+{
+  "pagination": {
+    "count": 10
+  },
+  "request": {
+    "billNumber": "1397",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1397?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-06-12T20:11:55Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2025-06-12T20:11:39Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-06-12T20:11:27Z"
+      },
+      {
+        "name": "Higher education",
+        "updateDate": "2025-06-12T20:11:04Z"
+      },
+      {
+        "name": "Intergovernmental relations",
+        "updateDate": "2025-06-12T20:12:04Z"
+      },
+      {
+        "name": "International organizations and cooperation",
+        "updateDate": "2025-06-12T20:10:47Z"
+      },
+      {
+        "name": "International scientific cooperation",
+        "updateDate": "2025-06-12T20:10:56Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2025-06-12T20:12:12Z"
+      },
+      {
+        "name": "Science and engineering education",
+        "updateDate": "2025-06-12T20:12:19Z"
+      }
+    ],
+    "policyArea": {
+      "name": "International Affairs",
+      "updateDate": "2025-05-22T20:37:48Z"
+    }
+  }
+}

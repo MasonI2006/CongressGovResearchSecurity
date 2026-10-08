@@ -1,0 +1,71 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "7567",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-620",
+      "committees": [
+        {
+          "name": "Agriculture Committee",
+          "systemCode": "hsag00",
+          "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-04-21T04:00:00Z",
+      "number": 620,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/620/text?format=json"
+      },
+      "title": "FARM, FOOD, AND NATIONAL SECURITY ACT OF 2026",
+      "type": "HRPT",
+      "updateDate": "2026-09-19T23:18:25Z"
+    },
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "7567",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-620,Book 2",
+      "committees": [],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-04-21T04:00:00Z",
+      "number": 620,
+      "part": 2,
+      "reportType": "H.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/620/text?format=json"
+      },
+      "title": "FARM, FOOD, AND NATIONAL SECURITY ACT OF 2026",
+      "type": "HRPT",
+      "updateDate": "2026-06-11T23:41:23Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "620",
+    "reportType": "hrpt"
+  }
+}

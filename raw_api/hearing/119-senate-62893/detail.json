@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-295",
+    "committees": [
+      {
+        "name": "Senate Armed Services Committee",
+        "systemCode": "ssas00",
+        "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-02-25"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62893/generated/CHRG-119shrg62893.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg62893/CHRG-119shrg62893.pdf"
+      }
+    ],
+    "jacketNumber": 62893,
+    "libraryOfCongressIdentifier": "LC75256",
+    "number": 295,
+    "title": "TO CONSIDER THE NOMINATION OF STEPHEN A. FEINBERG TO BE DEPUTY SECRETARY OF DEFENSE",
+    "updateDate": "2026-06-12T02:36:48Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "62893"
+  }
+}

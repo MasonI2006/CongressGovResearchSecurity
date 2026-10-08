@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-44-Daily Digest-D241",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/44",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/03/10/171/44/CREC-2025-03-10-pt1-PgD241.pdf",
+  "retrieved_at": "2026-10-02T10:04:37Z",
+  "http_status": 200,
+  "pdf_sha256": "aef418b47ed6a97b3ecd7196a19a67fa6d6665f3989474318e862cd1c92bb832",
+  "pdf_bytes": 248530,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-44-Daily_Digest-D241/issue.json",
+  "title": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 44",
+  "update_date": "2025-03-11T10:44:12Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I44",
+  "document_identifier": "CREC-119-V171-I44-Daily_Digest-0",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "44",
+  "issueDate": "2025-03-10T04:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/CONGRESSIONAL PROGRAM AHEAD; Congressional Record Vol. 171, No. 44",
+  "startPage": "D241",
+  "endPage": "D243",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:04:37Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-44-Daily_Digest-D241/issue.json",
+      "endpoint": "daily-congressional-record/171/44"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:04:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-44-Daily_Digest-D241/articles.json",
+      "endpoint": "daily-congressional-record/171/44/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-44-Daily_Digest-D241.json",
+  "known_limitations": []
+}

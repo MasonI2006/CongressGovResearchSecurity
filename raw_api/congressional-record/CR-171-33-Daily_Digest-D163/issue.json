@@ -1,0 +1,71 @@
+{
+  "issue": {
+    "congress": 119,
+    "fullIssue": {
+      "articles": {
+        "count": 115,
+        "url": "https://api.congress.gov/v3/daily-congressional-record/171/33/articles?format=json"
+      },
+      "entireIssue": [
+        {
+          "part": "1",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2025/02/19/171/33/CREC-2025-02-19.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "endPage": "D164",
+          "name": "Daily Digest",
+          "startPage": "D161",
+          "text": [
+            {
+              "type": "Formatted Text",
+              "url": "https://www.congress.gov/119/crec/2025/02/19/d19fe5-1.htm"
+            },
+            {
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/02/19/171/33/CREC-2025-02-19-dailydigest.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "E139",
+          "name": "Extensions of Remarks Section",
+          "startPage": "E139",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/02/19/171/33/CREC-2025-02-19-extensions.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "S1060",
+          "name": "Senate Section",
+          "startPage": "S1015",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/02/19/171/33/CREC-2025-02-19-senate.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "issueDate": "2025-02-19T05:00:00Z",
+    "issueNumber": "33",
+    "sessionNumber": 1,
+    "updateDate": "2025-02-20T10:14:14Z",
+    "url": "https://api.congress.gov/v3/daily-congressional-record/171/33?format=json",
+    "volumeNumber": 171
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "issueNumber": "33",
+    "volumeNumber": "171"
+  }
+}

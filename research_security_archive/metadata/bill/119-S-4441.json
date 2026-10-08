@@ -1,0 +1,184 @@
+{
+  "stable_id": "119-S-4441",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/4441",
+  "pdf_url": "https://www.congress.gov/119/bills/s4441/BILLS-119s4441is.pdf",
+  "retrieved_at": "2026-10-02T00:04:27Z",
+  "http_status": 200,
+  "pdf_sha256": "3a8a92dd75ce0fc4e0ac022a32532a8410bc8b36595890fb4d50a3cdf4ad6222",
+  "pdf_bytes": 257931,
+  "pdf_page_count": 11,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-4441/detail.json",
+  "title": "CREATE AI Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "4441",
+  "document_identifier": "BILL-119-S-4441-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-04-29T04:00:00Z"
+  },
+  "type": "S",
+  "number": "4441",
+  "originChamber": "Senate",
+  "introducedDate": "2026-04-29",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2026-04-29"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 7,
+  "cosponsorBioguideIds": [
+    "H001046",
+    "R000605",
+    "B001288",
+    "S000148",
+    "H001104",
+    "W000437",
+    "B001303"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-29T20:58:14Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-04-29T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001046",
+      "name": "Sen. Heinrich, Martin [D-NM]",
+      "party": "D",
+      "state": "NM"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000605",
+      "name": "Sen. Rounds, Mike [R-SD]",
+      "party": "R",
+      "state": "SD"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001288",
+      "name": "Sen. Booker, Cory A. [D-NJ]",
+      "party": "D",
+      "state": "NJ"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S000148",
+      "name": "Sen. Schumer, Charles E. [D-NY]",
+      "party": "D",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001104",
+      "name": "Sen. Husted, Jon [R-OH]",
+      "party": "R",
+      "state": "OH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000437",
+      "name": "Sen. Wicker, Roger F. [R-MS]",
+      "party": "R",
+      "state": "MS"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001303",
+      "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+      "party": "D",
+      "state": "DE"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:27Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/detail.json",
+      "endpoint": "bill/119/s/4441"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/text.json",
+      "endpoint": "bill/119/s/4441/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:28Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/cosponsors.json",
+      "endpoint": "bill/119/s/4441/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:28Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/committees.json",
+      "endpoint": "bill/119/s/4441/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:29Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/relatedbills.json",
+      "endpoint": "bill/119/s/4441/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:04:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-4441/subjects.json",
+      "endpoint": "bill/119/s/4441/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-4441.json",
+  "known_limitations": []
+}

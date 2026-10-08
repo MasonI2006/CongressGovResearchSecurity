@@ -1,0 +1,98 @@
+{
+  "stable_id": "119-SAMDT-6519",
+  "collection": "amendment",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/amendment/119/samdt/6519",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/06/24/172/106/CREC-2026-06-24-pt1-PgS3629-2.pdf",
+  "retrieved_at": "2026-10-02T02:58:39Z",
+  "http_status": 200,
+  "pdf_sha256": "ddb9bc617dc86eb7b796f7fe028b9483f65f7bf3764340204cd2a707efb5acbd",
+  "pdf_bytes": 249493,
+  "pdf_page_count": 4,
+  "pdf_has_text_layer": true,
+  "text_source_used": "html",
+  "raw_api_json_path": "raw_api/amendment/119-SAMDT-6519/detail.json",
+  "title": null,
+  "update_date": "2026-07-06T13:01:59Z",
+  "document_type": "SAMDT",
+  "document_number": "6519",
+  "document_identifier": "AMDT-119-SAMDT-6519-Submitted",
+  "text_version": {
+    "type": "Submitted",
+    "date": "2026-06-24T04:00:00Z"
+  },
+  "type": "SAMDT",
+  "number": "6519",
+  "chamber": "Senate",
+  "description": null,
+  "purpose": null,
+  "submittedDate": "2026-06-24T04:00:00Z",
+  "latestAction": {
+    "text": null,
+    "date": "2026-06-24",
+    "actionCode": "91000",
+    "type": "Floor"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "D000563"
+    }
+  ],
+  "amendedBill": {
+    "congress": 119,
+    "type": "S",
+    "number": "4784",
+    "originChamber": "Senate",
+    "title": "National Defense Authorization Act for Fiscal Year 2027"
+  },
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "D000563",
+      "name": "Sen. Durbin, Richard J. [D-IL]",
+      "party": "D",
+      "state": "IL"
+    }
+  ],
+  "committees": [],
+  "related_items": [
+    {
+      "relation_type": "amended_bill",
+      "related_key": "119-S-4784",
+      "payload": {
+        "congress": 119,
+        "type": "S",
+        "number": "4784",
+        "originChamber": "Senate",
+        "title": "National Defense Authorization Act for Fiscal Year 2027"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:58:39Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-6519/detail.json",
+      "endpoint": "amendment/119/samdt/6519"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:58:38Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-6519/text.json",
+      "endpoint": "amendment/119/samdt/6519/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:58:40Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-6519/actions.json",
+      "endpoint": "amendment/119/samdt/6519/actions"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/amendment/119-SAMDT-6519.json",
+  "known_limitations": []
+}

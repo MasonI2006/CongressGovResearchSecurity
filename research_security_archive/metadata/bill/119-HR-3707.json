@@ -1,0 +1,213 @@
+{
+  "stable_id": "119-HR-3707",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/3707",
+  "pdf_url": "https://www.congress.gov/119/bills/hr3707/BILLS-119hr3707ih.pdf",
+  "retrieved_at": "2026-10-01T18:10:26Z",
+  "http_status": 200,
+  "pdf_sha256": "ebc30e04e4ca4c432334a0e7b544a41cd654b5ca8a2e3f3e2e63a3ac48d37f6d",
+  "pdf_bytes": 252341,
+  "pdf_page_count": 8,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-3707/detail.json",
+  "title": "NSF and USDA Interagency Research Act",
+  "update_date": "2026-05-21T20:43:08Z",
+  "document_type": "HR",
+  "document_number": "3707",
+  "document_identifier": "BILL-119-HR-3707-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-06-04T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "3707",
+  "originChamber": "House",
+  "introducedDate": "2025-06-04",
+  "latestAction": {
+    "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "date": "2025-06-04"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "cosponsorCount": 4,
+  "cosponsorBioguideIds": [
+    "S001226",
+    "V000138",
+    "H001090",
+    "N000191"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-06-04T14:00:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-06-04T14:00:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-06-04T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-27",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 8516,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "American Leadership in AI Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-05-21T20:43:08Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001226",
+      "name": "Rep. Salinas, Andrea [D-OR-6]",
+      "party": "D",
+      "state": "OR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001090",
+      "name": "Rep. Harder, Josh [D-CA-9]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "N000191",
+      "name": "Rep. Neguse, Joe [D-CO-2]",
+      "party": "D",
+      "state": "CO"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-8516",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-04-27",
+          "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        },
+        "number": 8516,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "American Leadership in AI Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8516?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/detail.json",
+      "endpoint": "bill/119/hr/3707"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/text.json",
+      "endpoint": "bill/119/hr/3707/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/cosponsors.json",
+      "endpoint": "bill/119/hr/3707/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:28Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/committees.json",
+      "endpoint": "bill/119/hr/3707/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:29Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/relatedbills.json",
+      "endpoint": "bill/119/hr/3707/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:27Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-3707/subjects.json",
+      "endpoint": "bill/119/hr/3707/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-3707.json",
+  "known_limitations": []
+}

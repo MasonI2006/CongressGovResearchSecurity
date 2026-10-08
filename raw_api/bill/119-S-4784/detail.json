@@ -1,0 +1,87 @@
+{
+  "bill": {
+    "actions": {
+      "count": 12,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/actions?format=json"
+    },
+    "amendments": {
+      "count": 884,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As reported by the Senate Committee on Armed Services on June 15, 2026",
+        "pubDate": "2026-09-28T18:40:00Z",
+        "title": "S. 4784, the National Defense Authorization Act for Fiscal Year 2027",
+        "url": "https://www.cbo.gov/publication/62781"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "S. Rept. 119-127",
+        "url": "https://api.congress.gov/v3/committee-report/119/SRPT/127?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2026-06-15",
+    "latestAction": {
+      "actionDate": "2026-07-27",
+      "text": "Motion to proceed to consideration of measure made in Senate. (CR S4276)"
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
+    "number": "4784",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 20,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000437",
+        "firstName": "Roger",
+        "fullName": "Sen. Wicker, Roger F. [R-MS]",
+        "isByRequest": "N",
+        "lastName": "Wicker",
+        "middleName": "F.",
+        "party": "R",
+        "state": "MS",
+        "url": "https://api.congress.gov/v3/member/W000437?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 22,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/text?format=json"
+    },
+    "title": "National Defense Authorization Act for Fiscal Year 2027",
+    "titles": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/s/4784/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-30T11:08:23Z",
+    "updateDateIncludingText": "2026-09-30T11:08:23Z"
+  },
+  "request": {
+    "billNumber": "4784",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

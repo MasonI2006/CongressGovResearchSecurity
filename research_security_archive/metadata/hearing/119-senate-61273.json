@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-61273",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/61273",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg61273/CHRG-119shrg61273.pdf",
+  "retrieved_at": "2026-10-02T04:20:04Z",
+  "http_status": 200,
+  "pdf_sha256": "008d6f223d659206d8d13717dde994c4e8d1606c27c3c629ba5ec36ae145e54f",
+  "pdf_bytes": 302205,
+  "pdf_page_count": 62,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-61273/detail.json",
+  "title": "NUUK AND CRANNY: LOOKING AT THE ARCTIC AND GREENLAND'S GEOSTRATEGIC IMPORTANCE TO U.S. INTERESTS",
+  "update_date": "2026-02-05T03:36:16Z",
+  "document_type": "HRG",
+  "document_number": 61273,
+  "document_identifier": "HRG-119-SENATE-61273",
+  "text_version": null,
+  "jacketNumber": 61273,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-129",
+  "dates": [
+    {
+      "date": "2025-02-12"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Commerce Committee",
+      "systemCode": "sscm00",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC74590",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg61273/generated/CHRG-119shrg61273.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg61273/CHRG-119shrg61273.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:20:04Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-61273/detail.json",
+      "endpoint": "hearing/119/senate/61273"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-61273.json",
+  "known_limitations": []
+}

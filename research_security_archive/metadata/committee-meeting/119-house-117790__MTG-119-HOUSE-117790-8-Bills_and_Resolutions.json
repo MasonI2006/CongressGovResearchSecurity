@@ -1,0 +1,117 @@
+{
+  "stable_id": "119-house-117790__MTG-119-HOUSE-117790-8-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117790",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117790/documents/CPRT-119HPRT59719.pdf",
+  "retrieved_at": "2026-10-02T08:03:55Z",
+  "http_status": 200,
+  "pdf_sha256": "ea62becf40d88568591e71f70473ac5f47de9153c0fc28cc1e80fa88ab97bfc5",
+  "pdf_bytes": 251945,
+  "pdf_page_count": 60,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117790__MTG-119-HOUSE-117790-8-Bills_and_Resolutions/detail.json",
+  "title": "H.R. 1048 - Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act; H.J. Res. 24 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\".; H.J. Res. 75 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
+  "update_date": "2026-01-02T05:22:14Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "117790",
+  "document_identifier": "MTG-119-HOUSE-117790-8-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "117790",
+  "type": "Meeting",
+  "meetingStatus": "Scheduled",
+  "date": "2025-03-24T20:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Rules",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "H-313"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1048 - Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/BILLS-119hr1048rh.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Comparative Print showing the differences between H.R. 1048 (as reported) and Rules Committee Print 119-1",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/BILL-TO-BILL_119hr1048rh_to_RCP_H1048_xml.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.J. Res. 24 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\".",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/BILLS-119hjres24ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-16 – Report from the Committee on Education and Workforce to accompany H.R. 1048",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/CRPT-119hrpt16.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-1 – Showing the text of H.R. 1048, as ordered reported by the Committee on Education and Workforce, with modifications",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/RCP_H1048_xml.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.J. Res. 75 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/BILLS-119hjres75ih.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-38 – Report from the Committee on Rules to accompany H. Res. 242",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/CRPT-119hrpt38.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Rules Committee Print 119-1 – Showing the text of H.R. 1048, as ordered reported by the Committee on Education and Workforce, with modifications",
+      "url": "https://www.congress.gov/119/meeting/house/117790/documents/CPRT-119HPRT59719.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": ":: Rules Committee Print 119-1 – Showing the text of H.R. 1048, as ordered reported by the Committee on Education and Workforce, with modifications",
+    "url": "https://www.congress.gov/119/meeting/house/117790/documents/CPRT-119HPRT59719.pdf"
+  },
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T08:03:55Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117790__MTG-119-HOUSE-117790-8-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/117790"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117790__MTG-119-HOUSE-117790-8-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

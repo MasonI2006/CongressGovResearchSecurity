@@ -1,0 +1,75 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 44 (Monday, March 10, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. JAMES:\nH.R. 1999.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 3\n[Page H1068]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-10",
+    "latestAction": {
+      "actionDate": "2025-03-10",
+      "text": "Referred to the House Committee on Education and Workforce."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1999",
+    "number": "1999",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Education"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "J000307",
+        "district": 10,
+        "firstName": "John",
+        "fullName": "Rep. James, John [R-MI-10]",
+        "isByRequest": "N",
+        "lastName": "James",
+        "party": "R",
+        "state": "MI",
+        "url": "https://api.congress.gov/v3/member/J000307?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/text?format=json"
+    },
+    "title": "Disclose GIFT Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-07-30T14:54:13Z",
+    "updateDateIncludingText": "2026-07-30T14:54:13Z"
+  },
+  "request": {
+    "billNumber": "1999",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

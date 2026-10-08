@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "242",
+          "type": "HRES",
+          "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+        }
+      ],
+      "chamber": "House",
+      "citation": "H. Rept. 119-38",
+      "committees": [
+        {
+          "name": "Rules Committee",
+          "systemCode": "hsru00",
+          "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-03-24T04:00:00Z",
+      "number": 38,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/38/text?format=json"
+      },
+      "title": "PROVIDING FOR CONSIDERATION OF THE JOINT RESOLUTION (H.J. RES. 24) PROVIDING FOR CONGRESSIONAL DISAPPROVAL UNDER CHAPTER 8 OF TITLE 5, UNITED STATES CODE, OF THE RULE SUBMITTED BY THE DEPARTMENT OF ENERGY RELATING TO \"ENERGY CONSERVATION PRO- GRAM: ENERGY CONSERVATION STANDARDS FOR WALK-IN COOLERS AND WALK-IN FREEZERS\"; PROVIDING FOR CONSIDERATION OF THE JOINT RESOLUTION (H.J. RES. 75) PROVIDING FOR CONGRESSIONAL DIS- APPROVAL UNDER CHAPTER 8 OF TITLE 5, UNITED STATES CODE, OF THE RULE SUBMITTED BY THE OFFICE OF ENERGY EFFICIENCY AND RENEWABLE ENERGY, DEPARTMENT OF ENERGY RELATING TO \"EN- ERGY CONSERVATION PROGRAM: ENERGY CONSERVATION STANDARDS FOR COMMERCIAL REFRIG",
+      "type": "HRPT",
+      "updateDate": "2025-05-27T14:12:43Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "38",
+    "reportType": "hrpt"
+  }
+}

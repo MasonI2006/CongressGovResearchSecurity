@@ -1,0 +1,7 @@
+Congress.gov Research Security Archive Validation
+PDF files checked: 240
+Metadata rows: 240
+Match rows: 1265
+Gaps found: 0
+Result: PASS
+Every PDF has a metadata row, a matching SHA-256, a sidecar, and a match record.

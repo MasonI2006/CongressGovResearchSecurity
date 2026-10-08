@@ -1,0 +1,453 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology",
+        "systemCode": "hssy00",
+        "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-06-25T14:00:00Z",
+    "eventId": "119391",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/HMKP-119-SY00-20260625-SD001.pdf"
+      },
+      {
+        "description": "The Honorable Brian Babin",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/HMKP-119-SY00-MState-B001291-20260625.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/HMKP-119-SY00-MState-L000397-20260625.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR8748ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR9363ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR2385ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR5351ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR5584ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR6461ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR8893ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR9333ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR9334ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119HR9372ih.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9362-O000019-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR2385-O000019-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Vince Fong",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Vince Fong",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR5351-F000480-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Sarah McBride",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Sarah McBride",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR6461-M001238-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR8893-F000477-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Deborah K. Ross",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Deborah K. Ross",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9333-R000305-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9334-L000397-Amdt-ANS.pdf"
+      },
+      {
+        "description": "The Honorable April McClain Delaney",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable April McClain Delaney",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9341-M001232-Amdt-100.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-F000477-Amdt-081.pdf"
+      },
+      {
+        "description": "The Honorable Bill Foster",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Bill Foster",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-F000454-Amdt-095.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-A000370-Amdt-083.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-O000019-Amdt-074.pdf"
+      },
+      {
+        "description": "The Honorable George Whitesides",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable George Whitesides",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-W000830-Amdt-082.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-L000397-Amdt-001.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9363-O000019-Amdt-076.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR2385-F000477-Amdt-078.pdf"
+      },
+      {
+        "description": "The Honorable George Whitesides",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable George Whitesides",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR5351-W000830-Amdt-079.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR5351-F000477-Amdt-079.pdf"
+      },
+      {
+        "description": "The Honorable Andrea Salinas",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Andrea Salinas",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR5351-S001226-Amdt-107.pdf"
+      },
+      {
+        "description": "The Honorable Daniel Webster",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Daniel Webster",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR6461-W000806-Amdt-045.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR8893-F000477-Amdt-082.pdf"
+      },
+      {
+        "description": "The Honorable Zoe Lofgren",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR8893-L000397-Amdt-041.pdf"
+      },
+      {
+        "description": "The Honorable April McClain Delaney",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable April McClain Delaney",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR8893-M001232-Amdt-103.pdf"
+      },
+      {
+        "description": "The Honorable George Whitesides",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable George Whitesides",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR8893-A000370-Amdt-080.pdf"
+      },
+      {
+        "description": "The Honorable Emilia Strong Sykes",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Emilia Strong Sykes",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9334-S001223-Amdt-136.pdf"
+      },
+      {
+        "description": "The Honorable Valerie P. Foushee",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Valerie P. Foushee",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9334-F000477-Amdt-080.pdf"
+      },
+      {
+        "description": "The Honorable Jay Obernolte",
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/BILLS-119-HR9372-O000019-Amdt-075.pdf"
+      },
+      {
+        "description": "Markup Results",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Markup Results",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/HMKP-119-SY00-20260625-SD002.pdf"
+      },
+      {
+        "description": "H.R. 9341, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 9341, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote001-20260625.pdf"
+      },
+      {
+        "description": "H.R. 9363, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 9363, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote002-20260625.pdf"
+      },
+      {
+        "description": "H.R. 9333, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 9333, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote003-20260625.pdf"
+      },
+      {
+        "description": "H.R. 2385, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 2385, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote004-20260625.pdf"
+      },
+      {
+        "description": "Foushee 079 amendment to the ANS to H.R. 5351",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "Foushee 079 amendment to the ANS to H.R. 5351",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote005-20260625.pdf"
+      },
+      {
+        "description": "Salinas_107 amendment to the ANS to H.R. 5351",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "Salinas_107 amendment to the ANS to H.R. 5351",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote006-20260625.pdf"
+      },
+      {
+        "description": "H.R. 5351, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 5351, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote007-20260625.pdf"
+      },
+      {
+        "description": "H.R. 5584",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 5584",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote008-20260625.pdf"
+      },
+      {
+        "description": "H.R. 6461, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 6461, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote009-20260625.pdf"
+      },
+      {
+        "description": "H.R. 8893, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 8893, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote010-20260625.pdf"
+      },
+      {
+        "description": "H.R. 9334, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 9334, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote011-20260625.pdf"
+      },
+      {
+        "description": "H.R. 9372, as amended",
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 9372, as amended",
+        "url": "https://www.congress.gov/119/meeting/house/119391/documents/CRPT-119-SY00-Vote012-20260625.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "relatedItems": {
+      "bills": [
+        {
+          "congress": 119,
+          "number": "9363",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9363?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "9333",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9333?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "9334",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9334?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "2385",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/2385?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "5351",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/5351?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "6461",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/6461?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "9372",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9372?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "8893",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/8893?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "9341",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9341?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "5584",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/5584?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "9362",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/9362?format=json"
+        }
+      ]
+    },
+    "title": "Full Committee",
+    "type": "Markup",
+    "updateDate": "2026-06-25T23:34:41Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119391",
+    "format": "json"
+  }
+}

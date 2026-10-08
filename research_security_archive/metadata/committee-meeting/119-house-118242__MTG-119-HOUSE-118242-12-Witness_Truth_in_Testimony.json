@@ -1,0 +1,195 @@
+{
+  "stable_id": "119-house-118242__MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118242",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-NorrisW-20250514.pdf",
+  "retrieved_at": "2026-10-02T07:21:01Z",
+  "http_status": 200,
+  "pdf_sha256": "0d03972e389a19e716bb944dd2ad592ff2f3c7fb6aedb3450c5b40938ae11bfc",
+  "pdf_bytes": 1038718,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118242__MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony/detail.json",
+  "title": "National Economic Security, Advancing US Interests Abroad",
+  "update_date": "2026-01-02T06:45:32Z",
+  "document_type": "Witness Truth in Testimony",
+  "document_number": "118242",
+  "document_identifier": "MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony",
+  "text_version": null,
+  "eventId": "118242",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-05-14T14:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Foreign Affairs East Asia and Pacific Subcommittee",
+      "systemCode": "hsfa05",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa05?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2172"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Hearing: Member Roster",
+      "format": "PDF",
+      "name": "Member Attendance",
+      "url": "https://www.congress.gov/119/meeting/house/118242/documents/HHRG-119-FA05-20250514-MbrRoster.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118242/documents/HHRG-119-FA05-20250514-SD001-U1.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. William Norris",
+      "organization": "Texas A&M University",
+      "position": "Associate Professor"
+    },
+    {
+      "name": "Ms. Elaine Dezenski",
+      "organization": "The Foundation for Defense of Democracies",
+      "position": "Senior Director and Head of the Center on Economic and Financial Power"
+    },
+    {
+      "name": "Ms. Wendy Cutler",
+      "organization": "Asia Society Policy Institute",
+      "position": "Vice President"
+    },
+    {
+      "name": "Mr. Matthew Goodman",
+      "organization": "Council on Foreign Relations",
+      "position": "Director of the Greenberg Center for Geoeconomic Studies"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-DezenskiE-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Bio-NorrisW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Bio-CutlerW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Wstate-CutlerW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-CutlerW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Bio-GoodmanM-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-GoodmanM-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Wstate-GoodmanM-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Bio-DezenskiE-20250514-U1.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Wstate-NorrisW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-NorrisW-20250514.pdf"
+    },
+    {
+      "documentType": "Witness Support Document",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Wstate-NorrisW-20250514-SD001.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-Wstate-DezenskiE-20250514.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Truth in Testimony",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/118242/witnesses/HHRG-119-FA05-TTF-NorrisW-20250514.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. William Norris",
+      "party": null,
+      "state": "Texas A&M University",
+      "position": "Associate Professor"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Elaine Dezenski",
+      "party": null,
+      "state": "The Foundation for Defense of Democracies",
+      "position": "Senior Director and Head of the Center on Economic and Financial Power"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Wendy Cutler",
+      "party": null,
+      "state": "Asia Society Policy Institute",
+      "position": "Vice President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Matthew Goodman",
+      "party": null,
+      "state": "Council on Foreign Relations",
+      "position": "Director of the Greenberg Center for Geoeconomic Studies"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:21:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118242__MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony/detail.json",
+      "endpoint": "committee-meeting/119/house/118242"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118242__MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony.json",
+  "known_limitations": []
+}

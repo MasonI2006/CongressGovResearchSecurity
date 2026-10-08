@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-senate-60021",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/senate/60021",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119shrg60021/CHRG-119shrg60021.pdf",
+  "retrieved_at": "2026-10-02T04:11:44Z",
+  "http_status": 200,
+  "pdf_sha256": "61ede49e811356eeaf65dcfc70d7e549ac09088104584783c8754f78ef2fa777",
+  "pdf_bytes": 42355697,
+  "pdf_page_count": 164,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-senate-60021/detail.json",
+  "title": "RESEARCH SECURITY RISKS POSED BY FOREIGN NATIONALS FROM COUNTRIES OF RISK WORKING AT THE DEPARTMENT OF ENERGY'S NATIONAL LABORATORIES AND NECESSARY MITIGATION STEPS",
+  "update_date": "2026-06-12T04:21:26Z",
+  "document_type": "HRG",
+  "document_number": 60021,
+  "document_identifier": "HRG-119-SENATE-60021",
+  "text_version": null,
+  "jacketNumber": 60021,
+  "chamber": "Senate",
+  "citation": "S.Hrg.119-45",
+  "dates": [
+    {
+      "date": "2025-02-20"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Senate Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75033",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg60021/generated/CHRG-119shrg60021.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119shrg60021/CHRG-119shrg60021.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:11:44Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-senate-60021/detail.json",
+      "endpoint": "hearing/119/senate/60021"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-senate-60021.json",
+  "known_limitations": []
+}

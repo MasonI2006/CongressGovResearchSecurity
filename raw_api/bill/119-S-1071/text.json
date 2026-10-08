@@ -1,0 +1,109 @@
+{
+  "pagination": {
+    "count": 5
+  },
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": null,
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071enr.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071enr.pdf"
+        },
+        {
+          "type": "United States Legislative Markup",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071enr_uslm.xml"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071enr.xml"
+        }
+      ],
+      "type": "Enrolled Bill"
+    },
+    {
+      "date": "2025-12-10T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071eah.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071eah.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071eah.xml"
+        }
+      ],
+      "type": "Engrossed Amendment House"
+    },
+    {
+      "date": "2025-08-01T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071es.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071es.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071es.xml"
+        }
+      ],
+      "type": "Engrossed in Senate"
+    },
+    {
+      "date": "2025-03-14T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1071/BILLS-119s1071is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    },
+    {
+      "date": "2025-12-19T04:59:59Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/plaws/publ60/PLAW-119publ60.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/plaws/publ60/PLAW-119publ60.pdf"
+        },
+        {
+          "type": "United States Legislative Markup",
+          "url": "https://www.congress.gov/119/plaws/publ60/PLAW-119publ60_uslm.xml"
+        }
+      ],
+      "type": "Public Law"
+    }
+  ]
+}

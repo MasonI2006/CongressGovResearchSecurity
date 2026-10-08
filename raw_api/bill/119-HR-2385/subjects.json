@@ -1,0 +1,77 @@
+{
+  "pagination": {
+    "count": 15
+  },
+  "request": {
+    "billNumber": "2385",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/2385?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Consumer affairs",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Employment and training programs",
+        "updateDate": "2026-07-13T18:10:43Z"
+      },
+      {
+        "name": "Government ethics and transparency, public corruption",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Industrial policy and productivity",
+        "updateDate": "2026-07-13T18:10:43Z"
+      },
+      {
+        "name": "Intergovernmental relations",
+        "updateDate": "2026-07-13T18:10:43Z"
+      },
+      {
+        "name": "Performance measurement",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2026-07-13T18:10:42Z"
+      },
+      {
+        "name": "Science and engineering education",
+        "updateDate": "2026-07-13T18:10:43Z"
+      },
+      {
+        "name": "User charges and fees",
+        "updateDate": "2026-07-13T18:10:42Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-04-06T12:56:44Z"
+    }
+  }
+}

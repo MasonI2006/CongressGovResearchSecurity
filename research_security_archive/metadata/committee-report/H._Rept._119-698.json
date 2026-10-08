@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-698",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/698",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt698/CRPT-119hrpt698.pdf",
+  "retrieved_at": "2026-10-02T03:24:44Z",
+  "http_status": 200,
+  "pdf_sha256": "6587d1cec52d8d3eda3551648f50e4bc15371ea9167da2999e263e8c8e14480a",
+  "pdf_bytes": 1778456,
+  "pdf_page_count": 797,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-698/detail.json",
+  "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2027",
+  "update_date": "2026-07-30T16:27:34Z",
+  "document_type": "HRPT",
+  "document_number": "698-1",
+  "document_identifier": "RPT-119-HRPT-698-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-698",
+  "type": "HRPT",
+  "number": 698,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2026-06-15T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "8800",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 2,
+  "people": [],
+  "committees": [
+    {
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-8800",
+      "payload": {
+        "congress": 119,
+        "number": "8800",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8800?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:24:44Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-698/detail.json",
+      "endpoint": "committee-report/119/hrpt/698"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:24:44Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-698/text.json",
+      "endpoint": "committee-report/119/hrpt/698/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-698.json",
+  "known_limitations": []
+}

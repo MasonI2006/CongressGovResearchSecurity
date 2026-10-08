@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "10574",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/10574?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-09-24T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr10574/BILLS-119hr10574ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr10574/BILLS-119hr10574ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr10574/BILLS-119hr10574ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

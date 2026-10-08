@@ -1,0 +1,174 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Research and Technology",
+        "systemCode": "hssy15",
+        "url": "https://api.congress.gov/v3/committee/house/hssy15?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-06-05T14:00:00Z",
+    "eventId": "118356",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2318"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Haley M. Stevens",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-S001215-20250605.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-20250605-SD001.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Charter",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-20250605-SD002.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Deborah K. Ross",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-R000305-20250605.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-B001291-20250605.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Randy K. Weber Sr.",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-W000814-20250605.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Jay Obernolte",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-O000019-20250605.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/118356/documents/HHRG-119-SY15-MState-L000397-20250605.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Pursuing the Golden Age of Innovation: Strategic Priorities in Biotechnology",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T07:16:01Z",
+    "videos": [
+      {
+        "name": "Pursuing the Golden Age of Innovation: Strategic Priorities in Biotechnology",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118356"
+      },
+      {
+        "name": "Pursuing the Golden Age of Innovation: Strategic Priorities in Biotechnology",
+        "url": "https://www.youtube.com/watch?v=mPRxkHUpOj4"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Wstate-LeeK-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-TTF-EndyD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Bio-EndyD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Wstate-EndyD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-TTF-GracioD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Bio-GracioD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Wstate-GracioD-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-TTF-TechtmannS-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Bio-TechtmannS-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Wstate-TechtmannS-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-TTF-LeeK-20250605.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118356/witnesses/HHRG-119-SY15-Bio-LeeK-20250605.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. Drew Endy",
+        "organization": "Stanford University",
+        "position": "Hoover Institution Science and Senior Fellow, Martin Family Fellow in Undergraduate Education for Bioengineering"
+      },
+      {
+        "name": "Ms. Deborah Gracio",
+        "organization": "Pacific Northwest National Laboratory",
+        "position": "Associate Lab Director, National Security Directorate"
+      },
+      {
+        "name": "Dr. Stephen Techtmann",
+        "organization": "Michigan Technological University",
+        "position": "Associate Professor of Biological Sciences"
+      },
+      {
+        "name": "Dr. Kelvin Lee",
+        "organization": "National Institute for Innovation in Manufacturing Biopharmaceuticals",
+        "position": "Institute Director"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118356",
+    "format": "json"
+  }
+}

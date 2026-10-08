@@ -1,0 +1,206 @@
+{
+  "stable_id": "119-HR-1368",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1368",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1368/BILLS-119hr1368eh.pdf",
+  "retrieved_at": "2026-10-01T18:09:37Z",
+  "http_status": 200,
+  "pdf_sha256": "7ac793a4b8bf1b3e28da5c51332d4bc55eacbf9d285e42363964a619d89b91fd",
+  "pdf_bytes": 124307,
+  "pdf_page_count": 8,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1368/detail.json",
+  "title": "DOE and NASA Interagency Research Coordination Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "HR",
+  "document_number": "1368",
+  "document_identifier": "BILL-119-HR-1368-Engrossed_in_House",
+  "text_version": {
+    "type": "Engrossed in House",
+    "date": "2025-03-24T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1368",
+  "originChamber": "House",
+  "introducedDate": "2025-02-14",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2025-03-25"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001323",
+      "name": "Rep. Begich, Nicholas [R-AK-At Large]",
+      "party": "R",
+      "state": "AK"
+    }
+  ],
+  "cosponsorCount": 3,
+  "cosponsorBioguideIds": [
+    "K000403",
+    "W000830",
+    "V000138"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Biological and life sciences",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Department of Energy",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Earth sciences",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Intergovernmental relations",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "updateDate": "2025-03-25T14:35:59Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-03-25T14:35:59Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-25T18:34:13Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-03-25T17:24:13Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-14T18:30:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Engrossed in House",
+    "date": "2025-03-24T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:09:53Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001323",
+      "name": "Rep. Begich, Nicholas [R-AK-At Large]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000403",
+      "name": "Rep. Kennedy, Mike [R-UT-3]",
+      "party": "R",
+      "state": "UT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000830",
+      "name": "Rep. Whitesides, George [D-CA-27]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "party": "D",
+      "state": "VA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/detail.json",
+      "endpoint": "bill/119/hr/1368"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/text.json",
+      "endpoint": "bill/119/hr/1368/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:38Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/cosponsors.json",
+      "endpoint": "bill/119/hr/1368/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:39Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/committees.json",
+      "endpoint": "bill/119/hr/1368/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:40Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/relatedbills.json",
+      "endpoint": "bill/119/hr/1368/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:38Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1368/subjects.json",
+      "endpoint": "bill/119/hr/1368/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1368__BILL-119-HR-1368-Engrossed_in_House.json",
+  "known_limitations": []
+}

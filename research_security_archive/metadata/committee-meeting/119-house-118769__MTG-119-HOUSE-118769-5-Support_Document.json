@@ -1,0 +1,214 @@
+{
+  "stable_id": "119-house-118769__MTG-119-HOUSE-118769-5-Support_Document",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118769",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD001.pdf",
+  "retrieved_at": "2026-10-02T06:29:51Z",
+  "http_status": 200,
+  "pdf_sha256": "bb20333277f28b6652de1bbb87b2136ce280ba415e630810ab7c01920b5bb864",
+  "pdf_bytes": 245548,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118769__MTG-119-HOUSE-118769-5-Support_Document/detail.json",
+  "title": "Research Security: Examining the Implementation of the CHIPS and Science Act and NSPM-33",
+  "update_date": "2026-01-02T08:36:14Z",
+  "document_type": "Support Document",
+  "document_number": "118769",
+  "document_identifier": "MTG-119-HOUSE-118769-5-Support_Document",
+  "text_version": null,
+  "eventId": "118769",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-12-18T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+      "systemCode": "hssy21",
+      "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2318"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-B001291-20251218.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-L000397-20251218.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Charter",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD002.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Emilia Strong Sykes",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-S001223-20251218.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Richard McCormick",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-MState-M001218-20251218.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD001.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Rebecca Keiser",
+      "organization": "U.S. National Science Foundation",
+      "position": "Acting Chief of Staff"
+    },
+    {
+      "name": "Dr. Daniel Evans",
+      "organization": "National Aeronautics and Space Administration",
+      "position": "Associate Deputy Associate Administrator for Research"
+    },
+    {
+      "name": "Dr. Patricia Valdez",
+      "organization": "U.S. National Institute of Health",
+      "position": "Chief Extramural Research Integrity"
+    },
+    {
+      "name": "Mr. Jay Tilden",
+      "organization": "U.S. Department of Energy",
+      "position": "Director of Office of Intelligence and Counterintelligence"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-KeiserR-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-ValdezP-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-EvansD-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-TTF-TildenJ-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-KeiserR-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-TildenJ-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-KeiserR-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-TildenJ-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-EvansD-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-EvansD-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Bio-ValdezP-20251218.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118769/witnesses/HHRG-119-SY21-Wstate-ValdezP-20251218.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Support Document",
+    "name": "Notice",
+    "url": "https://www.congress.gov/119/meeting/house/118769/documents/HHRG-119-SY21-20251218-SD001.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Rebecca Keiser",
+      "party": null,
+      "state": "U.S. National Science Foundation",
+      "position": "Acting Chief of Staff"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Daniel Evans",
+      "party": null,
+      "state": "National Aeronautics and Space Administration",
+      "position": "Associate Deputy Associate Administrator for Research"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Patricia Valdez",
+      "party": null,
+      "state": "U.S. National Institute of Health",
+      "position": "Chief Extramural Research Integrity"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Jay Tilden",
+      "party": null,
+      "state": "U.S. Department of Energy",
+      "position": "Director of Office of Intelligence and Counterintelligence"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:29:51Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118769__MTG-119-HOUSE-118769-5-Support_Document/detail.json",
+      "endpoint": "committee-meeting/119/house/118769"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118769__MTG-119-HOUSE-118769-5-Support_Document.json",
+  "known_limitations": []
+}

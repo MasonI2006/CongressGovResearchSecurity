@@ -1,0 +1,22 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "62529"
+  },
+  "text": [
+    {
+      "type": "Formatted Text",
+      "url": "https://www.congress.gov/119/cprt/HPRT62529/CPRT-119HPRT62529.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://www.congress.gov/119/cprt/HPRT62529/CPRT-119HPRT62529.pdf"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "Homeland Security Subcommittee on Emergency Management and Technology",
+        "systemCode": "hshm12",
+        "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-09-16T18:00:00Z",
+    "eventId": "118548",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 62704,
+        "url": "https://api.congress.gov/v3/hearing/119/house/62704?format=json"
+      }
+    ],
+    "location": {
+      "building": "Cannon House Office Building",
+      "room": "310"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118548/documents/HHRG-119-HM12-20250916-SD001.pdf"
+      },
+      {
+        "documentType": "Hearing: Witness List",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/documents/HHRG-119-HM12-WList-20250916.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "“Surveying the Threat of Agroterrorism: Perspectives on Food, Agriculture, and Veterinary Defense”",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T07:47:46Z",
+    "videos": [
+      {
+        "name": "Surveying the Threat of Agroterrorism: Perspectives on Food, Agriculture, and Veterinary Defense",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118548"
+      },
+      {
+        "name": "Surveying the Threat of Agroterrorism: Perspectives on Food, Agriculture, and Veterinary Defense",
+        "url": "https://www.youtube.com/watch?v=p6KR8Dm3TAI"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-VanierM-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-GeorgeDrPHA-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-VanierM-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-YoungDVMMPHDACVPMCOLUSARetC-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-GeorgeDrPHA-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Bio-WimsPhDD-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-TTF-WimsPhDD-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-VanierM-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-GeorgeDrPHA-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-WimsPhDD-20250916.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118548/witnesses/HHRG-119-HM12-Wstate-YoungDVMMPHDACVPMCOLUSARetC-20250916.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Daniel Wims, PhD",
+        "organization": "Alabama A&M University",
+        "position": "President"
+      },
+      {
+        "name": "Cris Young, DVM, MPH, DACVPM, COL USA (Ret.)",
+        "organization": "Auburn University",
+        "position": "Professor of Practice, College of Veterinary Medicine"
+      },
+      {
+        "name": "Asha George, DrPH",
+        "organization": "Bipartisan Commission on Biodefense",
+        "position": "Executive Director"
+      },
+      {
+        "name": "Marty Vanier",
+        "organization": "Kansas State University",
+        "position": "Director, National Agricultural Biosecurity Center; Associate Director, Biosecurity Research Institute"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118548",
+    "format": "json"
+  }
+}

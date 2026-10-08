@@ -1,0 +1,65 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "O000019",
+      "district": 23,
+      "firstName": "Jay",
+      "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+      "isOriginalCosponsor": true,
+      "lastName": "Obernolte",
+      "party": "R",
+      "sponsorshipDate": "2026-09-24",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/O000019?format=json"
+    },
+    {
+      "bioguideId": "B001292",
+      "district": 8,
+      "firstName": "Donald",
+      "fullName": "Rep. Beyer, Donald S. [D-VA-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/B001292?format=json"
+    },
+    {
+      "bioguideId": "G000607",
+      "district": 1,
+      "firstName": "James",
+      "fullName": "Rep. Gallagher, James [R-CA-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Gallagher",
+      "party": "R",
+      "sponsorshipDate": "2026-09-24",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/G000607?format=json"
+    },
+    {
+      "bioguideId": "T000482",
+      "district": 3,
+      "firstName": "Lori",
+      "fullName": "Rep. Trahan, Lori [D-MA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Trahan",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/T000482?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 4,
+    "countIncludingWithdrawnCosponsors": 4
+  },
+  "request": {
+    "billNumber": "10574",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/10574?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

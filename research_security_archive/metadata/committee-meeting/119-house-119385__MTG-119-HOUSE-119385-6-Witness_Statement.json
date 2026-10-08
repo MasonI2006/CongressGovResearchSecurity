@@ -1,0 +1,144 @@
+{
+  "stable_id": "119-house-119385__MTG-119-HOUSE-119385-6-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119385",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-Wstate-LucciM-20260625.pdf",
+  "retrieved_at": "2026-10-02T04:54:43Z",
+  "http_status": 200,
+  "pdf_sha256": "6d736eedfabd79b9dc015b03e9e384e3b3b56fd2d8a6cad22829562ec9901d43",
+  "pdf_bytes": 254798,
+  "pdf_page_count": 13,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119385__MTG-119-HOUSE-119385-6-Witness_Statement/detail.json",
+  "title": "China’s Economic Espionage and Subnational Influence in the United States",
+  "update_date": "2026-07-15T17:56:50Z",
+  "document_type": "Witness Statement",
+  "document_number": "119385",
+  "document_identifier": "MTG-119-HOUSE-119385-6-Witness_Statement",
+  "text_version": null,
+  "eventId": "119385",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-06-25T14:30:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "systemCode": "hlzs00",
+      "url": "https://api.congress.gov/v3/committee/house/hlzs00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Cannon House Office Building",
+    "room": "390"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Hearing: Transcript",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/documents/HHRG-119-ZS00-Transcript-20260625.pdf"
+    },
+    {
+      "documentType": "Hearing: Questions for the Record",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/documents/HHRG-119-ZS00-20260625-QFR001.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Michael Lucci",
+      "organization": "State Armor",
+      "position": "Founder, CEO"
+    },
+    {
+      "name": "David Shedd",
+      "organization": "Defense Intelligence Agency",
+      "position": "Former Acting Director"
+    },
+    {
+      "name": "John Yang",
+      "organization": "Asian Americans Advancing Justice",
+      "position": "President and Executive Director"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-TTF-SheddD-20260625.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-TTF-LucciM-20260625.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-TTF-YangJ-20260625.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-Wstate-SheddD-20260625.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-Wstate-LucciM-20260625.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-Wstate-YangJ-20260625.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/119385/witnesses/HHRG-119-ZS00-Wstate-LucciM-20260625.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Michael Lucci",
+      "party": null,
+      "state": "State Armor",
+      "position": "Founder, CEO"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "David Shedd",
+      "party": null,
+      "state": "Defense Intelligence Agency",
+      "position": "Former Acting Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "John Yang",
+      "party": null,
+      "state": "Asian Americans Advancing Justice",
+      "position": "President and Executive Director"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:54:43Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119385__MTG-119-HOUSE-119385-6-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/119385"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119385__MTG-119-HOUSE-119385-6-Witness_Statement.json",
+  "known_limitations": []
+}

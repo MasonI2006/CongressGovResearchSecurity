@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-255",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/255",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt255/CRPT-119hrpt255.pdf",
+  "retrieved_at": "2026-10-02T03:12:32Z",
+  "http_status": 200,
+  "pdf_sha256": "3c2a4b220c5122dd8c953f1f8a4936cb889a821bbe88cd44938e16b0c7580786",
+  "pdf_bytes": 926375,
+  "pdf_page_count": 259,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-255/detail.json",
+  "title": "PROVIDING FOR CONSIDERATION OF THE BILL (H.R. 3838) TO AUTHORIZE APPROPRIATIONS FOR FISCAL YEAR 2026 FOR MILITARY ACTIVITIES OF THE DEPARTMENT OF DEFENSE, FOR MILITARY CONSTRUCTION, AND FOR DEFENSE ACTIVITIES OF THE DEPARTMENT OF ENERGY, TO PRESCRIBE MILITARY PERSONNEL STRENGTHS FOR SUCH FISCAL YEAR, AND FOR OTHER PURPOSES, AND PROVIDING FOR CONSIDERATION OF THE BILL (H.R. 3486) TO AMEND THE IMMIGRATION AND NATIONALITY ACT TO INCREASE PENALTIES FOR INDIVIDUALS WHO ILLEGALLY ENTER AND REENTER THE UNITED STATES AFTER BEING REMOVED, AND FOR OTHER PURPOSES",
+  "update_date": "2026-02-11T17:27:33Z",
+  "document_type": "HRPT",
+  "document_number": "255-1",
+  "document_identifier": "RPT-119-HRPT-255-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-255",
+  "type": "HRPT",
+  "number": 255,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-09-09T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "682",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/682?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Rules Committee",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HRES-682",
+      "payload": {
+        "congress": 119,
+        "number": "682",
+        "type": "HRES",
+        "url": "https://api.congress.gov/v3/bill/119/hres/682?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:12:32Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-255/detail.json",
+      "endpoint": "committee-report/119/hrpt/255"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:12:32Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-255/text.json",
+      "endpoint": "committee-report/119/hrpt/255/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-255.json",
+  "known_limitations": []
+}

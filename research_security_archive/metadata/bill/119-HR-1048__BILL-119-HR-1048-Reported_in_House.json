@@ -1,0 +1,597 @@
+{
+  "stable_id": "119-HR-1048",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1048",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1048/BILLS-119hr1048rh.pdf",
+  "retrieved_at": "2026-10-01T18:09:25Z",
+  "http_status": 200,
+  "pdf_sha256": "0f93949be5b39399d9ca43991b3d32802d4c0b332d27253b6a9353cf90e50fbb",
+  "pdf_bytes": 328450,
+  "pdf_page_count": 58,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1048/detail.json",
+  "title": "DETERRENT Act",
+  "update_date": "2026-07-10T17:08:29Z",
+  "document_type": "HR",
+  "document_number": "1048",
+  "document_identifier": "BILL-119-HR-1048-Reported_in_House",
+  "text_version": {
+    "type": "Reported in House",
+    "date": "2025-03-14T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1048",
+  "originChamber": "House",
+  "introducedDate": "2025-02-06",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+    "date": "2025-03-31"
+  },
+  "policyArea": {
+    "name": "Education"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "B001322",
+      "name": "Rep. Baumgartner, Michael [R-WA-5]",
+      "party": "R",
+      "state": "WA"
+    }
+  ],
+  "cosponsorCount": 21,
+  "cosponsorBioguideIds": [
+    "M001233",
+    "O000086",
+    "A000372",
+    "K000401",
+    "W000798",
+    "W000795",
+    "R000619",
+    "F000450",
+    "G000576",
+    "O000177",
+    "T000478",
+    "T000467",
+    "W000814",
+    "B001282",
+    "H001093",
+    "B001314",
+    "D000230",
+    "F000475",
+    "G000600",
+    "J000307",
+    "M001194"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Civil actions and liability",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Contracts and agency",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Education programs funding",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Financial services and investments",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Subversive activities",
+      "updateDate": "2025-02-14T18:30:10Z"
+    },
+    {
+      "name": "Teaching, teachers, curricula",
+      "updateDate": "2025-02-14T18:30:10Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-31T20:36:11Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-14T13:02:00Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-02-12T14:55:13Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-02-06T15:08:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Reported in House",
+    "date": "2025-03-14T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-04",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 938,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "No Contracts with Foreign Adversaries Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/938?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-05",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1023,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "RIFA Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1023?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-05",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1018,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "INSTRUCT Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1018?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-25",
+        "actionTime": "14:28:50",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": 242,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 24) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\"; providing for consideration of the joint resolution (H.J. Res. 75) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\"; and providing for consideration of the bill (H.R. 1048) to amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-03",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1296,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DETERRENT Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1296?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-10",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "number": 1999,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Disclose GIFT Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1999?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-07-13T19:41:43Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "B001322",
+      "name": "Rep. Baumgartner, Michael [R-WA-5]",
+      "party": "R",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001233",
+      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "O000086",
+      "name": "Rep. Owens, Burgess [R-UT-4]",
+      "party": "R",
+      "state": "UT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "A000372",
+      "name": "Rep. Allen, Rick W. [R-GA-12]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000401",
+      "name": "Rep. Kiley, Kevin [R-CA-3]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000798",
+      "name": "Rep. Walberg, Tim [R-MI-5]",
+      "party": "R",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
+      "party": "R",
+      "state": "SC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "R000619",
+      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "party": "R",
+      "state": "OH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000450",
+      "name": "Rep. Foxx, Virginia [R-NC-5]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "party": "R",
+      "state": "WI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "O000177",
+      "name": "Rep. Onder, Robert [R-MO-3]",
+      "party": "R",
+      "state": "MO"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000478",
+      "name": "Rep. Tenney, Claudia [R-NY-24]",
+      "party": "R",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "party": "R",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001282",
+      "name": "Rep. Barr, Andy [R-KY-6]",
+      "party": "R",
+      "state": "KY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001093",
+      "name": "Rep. Houchin, Erin [R-IN-9]",
+      "party": "R",
+      "state": "IN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001314",
+      "name": "Rep. Bean, Aaron [R-FL-4]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000475",
+      "name": "Rep. Finstad, Brad [R-MN-1]",
+      "party": "R",
+      "state": "MN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000600",
+      "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+      "party": "D",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "J000307",
+      "name": "Rep. James, John [R-MI-10]",
+      "party": "R",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001194",
+      "name": "Rep. Moolenaar, John R. [R-MI-2]",
+      "party": "R",
+      "state": "MI"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-938",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-02-04",
+          "text": "Referred to the House Committee on Education and Workforce."
+        },
+        "number": 938,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "No Contracts with Foreign Adversaries Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/938?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1023",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-02-05",
+          "text": "Referred to the House Committee on Education and Workforce."
+        },
+        "number": 1023,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "RIFA Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1023?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1018",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-02-05",
+          "text": "Referred to the House Committee on Education and Workforce."
+        },
+        "number": 1018,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "INSTRUCT Act of 2025",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1018?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HRES-242",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-25",
+          "actionTime": "14:28:50",
+          "text": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "number": 242,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "House",
+            "type": "Procedurally related"
+          }
+        ],
+        "title": "Providing for consideration of the joint resolution (H.J. Res. 24) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\"; providing for consideration of the joint resolution (H.J. Res. 75) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\"; and providing for consideration of the bill (H.R. 1048) to amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.",
+        "type": "HRES",
+        "url": "https://api.congress.gov/v3/bill/119/hres/242?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-1296",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-04-03",
+          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+        },
+        "number": 1296,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DETERRENT Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/1296?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1999",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-10",
+          "text": "Referred to the House Committee on Education and Workforce."
+        },
+        "number": 1999,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Disclose GIFT Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1999?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:25Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/detail.json",
+      "endpoint": "bill/119/hr/1048"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:25Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/text.json",
+      "endpoint": "bill/119/hr/1048/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/cosponsors.json",
+      "endpoint": "bill/119/hr/1048/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T19:38:28Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/cosponsors_page_1.json",
+      "endpoint": "https://api.congress.gov/v3/bill/119/hr/1048/cosponsors?offset=20&limit=20&format=json"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:27Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/committees.json",
+      "endpoint": "bill/119/hr/1048/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:28Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/relatedbills.json",
+      "endpoint": "bill/119/hr/1048/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:26Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1048/subjects.json",
+      "endpoint": "bill/119/hr/1048/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1048__BILL-119-HR-1048-Reported_in_House.json",
+  "known_limitations": []
+}

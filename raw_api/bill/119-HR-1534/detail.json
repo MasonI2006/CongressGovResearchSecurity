@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "actions": {
+      "count": 12,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 36 (Monday, February 24, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. MILLER of Ohio:\nH.R. 1534.\nCongress has the power to enact this legislation pursuant\nto the following:\nCongress has the power to enact this legislation pursuant\nto Article I, Section 8, Clause 18 of the U.S. Constitution.\n[Page H769]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/cosponsors?format=json"
+    },
+    "introducedDate": "2025-02-24",
+    "latestAction": {
+      "actionDate": "2025-03-26",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1534",
+    "number": "1534",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001222",
+        "district": 7,
+        "firstName": "Max",
+        "fullName": "Rep. Miller, Max L. [R-OH-7]",
+        "isByRequest": "N",
+        "lastName": "Miller",
+        "middleName": "L.",
+        "party": "R",
+        "state": "OH",
+        "url": "https://api.congress.gov/v3/member/M001222?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/text?format=json"
+    },
+    "title": "IMPACT Act",
+    "titles": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1534/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T18:09:59Z",
+    "updateDateIncludingText": "2026-09-08T18:09:59Z"
+  },
+  "request": {
+    "billNumber": "1534",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

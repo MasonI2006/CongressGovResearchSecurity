@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-house-63778",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/house/63778",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119hhrg63778/CHRG-119hhrg63778.pdf",
+  "retrieved_at": "2026-10-02T03:49:01Z",
+  "http_status": 200,
+  "pdf_sha256": "2b0e044b2928033e7b061eca471c0de55475b20238cea2fe63dd938b135fa1de",
+  "pdf_bytes": 238083,
+  "pdf_page_count": 36,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-house-63778/detail.json",
+  "title": "SURVEYING THE THREAT OF AGROTERRORISM, PART II: ASSESSING FEDERAL GOVERNMENT EFFORTS",
+  "update_date": "2026-06-27T03:34:19Z",
+  "document_type": "HRG",
+  "document_number": 63778,
+  "document_identifier": "HRG-119-HOUSE-63778",
+  "text_version": null,
+  "jacketNumber": 63778,
+  "chamber": "House",
+  "citation": "H.Hrg.119",
+  "dates": [
+    {
+      "date": "2026-02-11"
+    }
+  ],
+  "committees": [
+    {
+      "name": "House Homeland Security (Select) Committee",
+      "systemCode": "hshm00",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC75707",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg63778/generated/CHRG-119hhrg63778.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg63778/CHRG-119hhrg63778.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:49:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-house-63778/detail.json",
+      "endpoint": "hearing/119/house/63778"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-house-63778.json",
+  "known_limitations": []
+}

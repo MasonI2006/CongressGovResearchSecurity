@@ -1,0 +1,81 @@
+{
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the Senate Committee on Homeland Security and Governmental Affairs \non July 30, 2025\n",
+        "pubDate": "2025-08-20T20:14:00Z",
+        "title": "S. 854, Risky Research Review Act",
+        "url": "https://www.cbo.gov/publication/61696"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-05",
+    "latestAction": {
+      "actionDate": "2025-09-17",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/854",
+    "number": "854",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Health"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "P000603",
+        "firstName": "Rand",
+        "fullName": "Sen. Paul, Rand [R-KY]",
+        "isByRequest": "N",
+        "lastName": "Paul",
+        "party": "R",
+        "state": "KY",
+        "url": "https://api.congress.gov/v3/member/P000603?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 14,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/text?format=json"
+    },
+    "title": "Risky Research Review Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/854/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-01-21T06:44:44Z",
+    "updateDateIncludingText": "2026-01-21T06:44:44Z"
+  },
+  "request": {
+    "billNumber": "854",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

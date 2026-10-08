@@ -1,0 +1,41 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "B001307",
+      "district": 4,
+      "firstName": "James",
+      "fullName": "Rep. Baird, James R. [R-IN-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Baird",
+      "middleName": "R.",
+      "party": "R",
+      "sponsorshipDate": "2025-02-13",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/B001307?format=json"
+    },
+    {
+      "bioguideId": "M001238",
+      "district": 0,
+      "firstName": "Sarah",
+      "fullName": "Rep. McBride, Sarah [D-DE-At Large]",
+      "isOriginalCosponsor": false,
+      "lastName": "McBride",
+      "party": "D",
+      "sponsorshipDate": "2025-02-25",
+      "state": "DE",
+      "url": "https://api.congress.gov/v3/member/M001238?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2,
+    "countIncludingWithdrawnCosponsors": 2
+  },
+  "request": {
+    "billNumber": "1350",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1350?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

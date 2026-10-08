@@ -1,0 +1,205 @@
+{
+  "stable_id": "119-house-117892__MTG-119-HOUSE-117892-1-Member_Statements",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117892",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-B001291-20250212.pdf",
+  "retrieved_at": "2026-10-02T07:53:21Z",
+  "http_status": 200,
+  "pdf_sha256": "014f947b322042f8acb6667f144dbabb4846855d60b27120325be2467ffbb296",
+  "pdf_bytes": 133444,
+  "pdf_page_count": 2,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117892__MTG-119-HOUSE-117892-1-Member_Statements/detail.json",
+  "title": "From Transformative Science to Technological Breakthroughs: DOE’s National Laboratories",
+  "update_date": "2026-01-02T05:34:52Z",
+  "document_type": "Member Statements",
+  "document_number": "117892",
+  "document_identifier": "MTG-119-HOUSE-117892-1-Member_Statements",
+  "text_version": null,
+  "eventId": "117892",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-02-12T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology Subcommittee on Energy",
+      "systemCode": "hssy20",
+      "url": "https://api.congress.gov/v3/committee/house/hssy20?format=json"
+    }
+  ],
+  "location": null,
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-20250212-SD001.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-B001291-20250212.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Deborah K. Ross",
+      "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-R000305-20250212.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Randy K. Weber",
+      "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-W000814-20250212.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-L000397-20250212.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Thom Mason",
+      "organization": "Los Alamos National Labratory",
+      "position": "Director"
+    },
+    {
+      "name": "Dr. John Wagner",
+      "organization": "Idaho National Labratory",
+      "position": "Director"
+    },
+    {
+      "name": "Dr. Paul Kearns",
+      "organization": "Argonne National Labratory",
+      "position": "Director"
+    },
+    {
+      "name": "Dr. Kimberly Budil",
+      "organization": "Lawrence Livermore National Labratory",
+      "position": "Director"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-KearnsP-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-WagnerJ-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-BudilK-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-MasonT-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-KearnsP-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-WagnerJ-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-KearnsP-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-MasonT-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-BudilK-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-BudilK-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-WagnerJ-20250212.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-MasonT-20250212.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Member Statements",
+    "name": "The Honorable Brian Babin",
+    "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-B001291-20250212.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Thom Mason",
+      "party": null,
+      "state": "Los Alamos National Labratory",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. John Wagner",
+      "party": null,
+      "state": "Idaho National Labratory",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Paul Kearns",
+      "party": null,
+      "state": "Argonne National Labratory",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Kimberly Budil",
+      "party": null,
+      "state": "Lawrence Livermore National Labratory",
+      "position": "Director"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:53:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117892__MTG-119-HOUSE-117892-1-Member_Statements/detail.json",
+      "endpoint": "committee-meeting/119/house/117892"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117892__MTG-119-HOUSE-117892-1-Member_Statements.json",
+  "known_limitations": []
+}

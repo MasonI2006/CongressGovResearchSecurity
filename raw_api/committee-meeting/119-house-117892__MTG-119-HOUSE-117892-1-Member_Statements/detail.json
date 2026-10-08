@@ -1,0 +1,158 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Energy",
+        "systemCode": "hssy20",
+        "url": "https://api.congress.gov/v3/committee/house/hssy20?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-02-12T15:00:00Z",
+    "eventId": "117892",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 58902,
+        "url": "https://api.congress.gov/v3/hearing/119/house/58902?format=json"
+      }
+    ],
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-20250212-SD001.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-B001291-20250212.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Deborah K. Ross",
+        "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-R000305-20250212.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Randy K. Weber",
+        "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-W000814-20250212.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/117892/documents/HHRG-119-SY20-MState-L000397-20250212.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "From Transformative Science to Technological Breakthroughs: DOE’s National Laboratories",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T05:34:52Z",
+    "videos": [
+      {
+        "name": "From Transformative Science to Technological Breakthroughs: DOE’s National Laboratories",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/117892"
+      },
+      {
+        "name": "From Transformative Science to Technological Breakthroughs: DOE’s National Laboratories",
+        "url": "https://www.youtube.com/watch?v=TE3qUKpLQdc"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-KearnsP-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-WagnerJ-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-BudilK-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-MasonT-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-KearnsP-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-WagnerJ-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-KearnsP-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-MasonT-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Bio-BudilK-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-BudilK-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-Wstate-WagnerJ-20250212.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117892/witnesses/HHRG-119-SY20-TTF-MasonT-20250212.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. Thom Mason",
+        "organization": "Los Alamos National Labratory",
+        "position": "Director"
+      },
+      {
+        "name": "Dr. John Wagner",
+        "organization": "Idaho National Labratory",
+        "position": "Director"
+      },
+      {
+        "name": "Dr. Paul Kearns",
+        "organization": "Argonne National Labratory",
+        "position": "Director"
+      },
+      {
+        "name": "Dr. Kimberly Budil",
+        "organization": "Lawrence Livermore National Labratory",
+        "position": "Director"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "117892",
+    "format": "json"
+  }
+}

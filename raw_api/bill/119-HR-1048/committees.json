@@ -1,0 +1,49 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-31T20:36:11Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-14T13:02:00Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-02-12T14:55:13Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-02-06T15:08:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "1048",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/1048?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "stable_id": "119-house-117852__MTG-119-HOUSE-117852-12-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117852",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-ParikhS-20250205.pdf",
+  "retrieved_at": "2026-10-02T07:57:29Z",
+  "http_status": 200,
+  "pdf_sha256": "cc514d19aa0bfd17a852d5d6818441d606418cf1742be0046bb77b1d65715d3a",
+  "pdf_bytes": 161551,
+  "pdf_page_count": 5,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117852__MTG-119-HOUSE-117852-12-Witness_Statement/detail.json",
+  "title": "The State of U.S. Science and Technology: Ensuring U.S. Global Leadership",
+  "update_date": "2026-01-02T05:30:59Z",
+  "document_type": "Witness Statement",
+  "document_number": "117852",
+  "document_identifier": "MTG-119-HOUSE-117852-12-Witness_Statement",
+  "text_version": null,
+  "eventId": "117852",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-02-05T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Science, Space, and Technology",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "location": null,
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Notice",
+      "url": "https://www.congress.gov/119/meeting/house/117852/documents/HHRG-119-SY00-20250205-SD001.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Brian Babin",
+      "url": "https://www.congress.gov/119/meeting/house/117852/documents/HHRG-119-SY00-MState-B001291-20250205.pdf"
+    },
+    {
+      "documentType": "Member Statements",
+      "format": "PDF",
+      "name": "The Honorable Zoe Lofgren",
+      "url": "https://www.congress.gov/119/meeting/house/117852/documents/HHRG-119-SY00-MState-L000397-20250205.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "The Honorable Heather Wilson",
+      "organization": "University of Texas at El Paso, Former Secretary of the U.S. Air Force",
+      "position": "President"
+    },
+    {
+      "name": "Rev. Walter Copan",
+      "organization": "Colorado School of Mines and Former Director of the National Institute of Standards and Technology",
+      "position": "Vice President for Research and Technology Transfer"
+    },
+    {
+      "name": "Dr. Sudip Parikh",
+      "organization": "American Association for the Advancement of Science",
+      "position": "Chief Executive Officer and Executive Publisher"
+    },
+    {
+      "name": "Mr. Samuel Hammond",
+      "organization": "Foundation for American Innovation",
+      "position": "Chief Economist"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-TTF-HammondS-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-TTF-WilsonH-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-WilsonH-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Bio-WilsonH-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-TTF-CopanW-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-CopanW-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Bio-CopanW-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-HammondS-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-TTF-ParikhS-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-ParikhS-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Bio-ParikhS-20250205.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Bio-HammondS-20250205.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/117852/witnesses/HHRG-119-SY00-Wstate-ParikhS-20250205.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "The Honorable Heather Wilson",
+      "party": null,
+      "state": "University of Texas at El Paso, Former Secretary of the U.S. Air Force",
+      "position": "President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Rev. Walter Copan",
+      "party": null,
+      "state": "Colorado School of Mines and Former Director of the National Institute of Standards and Technology",
+      "position": "Vice President for Research and Technology Transfer"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Sudip Parikh",
+      "party": null,
+      "state": "American Association for the Advancement of Science",
+      "position": "Chief Executive Officer and Executive Publisher"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Samuel Hammond",
+      "party": null,
+      "state": "Foundation for American Innovation",
+      "position": "Chief Economist"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:57:29Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117852__MTG-119-HOUSE-117852-12-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/117852"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117852__MTG-119-HOUSE-117852-12-Witness_Statement.json",
+  "known_limitations": []
+}

@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "3910",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3910?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-02-25T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s3910/BILLS-119s3910is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s3910/BILLS-119s3910is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s3910/BILLS-119s3910is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

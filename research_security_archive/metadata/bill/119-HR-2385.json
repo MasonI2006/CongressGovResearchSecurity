@@ -1,0 +1,508 @@
+{
+  "stable_id": "119-HR-2385",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/2385",
+  "pdf_url": "https://www.congress.gov/119/bills/hr2385/BILLS-119hr2385ih.pdf",
+  "retrieved_at": "2026-10-01T18:10:13Z",
+  "http_status": 200,
+  "pdf_sha256": "0bbdee81b4f8b5f2b878cc51992afd2bab370a9942f12caf24312737dd937f4f",
+  "pdf_bytes": 281229,
+  "pdf_page_count": 27,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-2385/detail.json",
+  "title": "CREATE AI Act of 2025",
+  "update_date": "2026-09-19T23:28:52Z",
+  "document_type": "HR",
+  "document_number": "2385",
+  "document_identifier": "BILL-119-HR-2385-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-03-26T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "2385",
+  "originChamber": "House",
+  "introducedDate": "2025-03-26",
+  "latestAction": {
+    "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
+    "date": "2026-06-25"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    }
+  ],
+  "cosponsorCount": 34,
+  "cosponsorBioguideIds": [
+    "B001292",
+    "M001163",
+    "F000466",
+    "F000472",
+    "S001226",
+    "M001238",
+    "C001103",
+    "J000305",
+    "M001218",
+    "S001215",
+    "D000617",
+    "B001278",
+    "L000607",
+    "D000530",
+    "G000583",
+    "L000582",
+    "M001225",
+    "V000138",
+    "H001090",
+    "F000477",
+    "P000620",
+    "K000398",
+    "D000628",
+    "M001237",
+    "L000593",
+    "V000136",
+    "G000602",
+    "L000590",
+    "C001112",
+    "M001241",
+    "K000397",
+    "W000831",
+    "K000399",
+    "M001196"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Consumer affairs",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Employment and training programs",
+      "updateDate": "2026-07-13T18:10:43Z"
+    },
+    {
+      "name": "Government ethics and transparency, public corruption",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Industrial policy and productivity",
+      "updateDate": "2026-07-13T18:10:43Z"
+    },
+    {
+      "name": "Intergovernmental relations",
+      "updateDate": "2026-07-13T18:10:43Z"
+    },
+    {
+      "name": "Performance measurement",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2026-07-13T18:10:42Z"
+    },
+    {
+      "name": "Science and engineering education",
+      "updateDate": "2026-07-13T18:10:43Z"
+    },
+    {
+      "name": "User charges and fees",
+      "updateDate": "2026-07-13T18:10:42Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-06-25T14:00:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-26T14:00:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-03-26T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-04-27",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 8516,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "American Leadership in AI Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8516?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-19T23:28:52Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001292",
+      "name": "Rep. Beyer, Donald S. [D-VA-8]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001163",
+      "name": "Rep. Matsui, Doris O. [D-CA-7]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "party": "R",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000472",
+      "name": "Rep. Franklin, Scott [R-FL-18]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001226",
+      "name": "Rep. Salinas, Andrea [D-OR-6]",
+      "party": "D",
+      "state": "OR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "party": "D",
+      "state": "DE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "J000305",
+      "name": "Rep. Jacobs, Sara [D-CA-51]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000617",
+      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "party": "D",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "party": "D",
+      "state": "OR"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000607",
+      "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000530",
+      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "party": "D",
+      "state": "PA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000583",
+      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "party": "D",
+      "state": "NJ"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000582",
+      "name": "Rep. Lieu, Ted [D-CA-36]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001225",
+      "name": "Rep. Mullin, Kevin [D-CA-15]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001090",
+      "name": "Rep. Harder, Josh [D-CA-9]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "P000620",
+      "name": "Rep. Pettersen, Brittany [D-CO-7]",
+      "party": "D",
+      "state": "CO"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000398",
+      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+      "party": "R",
+      "state": "NJ"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000628",
+      "name": "Rep. Dunn, Neal P. [R-FL-2]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001237",
+      "name": "Rep. McDonald Rivet, Kristen [D-MI-8]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000593",
+      "name": "Rep. Levin, Mike [D-CA-49]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000136",
+      "name": "Rep. Vasquez, Gabe [D-NM-2]",
+      "party": "D",
+      "state": "NM"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000602",
+      "name": "Rep. Gillen, Laura [D-NY-4]",
+      "party": "D",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000590",
+      "name": "Rep. Lee, Susie [D-NV-3]",
+      "party": "D",
+      "state": "NV"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001112",
+      "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001241",
+      "name": "Rep. Min, Dave [D-CA-47]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000397",
+      "name": "Rep. Kim, Young [R-CA-40]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000831",
+      "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "party": "R",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "party": "D",
+      "state": "MA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-8516",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-04-27",
+          "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        },
+        "number": 8516,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "American Leadership in AI Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8516?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/detail.json",
+      "endpoint": "bill/119/hr/2385"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/text.json",
+      "endpoint": "bill/119/hr/2385/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:15Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/cosponsors.json",
+      "endpoint": "bill/119/hr/2385/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T20:37:14Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/cosponsors_page_1.json",
+      "endpoint": "https://api.congress.gov/v3/bill/119/hr/2385/cosponsors?offset=20&limit=20&format=json"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:16Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/committees.json",
+      "endpoint": "bill/119/hr/2385/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:17Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/relatedbills.json",
+      "endpoint": "bill/119/hr/2385/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:15Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-2385/subjects.json",
+      "endpoint": "bill/119/hr/2385/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-2385.json",
+  "known_limitations": []
+}

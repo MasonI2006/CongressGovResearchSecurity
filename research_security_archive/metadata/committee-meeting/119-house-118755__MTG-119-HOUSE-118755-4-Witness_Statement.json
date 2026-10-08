@@ -1,0 +1,162 @@
+{
+  "stable_id": "119-house-118755__MTG-119-HOUSE-118755-4-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118755",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-SingletonC-20251216.pdf",
+  "retrieved_at": "2026-10-02T06:30:36Z",
+  "http_status": 200,
+  "pdf_sha256": "531e03fc46a7ea05c979975f70a71ab86a51ec18c11cc7022a80bc198fcd69ed",
+  "pdf_bytes": 2025904,
+  "pdf_page_count": 24,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118755__MTG-119-HOUSE-118755-4-Witness_Statement/detail.json",
+  "title": "Hybrid Warfare in Europe Against U.S. Interests: Moscow and Beijing’s Playbook",
+  "update_date": "2026-01-02T08:30:13Z",
+  "document_type": "Witness Statement",
+  "document_number": "118755",
+  "document_identifier": "MTG-119-HOUSE-118755-4-Witness_Statement",
+  "text_version": null,
+  "eventId": "118755",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2025-12-16T15:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Foreign Affairs Subcommittee on Europe",
+      "systemCode": "hsfa14",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa14?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2172"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/118755/documents/HHRG-119-FA14-20251216-SD001.pdf"
+    },
+    {
+      "documentType": "Hearing: Member Roster",
+      "format": "PDF",
+      "name": "Member Attendance",
+      "url": "https://www.congress.gov/119/meeting/house/118755/documents/HHRG-119-FA14-20251216-MbrRoster.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Mr. Christopher Walker",
+      "organization": "Center for European Policy Analysis",
+      "position": "Vice President"
+    },
+    {
+      "name": "Ms. Laura Cooper",
+      "organization": "Georgetown University",
+      "position": "Adjunct Assistant Professor"
+    },
+    {
+      "name": "Mr. Craig Singleton",
+      "organization": "Foundation for Defense of Democracies",
+      "position": "China Program Senior Director and Senior Fellow"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-SingletonC-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-WalkerC-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-SingletonC-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-WalkerC-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-CooperL-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-CooperL-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-WalkerC-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-CooperL-20251216.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-SingletonC-20251216.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-SingletonC-20251216.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Christopher Walker",
+      "party": null,
+      "state": "Center for European Policy Analysis",
+      "position": "Vice President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Laura Cooper",
+      "party": null,
+      "state": "Georgetown University",
+      "position": "Adjunct Assistant Professor"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Craig Singleton",
+      "party": null,
+      "state": "Foundation for Defense of Democracies",
+      "position": "China Program Senior Director and Senior Fellow"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:30:36Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118755__MTG-119-HOUSE-118755-4-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/118755"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118755__MTG-119-HOUSE-118755-4-Witness_Statement.json",
+  "known_limitations": []
+}

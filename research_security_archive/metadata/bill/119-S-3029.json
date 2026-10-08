@@ -1,0 +1,136 @@
+{
+  "stable_id": "119-S-3029",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3029",
+  "pdf_url": "https://www.congress.gov/119/bills/s3029/BILLS-119s3029is.pdf",
+  "retrieved_at": "2026-10-01T22:37:37Z",
+  "http_status": 200,
+  "pdf_sha256": "c017bce3e75fc258fbacb6378a054fcd25dfb2906a1ee1a167b90f9a2e99d5f9",
+  "pdf_bytes": 258719,
+  "pdf_page_count": 12,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3029/detail.json",
+  "title": "DOE and NASA Interagency Research Coordination Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3029",
+  "document_identifier": "BILL-119-S-3029-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2025-10-22T04:00:00Z"
+  },
+  "type": "S",
+  "number": "3029",
+  "originChamber": "Senate",
+  "introducedDate": "2025-10-22",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2025-10-22"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "party": "R",
+      "state": "AK"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "S001150"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-10-22T19:50:19Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2025-10-22T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001150",
+      "name": "Sen. Schiff, Adam B. [D-CA]",
+      "party": "D",
+      "state": "CA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:37Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/detail.json",
+      "endpoint": "bill/119/s/3029"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:35Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/text.json",
+      "endpoint": "bill/119/s/3029/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:38Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/cosponsors.json",
+      "endpoint": "bill/119/s/3029/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:39Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/committees.json",
+      "endpoint": "bill/119/s/3029/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:39Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/relatedbills.json",
+      "endpoint": "bill/119/s/3029/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T22:37:40Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3029/subjects.json",
+      "endpoint": "bill/119/s/3029/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3029.json",
+  "known_limitations": []
+}

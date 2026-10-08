@@ -1,0 +1,239 @@
+{
+  "pagination": {
+    "count": 114,
+    "prev": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=80&limit=20&format=json"
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6584,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Cyber Talent Development and Recruitment Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6584?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-18",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "number": 6595,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To direct the Secretary of Defense and the Secretary of Veterans Affairs to improve the availability of care for veterans at facilities of the Department of Defense.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6595?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 3917,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To prohibit the participation of males in athletic programs or activities at the military service academies that are designated for women or girls.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3917?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5190,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To expand the contested logistics demonstration and prototyping program to include commercial additive manufacturing facilities in contested logistics environments, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5190?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6557,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "The Center for Strategic Deterrence and Weapons of Mass Destruction Studies Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6557?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 103."
+      },
+      "number": 910,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Taiwan Non-Discrimination Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/910?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": 6562,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "United States Development Finance Corporation Effectiveness Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6562?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-28",
+        "text": "Placed on the Union Calendar, Calendar No. 339."
+      },
+      "number": 5167,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Intelligence Authorization Act for Fiscal Year 2026",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-05",
+        "text": "Referred to the Committee on Foreign Relations. (text: CR S1583-1584)"
+      },
+      "number": 110,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A resolution condemning Russia's illegal abduction of Ukrainian children.",
+      "type": "SRES",
+      "url": "https://api.congress.gov/v3/bill/119/sres/110?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "number": 3555,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Comprehensive Outbound Investment National Security Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3555?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-20",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 78."
+      },
+      "number": 237,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Honoring Our Fallen Heroes Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/237?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

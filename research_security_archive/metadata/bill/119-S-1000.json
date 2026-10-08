@@ -1,0 +1,281 @@
+{
+  "stable_id": "119-S-1000",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/1000",
+  "pdf_url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000rs.pdf",
+  "retrieved_at": "2026-10-01T18:10:01Z",
+  "http_status": 200,
+  "pdf_sha256": "a73fcdcb651a788548292bb793f79dd4fc256b747345e20a9f46e0a50d6d758a",
+  "pdf_bytes": 273529,
+  "pdf_page_count": 16,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-1000/detail.json",
+  "title": "A bill to establish an Ambassador-at-Large for Arctic Affairs.",
+  "update_date": "2025-12-17T17:24:24Z",
+  "document_type": "S",
+  "document_number": "1000",
+  "document_identifier": "BILL-119-S-1000-Reported_to_Senate",
+  "text_version": {
+    "type": "Reported to Senate",
+    "date": "2025-10-30T04:00:00Z"
+  },
+  "type": "S",
+  "number": "1000",
+  "originChamber": "Senate",
+  "introducedDate": "2025-03-12",
+  "latestAction": {
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 231.",
+    "date": "2025-10-30"
+  },
+  "policyArea": {
+    "name": "International Affairs"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "M001153",
+      "name": "Sen. Murkowski, Lisa [R-AK]",
+      "party": "R",
+      "state": "AK"
+    }
+  ],
+  "cosponsorCount": 10,
+  "cosponsorBioguideIds": [
+    "K000383",
+    "S001198",
+    "C001088",
+    "G000359",
+    "W000800",
+    "C001035",
+    "S001208",
+    "K000367",
+    "S001181",
+    "B001267"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Arctic and polar regions",
+      "updateDate": "2025-12-17T17:23:30Z"
+    },
+    {
+      "name": "Asia",
+      "updateDate": "2025-12-17T17:24:18Z"
+    },
+    {
+      "name": "Canada",
+      "updateDate": "2025-12-17T17:22:23Z"
+    },
+    {
+      "name": "China",
+      "updateDate": "2025-12-17T17:24:02Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-12-17T17:23:56Z"
+    },
+    {
+      "name": "Denmark",
+      "updateDate": "2025-12-17T17:22:32Z"
+    },
+    {
+      "name": "Department of State",
+      "updateDate": "2025-12-17T17:21:57Z"
+    },
+    {
+      "name": "Diplomacy, foreign officials, Americans abroad",
+      "updateDate": "2025-12-17T17:22:16Z"
+    },
+    {
+      "name": "Europe",
+      "updateDate": "2025-12-17T17:24:23Z"
+    },
+    {
+      "name": "Executive agency funding and structure",
+      "updateDate": "2025-12-17T17:22:02Z"
+    },
+    {
+      "name": "Federal officials",
+      "updateDate": "2025-12-17T17:22:10Z"
+    },
+    {
+      "name": "Finland",
+      "updateDate": "2025-12-17T17:22:56Z"
+    },
+    {
+      "name": "Iceland",
+      "updateDate": "2025-12-17T17:22:40Z"
+    },
+    {
+      "name": "Norway",
+      "updateDate": "2025-12-17T17:22:46Z"
+    },
+    {
+      "name": "Russia",
+      "updateDate": "2025-12-17T17:23:03Z"
+    },
+    {
+      "name": "Sweden",
+      "updateDate": "2025-12-17T17:22:51Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-10-30T15:04:58Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-10-22T14:03:33Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-12T20:26:42Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Foreign Relations Committee",
+      "systemCode": "ssfr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Reported to Senate",
+    "date": "2025-10-30T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2025-12-17T17:24:24Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "M001153",
+      "name": "Sen. Murkowski, Lisa [R-AK]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000383",
+      "name": "Sen. King, Angus S., Jr. [I-ME]",
+      "party": "I",
+      "state": "ME"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "party": "D",
+      "state": "DE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000359",
+      "name": "Sen. Graham, Lindsey [R-SC]",
+      "party": "R",
+      "state": "SC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
+      "party": "D",
+      "state": "VT"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C001035",
+      "name": "Sen. Collins, Susan M. [R-ME]",
+      "party": "R",
+      "state": "ME"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001208",
+      "name": "Sen. Slotkin, Elissa [D-MI]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
+      "party": "D",
+      "state": "MN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "party": "D",
+      "state": "NH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001267",
+      "name": "Sen. Bennet, Michael F. [D-CO]",
+      "party": "D",
+      "state": "CO"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/detail.json",
+      "endpoint": "bill/119/s/1000"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:01Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/text.json",
+      "endpoint": "bill/119/s/1000/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:02Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/cosponsors.json",
+      "endpoint": "bill/119/s/1000/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:04Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/committees.json",
+      "endpoint": "bill/119/s/1000/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:04Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/relatedbills.json",
+      "endpoint": "bill/119/s/1000/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:03Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-1000/subjects.json",
+      "endpoint": "bill/119/s/1000/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-1000.json",
+  "known_limitations": []
+}

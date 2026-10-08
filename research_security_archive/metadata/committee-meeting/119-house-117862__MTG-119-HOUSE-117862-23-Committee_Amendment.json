@@ -1,0 +1,345 @@
+{
+  "stable_id": "119-house-117862__MTG-119-HOUSE-117862-23-Committee_Amendment",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/117862",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-S000185-Amdt-1B.pdf",
+  "retrieved_at": "2026-10-02T07:56:10Z",
+  "http_status": 200,
+  "pdf_sha256": "dd0e9a0363c5f97b6ad770c6e12690f3e52b4cec8d38b62e6485eefb08a88ef8",
+  "pdf_bytes": 136530,
+  "pdf_page_count": 20,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-117862__MTG-119-HOUSE-117862-23-Committee_Amendment/detail.json",
+  "title": "H.R. 1048, the \"DETERRENT Act\"; H.R. 649, the \"Whole Milk for Healthy Kids Act of 2025\"; H.R. 1069, the \"PROTECT Our Kids Act\"; H.R. 1005, the \"CLASS Act\"; and H.R. 1049, the \"Transparency in Reporting of Adversarial Contributions to Education Act\"",
+  "update_date": "2026-01-02T05:32:23Z",
+  "document_type": "Committee Amendment",
+  "document_number": "117862",
+  "document_identifier": "MTG-119-HOUSE-117862-23-Committee_Amendment",
+  "text_version": null,
+  "eventId": "117862",
+  "type": "Markup",
+  "meetingStatus": "Scheduled",
+  "date": "2025-02-12T15:15:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Education and Workforce",
+      "systemCode": "hsed00",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2175"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "1048",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1049",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1049?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1069",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1069?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1005",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1005?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "649",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/649?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #12 | H.R. 1049 | DAMD_002 (BONAMICI) | Failed (13y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote012-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #7 | H.R. 1069 | DAMD_002 (BONAMICI) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote007-20250212.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 649, Whole Milk for Healthy Kids Act of 2025",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119HR649ih.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #10 | H.R. 1005 | Motion to Report",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote010-20250212.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1048, DETERRENT Act",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119HR1048ih.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #11 | H.R. 1049 | DAMD_001 (SCOTT) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote011-20250212.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Markup Action Summary",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/HMKP-119-ED00-20250212-SD002.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1049, Transparency in Reporting of Adversarial Contributions to Education Act",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119HR1049ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1069, PROTECT Our Kids Act",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119HR1069ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1005, CLASS Act",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119HR1005ih.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment in the Nature of a Substitute to H.R. 1049 | Offered by Mr. Mackenzie of Pennsylvania",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1049-M001230-Amdt-5A.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment in the Nature of a Substitute to H.R. 1048 | Offered by Mr. Baumgartner of Washington",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-B001322-Amdt-1A.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment in the Nature of a Substitute to H.R. 649 | Offered by Mr. Thompson of Pennsylvania",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR649-T000467-Amdt-2A.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment in the Nature of a Substitute to H.R. 1069 | Offered by Mr. Kiley of California",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1069-K000401-Amdt-3A.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment in the Nature of a Substitute to H.R. 1005 | Offered by Mr. Rulli of Ohio",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1005-R000619-Amdt-4A.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1069 | Offered by Ms. Bonamici of Oregon | DAMD_002 | Failed by a recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1069-B001278-Amdt-3C.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1005 | Offered by Mr. Scott of Virginia | DAMD_001 | Failed by a recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1005-S000185-Amdt-4B.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1005 | Offered by Ms. Bonamici of Oregon | Failed by voice",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1005-B001278-Amdt-4C.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1049 | Offered by Mr. Scott of Virginia | DAMD_001 | Failed by a recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1049-S000185-Amdt-5B.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1069 | Offered by Mr. Scott of Virginia | DAMD_001 | Failed by a recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1069-S000185-Amdt-3B.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1049 | Offered by Ms. Bonamici of Oregon | DAMD_002 | Failed by recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1049-B001278-Amdt-5C.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1048 | Offered by Mr. Scott of Virginia | DEM_AMD_01 | Offered and Withdrawn",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-S000185-Amdt-1E.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #1 | H.R. 1048 | DEM_AMD_04 (SCOTT) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote001-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1048 | Offered by Mr. Scott of Virginia | DEM_AMD_04 | Failed by recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-S000185-Amdt-1B.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #5 | H.R. 649 | Motion to Report | Passed (24y-10n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote005-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #2 | H.R. 1048 | DEM_AMD_03 (ADAMS) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote002-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #3 | H.R. 1048 | DEM_AMD_02 (LEE) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote003-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #4 | H.R. 1048 | Motion to Report | Passed (20y-14n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote004-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #6 | H.R. 1069 | DAMD_001 (SCOTT) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote006-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute | Offered by Ms. Adams of North Carolina | DEM_AMD_03 | Failed by a recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-A000370-Amdt-1C.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1048 | Offered by Ms. Lee of Pennsylvania | DEM_AMD_02 | Failed by recorded vote",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-L000602-Amdt-1D.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #8 | H.R. 1069 | Motion to Report | Passed (21y-13n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote008-20250212.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #9 | H.R. 1005 | DAMD_001 (SCOTT) | Failed (14y-20n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote009-20250212.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Ranking Member Robert C. \"Bobby\" Scott | Submission for the Record | Letter of Opposition to H.R. 649",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/HMKP-119-ED00-20250212-SD001.pdf"
+    },
+    {
+      "documentType": "Committee Recorded Vote",
+      "format": "PDF",
+      "name": "Roll Call Vote #13 | H.R. 1049 | Motion to Report | Passed (20y-13n)",
+      "url": "https://www.congress.gov/119/meeting/house/117862/documents/CRPT-119-ED00-Vote013-20250212.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Committee Amendment",
+    "name": "Amendment to the Amendment in the Nature of a Substitute to H.R. 1048 | Offered by Mr. Scott of Virginia | DEM_AMD_04 | Failed by recorded vote",
+    "url": "https://www.congress.gov/119/meeting/house/117862/documents/BILLS-119-HR1048-S000185-Amdt-1B.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "1048",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1049",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1049?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1069",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1069?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1005",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1005?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "649",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/649?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T07:56:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-117862__MTG-119-HOUSE-117862-23-Committee_Amendment/detail.json",
+      "endpoint": "committee-meeting/119/house/117862"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-117862__MTG-119-HOUSE-117862-23-Committee_Amendment.json",
+  "known_limitations": []
+}

@@ -1,0 +1,73 @@
+{
+  "pagination": {
+    "count": 14
+  },
+  "request": {
+    "billNumber": "854",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/854?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Accounting and auditing",
+        "updateDate": "2025-08-07T15:45:31Z"
+      },
+      {
+        "name": "Advisory bodies",
+        "updateDate": "2025-08-07T15:44:41Z"
+      },
+      {
+        "name": "Biological and life sciences",
+        "updateDate": "2025-08-07T15:44:32Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-08-07T15:45:01Z"
+      },
+      {
+        "name": "Employee performance",
+        "updateDate": "2025-08-07T15:45:12Z"
+      },
+      {
+        "name": "Federal officials",
+        "updateDate": "2025-08-07T15:44:46Z"
+      },
+      {
+        "name": "Government employee pay, benefits, personnel management",
+        "updateDate": "2025-08-07T15:45:08Z"
+      },
+      {
+        "name": "Government ethics and transparency, public corruption",
+        "updateDate": "2025-08-07T15:44:56Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2025-08-07T15:44:51Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2025-08-07T15:45:26Z"
+      },
+      {
+        "name": "Infectious and parasitic diseases",
+        "updateDate": "2025-08-07T15:44:37Z"
+      },
+      {
+        "name": "Public contracts and procurement",
+        "updateDate": "2025-08-07T15:45:18Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2025-08-07T15:44:28Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Health",
+      "updateDate": "2025-03-10T18:19:33Z"
+    }
+  }
+}

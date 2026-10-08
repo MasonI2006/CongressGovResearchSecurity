@@ -1,0 +1,32 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-04T15:00:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-01-30T15:32:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7273?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

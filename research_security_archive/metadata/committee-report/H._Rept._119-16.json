@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-16",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/16",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt16/CRPT-119hrpt16.pdf",
+  "retrieved_at": "2026-10-01T18:35:54Z",
+  "http_status": 200,
+  "pdf_sha256": "0d3ce2b163ac18de92ab45b2a7a7f90f9bc51071f720b7c130dfcf0729bd4617",
+  "pdf_bytes": 1002714,
+  "pdf_page_count": 91,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-16/detail.json",
+  "title": "DEFENDING EDUCATION TRANSPARENCY AND ENDING ROGUE REGIMES ENGAGING IN NEFARIOUS TRANS- ACTIONS ACT",
+  "update_date": "2025-05-27T14:12:40Z",
+  "document_type": "HRPT",
+  "document_number": "16-1",
+  "document_identifier": "RPT-119-HRPT-16-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-16",
+  "type": "HRPT",
+  "number": 16,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-03-14T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "1048",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-1048",
+      "payload": {
+        "congress": 119,
+        "number": "1048",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:35:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-16/detail.json",
+      "endpoint": "committee-report/119/hrpt/16"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:35:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-16/text.json",
+      "endpoint": "committee-report/119/hrpt/16/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-16.json",
+  "known_limitations": []
+}

@@ -1,0 +1,209 @@
+{
+  "stable_id": "119-HR-1999",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1999",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1999/BILLS-119hr1999ih.pdf",
+  "retrieved_at": "2026-10-01T18:09:57Z",
+  "http_status": 200,
+  "pdf_sha256": "e75589bda35906a9fbb1e7ebee0fd78e6012047c32b90a6948f7c216ad235c91",
+  "pdf_bytes": 268522,
+  "pdf_page_count": 19,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1999/detail.json",
+  "title": "Disclose GIFT Act",
+  "update_date": "2026-07-30T14:54:13Z",
+  "document_type": "HR",
+  "document_number": "1999",
+  "document_identifier": "BILL-119-HR-1999-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-03-10T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1999",
+  "originChamber": "House",
+  "introducedDate": "2025-03-10",
+  "latestAction": {
+    "text": "Referred to the House Committee on Education and Workforce.",
+    "date": "2025-03-10"
+  },
+  "policyArea": {
+    "name": "Education"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "J000307",
+      "name": "Rep. James, John [R-MI-10]",
+      "party": "R",
+      "state": "MI"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "F000450"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Civil actions and liability",
+      "updateDate": "2026-02-17T20:15:47Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2026-02-17T20:16:04Z"
+    },
+    {
+      "name": "Education programs funding",
+      "updateDate": "2026-02-17T20:16:11Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2026-02-17T20:15:52Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2026-02-17T20:15:42Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2026-02-17T20:15:31Z"
+    },
+    {
+      "name": "School administration",
+      "updateDate": "2026-02-17T20:15:57Z"
+    },
+    {
+      "name": "Teaching, teachers, curricula",
+      "updateDate": "2026-02-17T20:15:36Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-10T16:04:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-03-10T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-31",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": 1048,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "DETERRENT Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-07-30T14:54:13Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "J000307",
+      "name": "Rep. James, John [R-MI-10]",
+      "party": "R",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000450",
+      "name": "Rep. Foxx, Virginia [R-NC-5]",
+      "party": "R",
+      "state": "NC"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1048",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-31",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+        },
+        "number": 1048,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "DETERRENT Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1048?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:57Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/detail.json",
+      "endpoint": "bill/119/hr/1999"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:57Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/text.json",
+      "endpoint": "bill/119/hr/1999/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:58Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/cosponsors.json",
+      "endpoint": "bill/119/hr/1999/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:00Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/committees.json",
+      "endpoint": "bill/119/hr/1999/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:00Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/relatedbills.json",
+      "endpoint": "bill/119/hr/1999/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:59Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1999/subjects.json",
+      "endpoint": "bill/119/hr/1999/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1999.json",
+  "known_limitations": []
+}

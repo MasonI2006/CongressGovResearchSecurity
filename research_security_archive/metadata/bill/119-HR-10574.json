@@ -1,0 +1,160 @@
+{
+  "stable_id": "119-HR-10574",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/10574",
+  "pdf_url": "https://www.congress.gov/119/bills/hr10574/BILLS-119hr10574ih.pdf",
+  "retrieved_at": "2026-10-02T01:02:00Z",
+  "http_status": 200,
+  "pdf_sha256": "4786ea9a905c345e5325741a7365f35e514d2aa1926f939b291b74b10ba1554d",
+  "pdf_bytes": 318295,
+  "pdf_page_count": 49,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-10574/detail.json",
+  "title": "American Leadership in Fusion Act",
+  "update_date": "2026-10-01T20:09:14Z",
+  "document_type": "HR",
+  "document_number": "10574",
+  "document_identifier": "BILL-119-HR-10574-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-09-24T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "10574",
+  "originChamber": "House",
+  "introducedDate": "2026-09-24",
+  "latestAction": {
+    "text": "Referred to the House Committee on Science, Space, and Technology.",
+    "date": "2026-09-24"
+  },
+  "policyArea": {
+    "name": "Energy"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "party": "D",
+      "state": "CA"
+    }
+  ],
+  "cosponsorCount": 4,
+  "cosponsorBioguideIds": [
+    "O000019",
+    "B001292",
+    "G000607",
+    "T000482"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-24T18:42:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-09-24T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-10-01T20:09:14Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001292",
+      "name": "Rep. Beyer, Donald S. [D-VA-8]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000607",
+      "name": "Rep. Gallagher, James [R-CA-1]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000482",
+      "name": "Rep. Trahan, Lori [D-MA-3]",
+      "party": "D",
+      "state": "MA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:02:00Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/detail.json",
+      "endpoint": "bill/119/hr/10574"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:01:59Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/text.json",
+      "endpoint": "bill/119/hr/10574/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:02:01Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/cosponsors.json",
+      "endpoint": "bill/119/hr/10574/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:02:01Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/committees.json",
+      "endpoint": "bill/119/hr/10574/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:02:02Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/relatedbills.json",
+      "endpoint": "bill/119/hr/10574/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T01:02:03Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-10574/subjects.json",
+      "endpoint": "bill/119/hr/10574/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-10574.json",
+  "known_limitations": []
+}

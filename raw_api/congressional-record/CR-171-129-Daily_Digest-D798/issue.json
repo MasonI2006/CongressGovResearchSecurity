@@ -1,0 +1,71 @@
+{
+  "issue": {
+    "congress": 119,
+    "fullIssue": {
+      "articles": {
+        "count": 110,
+        "url": "https://api.congress.gov/v3/daily-congressional-record/171/129/articles?format=json"
+      },
+      "entireIssue": [
+        {
+          "part": "1",
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "endPage": "D802",
+          "name": "Daily Digest",
+          "startPage": "D796",
+          "text": [
+            {
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28-dailydigest.pdf"
+            },
+            {
+              "type": "Formatted Text",
+              "url": "https://www.congress.gov/119/crec/2025/07/28/d28jy5-1.htm"
+            }
+          ]
+        },
+        {
+          "endPage": "E734",
+          "name": "Extensions of Remarks Section",
+          "startPage": "E733",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28-extensions.pdf"
+            }
+          ]
+        },
+        {
+          "endPage": "S4783",
+          "name": "Senate Section",
+          "startPage": "S4757",
+          "text": [
+            {
+              "part": "1",
+              "type": "PDF",
+              "url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28-senate.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "issueDate": "2025-07-28T04:00:00Z",
+    "issueNumber": "129",
+    "sessionNumber": 1,
+    "updateDate": "2025-07-29T09:56:17Z",
+    "url": "https://api.congress.gov/v3/daily-congressional-record/171/129?format=json",
+    "volumeNumber": 171
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json",
+    "issueNumber": "129",
+    "volumeNumber": "171"
+  }
+}

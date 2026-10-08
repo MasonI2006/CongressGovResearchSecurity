@@ -1,0 +1,28 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "S000510",
+      "district": 9,
+      "firstName": "Adam",
+      "fullName": "Rep. Smith, Adam [D-WA-9]",
+      "isOriginalCosponsor": true,
+      "lastName": "Smith",
+      "party": "D",
+      "sponsorshipDate": "2026-05-13",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/S000510?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1,
+    "countIncludingWithdrawnCosponsors": 1
+  },
+  "request": {
+    "billNumber": "8800",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/8800?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

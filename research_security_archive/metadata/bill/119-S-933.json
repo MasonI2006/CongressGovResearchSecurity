@@ -1,0 +1,411 @@
+{
+  "stable_id": "119-S-933",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/933",
+  "pdf_url": "https://www.congress.gov/119/bills/s933/BILLS-119s933is.pdf",
+  "retrieved_at": "2026-10-01T18:10:09Z",
+  "http_status": 200,
+  "pdf_sha256": "054824dae0ccd53815a015afd58d98f3076cab1ece6f358aed5aefd2511d7729",
+  "pdf_bytes": 400582,
+  "pdf_page_count": 100,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-933/detail.json",
+  "title": "NASA Transition Authorization Act of 2025",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "933",
+  "document_identifier": "BILL-119-S-933-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2025-03-11T04:00:00Z"
+  },
+  "type": "S",
+  "number": "933",
+  "originChamber": "Senate",
+  "introducedDate": "2025-03-11",
+  "latestAction": {
+    "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+    "date": "2026-03-04"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "C001098",
+      "name": "Sen. Cruz, Ted [R-TX]",
+      "party": "R",
+      "state": "TX"
+    }
+  ],
+  "cosponsorCount": 6,
+  "cosponsorBioguideIds": [
+    "C000127",
+    "M000934",
+    "P000595",
+    "S001227",
+    "L000570",
+    "D000622"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Administrative law and regulatory procedures",
+      "updateDate": "2026-03-17T13:58:35Z"
+    },
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-03-17T13:50:37Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2026-03-17T13:51:10Z"
+    },
+    {
+      "name": "Asia",
+      "updateDate": "2026-03-17T13:52:43Z"
+    },
+    {
+      "name": "Astronomy",
+      "updateDate": "2026-03-17T13:49:40Z"
+    },
+    {
+      "name": "China",
+      "updateDate": "2026-03-17T13:52:38Z"
+    },
+    {
+      "name": "Commuting",
+      "updateDate": "2026-03-17T13:36:56Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-03-17T13:54:26Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-03-17T13:50:31Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2026-03-17T13:35:43Z"
+    },
+    {
+      "name": "Earth sciences",
+      "updateDate": "2026-03-17T13:35:43Z"
+    },
+    {
+      "name": "Emergency communications systems",
+      "updateDate": "2026-03-17T13:49:29Z"
+    },
+    {
+      "name": "Employment and training programs",
+      "updateDate": "2026-03-17T13:52:01Z"
+    },
+    {
+      "name": "Geography and mapping",
+      "updateDate": "2026-03-17T13:54:07Z"
+    },
+    {
+      "name": "Government employee pay, benefits, personnel management",
+      "updateDate": "2026-03-17T13:36:56Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2026-03-17T13:50:51Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2026-03-17T13:50:56Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2026-03-17T13:52:27Z"
+    },
+    {
+      "name": "International scientific cooperation",
+      "updateDate": "2026-03-17T13:50:13Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-03-04T16:02:36Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-11T17:01:49Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2025-03-11T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-03",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": 5122,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "NASA Talent Exchange Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-29",
+        "text": "Ordered to be Reported by Voice Vote."
+      },
+      "number": 2313,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Celestial Time Standardization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-10-29",
+        "text": "Star Print ordered on report 119-82."
+      },
+      "number": 582,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Astronaut Ground Travel Support Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/582?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-02-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+      },
+      "number": 2600,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ASCEND Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "C001098",
+      "name": "Sen. Cruz, Ted [R-TX]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "C000127",
+      "name": "Sen. Cantwell, Maria [D-WA]",
+      "party": "D",
+      "state": "WA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M000934",
+      "name": "Sen. Moran, Jerry [R-KS]",
+      "party": "R",
+      "state": "KS"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "P000595",
+      "name": "Sen. Peters, Gary C. [D-MI]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "S001227",
+      "name": "Sen. Schmitt, Eric [R-MO]",
+      "party": "R",
+      "state": "MO"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000570",
+      "name": "Sen. Luján, Ben Ray [D-NM]",
+      "party": "D",
+      "state": "NM"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "D000622",
+      "name": "Sen. Duckworth, Tammy [D-IL]",
+      "party": "D",
+      "state": "IL"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-5122",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-03",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        },
+        "number": 5122,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "NASA Talent Exchange Program Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/5122?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2313",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-04-29",
+          "text": "Ordered to be Reported by Voice Vote."
+        },
+        "number": 2313,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Celestial Time Standardization Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2313?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-582",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-10-29",
+          "text": "Star Print ordered on report 119-82."
+        },
+        "number": 582,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Astronaut Ground Travel Support Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/582?format=json"
+      }
+    },
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-2600",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2026-02-24",
+          "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+        },
+        "number": 2600,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "ASCEND Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/2600?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:09Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/detail.json",
+      "endpoint": "bill/119/s/933"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:09Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/text.json",
+      "endpoint": "bill/119/s/933/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:10Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/cosponsors.json",
+      "endpoint": "bill/119/s/933/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:12Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/committees.json",
+      "endpoint": "bill/119/s/933/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/relatedbills.json",
+      "endpoint": "bill/119/s/933/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:10:11Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-933/subjects.json",
+      "endpoint": "bill/119/s/933/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-933.json",
+  "known_limitations": []
+}

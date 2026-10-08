@@ -1,0 +1,118 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Foreign Affairs Subcommittee on Europe",
+        "systemCode": "hsfa14",
+        "url": "https://api.congress.gov/v3/committee/house/hsfa14?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-12-16T15:00:00Z",
+    "eventId": "118755",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2172"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118755/documents/HHRG-119-FA14-20251216-SD001.pdf"
+      },
+      {
+        "documentType": "Hearing: Member Roster",
+        "format": "PDF",
+        "name": "Member Attendance",
+        "url": "https://www.congress.gov/119/meeting/house/118755/documents/HHRG-119-FA14-20251216-MbrRoster.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Hybrid Warfare in Europe Against U.S. Interests: Moscow and Beijing’s Playbook",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T08:30:13Z",
+    "videos": [
+      {
+        "name": "Hybrid Warfare in Europe Against U.S. Interests: Moscow and Beijing’s Playbook",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118755"
+      },
+      {
+        "name": "Hybrid Warfare in Europe Against U.S. Interests: Moscow and Beijing’s Playbook",
+        "url": "https://www.youtube.com/watch?v=PjE_VTFsH-s"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-SingletonC-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-WalkerC-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-SingletonC-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-WalkerC-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Bio-CooperL-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-CooperL-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-WalkerC-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-Wstate-CooperL-20251216.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118755/witnesses/HHRG-119-FA14-TTF-SingletonC-20251216.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. Christopher Walker",
+        "organization": "Center for European Policy Analysis",
+        "position": "Vice President"
+      },
+      {
+        "name": "Ms. Laura Cooper",
+        "organization": "Georgetown University",
+        "position": "Adjunct Assistant Professor"
+      },
+      {
+        "name": "Mr. Craig Singleton",
+        "organization": "Foundation for Defense of Democracies",
+        "position": "China Program Senior Director and Senior Fellow"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118755",
+    "format": "json"
+  }
+}

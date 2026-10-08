@@ -1,0 +1,32 @@
+{
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-04-03T20:19:13Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-04-03T20:19:13Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "1296",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1296?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

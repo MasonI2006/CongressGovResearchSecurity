@@ -1,0 +1,186 @@
+{
+  "stable_id": "119-house-119456__MTG-119-HOUSE-119456-0-Hearing:_Transcript",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119456",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119456/documents/HHRG-119-IG00-Transcript-20260715.pdf",
+  "retrieved_at": "2026-10-02T04:51:59Z",
+  "http_status": 200,
+  "pdf_sha256": "a72b06bb646168992a903db909713ba25fe66702e6587eacbb4eac7bcd9b0878",
+  "pdf_bytes": 321625,
+  "pdf_page_count": 64,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119456__MTG-119-HOUSE-119456-0-Hearing__Transcript/detail.json",
+  "title": "States on the Frontlines of Counterintelligence",
+  "update_date": "2026-07-21T17:13:07Z",
+  "document_type": "Hearing: Transcript",
+  "document_number": "119456",
+  "document_identifier": "MTG-119-HOUSE-119456-0-Hearing:_Transcript",
+  "text_version": null,
+  "eventId": "119456",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-07-15T18:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Intelligence (Permanent Select)",
+      "systemCode": "hlig00",
+      "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "HVC-210"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "documentType": "Hearing: Transcript",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/documents/HHRG-119-IG00-Transcript-20260715.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Michael Sena",
+      "position": "President, National Fusion Center Association and Director, Northern California Regional Intelligence Center"
+    },
+    {
+      "name": "Mr. Jay Mosely",
+      "organization": "Alabama Fusion Center",
+      "position": "Director"
+    },
+    {
+      "name": "Ms. Amy Lay",
+      "organization": "Northern Virginia Regional Intelligence Center",
+      "position": "Director"
+    },
+    {
+      "name": "Eliot Bostar",
+      "organization": "29th District of the Nebraska Senate",
+      "position": "Senator"
+    },
+    {
+      "name": "Daniel Alvarez",
+      "organization": "69th District of the Florida House of Representatives",
+      "position": "Representative"
+    },
+    {
+      "name": "Jay Moseley",
+      "organization": "Alabama Fusion Center",
+      "position": "Director"
+    },
+    {
+      "name": "Michael Lucci",
+      "organization": "State Armor",
+      "position": "Founder and CEO"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/witnesses/HHRG-119-IG00-Wstate-SenaM-20260715.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/witnesses/HHRG-119-IG00-Wstate-MoseleyJ-20260715.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/witnesses/HHRG-119-IG00-Wstate-BostarE-20260715.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/witnesses/HHRG-119-IG00-Wstate-AlvarezD-20260715.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119456/witnesses/HHRG-119-IG00-Wstate-LucciM-20260715.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Hearing: Transcript",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/119456/documents/HHRG-119-IG00-Transcript-20260715.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Michael Sena",
+      "party": null,
+      "state": null,
+      "position": "President, National Fusion Center Association and Director, Northern California Regional Intelligence Center"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Mr. Jay Mosely",
+      "party": null,
+      "state": "Alabama Fusion Center",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Amy Lay",
+      "party": null,
+      "state": "Northern Virginia Regional Intelligence Center",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Eliot Bostar",
+      "party": null,
+      "state": "29th District of the Nebraska Senate",
+      "position": "Senator"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Daniel Alvarez",
+      "party": null,
+      "state": "69th District of the Florida House of Representatives",
+      "position": "Representative"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Jay Moseley",
+      "party": null,
+      "state": "Alabama Fusion Center",
+      "position": "Director"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Michael Lucci",
+      "party": null,
+      "state": "State Armor",
+      "position": "Founder and CEO"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:51:59Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119456__MTG-119-HOUSE-119456-0-Hearing__Transcript/detail.json",
+      "endpoint": "committee-meeting/119/house/119456"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119456__MTG-119-HOUSE-119456-0-Hearing__Transcript.json",
+  "known_limitations": []
+}

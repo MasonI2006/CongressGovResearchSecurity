@@ -1,0 +1,14 @@
+{
+  "pagination": {
+    "count": 0
+  },
+  "relatedBills": [],
+  "request": {
+    "billNumber": "3952",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3952?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

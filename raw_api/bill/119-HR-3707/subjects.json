@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "3707",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/3707?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Science, Technology, Communications",
+      "updateDate": "2025-06-18T13:42:43Z"
+    }
+  }
+}

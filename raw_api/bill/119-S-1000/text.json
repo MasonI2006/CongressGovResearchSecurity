@@ -1,0 +1,51 @@
+{
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "billNumber": "1000",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1000?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-10-30T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000rs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000rs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000rs.xml"
+        }
+      ],
+      "type": "Reported to Senate"
+    },
+    {
+      "date": "2025-03-12T04:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000is.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000is.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/s1000/BILLS-119s1000is.xml"
+        }
+      ],
+      "type": "Introduced in Senate"
+    }
+  ]
+}

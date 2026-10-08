@@ -1,0 +1,496 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Armed Services",
+        "systemCode": "hsas00",
+        "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-07-15T14:00:00Z",
+    "eventId": "118400",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2118"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Seapower and Projection Forces En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-K000376-Amdt-SPFEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5501 - Mace (Agreed to by Recorded Vote, 30y-27n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M000194-Amdt-5501.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Cyber, Information Technologies, and Innovation En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-B001298-Amdt-CITEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4821 - Mace (Agreed to by Recorded Vote, 29y-28n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M000194-Amdt-4821.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5278 - Cisneros (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-C001123-Amdt-5278.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5339r1 - Vasquez (Not Agreed to by Recorded Vote, 25y-32n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-V000136-Amdt-5339r1.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Military Personnel Print: H.R.3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-MLP.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Cyber, Information Technologies, and Innovation Print: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-CITI.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Intelligence and Special Operations Print: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-ISO.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Seapower and Projection Forces Print: H.R.3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-SPF.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Strategic Forces Print: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-STR.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Tactical Air and Land Forces Print: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-TAL.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Chairman's Mark: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-CHM.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "Subcommittee on Readiness Print: H.R. 3838",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119HR3838ih-RDYv2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5434 - Garamendi (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-G000559-Amdt-5434.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Tactical Air and Land Forces En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-W000804-Amdt-TALEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Strategic Forces En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-D000616-Amdt-STREB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5162r1 - Tokuda (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-T000487-Amdt-5162r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5110r1 - Strickland (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001159-Amdt-5110r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5407r4 - Moulton (Not Agreed to by Recorded Vote, 28y-29n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001196-Amdt-5407r4.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Chairman's En Bloc #3 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000575-Amdt-CHMEB3.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5206 - Norcross (Agreed to by Recorded Vote, 30y-27n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-N000188-Amdt-5206.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5204 - Norcross (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-N000188-Amdt-5204.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5518 - Moulton (Not Agreed to by Recorded Vote, 23y-34n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001196-Amdt-5518.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5409r2 - Turner (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-T000463-Amdt-5409r2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4820 - Mace (Agreed to by Recorded Vote, 30y-27n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M000194-Amdt-4820.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5527r1 - Moulton (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001196-Amdt-5527r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5513r1 - Garamendi (Not Agreed to by Recorded Vote, 15y-42n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-G000559-Amdt-5513r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5117r3 - Ryan (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000579-Amdt-5117r3.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5455 - Sherrill (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001207-Amdt-5455.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5579r1 - Scott (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001189-Amdt-5579r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5618 - Sherrill (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001207-Amdt-5618.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5629 - Van Orden (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-V000135-Amdt-5629.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5466r2 - Garamendi (Not Agreed to by Recorded Vote, 26y-31n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-G000559-Amdt-5466r2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Readiness En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-B001301-Amdt-RDYEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Readiness En Bloc #2 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-B001301-Amdt-RDYEB2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Intelligence and Special Operations En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-J000304-Amdt-ISOEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5582r2 - Smith (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S000510-Amdt-5582r2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5284 - Crow (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-C001121-Amdt-5284.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5534 - Deluzio (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-D000530-Amdt-5534.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5297r1 - Deluzio (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-D000530-Amdt-5297r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5023r1 - Wilson (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-W000795-Amdt-5023r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4849 - Moylan (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001219-Amdt-4849.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5176r1 - Sorensen (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001225-Amdt-5176r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5606 - Vindman (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-V000138-Amdt-5606.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4964 - Mace (Not Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M000194-Amdt-4964.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5494 - Ryan (Not Agreed to by Recorded Vote, 26y-31n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000579-Amdt-5494.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5113r1 - Strickland (Agreed to by Recorded Vote, 29y-28n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001159-Amdt-5113r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5442 - Garamendi (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-G000559-Amdt-5442.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Chairman's En Bloc #4 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000575-Amdt-CHMEB4.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Chairman's En Bloc #5 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000575-Amdt-CHMEB5.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "H.R. 3838 - FY26 NDAA Markup Amendment Roster, Outcomes, and Cosponsors",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/HMKP-119-AS00-20250715-SD001-U1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5586r1 - Sherrill (Not Agreed to by Recorded Vote, 26y-31n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S001207-Amdt-5586r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5680 - Bell (Offered and Withdrawn)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-B001324-Amdt-5680.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5620 - Smith (Agreed to by Recorded Vote, 47y-10n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S000510-Amdt-5620.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Chairman's En Bloc #2 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000575-Amdt-CHMEB2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5225r1 - Jacobs (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-J000305-Amdt-5225r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4933 - Courtney (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-C001069-Amdt-4933.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5659 - Moulton (Not Agreed to by Recorded Vote, 28y-29n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001196-Amdt-5659.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4839r1 - McCormick (Agreed to by Recorded Vote, 30y-27n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001218-Amdt-4839r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4778 - Fallon (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-F000246-Amdt-4778.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5626 - Moulton (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-M001196-Amdt-5626.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5628r1 - Jacobs (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-J000305-Amdt-5628.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5627r2 - Jacobs (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-J000305-Amdt-5627r2.pdf"
+      },
+      {
+        "documentType": "Committee Recorded Vote",
+        "format": "PDF",
+        "name": "H.R. 3838 – FY26 NDAA Markup - Recorded Votes #1 through #35",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/CRPT-119-AS00-Vote1-35-20250715.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Military Personnel En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-F000246-Amdt-MLPEM1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Subcommittee on Military Personnel En Bloc #2 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-F000246-Amdt-MLPEB2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Chairman's En Bloc #1 (Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-R000575-Amdt-CHMEB1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5619 - Jacobs (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-J000305-Amdt-5619.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5510r1 - Garamendi (Not Agreed to by Voice Vote)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-G000559-Amdt-5510r1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5280r2 - Cisneros (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-C001123-Amdt-5820r2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5615 - Smith (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S000510-Amdt-5615.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 5616 - Smith (Not Agreed to by Recorded Vote, 27y-30n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-S000510-Amdt-5616.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "Log 4967 - Luttrell (Not Agreed to by Recorded Vote, 15y-42n)",
+        "url": "https://www.congress.gov/119/meeting/house/118400/documents/BILLS-119-HR3838-L000603-Amdt-4967.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "relatedItems": {
+      "bills": [
+        {
+          "congress": 119,
+          "number": "3838",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/3838?format=json"
+        }
+      ]
+    },
+    "title": "H.R. 3838 - Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "type": "Markup",
+    "updateDate": "2026-01-02T07:26:09Z",
+    "videos": [
+      {
+        "name": "Full Committee Markup: FY26 NDAA",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118400"
+      },
+      {
+        "name": "Full Committee Markup: FY26 NDAA",
+        "url": "https://www.youtube.com/watch?v=VGfv8PLtZWw"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118400",
+    "format": "json"
+  }
+}

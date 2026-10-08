@@ -1,0 +1,140 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Foreign Affairs South and Central Asia Subcommittee",
+        "systemCode": "hsfa19",
+        "url": "https://api.congress.gov/v3/committee/house/hsfa19?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-09-15T18:00:00Z",
+    "eventId": "119545",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2172"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Hearing Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Notice",
+        "url": "https://www.congress.gov/119/meeting/house/119545/documents/HHRG-119-FA19-20260915-SD001-U1.pdf"
+      },
+      {
+        "description": "Member Attendance",
+        "documentType": "Hearing: Member Roster",
+        "format": "PDF",
+        "name": "Member Attendance",
+        "url": "https://www.congress.gov/119/meeting/house/119545/documents/HHRG-119-FA19-20260915-MbrRoster.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Trojan Horses: Covert Foreign Malign Influence Operations in America",
+    "type": "Hearing",
+    "updateDate": "2026-09-15T22:34:41Z",
+    "videos": [
+      {
+        "name": "Trojan Horses: Covert Foreign Malign Influence Operations in America",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119545"
+      },
+      {
+        "name": "Trojan Horses: Covert Foreign Malign Influence Operations in America",
+        "url": "https://www.youtube.com/watch?v=2rtiKQ6RNwY"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-GonzalezM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-GonzalezM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-JohnsonM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-JohnsonM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-JohnsonM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-LymanS-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-LymanS-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-LymanS-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-GonzalezM-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Bio-ShermanD-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-Wstate-ShermanD-20260915.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119545/witnesses/HHRG-119-FA19-TTF-ShermanD-20260915.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Dr. Matthew Johnson",
+        "organization": "The Jamestown Foundation",
+        "position": "Senior Fellow"
+      },
+      {
+        "name": "Mr. Sam Lyman",
+        "organization": "Bitcoin Policy Institute",
+        "position": "Head of Research"
+      },
+      {
+        "name": "Mr. Donald Sherman",
+        "organization": "Citizens for Responsibility and Ethics in Washington",
+        "position": "President and Chief Executive Officer"
+      },
+      {
+        "name": "Mr. Mike Gonzalez",
+        "organization": "The Heritage Foundation",
+        "position": "Angeles T. Arredondo E Pluribus Unum Senior Fellow"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119545",
+    "format": "json"
+  }
+}

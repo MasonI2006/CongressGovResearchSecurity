@@ -1,0 +1,496 @@
+{
+  "pagination": {
+    "count": 29
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-16",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5400,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend title 10, United States Code, to require the Secretary of Defense to annually review the amount of financial assistance for child care and youth program services providers provided by the Secretary.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5400?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-01-14",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 7076,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To require the Secretary of Defense to report on certain contracts and awards to small business concerns, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7076?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-02",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 7745,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To establish certain requirements relating to wellness checks for the health and welfare of certain members of the Armed Forces, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7745?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3450,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Emergency Response Authority Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3450?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-08-01",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 4860,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "U.S.-Taiwan Defense Innovation Partnership Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4860?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": 5180,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend the National Defense Authorization Act for Fiscal Year 2000 to modify and extend the annual report on military and security developments involving the People's Republic of China.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5180?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-10",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6009,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Biotechnology Strategy Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6009?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-09",
+        "actionTime": "14:10:41",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": 682,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "House",
+          "type": "Procedurally related"
+        }
+      ],
+      "title": "Providing for consideration of the bill (H.R. 3838) to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes, and providing for consideration of the bill (H.R. 3486) to amend the Immigration and Nationality Act to increase penalties for individuals who illegally enter and reenter the United States after being removed, and for other purposes.",
+      "type": "HRES",
+      "url": "https://api.congress.gov/v3/bill/119/hres/682?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-23",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 4704,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ROTOR Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4704?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-29",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 4812,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Secretary of the Air Force to incorporate certain elements regarding depot-level maintenance coordination in at least one multinational exercise conducted in the area of operations of the United States Indo-Pacific Command, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4812?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5188,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Secretary of Defense to establish blast safety officer positions in the Army, Navy, Marine Corps, Air Force, and Space Force.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5188?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-02",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5090,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "HONOR Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5090?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5189,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To amend title 10, United States Code, to require biennial assessments on the nutrition standards of the military departments, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5189?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5176,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Industry Pricing Transparency Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5176?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5193,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Chairman of the Joint Chiefs of Staff to conduct a feasibility study on incorporating militarily-relevant applications of emerging biotechnology into wargaming exercises, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5193?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5191,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Under Secretary of Defense for Research and Engineering to issue guidance for private entities on demonstrating how biobased products meet Department of Defense requirements, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5191?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-08",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5187,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To establish in the Department of Defense a program to support the expansion of domestic bioindustrial manufacturing capacity.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5187?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-18",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3185,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "ANCHOR for Military Families Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3185?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-10-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5770,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Security Biotechnology Workforce Training Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5770?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-18",
+        "text": "Became Public Law No: 119-60."
+      },
+      "number": 1071,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "House",
+          "type": "Related bill"
+        }
+      ],
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-25",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6313,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Military Child and Youth Program Abuse and Neglect Notification Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6313?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 6612,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Civilian Faculty Copyright Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6612?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-03",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6383,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Brandon Act Training and Protocol Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6383?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3454,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "GUARD Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3454?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6629,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Developing Master Plans for Military Service Academies Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6629?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-16",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6745,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Transitioning Reservists to Active or Inactive National Service for Enhanced Readiness (TRANSFER) Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6745?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6797,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Bipartisan IVF for Military Families Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6797?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6793,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Public Shipyard Workforce Protection Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6793?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "3838",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/3838?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

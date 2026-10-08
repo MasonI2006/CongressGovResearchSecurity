@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-47",
+    "committees": [
+      {
+        "name": "Senate Energy and Natural Resources Committee",
+        "systemCode": "sseg00",
+        "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-04-02"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg60023/generated/CHRG-119shrg60023.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg60023/CHRG-119shrg60023.pdf"
+      }
+    ],
+    "jacketNumber": 60023,
+    "libraryOfCongressIdentifier": "LC75087",
+    "number": 47,
+    "title": "MACGREGOR AND DANLY NOMINATIONS",
+    "updateDate": "2026-06-12T04:06:28Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "60023"
+  }
+}

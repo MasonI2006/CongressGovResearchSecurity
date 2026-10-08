@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "5526",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/5526?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Agriculture and Food",
+      "updateDate": "2026-09-29T15:10:56Z"
+    }
+  }
+}

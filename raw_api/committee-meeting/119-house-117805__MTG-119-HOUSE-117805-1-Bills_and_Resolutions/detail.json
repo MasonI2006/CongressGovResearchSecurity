@@ -1,0 +1,154 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Rules",
+        "systemCode": "hsru00",
+        "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-09-02T20:00:00Z",
+    "eventId": "117805",
+    "location": {
+      "building": "Capitol",
+      "room": "H-313"
+    },
+    "meetingDocuments": [
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.J. Res. 106 – Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Central Yukon Record of Decision and Approved Resource Management Plan’’.",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hjres106ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-213 – Report from the Committee on Appropriations to accompany H.R. 4553",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/CRPT-119hrpt213.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "H. Res. 605 – Establishing the Select Subcommittee to Investigate the Remaining Questions Surrounding January 6, 2021.",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hres605ih.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mrs. Scanlon",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119-4-S001205-Amdt-4.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mrs. Leger Fernández",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119-5-L000273-Amdt-5.pdf"
+      },
+      {
+        "documentType": "Committee Amendment",
+        "format": "PDF",
+        "name": "The Honorable Mr. McGovern",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": ":: H. Rept. 119-232 – Report from the Committee on Rules to accompany H. Res. 672",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/HMTG-119-RU00-20250902-SD002.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.J. Res. 104 – Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment’’.",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hjres104ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.J. Res. 105 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to “North Dakota Field Office Record of Decision and Approved Resource Management Plan”.",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hjres105ih.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H.R. 4553 – Energy and Water Development and Related Agencies Appropriations Act, 2026",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hr4553rh.pdf"
+      },
+      {
+        "documentType": "Bills and Resolutions",
+        "format": "PDF",
+        "name": "H. Res. 668 – Directing the Committee on Oversight and Government Reform to continue its ongoing investigation into the possible mismanagement of the Federal government’s investigation of Mr. Jeffrey Epstein and Ms. Ghislaine Maxwell, and for other purposes.",
+        "url": "https://www.congress.gov/119/meeting/house/117805/documents/BILLS-119hres668ih.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "relatedItems": {
+      "bills": [
+        {
+          "congress": 119,
+          "number": "106",
+          "type": "HJRES",
+          "url": "https://api.congress.gov/v3/bill/119/hjres/106?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "105",
+          "type": "HJRES",
+          "url": "https://api.congress.gov/v3/bill/119/hjres/105?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "104",
+          "type": "HJRES",
+          "url": "https://api.congress.gov/v3/bill/119/hjres/104?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "4553",
+          "type": "HR",
+          "url": "https://api.congress.gov/v3/bill/119/hr/4553?format=json"
+        },
+        {
+          "congress": 119,
+          "number": "668",
+          "type": "HRES",
+          "url": "https://api.congress.gov/v3/bill/119/hres/668?format=json"
+        }
+      ]
+    },
+    "title": "H.J. Res. 104 – Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment’’.; H.J. Res. 105 – Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to “North Dakota Field Office Record of Decision and Approved Resource Management Plan”.; H.J. Res. 106 - Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Central Yukon Record of Decision and Approved Resource Management Plan’’.; H.R. 4553 - Energy and Water Development and Related Agencies Appropriations Act, 2026; H. Res. 668 – Directing the Committee on Oversight and Government Reform to continue its ongoing investigation into the possible mismanagement of the Federal government’s investigation of Mr. Jeffrey Epstein and Ms. Ghislaine Maxwell, and for other purposes.",
+    "type": "Meeting",
+    "updateDate": "2026-01-02T05:22:46Z",
+    "videos": [
+      {
+        "name": "Rules Committee Hearing  H.R. 4553, H. Res. ___, H.J. Res. 104, 105, and 106",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/117805"
+      },
+      {
+        "name": "Rules Committee Hearing  H.R. 4553, H. Res. ___, H.J. Res. 104, 105, and 106",
+        "url": "https://www.youtube.com/watch?v=QjjFPzjbFwE"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "117805",
+    "format": "json"
+  }
+}

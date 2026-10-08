@@ -1,0 +1,206 @@
+{
+  "stable_id": "119-house-119106__MTG-119-HOUSE-119106-15-Witness_Statement",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/119106",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-GrassoD-20260326.pdf",
+  "retrieved_at": "2026-10-02T05:10:50Z",
+  "http_status": 200,
+  "pdf_sha256": "0f3ea2016f26fbf281e7236ed2eba150a4488c3da59b2292c1a48aa1f060250c",
+  "pdf_bytes": 295226,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-119106__MTG-119-HOUSE-119106-15-Witness_Statement/detail.json",
+  "title": "\"U.S. Universities Under Siege: Foreign Espionage, Stolen Innovation, and the National Security Threat\"",
+  "update_date": "2026-05-27T14:26:54Z",
+  "document_type": "Witness Statement",
+  "document_number": "119106",
+  "document_identifier": "MTG-119-HOUSE-119106-15-Witness_Statement",
+  "text_version": null,
+  "eventId": "119106",
+  "type": "Hearing",
+  "meetingStatus": "Scheduled",
+  "date": "2026-03-26T14:15:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Education and Workforce",
+      "systemCode": "hsed00",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Rayburn House Office Building",
+    "room": "2175"
+  },
+  "relatedItems": [],
+  "meetingDocuments": [
+    {
+      "description": "Hearing Notice",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Hearing Notice",
+      "url": "https://www.congress.gov/119/meeting/house/119106/documents/HHRG-119-ED00-20260326-SD001.pdf"
+    },
+    {
+      "description": "Rep. Adelita Grijalva | Submission for the Record | New America Article",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "Rep. Adelita Grijalva | Submission for the Record | New America Article",
+      "url": "https://www.congress.gov/119/meeting/house/119106/documents/HHRG-119-ED00-20260326-SD002.pdf"
+    },
+    {
+      "description": "Ms. Cassandra Farley | Questions and Responses for the Record",
+      "documentType": "Hearing: Questions for the Record",
+      "format": "PDF",
+      "name": "Ms. Cassandra Farley | Questions and Responses for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/119106/documents/HHRG-119-ED00-20260326-QFR001.pdf"
+    },
+    {
+      "description": "Ms. Cassandra Farley | Questions and Responses for the Record",
+      "documentType": "Hearing: Questions for the Record",
+      "format": "PDF",
+      "name": "Ms. Cassandra Farley | Questions and Responses for the Record",
+      "url": "https://www.congress.gov/119/meeting/house/119106/documents/HHRG-119-ED00-20260326-QFR001-U1.pdf"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Dr. Domenico Grasso",
+      "organization": "University of Michigan",
+      "position": "Interim President"
+    },
+    {
+      "name": "Ms. Cassandra Farley",
+      "organization": "University of Florida",
+      "position": "Senior Director, Research Integrity, Security & Compliance"
+    },
+    {
+      "name": "Ms. Melissa Emrey-Arras",
+      "organization": "Government Accountability Office",
+      "position": "Director, Education, Workforce, and Income Security Team"
+    },
+    {
+      "name": "Ms. Elsa Johnson",
+      "organization": "Stanford Review",
+      "position": "Editor-in-Chief"
+    }
+  ],
+  "witnessDocuments": [
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Bio-GrassoD-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Bio-FarleyC-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Bio-Emrey-ArrasM-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Biography",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Bio-JohnsonE-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-TTF-GrassoD-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-TTF-FarleyC-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-TTF-Emrey-ArrasM-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Truth in Testimony",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-TTF-JohnsonE-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-FarleyC-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-Emrey-ArrasM-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-JohnsonE-20260326.pdf"
+    },
+    {
+      "documentType": "Witness Statement",
+      "format": "PDF",
+      "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-GrassoD-20260326.pdf"
+    }
+  ],
+  "matchedDocument": {
+    "source": "witnessDocuments",
+    "documentType": "Witness Statement",
+    "name": null,
+    "url": "https://www.congress.gov/119/meeting/house/119106/witnesses/HHRG-119-ED00-Wstate-GrassoD-20260326.pdf"
+  },
+  "people": [
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Dr. Domenico Grasso",
+      "party": null,
+      "state": "University of Michigan",
+      "position": "Interim President"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Cassandra Farley",
+      "party": null,
+      "state": "University of Florida",
+      "position": "Senior Director, Research Integrity, Security & Compliance"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Melissa Emrey-Arras",
+      "party": null,
+      "state": "Government Accountability Office",
+      "position": "Director, Education, Workforce, and Income Security Team"
+    },
+    {
+      "role": "witness",
+      "bioguideId": null,
+      "name": "Ms. Elsa Johnson",
+      "party": null,
+      "state": "Stanford Review",
+      "position": "Editor-in-Chief"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T05:10:50Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-119106__MTG-119-HOUSE-119106-15-Witness_Statement/detail.json",
+      "endpoint": "committee-meeting/119/house/119106"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-119106__MTG-119-HOUSE-119106-15-Witness_Statement.json",
+  "known_limitations": []
+}

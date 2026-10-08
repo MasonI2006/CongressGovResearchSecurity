@@ -1,0 +1,71 @@
+{
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 9 (Thursday, January 16, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. FONG:\nH.R. 477.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 1\nArticle 1, Section 8, Clause 3\nArticle 1, Section 8, Clause 18\n[Page H222]\n</pre>",
+    "cosponsors": {
+      "count": 12,
+      "countIncludingWithdrawnCosponsors": 12,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/cosponsors?format=json"
+    },
+    "introducedDate": "2025-01-16",
+    "latestAction": {
+      "actionDate": "2025-01-16",
+      "text": "Referred to the House Committee on Science, Space, and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/477",
+    "number": "477",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "F000480",
+        "district": 20,
+        "firstName": "Vince",
+        "fullName": "Rep. Fong, Vince [R-CA-20]",
+        "isByRequest": "N",
+        "lastName": "Fong",
+        "party": "R",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/F000480?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/text?format=json"
+    },
+    "title": "MACH Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/477/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-01-13T09:05:36Z",
+    "updateDateIncludingText": "2026-01-13T09:05:36Z"
+  },
+  "request": {
+    "billNumber": "477",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

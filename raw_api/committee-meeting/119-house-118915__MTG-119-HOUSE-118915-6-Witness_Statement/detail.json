@@ -1,0 +1,119 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "Homeland Security Subcommittee on Emergency Management and Technology",
+        "systemCode": "hshm12",
+        "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-02-11T19:00:00Z",
+    "eventId": "118915",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 63778,
+        "url": "https://api.congress.gov/v3/hearing/119/house/63778?format=json"
+      }
+    ],
+    "location": {
+      "building": "Cannon House Office Building",
+      "room": "310"
+    },
+    "meetingDocuments": [
+      {
+        "description": "Hearing Notice",
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Hearing Notice",
+        "url": "https://www.congress.gov/119/meeting/house/118915/documents/HHRG-119-HM12-20260211-SD001.pdf"
+      },
+      {
+        "documentType": "Hearing: Witness List",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/documents/HHRG-119-HM12-WList-20260211.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "“Surveying the Threat of Agroterrorism, Part II: Assessing Federal Government Efforts”",
+    "type": "Hearing",
+    "updateDate": "2026-04-22T13:23:48Z",
+    "videos": [
+      {
+        "name": "Surveying the Threat of Agroterrorism, Part II: Assessing Federal Government Efforts",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/118915"
+      },
+      {
+        "name": "Surveying the Threat of Agroterrorism, Part II: Assessing Federal Government Efforts",
+        "url": "https://www.youtube.com/watch?v=g9H-bEdhtcI"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Bio-KellyS-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Bio-AllenM-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-TTF-KellyS-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Wstate-KellyS-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Wstate-AllenM-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Wstate-GrantA-20260211.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/118915/witnesses/HHRG-119-HM12-Wstate-CooperJ-20260211.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. Matt Allen",
+        "organization": "U.S. Department of Agriculture",
+        "position": "Director, Office of Homeland Security"
+      },
+      {
+        "name": "Ms. Ashley Grant",
+        "organization": "U.S. Department of Homeland Security",
+        "position": "Senior Health Security and Biodefense Advisor, Office of Health Security"
+      },
+      {
+        "name": "Mr. Jeff Cooper",
+        "organization": "U.S. Department of Homeland Security",
+        "position": "Program Manager, Science and Technology Directorate"
+      },
+      {
+        "name": "Ms. Suzette Kelly",
+        "organization": "U.S. Customs and Border Patrol",
+        "position": "Acting Executive Director, Agriculture Programs and Trade Liaison"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "118915",
+    "format": "json"
+  }
+}

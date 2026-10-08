@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-217",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/217",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt217/CRPT-119hrpt217.pdf",
+  "retrieved_at": "2026-10-02T03:11:08Z",
+  "http_status": 200,
+  "pdf_sha256": "face9354ef1ad8bc30ec58fd98e89c91e9ad5082c5a8c38d49c64e5b8c539e83",
+  "pdf_bytes": 1731895,
+  "pdf_page_count": 164,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-217/detail.json",
+  "title": "NATIONAL SECURITY, DEPARTMENT OF STATE, AND RELATED PROGRAMS APPROPRIATIONS BILL, 2026",
+  "update_date": "2025-08-15T16:27:28Z",
+  "document_type": "HRPT",
+  "document_number": "217-1",
+  "document_identifier": "RPT-119-HRPT-217-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-217",
+  "type": "HRPT",
+  "number": 217,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-07-25T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "4779",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4779?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-4779",
+      "payload": {
+        "congress": 119,
+        "number": "4779",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/4779?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:11:08Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-217/detail.json",
+      "endpoint": "committee-report/119/hrpt/217"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:11:09Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-217/text.json",
+      "endpoint": "committee-report/119/hrpt/217/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-217.json",
+  "known_limitations": []
+}

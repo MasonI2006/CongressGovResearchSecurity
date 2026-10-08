@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "count": 26,
+    "next": "https://api.congress.gov/v3/bill/119/hr/8800/subjects?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "billNumber": "8800",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/8800?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-08-31T16:43:19Z"
+      },
+      {
+        "name": "Appropriations",
+        "updateDate": "2026-08-31T16:14:19Z"
+      },
+      {
+        "name": "Arms control and nonproliferation",
+        "updateDate": "2026-08-31T17:00:12Z"
+      },
+      {
+        "name": "Aviation and airports",
+        "updateDate": "2026-08-31T16:24:40Z"
+      },
+      {
+        "name": "Building construction",
+        "updateDate": "2026-08-31T17:05:21Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-08-31T16:43:35Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-08-31T16:35:43Z"
+      },
+      {
+        "name": "Data collection, sharing, protection",
+        "updateDate": "2026-08-31T16:59:37Z"
+      },
+      {
+        "name": "Department of Defense",
+        "updateDate": "2026-08-31T16:14:10Z"
+      },
+      {
+        "name": "Europe",
+        "updateDate": "2026-08-31T16:35:27Z"
+      },
+      {
+        "name": "Government buildings, facilities, and property",
+        "updateDate": "2026-08-31T17:05:28Z"
+      },
+      {
+        "name": "Intelligence activities, surveillance, classified information",
+        "updateDate": "2026-08-31T16:32:03Z"
+      },
+      {
+        "name": "Israel",
+        "updateDate": "2026-08-31T16:32:26Z"
+      },
+      {
+        "name": "Middle East",
+        "updateDate": "2026-08-31T16:35:33Z"
+      },
+      {
+        "name": "Military assistance, sales, and agreements",
+        "updateDate": "2026-08-31T16:24:53Z"
+      },
+      {
+        "name": "Military civil functions",
+        "updateDate": "2026-08-31T16:24:58Z"
+      },
+      {
+        "name": "Military command and structure",
+        "updateDate": "2026-08-31T16:25:25Z"
+      },
+      {
+        "name": "Military medicine",
+        "updateDate": "2026-08-31T16:25:36Z"
+      },
+      {
+        "name": "Military personnel and dependents",
+        "updateDate": "2026-08-31T16:24:07Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Armed Forces and National Security",
+      "updateDate": "2026-08-11T20:28:11Z"
+    }
+  }
+}

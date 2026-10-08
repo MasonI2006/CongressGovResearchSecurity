@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-33-Daily Digest-D163",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/33",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/02/19/171/33/CREC-2025-02-19-pt1-PgD163.pdf",
+  "retrieved_at": "2026-10-02T10:08:10Z",
+  "http_status": 200,
+  "pdf_sha256": "86feb595c2734672486686416fbd85096b42410b26998ca46b7c8270d2beb663",
+  "pdf_bytes": 221267,
+  "pdf_page_count": 1,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-33-Daily_Digest-D163/issue.json",
+  "title": "Daily Digest/COMMITTEE MEETINGS FOR 2025-02-20; Congressional Record Vol. 171, No. 33",
+  "update_date": "2025-02-20T10:14:14Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I33",
+  "document_identifier": "CREC-119-V171-I33-Daily_Digest-1",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "33",
+  "issueDate": "2025-02-19T05:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/COMMITTEE MEETINGS FOR 2025-02-20; Congressional Record Vol. 171, No. 33",
+  "startPage": "D163",
+  "endPage": "D163",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:08:10Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-33-Daily_Digest-D163/issue.json",
+      "endpoint": "daily-congressional-record/171/33"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T10:08:09Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-33-Daily_Digest-D163/articles.json",
+      "endpoint": "daily-congressional-record/171/33/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-33-Daily_Digest-D163.json",
+  "known_limitations": []
+}

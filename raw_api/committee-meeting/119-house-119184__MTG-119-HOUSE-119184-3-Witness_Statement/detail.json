@@ -1,0 +1,88 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "systemCode": "hsas35",
+        "url": "https://api.congress.gov/v3/committee/house/hsas35?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2026-05-14T19:00:00Z",
+    "eventId": "119184",
+    "location": {
+      "building": "Rayburn House Office Building",
+      "room": "2212"
+    },
+    "meetingStatus": "Rescheduled",
+    "title": "Science, Technology, and Innovation Posture of the Department of Defense",
+    "type": "Hearing",
+    "updateDate": "2026-05-14T18:20:14Z",
+    "videos": [
+      {
+        "name": "CITI Subcommittee Hearing: Science, Technology, and Innovation Posture of the Department of Defense",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/119184"
+      },
+      {
+        "name": "CITI Subcommittee Hearing: Science, Technology, and Innovation Posture of the Department of Defense",
+        "url": "https://www.youtube.com/watch?v=fKwztbVu1iw"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Bio-MichaelE-20260514.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Bio-WestO-20260514.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Bio-StanleyC-20260514.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Wstate-MichaelE-20260514.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Wstate-WestO-20260514.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/119184/witnesses/HHRG-119-AS35-Wstate-StanleyC-20260514.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "The Honorable Emil Michael",
+        "organization": "Office of the Secretary of Defense",
+        "position": "Under Scretary of Defense for Research and Engineering"
+      },
+      {
+        "name": "Mr. Owen West",
+        "organization": "Defense Innovation Unit",
+        "position": "Director"
+      },
+      {
+        "name": "Mr. Cameron Stanley",
+        "organization": "Office of the Secretary of Defense",
+        "position": "Chief Data and Artificial Intelligence Officer"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "119184",
+    "format": "json"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "stable_id": "H. Rept. 119-59",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/59",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt59/CRPT-119hrpt59.pdf",
+  "retrieved_at": "2026-10-02T03:07:16Z",
+  "http_status": 200,
+  "pdf_sha256": "9723f393ffecf16adbd65ae5a78d6dab199c56d79637e90d0bcc01a54aa64f17",
+  "pdf_bytes": 2033934,
+  "pdf_page_count": 230,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-59/detail.json",
+  "title": "AUTHORIZATION AND OVERSIGHT PLANS FOR ALL HOUSE COMMITTEES",
+  "update_date": "2025-05-27T14:12:47Z",
+  "document_type": "HRPT",
+  "document_number": "59-1",
+  "document_identifier": "RPT-119-HRPT-59-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-59",
+  "type": "HRPT",
+  "number": 59,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2025-04-14T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [],
+  "reportType": "H.Rept.",
+  "sessionNumber": 1,
+  "people": [],
+  "committees": [
+    {
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:07:16Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-59/detail.json",
+      "endpoint": "committee-report/119/hrpt/59"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:07:17Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-59/text.json",
+      "endpoint": "committee-report/119/hrpt/59/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-59.json",
+  "known_limitations": []
+}

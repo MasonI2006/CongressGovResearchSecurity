@@ -1,0 +1,144 @@
+{
+  "committeeMeeting": {
+    "chamber": "House",
+    "committees": [
+      {
+        "name": "House Science, Space, and Technology Subcommittee on Investigations and Oversight",
+        "systemCode": "hssy21",
+        "url": "https://api.congress.gov/v3/committee/house/hssy21?format=json"
+      }
+    ],
+    "congress": 119,
+    "date": "2025-03-05T15:00:00Z",
+    "eventId": "117977",
+    "hearingTranscript": [
+      {
+        "jacketNumber": 58978,
+        "url": "https://api.congress.gov/v3/hearing/119/house/58978?format=json"
+      }
+    ],
+    "meetingDocuments": [
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Charter",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD002.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Zoe Lofgren",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-L000397-20250305.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Brian Babin",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-B001291-20250305.pdf"
+      },
+      {
+        "documentType": "Support Document",
+        "format": "PDF",
+        "name": "Notice",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-20250305-SD001.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Emilia S. Sykes",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-S001223-20250305.pdf"
+      },
+      {
+        "documentType": "Member Statements",
+        "format": "PDF",
+        "name": "The Honorable Rich McCormick",
+        "url": "https://www.congress.gov/119/meeting/house/117977/documents/HHRG-119-SY21-MState-M001218-20250305.pdf"
+      }
+    ],
+    "meetingStatus": "Scheduled",
+    "title": "Assessing the Threat to U.S. Funded Research",
+    "type": "Hearing",
+    "updateDate": "2026-01-02T05:55:37Z",
+    "videos": [
+      {
+        "name": "Investigations and Oversight Subcommittee Hearing - Assessing the Threat to U.S. Funded Research",
+        "url": "https://www.congress.gov/event/119th-Congress/house-event/117977"
+      },
+      {
+        "name": "Investigations and Oversight Subcommittee Hearing - Assessing the Threat to U.S. Funded Research",
+        "url": "https://www.youtube.com/watch?v=rLhkr3YOfa0"
+      }
+    ],
+    "witnessDocuments": [
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-SargentJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-ZuberM-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-StoffJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-SargentJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Statement",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Wstate-StoffJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Biography",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-Bio-ZuberM-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-SargentJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-StoffJ-20250305.pdf"
+      },
+      {
+        "documentType": "Witness Truth in Testimony",
+        "format": "PDF",
+        "url": "https://www.congress.gov/119/meeting/house/117977/witnesses/HHRG-119-SY21-TTF-ZuberM-20250305.pdf"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "Mr. John Sargent",
+        "organization": "Congressional Research Service",
+        "position": "Retired, Specialist in Science and Technology Policy"
+      },
+      {
+        "name": "Mr. Jeffrey Stoff",
+        "organization": "Center for Research Security",
+        "position": "President"
+      },
+      {
+        "name": "Dr. Maria Zuber",
+        "organization": "MIT",
+        "position": "E.A. Griswold Professor of Geophysics and Presidential Advisor for Science and Technology Policy"
+      }
+    ]
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "eventId": "117977",
+    "format": "json"
+  }
+}

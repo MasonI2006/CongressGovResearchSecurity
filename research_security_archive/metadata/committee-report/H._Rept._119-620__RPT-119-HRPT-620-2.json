@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-620",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/620",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt620/CRPT-119hrpt620.pdf",
+  "retrieved_at": "2026-10-02T03:22:37Z",
+  "http_status": 200,
+  "pdf_sha256": "8d7b203126d351fe374f0936fab36f5ff6aadc5d65fc1c5bfedce26ac44ea58a",
+  "pdf_bytes": 2346299,
+  "pdf_page_count": 815,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-620/detail.json",
+  "title": "FARM, FOOD, AND NATIONAL SECURITY ACT OF 2026",
+  "update_date": "2026-09-19T23:18:25Z",
+  "document_type": "HRPT",
+  "document_number": "620-2",
+  "document_identifier": "RPT-119-HRPT-620-2",
+  "text_version": null,
+  "citation": "H. Rept. 119-620",
+  "type": "HRPT",
+  "number": 620,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2026-04-21T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "7567",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 2,
+  "people": [],
+  "committees": [
+    {
+      "name": "Agriculture Committee",
+      "systemCode": "hsag00",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-7567",
+      "payload": {
+        "congress": 119,
+        "number": "7567",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7567?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:22:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-620/detail.json",
+      "endpoint": "committee-report/119/hrpt/620"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:22:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-620/text.json",
+      "endpoint": "committee-report/119/hrpt/620/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-620__RPT-119-HRPT-620-2.json",
+  "known_limitations": []
+}

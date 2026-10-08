@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "769",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/769?format=json"
+        }
+      ],
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-45",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-07-22T04:00:00Z",
+      "number": 45,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/45/text?format=json"
+      },
+      "title": "UNITED STATES RESEARCH PROTECTION ACT OF 2025",
+      "type": "SRPT",
+      "updateDate": "2026-02-04T04:11:37Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "45",
+    "reportType": "srpt"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "stable_id": "119-HR-8462",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/8462",
+  "pdf_url": "https://www.congress.gov/119/bills/hr8462/BILLS-119hr8462ih.pdf",
+  "retrieved_at": "2026-10-02T00:01:21Z",
+  "http_status": 200,
+  "pdf_sha256": "8427eb4df72fb0602dd83736efd5e2be1fd7d38deeeefbf9c13d75cda27a039a",
+  "pdf_bytes": 378304,
+  "pdf_page_count": 91,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-8462/detail.json",
+  "title": "National Quantum Initiative Reauthorization Act",
+  "update_date": "2026-09-19T23:32:36Z",
+  "document_type": "HR",
+  "document_number": "8462",
+  "document_identifier": "BILL-119-HR-8462-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2026-04-23T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "8462",
+  "originChamber": "House",
+  "introducedDate": "2026-04-23",
+  "latestAction": {
+    "text": "Ordered to be Reported (Amended) by Voice Vote.",
+    "date": "2026-04-29"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "party": "R",
+      "state": "TX"
+    }
+  ],
+  "cosponsorCount": 5,
+  "cosponsorBioguideIds": [
+    "B001291",
+    "O000019",
+    "L000599",
+    "H001101",
+    "K000399"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Atmospheric science and weather",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Computer security and identity theft",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Computers and information technology",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Congressional committees",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Elementary and secondary education",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Government lending and loan guarantees",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Higher education",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Infrastructure development",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "International organizations and cooperation",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "International scientific cooperation",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Retail and wholesale trades",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Science and engineering education",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Student aid and college costs",
+      "updateDate": "2026-07-21T18:37:33Z"
+    },
+    {
+      "name": "Technology assessment",
+      "updateDate": "2026-07-21T18:37:33Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-29T14:00:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-04-23T13:02:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2026-04-23T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-19T23:32:36Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "party": "R",
+      "state": "TX"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "party": "R",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001101",
+      "name": "Rep. Harrigan, Pat [R-NC-10]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "party": "R",
+      "state": "VA"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/detail.json",
+      "endpoint": "bill/119/hr/8462"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/text.json",
+      "endpoint": "bill/119/hr/8462/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:21Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/cosponsors.json",
+      "endpoint": "bill/119/hr/8462/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:24Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/committees.json",
+      "endpoint": "bill/119/hr/8462/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:24Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/relatedbills.json",
+      "endpoint": "bill/119/hr/8462/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T00:01:24Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-HR-8462/subjects.json",
+      "endpoint": "bill/119/hr/8462/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-8462.json",
+  "known_limitations": []
+}

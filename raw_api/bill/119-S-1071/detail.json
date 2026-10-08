@@ -1,0 +1,96 @@
+{
+  "bill": {
+    "actions": {
+      "count": 45,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/actions?format=json"
+    },
+    "amendments": {
+      "count": 17,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "Rules Committee Print 119-16, As Posted on the Website of the House Committee on Rules on December 7, 2025",
+        "pubDate": "2025-12-09T21:01:00Z",
+        "title": "Estimated Changes in Direct Spending Under S. 1071, the National Defense Authorization Act for Fiscal Year 2026",
+        "url": "https://www.cbo.gov/publication/61935"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-14",
+    "latestAction": {
+      "actionDate": "2025-12-18",
+      "text": "Became Public Law No: 119-60."
+    },
+    "laws": [
+      {
+        "number": "119-60",
+        "type": "Public Law"
+      }
+    ],
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1071",
+    "notes": [
+      {
+        "text": "The Joint Explanatory Statement and text to accompany Public Law 119-60 are found within Armed Services Committee Print No. 3, <a href=\"https://www.congress.gov/committee-print/119th-congress/house-committee-print/62529?outputFormat=pdf\">book 1</a> and <a href=\"https://www.congress.gov/committee-print/119th-congress/house-committee-print/62660?outputFormat=pdf\">book 2</a>"
+      }
+    ],
+    "number": "1071",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 114,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001056",
+        "firstName": "John",
+        "fullName": "Sen. Cornyn, John [R-TX]",
+        "isByRequest": "N",
+        "lastName": "Cornyn",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/C001056?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 331,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/subjects?format=json"
+    },
+    "summaries": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/text?format=json"
+    },
+    "title": "National Defense Authorization Act for Fiscal Year 2026",
+    "titles": {
+      "count": 31,
+      "url": "https://api.congress.gov/v3/bill/119/s/1071/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-29T21:16:29Z",
+    "updateDateIncludingText": "2026-09-29T21:16:29Z"
+  },
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

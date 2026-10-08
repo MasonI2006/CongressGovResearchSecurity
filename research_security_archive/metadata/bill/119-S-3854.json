@@ -1,0 +1,136 @@
+{
+  "stable_id": "119-S-3854",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/3854",
+  "pdf_url": "https://www.congress.gov/119/bills/s3854/BILLS-119s3854is.pdf",
+  "retrieved_at": "2026-10-01T23:32:28Z",
+  "http_status": 200,
+  "pdf_sha256": "50502511bb48606bc67c6c41073633b81cb81de3e8c95015816448d2189c99c9",
+  "pdf_bytes": 258092,
+  "pdf_page_count": 11,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-3854/detail.json",
+  "title": "Advanced Weather Model Computing Development Act",
+  "update_date": "2026-09-08T18:03:40Z",
+  "document_type": "S",
+  "document_number": "3854",
+  "document_identifier": "BILL-119-S-3854-Introduced_in_Senate",
+  "text_version": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-12T05:00:00Z"
+  },
+  "type": "S",
+  "number": "3854",
+  "originChamber": "Senate",
+  "introducedDate": "2026-02-12",
+  "latestAction": {
+    "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "date": "2026-02-12"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "L000570",
+      "name": "Sen. Luján, Ben Ray [D-NM]",
+      "party": "D",
+      "state": "NM"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "B001243"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-02-12T16:38:58Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in Senate",
+    "date": "2026-02-12T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:03:40Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "L000570",
+      "name": "Sen. Luján, Ben Ray [D-NM]",
+      "party": "D",
+      "state": "NM"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "party": "R",
+      "state": "TN"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:28Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/detail.json",
+      "endpoint": "bill/119/s/3854"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:27Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/text.json",
+      "endpoint": "bill/119/s/3854/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:29Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/cosponsors.json",
+      "endpoint": "bill/119/s/3854/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/committees.json",
+      "endpoint": "bill/119/s/3854/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:30Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/relatedbills.json",
+      "endpoint": "bill/119/s/3854/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T23:32:31Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/bill/119-S-3854/subjects.json",
+      "endpoint": "bill/119/s/3854/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-3854.json",
+  "known_limitations": []
+}

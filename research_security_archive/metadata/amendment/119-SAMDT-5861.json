@@ -1,0 +1,98 @@
+{
+  "stable_id": "119-SAMDT-5861",
+  "collection": "amendment",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/amendment/119/samdt/5861",
+  "pdf_url": "https://www.congress.gov/119/crec/2026/06/18/172/103/CREC-2026-06-18-pt1-PgS2943-2.pdf",
+  "retrieved_at": "2026-10-02T02:47:23Z",
+  "http_status": 200,
+  "pdf_sha256": "11792a9037223f65aa98d7b18b7a00c65d49ca1884abefad815683e7a0d6f2d4",
+  "pdf_bytes": 311408,
+  "pdf_page_count": 11,
+  "pdf_has_text_layer": true,
+  "text_source_used": "html",
+  "raw_api_json_path": "raw_api/amendment/119-SAMDT-5861/detail.json",
+  "title": null,
+  "update_date": "2026-06-19T11:08:30Z",
+  "document_type": "SAMDT",
+  "document_number": "5861",
+  "document_identifier": "AMDT-119-SAMDT-5861-Submitted",
+  "text_version": {
+    "type": "Submitted",
+    "date": "2026-06-18T04:00:00Z"
+  },
+  "type": "SAMDT",
+  "number": "5861",
+  "chamber": "Senate",
+  "description": null,
+  "purpose": null,
+  "submittedDate": "2026-06-18T04:00:00Z",
+  "latestAction": {
+    "text": null,
+    "date": "2026-06-18",
+    "actionCode": "91000",
+    "type": "Floor"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "Y000064"
+    }
+  ],
+  "amendedBill": {
+    "congress": 119,
+    "type": "S",
+    "number": "4784",
+    "originChamber": "Senate",
+    "title": "National Defense Authorization Act for Fiscal Year 2027"
+  },
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "Y000064",
+      "name": "Sen. Young, Todd [R-IN]",
+      "party": "R",
+      "state": "IN"
+    }
+  ],
+  "committees": [],
+  "related_items": [
+    {
+      "relation_type": "amended_bill",
+      "related_key": "119-S-4784",
+      "payload": {
+        "congress": 119,
+        "type": "S",
+        "number": "4784",
+        "originChamber": "Senate",
+        "title": "National Defense Authorization Act for Fiscal Year 2027"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:47:23Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-5861/detail.json",
+      "endpoint": "amendment/119/samdt/5861"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:47:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-5861/text.json",
+      "endpoint": "amendment/119/samdt/5861/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T02:47:24Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/amendment/119-SAMDT-5861/actions.json",
+      "endpoint": "amendment/119/samdt/5861/actions"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/amendment/119-SAMDT-5861.json",
+  "known_limitations": []
+}

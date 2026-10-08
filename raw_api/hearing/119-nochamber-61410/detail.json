@@ -1,0 +1,40 @@
+{
+  "hearing": {
+    "chamber": "NoChamber",
+    "citation": "J.Hrg.119",
+    "committees": [
+      {
+        "name": "Congressional-Executive Commission on China",
+        "systemCode": "jcpk00",
+        "url": "https://api.congress.gov/v3/committee/joint/jcpk00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-07-23"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119jhrg61410/generated/CHRG-119jhrg61410.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119jhrg61410/CHRG-119jhrg61410.pdf"
+      }
+    ],
+    "jacketNumber": 61410,
+    "libraryOfCongressIdentifier": "LC74746",
+    "title": "STAND WITH TAIWAN: COUNTERING THE PRC'S POLITICAL WARFARE AND TRANSNATIONAL REPRESSION",
+    "updateDate": "2026-02-05T03:36:22Z"
+  },
+  "request": {
+    "chamber": "nochamber",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "61410"
+  }
+}

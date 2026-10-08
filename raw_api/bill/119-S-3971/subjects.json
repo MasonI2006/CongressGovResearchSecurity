@@ -1,0 +1,93 @@
+{
+  "pagination": {
+    "count": 19
+  },
+  "request": {
+    "billNumber": "3971",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3971?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2026-03-10T16:22:27Z"
+      },
+      {
+        "name": "Asia",
+        "updateDate": "2026-03-10T15:45:10Z"
+      },
+      {
+        "name": "China",
+        "updateDate": "2026-03-10T15:45:05Z"
+      },
+      {
+        "name": "Computer security and identity theft",
+        "updateDate": "2026-03-10T16:20:50Z"
+      },
+      {
+        "name": "Computers and information technology",
+        "updateDate": "2026-03-10T16:21:30Z"
+      },
+      {
+        "name": "Data collection, sharing, protection",
+        "updateDate": "2026-04-07T17:41:15Z"
+      },
+      {
+        "name": "Government lending and loan guarantees",
+        "updateDate": "2026-03-10T15:58:58Z"
+      },
+      {
+        "name": "Intellectual property",
+        "updateDate": "2026-03-10T16:22:06Z"
+      },
+      {
+        "name": "Military assistance, sales, and agreements",
+        "updateDate": "2026-03-10T15:48:26Z"
+      },
+      {
+        "name": "Performance measurement",
+        "updateDate": "2026-03-10T16:22:41Z"
+      },
+      {
+        "name": "Public contracts and procurement",
+        "updateDate": "2026-03-10T15:44:55Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2026-03-10T15:54:55Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2026-03-10T15:55:02Z"
+      },
+      {
+        "name": "Small Business Administration",
+        "updateDate": "2026-03-10T15:37:38Z"
+      },
+      {
+        "name": "Small business",
+        "updateDate": "2026-03-10T15:37:29Z"
+      },
+      {
+        "name": "Subversive activities",
+        "updateDate": "2026-03-10T15:45:17Z"
+      },
+      {
+        "name": "Technology assessment",
+        "updateDate": "2026-03-10T16:04:30Z"
+      },
+      {
+        "name": "Technology transfer and commercialization",
+        "updateDate": "2026-03-10T16:21:44Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Commerce",
+      "updateDate": "2026-05-18T20:02:01Z"
+    }
+  }
+}

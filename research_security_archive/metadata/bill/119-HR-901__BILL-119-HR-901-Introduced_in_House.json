@@ -1,0 +1,187 @@
+{
+  "stable_id": "119-HR-901",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/901",
+  "pdf_url": "https://www.congress.gov/119/bills/hr901/BILLS-119hr901ih.pdf",
+  "retrieved_at": "2026-10-01T18:09:21Z",
+  "http_status": 200,
+  "pdf_sha256": "673ae82c9b60e282115e54cff45a2e16d4341f65d11dd5db53f840dafec35eb9",
+  "pdf_bytes": 246764,
+  "pdf_page_count": 4,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-901/detail.json",
+  "title": "Research Security and Accountability in DHS Act",
+  "update_date": "2026-07-11T23:08:21Z",
+  "document_type": "HR",
+  "document_number": "901",
+  "document_identifier": "BILL-119-HR-901-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-01-31T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "901",
+  "originChamber": "House",
+  "introducedDate": "2025-01-31",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+    "date": "2025-03-11"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "S001220",
+      "name": "Rep. Strong, Dale W. [R-AL-5]",
+      "party": "R",
+      "state": "AL"
+    }
+  ],
+  "cosponsorCount": 2,
+  "cosponsorBioguideIds": [
+    "G000590",
+    "E000300"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-03-11T18:36:20Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2025-03-11T18:36:20Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-03-11T18:36:20Z"
+    },
+    {
+      "name": "U.S. and foreign investments",
+      "updateDate": "2025-03-11T18:36:20Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-11T18:48:36Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-01-31T15:03:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-01-31T18:11:37Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Emergency Management and Technology Subcommittee",
+          "systemCode": "hshm12",
+          "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-01-31T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-07-19T00:09:09Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "S001220",
+      "name": "Rep. Strong, Dale W. [R-AL-5]",
+      "party": "R",
+      "state": "AL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000590",
+      "name": "Rep. Green, Mark E. [R-TN-7]",
+      "party": "R",
+      "state": "TN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "E000300",
+      "name": "Rep. Evans, Gabe [R-CO-8]",
+      "party": "R",
+      "state": "CO"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/detail.json",
+      "endpoint": "bill/119/hr/901"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:21Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/text.json",
+      "endpoint": "bill/119/hr/901/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:22Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/cosponsors.json",
+      "endpoint": "bill/119/hr/901/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:23Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/committees.json",
+      "endpoint": "bill/119/hr/901/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:24Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/relatedbills.json",
+      "endpoint": "bill/119/hr/901/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:22Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-901/subjects.json",
+      "endpoint": "bill/119/hr/901/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-901__BILL-119-HR-901-Introduced_in_House.json",
+  "known_limitations": []
+}

@@ -1,0 +1,195 @@
+{
+  "stable_id": "119-house-118889__MTG-119-HOUSE-118889-3-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118889",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1192ih.pdf",
+  "retrieved_at": "2026-10-02T06:16:13Z",
+  "http_status": 200,
+  "pdf_sha256": "7e6625d84bbdc2baf0cd525913851089419b7e56d2ea7224015019cad49d1b90",
+  "pdf_bytes": 3320672,
+  "pdf_page_count": 311,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118889__MTG-119-HOUSE-118889-3-Bills_and_Resolutions/detail.json",
+  "title": "H.R. 7148 – Consolidated Appropriations Act, 2026; H.R. 7147 – \tDepartment of Homeland Security Appropriations Act, 2026",
+  "update_date": "2026-02-02T05:06:18Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "118889",
+  "document_identifier": "MTG-119-HOUSE-118889-3-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "118889",
+  "type": "Meeting",
+  "meetingStatus": "Scheduled",
+  "date": "2026-01-21T19:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Rules",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "H-313"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "7148",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7148?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "7147",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 7148 - Consolidated Appropriations Act, 2026",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119pih-ConsolidatedAppropriationsAc.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Joint Explanatory Statement - Division C",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1195ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Joint Explanatory Statement - Division B",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1193ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Joint Explanatory Statement - Division A",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1192ih.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-4-S001205-Amdt-4.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Leger Fernández",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-6-L000273-Amdt-6.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: Amendment to H. Res. 1014",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/HMTG-119-RU00-20260121-SD003.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+    },
+    {
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119-5-S001205-Amdt-5.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Joint Explanatory Statement - Front Matter",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1191ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: Joint Explanatory Statement - Division D",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1194ih.pdf"
+    },
+    {
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 7147 – Department of Homeland Security Appropriations Act, 2026",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119pih-HOMELAND.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "H. Res. 1014 – \tProviding for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-119hres1014rh.pdf"
+    },
+    {
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-462 – Report from the Committee on Rules to accompany H. Res. 1014",
+      "url": "https://www.congress.gov/119/meeting/house/118889/documents/CRPT-119hrpt462.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": ":: Joint Explanatory Statement - Division A",
+    "url": "https://www.congress.gov/119/meeting/house/118889/documents/BILLS-1192ih.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "7148",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/7148?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "7147",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T06:16:13Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118889__MTG-119-HOUSE-118889-3-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/118889"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118889__MTG-119-HOUSE-118889-3-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

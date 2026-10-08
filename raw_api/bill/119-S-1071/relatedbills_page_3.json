@@ -1,0 +1,374 @@
+{
+  "pagination": {
+    "count": 114,
+    "next": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=80&limit=20&format=json",
+    "prev": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=40&limit=20&format=json"
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-14",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 531,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "South Pacific Tuna Treaty Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/531?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-23",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 4275,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Coast Guard Authorization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4275?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-10",
+        "actionTime": "18:41:12",
+        "text": "Held at the Desk"
+      },
+      "number": 524,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Coast Guard Authorization Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/524?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-10-28",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 5864,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Improving Police CARE Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5864?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-18",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "number": 6595,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To direct the Secretary of Defense and the Secretary of Veterans Affairs to improve the availability of care for veterans at facilities of the Department of Defense.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6595?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 6612,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Defense Civilian Faculty Copyright Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6612?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-10",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 6563,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Terrorist Watchlist Modification Review Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6563?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3163,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "A bill to require the Secretary of Defense to seek to engage appropriate officials of Taiwan in a joint program with Taiwan to enable the fielding of uncrewed systems and counter-uncrewed systems capabilities.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3163?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-10",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6009,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Defense Biotechnology Strategy Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6009?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-09",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6510,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "National Military Civilian Medical Surge Program Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6510?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6627,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Improving the Enlisted to Officer Judge Advocate Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6627?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6630,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Expanding Mental Health Access for Cyber Command Personnel Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6630?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6629,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Developing Master Plans for Military Service Academies Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6629?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 6628,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Protect Greenbury Point Conservation Area Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6628?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3454,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "GUARD Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3454?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3463,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Protect Greenbury Point Conservation Area Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3463?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-11",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "number": 3446,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "A bill to require the Secretary of Defense to submit a strategy to accelerate the response efforts of the Department of Defense with respect to releases of perfluoroalkyl substances or polyfluoroalkyl substances from the activities of the Department.",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/3446?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-12-17",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 6793,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Public Shipyard Workforce Protection Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6793?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-08-01",
+        "actionTime": "10:02:14",
+        "text": "Held at the desk."
+      },
+      "number": 1595,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Improving Police CARE Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1595?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

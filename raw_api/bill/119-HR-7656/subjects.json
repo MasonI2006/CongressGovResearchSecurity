@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7656",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7656?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [],
+    "policyArea": {
+      "name": "Public Lands and Natural Resources",
+      "updateDate": "2026-03-17T18:59:19Z"
+    }
+  }
+}

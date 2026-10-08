@@ -1,0 +1,407 @@
+{
+  "pagination": {
+    "count": 114,
+    "next": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=60&limit=20&format=json",
+    "prev": "https://api.congress.gov/v3/bill/119/s/1071/relatedbills?offset=20&limit=20&format=json"
+  },
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-22",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 1701,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Strategic Ports Reporting Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1701?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-11",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 12."
+      },
+      "number": 3331,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Mariner Exam Modernization Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3331?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-11-07",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": 5962,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "To authorize the Department of Justice and the Department of State to provide law enforcement and intelligence technical assistance, training, capacity building, and advisory support to the Government of Ukraine to achieve the exchange of prisoners of war, the release of civilian detainees, and the return of forcibly transferred Ukrainian children, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5962?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-28",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 54."
+      },
+      "number": 860,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "BUST FENTANYL Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/860?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-08-01",
+        "actionTime": "10:02:14",
+        "text": "Held at the desk."
+      },
+      "number": 1595,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Improving Police CARE Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1595?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-04-17",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "number": 2959,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Hudson River Protection Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2959?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-24",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 103."
+      },
+      "number": 910,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Taiwan Non-Discrimination Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/910?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-18",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 100."
+      },
+      "number": 1900,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Taiwan Non-Discrimination Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1900?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-12",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 1274,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "PROTECT Our Children Reauthorization Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1274?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-05-20",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 80."
+      },
+      "number": 539,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "PROTECT Our Children Reauthorization Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/539?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-16",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 2307,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Sound Insulation Treatment Repair and Replacement Program Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2307?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-12",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": 1269,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Honoring Our Fallen Heroes Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1269?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "number": 4383,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "Sound Insulation Treatment Repair and Replacement Program Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4383?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-27",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 777,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Strategic Ports Reporting Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/777?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": 2351,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "To direct the Commandant of the Coast Guard to update the policy of the Coast Guard regarding the use of medication to treat drug overdose, and for other purposes.",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2351?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-15",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "number": 4375,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Great Lakes Icebreaker Act of 2025",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4375?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-06-18",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 97."
+      },
+      "number": 1780,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Mexico Security Assistance Accountability Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/1780?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-07-24",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": 2453,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Partnership for Indo-Pacific Industrial Resilience Authorization Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/2453?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-08-01",
+        "actionTime": "10:02:02",
+        "text": "Received in the House."
+      },
+      "number": 911,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Chief Herbert D. Proffitt Act of 2025",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/911?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-18",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": 5466,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        },
+        {
+          "identifiedBy": "CRS",
+          "type": "Public law contains the text"
+        }
+      ],
+      "title": "GUARD Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5466?format=json"
+    }
+  ],
+  "request": {
+    "billNumber": "1071",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1071?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

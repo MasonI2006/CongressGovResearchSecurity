@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-321",
+    "committees": [
+      {
+        "name": "Senate Armed Services Committee",
+        "systemCode": "ssas00",
+        "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-03-27"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg63037/generated/CHRG-119shrg63037.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg63037/CHRG-119shrg63037.pdf"
+      }
+    ],
+    "jacketNumber": 63037,
+    "libraryOfCongressIdentifier": "LC75320",
+    "number": 321,
+    "title": "TO CONSIDER THE NOMINATIONS OF: DR. TROY E. MEINK TO BE SECRETARY OF THE AIR FORCE, MR. MICHAEL P. DUFFEY TO BE UNDER SECRETARY OF DEFENSE FOR ACQUISITION AND SUSTAINMENT, MR. EMIL G. MICHAEL TO BE UNDER SECRETARY OF DEFENSE FOR RESEARCH AND ENGINEERING, AND MR. KEITH M. BASS TO BE ASSISTANT SECRETARY OF DEFENSE FOR HEALTH AFFAIRS",
+    "updateDate": "2026-06-12T02:21:55Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "63037"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-527",
+    "committees": [
+      {
+        "name": "Senate Commerce Committee",
+        "systemCode": "sscm00",
+        "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2026-07-21"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg64653/generated/CHRG-119shrg64653.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg64653/CHRG-119shrg64653.pdf"
+      }
+    ],
+    "jacketNumber": 64653,
+    "libraryOfCongressIdentifier": "LC76022",
+    "number": 527,
+    "title": "MEASURING WHAT MATTERS: SCIENCE, STANDARDS, AND STRATEGIC COMPETITION",
+    "updateDate": "2026-10-02T01:21:23Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "64653"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "pagination": {
+    "count": 19
+  },
+  "request": {
+    "billNumber": "853",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/853?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Advanced technology and technological innovations",
+        "updateDate": "2025-04-02T13:53:43Z"
+      },
+      {
+        "name": "Asia",
+        "updateDate": "2025-04-02T14:04:33Z"
+      },
+      {
+        "name": "China",
+        "updateDate": "2025-04-02T14:04:19Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-04-02T14:14:41Z"
+      },
+      {
+        "name": "Data collection, sharing, protection",
+        "updateDate": "2026-04-07T17:48:22Z"
+      },
+      {
+        "name": "Economic performance and conditions",
+        "updateDate": "2025-04-02T13:59:25Z"
+      },
+      {
+        "name": "Espionage and treason",
+        "updateDate": "2025-04-02T14:07:43Z"
+      },
+      {
+        "name": "Government information and archives",
+        "updateDate": "2025-04-02T14:12:24Z"
+      },
+      {
+        "name": "Government lending and loan guarantees",
+        "updateDate": "2025-04-02T13:51:53Z"
+      },
+      {
+        "name": "Government studies and investigations",
+        "updateDate": "2025-04-02T14:12:08Z"
+      },
+      {
+        "name": "Military procurement, research, weapons development",
+        "updateDate": "2025-04-02T13:56:52Z"
+      },
+      {
+        "name": "Performance measurement",
+        "updateDate": "2025-04-02T14:10:34Z"
+      },
+      {
+        "name": "Product development and innovation",
+        "updateDate": "2025-04-02T14:01:36Z"
+      },
+      {
+        "name": "Public contracts and procurement",
+        "updateDate": "2025-04-02T13:57:05Z"
+      },
+      {
+        "name": "Small business",
+        "updateDate": "2025-04-02T13:49:10Z"
+      },
+      {
+        "name": "Subversive activities",
+        "updateDate": "2025-04-02T14:07:32Z"
+      },
+      {
+        "name": "Technology transfer and commercialization",
+        "updateDate": "2025-04-02T13:49:26Z"
+      },
+      {
+        "name": "U.S. and foreign investments",
+        "updateDate": "2025-04-02T14:03:13Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Commerce",
+      "updateDate": "2025-03-28T11:56:19Z"
+    }
+  }
+}

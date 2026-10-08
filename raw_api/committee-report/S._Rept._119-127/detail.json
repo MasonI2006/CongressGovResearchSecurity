@@ -1,0 +1,44 @@
+{
+  "committeeReports": [
+    {
+      "associatedBill": [
+        {
+          "congress": 119,
+          "number": "4784",
+          "type": "S",
+          "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+        }
+      ],
+      "chamber": "Senate",
+      "citation": "S. Rept. 119-127",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2026-06-15T04:00:00Z",
+      "number": 127,
+      "part": 1,
+      "reportType": "S.Rept.",
+      "sessionNumber": 2,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/srpt/127/text?format=json"
+      },
+      "title": "NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2027",
+      "type": "SRPT",
+      "updateDate": "2026-07-30T16:27:34Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "127",
+    "reportType": "srpt"
+  }
+}

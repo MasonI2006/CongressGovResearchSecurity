@@ -1,0 +1,46 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/5861/actions?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "4784",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "S",
+      "updateDateIncludingText": "2026-09-30",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "number": "5861",
+    "sponsors": [
+      {
+        "bioguideId": "Y000064",
+        "firstName": "Todd",
+        "fullName": "Sen. Young, Todd [R-IN]",
+        "lastName": "Young",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+      }
+    ],
+    "submittedDate": "2026-06-18T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/5861/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2026-06-19T11:08:30Z"
+  },
+  "request": {
+    "amendmentNumber": "5861",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

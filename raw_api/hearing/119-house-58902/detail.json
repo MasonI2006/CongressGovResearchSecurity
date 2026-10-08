@@ -1,0 +1,40 @@
+{
+  "hearing": {
+    "chamber": "House",
+    "citation": "H.Hrg.119",
+    "committees": [
+      {
+        "name": "House Science and Technology Committee",
+        "systemCode": "hssy00",
+        "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2025-02-12"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58902/generated/CHRG-119hhrg58902.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119hhrg58902/CHRG-119hhrg58902.pdf"
+      }
+    ],
+    "jacketNumber": 58902,
+    "libraryOfCongressIdentifier": "LC74498",
+    "title": "FROM TRANSFORMATIVE SCIENCE TO TECHNOLOGICAL BREAKTHROUGHS: DOE'S NATIONAL LABORATORIES",
+    "updateDate": "2025-08-14T14:34:31Z"
+  },
+  "request": {
+    "chamber": "house",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "58902"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6519/actions?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "4784",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "S",
+      "updateDateIncludingText": "2026-09-30",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6519/cosponsors?format=json"
+    },
+    "number": "6519",
+    "sponsors": [
+      {
+        "bioguideId": "D000563",
+        "firstName": "Richard",
+        "fullName": "Sen. Durbin, Richard J. [D-IL]",
+        "lastName": "Durbin",
+        "middleName": "J.",
+        "party": "D",
+        "state": "IL",
+        "url": "https://api.congress.gov/v3/member/D000563?format=json"
+      }
+    ],
+    "submittedDate": "2026-06-24T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6519/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2026-07-06T13:01:59Z"
+  },
+  "request": {
+    "amendmentNumber": "6519",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

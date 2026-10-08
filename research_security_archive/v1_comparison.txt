@@ -1,0 +1,32 @@
+Research Security Archive v1 Comparison
+========================================
+v1 PDFs: 232
+new PDFs: 240
+v1 distinct SHA-256: 232
+new distinct SHA-256: 240
+v1-only PDF bytes: 0
+new-only PDF bytes: 8
+v1-only stable_id/SHA associations: 0
+new-only stable_id/SHA associations: 8
+  genuinely new PDF hashes: 8
+  added stable-ID locations for v1 bytes: 0
+Unresolved v1 stable IDs: 0
+
+v1-only PDFs (stable_id | SHA-256 | filename):
+(none)
+
+new PDF bytes (stable_id | SHA-256 | filename):
+119-HR-10574 | 4786ea9a905c345e5325741a7365f35e514d2aa1926f939b291b74b10ba1554d | BILL-119-HR-10574-Introduced_in_House.pdf
+119-S-5526 | 09910f915cf7da8b774877ad4e0789c5a8715dc1714f7fc061defb250828c5c5 | BILL-119-S-5526-Reported_to_Senate.pdf
+119-SAMDT-6838 | f061f13dcd2191c727f9c38b9ba25ed79d1483486082ec7067723d3035b015b7 | AMDT-119-SAMDT-6838-Submitted.pdf
+119-house-118242__MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony | 0d03972e389a19e716bb944dd2ad592ff2f3c7fb6aedb3450c5b40938ae11bfc | MTG-119-HOUSE-118242-12-Witness_Truth_in_Testimony.pdf
+119-house-118990__MTG-119-HOUSE-118990-1-Bills_and_Resolutions | a6db9d3e1a44f0a7d9a57344500f11ad2e33e1c948207d6d527b18bd4b8a98c8 | MTG-119-HOUSE-118990-1-Bills_and_Resolutions.pdf
+119-house-119247__MTG-119-HOUSE-119247-0-Bills_and_Resolutions | 03a93cac66d27cf65821ba9429b74e7f0a48e7b89461fb5ab42d6a46bb6a1e4d | MTG-119-HOUSE-119247-0-Bills_and_Resolutions.pdf
+119-senate-64619 | ea4d2946be4011d3bed33eaff35c8290aabd35929bbb8f2444027b83cfaf326c | HRG-119-SENATE-64619.pdf
+119-senate-64653 | 80f5f5727b9156364c846f520c439ea68cd1ef508a612184b2cd5d6ff1eed833 | HRG-119-SENATE-64653.pdf
+
+added stable-ID locations for existing bytes:
+(none)
+
+unresolved v1 filenames:
+(none)

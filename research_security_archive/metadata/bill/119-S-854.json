@@ -1,0 +1,237 @@
+{
+  "stable_id": "119-S-854",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/s/854",
+  "pdf_url": "https://www.congress.gov/119/bills/s854/BILLS-119s854rs.pdf",
+  "retrieved_at": "2026-10-01T18:09:53Z",
+  "http_status": 200,
+  "pdf_sha256": "e3258b7490f21e82bbebb6af4f9e6c2b30e25324123f85fce8c473a2b9fd7be1",
+  "pdf_bytes": 300967,
+  "pdf_page_count": 52,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-S-854/detail.json",
+  "title": "Risky Research Review Act",
+  "update_date": "2026-01-21T06:44:44Z",
+  "document_type": "S",
+  "document_number": "854",
+  "document_identifier": "BILL-119-S-854-Reported_to_Senate",
+  "text_version": {
+    "type": "Reported to Senate",
+    "date": "2025-09-17T04:00:00Z"
+  },
+  "type": "S",
+  "number": "854",
+  "originChamber": "Senate",
+  "introducedDate": "2025-03-05",
+  "latestAction": {
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164.",
+    "date": "2025-09-17"
+  },
+  "policyArea": {
+    "name": "Health"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "P000603",
+      "name": "Sen. Paul, Rand [R-KY]",
+      "party": "R",
+      "state": "KY"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "P000595"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Accounting and auditing",
+      "updateDate": "2025-08-07T15:45:31Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2025-08-07T15:44:41Z"
+    },
+    {
+      "name": "Biological and life sciences",
+      "updateDate": "2025-08-07T15:44:32Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-08-07T15:45:01Z"
+    },
+    {
+      "name": "Employee performance",
+      "updateDate": "2025-08-07T15:45:12Z"
+    },
+    {
+      "name": "Federal officials",
+      "updateDate": "2025-08-07T15:44:46Z"
+    },
+    {
+      "name": "Government employee pay, benefits, personnel management",
+      "updateDate": "2025-08-07T15:45:08Z"
+    },
+    {
+      "name": "Government ethics and transparency, public corruption",
+      "updateDate": "2025-08-07T15:44:56Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2025-08-07T15:44:51Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2025-08-07T15:45:26Z"
+    },
+    {
+      "name": "Infectious and parasitic diseases",
+      "updateDate": "2025-08-07T15:44:37Z"
+    },
+    {
+      "name": "Public contracts and procurement",
+      "updateDate": "2025-08-07T15:45:18Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2025-08-07T15:44:28Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-17T18:37:48Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-07-30T14:00:08Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-05T16:53:32Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Reported to Senate",
+    "date": "2025-09-17T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-03-05",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": 1864,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Risky Research Review Act",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1864?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2026-01-21T06:44:44Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "P000603",
+      "name": "Sen. Paul, Rand [R-KY]",
+      "party": "R",
+      "state": "KY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "P000595",
+      "name": "Sen. Peters, Gary C. [D-MI]",
+      "party": "D",
+      "state": "MI"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-HR-1864",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-03-05",
+          "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        },
+        "number": 1864,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Risky Research Review Act",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1864?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/detail.json",
+      "endpoint": "bill/119/s/854"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/text.json",
+      "endpoint": "bill/119/s/854/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/cosponsors.json",
+      "endpoint": "bill/119/s/854/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:56Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/committees.json",
+      "endpoint": "bill/119/s/854/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:56Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/relatedbills.json",
+      "endpoint": "bill/119/s/854/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:55Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-S-854/subjects.json",
+      "endpoint": "bill/119/s/854/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-S-854.json",
+  "known_limitations": []
+}

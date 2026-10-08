@@ -1,0 +1,85 @@
+{
+  "pagination": {
+    "count": 17
+  },
+  "request": {
+    "billNumber": "1000",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/1000?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Arctic and polar regions",
+        "updateDate": "2025-12-17T17:23:30Z"
+      },
+      {
+        "name": "Asia",
+        "updateDate": "2025-12-17T17:24:18Z"
+      },
+      {
+        "name": "Canada",
+        "updateDate": "2025-12-17T17:22:23Z"
+      },
+      {
+        "name": "China",
+        "updateDate": "2025-12-17T17:24:02Z"
+      },
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-12-17T17:23:56Z"
+      },
+      {
+        "name": "Denmark",
+        "updateDate": "2025-12-17T17:22:32Z"
+      },
+      {
+        "name": "Department of State",
+        "updateDate": "2025-12-17T17:21:57Z"
+      },
+      {
+        "name": "Diplomacy, foreign officials, Americans abroad",
+        "updateDate": "2025-12-17T17:22:16Z"
+      },
+      {
+        "name": "Europe",
+        "updateDate": "2025-12-17T17:24:23Z"
+      },
+      {
+        "name": "Executive agency funding and structure",
+        "updateDate": "2025-12-17T17:22:02Z"
+      },
+      {
+        "name": "Federal officials",
+        "updateDate": "2025-12-17T17:22:10Z"
+      },
+      {
+        "name": "Finland",
+        "updateDate": "2025-12-17T17:22:56Z"
+      },
+      {
+        "name": "Iceland",
+        "updateDate": "2025-12-17T17:22:40Z"
+      },
+      {
+        "name": "Norway",
+        "updateDate": "2025-12-17T17:22:46Z"
+      },
+      {
+        "name": "Russia",
+        "updateDate": "2025-12-17T17:23:03Z"
+      },
+      {
+        "name": "Sweden",
+        "updateDate": "2025-12-17T17:22:51Z"
+      }
+    ],
+    "policyArea": {
+      "name": "International Affairs",
+      "updateDate": "2025-05-22T14:04:31Z"
+    }
+  }
+}

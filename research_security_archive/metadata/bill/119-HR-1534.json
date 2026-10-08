@@ -1,0 +1,174 @@
+{
+  "stable_id": "119-HR-1534",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1534",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1534/BILLS-119hr1534rfs.pdf",
+  "retrieved_at": "2026-10-01T18:09:41Z",
+  "http_status": 200,
+  "pdf_sha256": "ab885bc398f346da85f1d5d60ab0436e1adf4610312ab2699c72d6243c055e3b",
+  "pdf_bytes": 229774,
+  "pdf_page_count": 17,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1534/detail.json",
+  "title": "IMPACT Act",
+  "update_date": "2026-09-08T18:09:59Z",
+  "document_type": "HR",
+  "document_number": "1534",
+  "document_identifier": "BILL-119-HR-1534-Referred_in_Senate",
+  "text_version": {
+    "type": "Referred in Senate",
+    "date": "2025-03-26T04:00:00Z"
+  },
+  "type": "HR",
+  "number": "1534",
+  "originChamber": "House",
+  "introducedDate": "2025-02-24",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+    "date": "2025-03-26"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "party": "R",
+      "state": "OH"
+    }
+  ],
+  "cosponsorCount": 1,
+  "cosponsorBioguideIds": [
+    "F000477"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Advanced technology and technological innovations",
+      "updateDate": "2025-03-25T14:40:39Z"
+    },
+    {
+      "name": "Air quality",
+      "updateDate": "2025-03-25T14:40:39Z"
+    },
+    {
+      "name": "Climate change and greenhouse gases",
+      "updateDate": "2025-03-25T14:40:39Z"
+    },
+    {
+      "name": "Infrastructure development",
+      "updateDate": "2025-03-25T14:40:39Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-03-25T14:40:39Z"
+    },
+    {
+      "name": "Rural conditions and development",
+      "updateDate": "2025-03-25T14:40:39Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-26T15:02:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-24T17:01:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Referred in Senate",
+    "date": "2025-03-26T04:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "party": "R",
+      "state": "OH"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "party": "D",
+      "state": "NC"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:41Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/detail.json",
+      "endpoint": "bill/119/hr/1534"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:41Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/text.json",
+      "endpoint": "bill/119/hr/1534/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/cosponsors.json",
+      "endpoint": "bill/119/hr/1534/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:43Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/committees.json",
+      "endpoint": "bill/119/hr/1534/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:44Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/relatedbills.json",
+      "endpoint": "bill/119/hr/1534/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:42Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1534/subjects.json",
+      "endpoint": "bill/119/hr/1534/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1534.json",
+  "known_limitations": []
+}

@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "actions": {
+      "count": 14,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/actions?format=json"
+    },
+    "committees": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 30 (Thursday, February 13, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. LUCAS:\nH.R. 1326.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1 Section 8\n[Page H711]\n</pre>",
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/cosponsors?format=json"
+    },
+    "introducedDate": "2025-02-13",
+    "latestAction": {
+      "actionDate": "2025-03-25",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1326",
+    "number": "1326",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Agriculture and Food"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000491",
+        "district": 3,
+        "firstName": "Frank",
+        "fullName": "Rep. Lucas, Frank D. [R-OK-3]",
+        "isByRequest": "N",
+        "lastName": "Lucas",
+        "middleName": "D.",
+        "party": "R",
+        "state": "OK",
+        "url": "https://api.congress.gov/v3/member/L000491?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 16,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/text?format=json"
+    },
+    "title": "DOE and USDA Interagency Research Act",
+    "titles": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1326/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T18:09:59Z",
+    "updateDateIncludingText": "2026-09-08T18:09:59Z"
+  },
+  "request": {
+    "billNumber": "1326",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

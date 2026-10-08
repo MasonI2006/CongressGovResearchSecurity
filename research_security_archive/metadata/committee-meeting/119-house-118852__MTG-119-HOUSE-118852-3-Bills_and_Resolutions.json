@@ -1,0 +1,221 @@
+{
+  "stable_id": "119-house-118852__MTG-119-HOUSE-118852-3-Bills_and_Resolutions",
+  "collection": "committee-meeting",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-meeting/119/house/118852",
+  "pdf_url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt667.pdf",
+  "retrieved_at": "2026-10-02T04:59:37Z",
+  "http_status": 200,
+  "pdf_sha256": "9c2657a0d720a19400876273914151e261e191d9accc4081c16c361a098c59ab",
+  "pdf_bytes": 6133694,
+  "pdf_page_count": 285,
+  "pdf_has_text_layer": true,
+  "text_source_used": "pdf_extraction",
+  "raw_api_json_path": "raw_api/committee-meeting/119-house-118852__MTG-119-HOUSE-118852-3-Bills_and_Resolutions/detail.json",
+  "title": "H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027; H.R. 9022 – Energy and Water Development and Related Agencies Appropriations Act, 2027; H.R. 9237 – Take Care of America’s Veterans Act; H.R. 1181 – Protecting Privacy in Purchases Act",
+  "update_date": "2026-06-24T16:50:40Z",
+  "document_type": "Bills and Resolutions",
+  "document_number": "118852",
+  "document_identifier": "MTG-119-HOUSE-118852-3-Bills_and_Resolutions",
+  "text_version": null,
+  "eventId": "118852",
+  "type": "Meeting",
+  "meetingStatus": "Scheduled",
+  "date": "2026-06-23T18:00:00Z",
+  "chamber": "House",
+  "committees": [
+    {
+      "name": "House Rules",
+      "systemCode": "hsru00",
+      "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+    }
+  ],
+  "location": {
+    "building": "Capitol",
+    "room": "H-313"
+  },
+  "relatedItems": {
+    "bills": [
+      {
+        "congress": 119,
+        "number": "9022",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9022?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "8595",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/8595?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "1181",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1181?format=json"
+      },
+      {
+        "congress": 119,
+        "number": "9237",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9237?format=json"
+      }
+    ]
+  },
+  "meetingDocuments": [
+    {
+      "description": "H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 8595 – National Security, Department of State, and Related Programs Appropriations Act, 2027",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119hr8595rh.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-631 – Report from the Committee on Appropriations to accompany H.R. 8595",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-631 – Report from the Committee on Appropriations to accompany H.R. 8595",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt631.pdf"
+    },
+    {
+      "description": "H.R. 9022 – Energy and Water Development and Related Agencies Appropriations Act, 2027",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 9022 – Energy and Water Development and Related Agencies Appropriations Act, 2027",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119hr9022rh.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-667 – Report from the Committee on Appropriations to accompany H.R. 9022",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-667 – Report from the Committee on Appropriations to accompany H.R. 9022",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt667.pdf"
+    },
+    {
+      "description": "H.R. 9237 – Take Care of America’s Veterans Act",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 9237 – Take Care of America’s Veterans Act",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119hr9237ih.pdf"
+    },
+    {
+      "description": "H.R. 1181 – Protecting Privacy in Purchases Act",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": "H.R. 1181 – Protecting Privacy in Purchases Act",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119hr1181rh.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-522 – Report from the Committee on Financial Services to accompany H.R. 1181",
+      "documentType": "Bills and Resolutions",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-522 – Report from the Committee on Financial Services to accompany H.R. 1181",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt522.pdf"
+    },
+    {
+      "description": "H. Res. 1377 – Providing for consideration of the bill (H.R. 1181) to prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes; providing for consideration of the bill (H.R. 9022) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; and providing for consideration of the bill (H.R. 9237) to amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs.",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": "H. Res. 1377 – Providing for consideration of the bill (H.R. 1181) to prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes; providing for consideration of the bill (H.R. 9022) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; and providing for consideration of the bill (H.R. 9237) to amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs.",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119hres1377rh.pdf"
+    },
+    {
+      "description": ":: H. Rept. 119-707 – Report from the Committee on Rules to accompany H. Res. 1377",
+      "documentType": "Support Document",
+      "format": "PDF",
+      "name": ":: H. Rept. 119-707 – Report from the Committee on Rules to accompany H. Res. 1377",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt707.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119-1-M000312-Amdt-1.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119-2-M000312-Amdt-2.pdf"
+    },
+    {
+      "description": "The Honorable Mr. McGovern",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Mr. McGovern",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119-3-M000312-Amdt-3.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119-4-S001205-Amdt-4.pdf"
+    },
+    {
+      "description": "The Honorable Ms. Scanlon",
+      "documentType": "Committee Amendment",
+      "format": "PDF",
+      "name": "The Honorable Ms. Scanlon",
+      "url": "https://www.congress.gov/119/meeting/house/118852/documents/BILLS-119-5-S001205-Amdt-5.pdf"
+    }
+  ],
+  "witnesses": [],
+  "witnessDocuments": [],
+  "matchedDocument": {
+    "source": "meetingDocuments",
+    "documentType": "Bills and Resolutions",
+    "name": ":: H. Rept. 119-667 – Report from the Committee on Appropriations to accompany H.R. 9022",
+    "url": "https://www.congress.gov/119/meeting/house/118852/documents/CRPT-119hrpt667.pdf"
+  },
+  "people": [],
+  "related_items": [
+    {
+      "relation_type": "related_item",
+      "related_key": null,
+      "payload": {
+        "bills": [
+          {
+            "congress": 119,
+            "number": "9022",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/9022?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "8595",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/8595?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "1181",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1181?format=json"
+          },
+          {
+            "congress": 119,
+            "number": "9237",
+            "type": "HR",
+            "url": "https://api.congress.gov/v3/bill/119/hr/9237?format=json"
+          }
+        ]
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:59:37Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-meeting/119-house-118852__MTG-119-HOUSE-118852-3-Bills_and_Resolutions/detail.json",
+      "endpoint": "committee-meeting/119/house/118852"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-meeting/119-house-118852__MTG-119-HOUSE-118852-3-Bills_and_Resolutions.json",
+  "known_limitations": []
+}

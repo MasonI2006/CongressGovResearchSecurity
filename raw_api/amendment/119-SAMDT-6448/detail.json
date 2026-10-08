@@ -1,0 +1,52 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6448/actions?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "4784",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "S",
+      "updateDateIncludingText": "2026-09-30",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6448/cosponsors?format=json"
+    },
+    "number": "6448",
+    "sponsors": [
+      {
+        "bioguideId": "T000476",
+        "firstName": "Thomas",
+        "fullName": "Sen. Tillis, Thomas [R-NC]",
+        "lastName": "Tillis",
+        "middleName": "Roland",
+        "party": "R",
+        "state": "NC",
+        "url": "https://api.congress.gov/v3/member/T000476?format=json"
+      }
+    ],
+    "submittedDate": "2026-06-24T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6448/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2026-07-06T13:01:52Z"
+  },
+  "request": {
+    "amendmentNumber": "6448",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

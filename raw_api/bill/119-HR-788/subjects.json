@@ -1,0 +1,49 @@
+{
+  "pagination": {
+    "count": 8
+  },
+  "request": {
+    "billNumber": "788",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/788?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "subjects": {
+    "legislativeSubjects": [
+      {
+        "name": "Congressional oversight",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Department of Energy",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Product development and innovation",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Public-private cooperation",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Research administration and funding",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Research and development",
+        "updateDate": "2025-02-25T16:27:59Z"
+      },
+      {
+        "name": "Small Business Administration",
+        "updateDate": "2025-02-25T16:27:59Z"
+      }
+    ],
+    "policyArea": {
+      "name": "Commerce",
+      "updateDate": "2025-02-24T11:52:30Z"
+    }
+  }
+}

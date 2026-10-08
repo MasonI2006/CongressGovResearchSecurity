@@ -1,0 +1,41 @@
+{
+  "hearing": {
+    "chamber": "Senate",
+    "citation": "S.Hrg.119-525",
+    "committees": [
+      {
+        "name": "Senate Commerce Committee",
+        "systemCode": "sscm00",
+        "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+      }
+    ],
+    "congress": 119,
+    "dates": [
+      {
+        "date": "2026-03-05"
+      }
+    ],
+    "formats": [
+      {
+        "type": "Formatted Text",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg64619/generated/CHRG-119shrg64619.htm"
+      },
+      {
+        "type": "PDF",
+        "url": "https://congress.gov/119/chrg/CHRG-119shrg64619/CHRG-119shrg64619.pdf"
+      }
+    ],
+    "jacketNumber": 64619,
+    "libraryOfCongressIdentifier": "LC76017",
+    "number": 525,
+    "title": "NOMINATION TO THE NATIONAL AERONAUTICS AND SPACE ADMINISTRATION AND THE NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY",
+    "updateDate": "2026-10-01T01:21:23Z"
+  },
+  "request": {
+    "chamber": "senate",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "jacketNumber": "64619"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "stable_id": "119-HR-788",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/788",
+  "pdf_url": "https://www.congress.gov/119/bills/hr788/BILLS-119hr788rfs.pdf",
+  "retrieved_at": "2026-10-01T18:09:17Z",
+  "http_status": 200,
+  "pdf_sha256": "92ef971d07f67c6052a0d7fccd4ce8ea0b75e1314eca93ea6e42c4aa6e4dac55",
+  "pdf_bytes": 209915,
+  "pdf_page_count": 4,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-788/detail.json",
+  "title": "DOE and SBA Research Act",
+  "update_date": "2026-09-08T18:09:59Z",
+  "document_type": "HR",
+  "document_number": "788",
+  "document_identifier": "BILL-119-HR-788-Referred_in_Senate",
+  "text_version": {
+    "type": "Referred in Senate",
+    "date": "2025-02-25T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "788",
+  "originChamber": "House",
+  "introducedDate": "2025-01-28",
+  "latestAction": {
+    "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+    "date": "2025-02-26"
+  },
+  "policyArea": {
+    "name": "Commerce"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "L000598",
+      "name": "Rep. LaLota, Nick [R-NY-1]",
+      "party": "R",
+      "state": "NY"
+    }
+  ],
+  "cosponsorCount": 3,
+  "cosponsorBioguideIds": [
+    "M001234",
+    "T000488",
+    "G000604"
+  ],
+  "legislativeSubjects": [
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Department of Energy",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Product development and innovation",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Public-private cooperation",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Research and development",
+      "updateDate": "2025-02-25T16:27:59Z"
+    },
+    {
+      "name": "Small Business Administration",
+      "updateDate": "2025-02-25T16:27:59Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-02-26T16:44:12Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Energy and Natural Resources Committee",
+      "systemCode": "sseg00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-01-28T16:02:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Small Business Committee",
+      "systemCode": "hssm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-01-28T16:02:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Referred in Senate",
+    "date": "2025-02-25T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "L000598",
+      "name": "Rep. LaLota, Nick [R-NY-1]",
+      "party": "R",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001234",
+      "name": "Rep. Morrison, Kelly [D-MN-3]",
+      "party": "D",
+      "state": "MN"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "T000488",
+      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "party": "D",
+      "state": "MI"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000604",
+      "name": "Rep. Goodlander, Maggie [D-NH-2]",
+      "party": "D",
+      "state": "NH"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:17Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/detail.json",
+      "endpoint": "bill/119/hr/788"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:17Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/text.json",
+      "endpoint": "bill/119/hr/788/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:18Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/cosponsors.json",
+      "endpoint": "bill/119/hr/788/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:19Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/committees.json",
+      "endpoint": "bill/119/hr/788/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:20Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/relatedbills.json",
+      "endpoint": "bill/119/hr/788/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:18Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-788/subjects.json",
+      "endpoint": "bill/119/hr/788/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-788__BILL-119-HR-788-Referred_in_Senate.json",
+  "known_limitations": []
+}

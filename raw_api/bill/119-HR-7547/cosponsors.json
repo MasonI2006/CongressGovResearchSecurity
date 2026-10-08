@@ -1,0 +1,41 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "D000230",
+      "district": 1,
+      "firstName": "Donald",
+      "fullName": "Rep. Davis, Donald G. [D-NC-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Davis",
+      "middleName": "G.",
+      "party": "D",
+      "sponsorshipDate": "2026-02-12",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/D000230?format=json"
+    },
+    {
+      "bioguideId": "H001085",
+      "district": 6,
+      "firstName": "Chrissy",
+      "fullName": "Rep. Houlahan, Chrissy [D-PA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Houlahan",
+      "party": "D",
+      "sponsorshipDate": "2026-02-24",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/H001085?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2,
+    "countIncludingWithdrawnCosponsors": 2
+  },
+  "request": {
+    "billNumber": "7547",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7547?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

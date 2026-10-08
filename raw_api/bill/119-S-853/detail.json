@@ -1,0 +1,60 @@
+{
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/853/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/853/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2025-03-05",
+    "latestAction": {
+      "actionDate": "2025-07-23",
+      "text": "Committee on Small Business and Entrepreneurship. Hearings held."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/853",
+    "number": "853",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "E000295",
+        "firstName": "Joni",
+        "fullName": "Sen. Ernst, Joni [R-IA]",
+        "isByRequest": "N",
+        "lastName": "Ernst",
+        "party": "R",
+        "state": "IA",
+        "url": "https://api.congress.gov/v3/member/E000295?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/119/s/853/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/853/text?format=json"
+    },
+    "title": "INNOVATE Act",
+    "titles": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/s/853/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:08:35Z",
+    "updateDateIncludingText": "2026-09-08T18:08:35Z"
+  },
+  "request": {
+    "billNumber": "853",
+    "billType": "s",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

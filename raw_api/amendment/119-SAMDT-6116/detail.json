@@ -1,0 +1,46 @@
+{
+  "amendment": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6116/actions?format=json"
+    },
+    "amendedBill": {
+      "congress": 119,
+      "number": "4784",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "type": "S",
+      "updateDateIncludingText": "2026-09-30",
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    "chamber": "Senate",
+    "congress": 119,
+    "number": "6116",
+    "sponsors": [
+      {
+        "bioguideId": "P000603",
+        "firstName": "Rand",
+        "fullName": "Sen. Paul, Rand [R-KY]",
+        "lastName": "Paul",
+        "party": "R",
+        "state": "KY",
+        "url": "https://api.congress.gov/v3/member/P000603?format=json"
+      }
+    ],
+    "submittedDate": "2026-06-24T04:00:00Z",
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/amendment/119/samdt/6116/text?format=json"
+    },
+    "type": "SAMDT",
+    "updateDate": "2026-07-06T13:01:17Z"
+  },
+  "request": {
+    "amendmentNumber": "6116",
+    "amendmentType": "samdt",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

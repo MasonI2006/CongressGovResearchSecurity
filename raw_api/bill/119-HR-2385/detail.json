@@ -1,0 +1,75 @@
+{
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 55 (Wednesday, March 26, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. OBERNOLTE:\nH.R. 2385.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8\n[Page H1303]\n</pre>",
+    "cosponsors": {
+      "count": 34,
+      "countIncludingWithdrawnCosponsors": 34,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-26",
+    "latestAction": {
+      "actionDate": "2026-06-25",
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2385",
+    "number": "2385",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "O000019",
+        "district": 23,
+        "firstName": "Jay",
+        "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+        "isByRequest": "N",
+        "lastName": "Obernolte",
+        "party": "R",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/O000019?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 15,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/text?format=json"
+    },
+    "title": "CREATE AI Act of 2025",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2385/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-19T23:28:52Z",
+    "updateDateIncludingText": "2026-09-19T23:28:52Z"
+  },
+  "request": {
+    "billNumber": "2385",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

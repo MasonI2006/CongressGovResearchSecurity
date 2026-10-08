@@ -1,0 +1,52 @@
+{
+  "stable_id": "CR-171-152-Daily Digest-D942",
+  "collection": "congressional-record",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/daily-congressional-record/171/152",
+  "pdf_url": "https://www.congress.gov/119/crec/2025/09/17/171/152/CREC-2025-09-17-pt1-PgD942.pdf",
+  "retrieved_at": "2026-10-02T09:30:35Z",
+  "http_status": 200,
+  "pdf_sha256": "c2cb8effd9d8813283d298a821dc7864d751aaebe05497be405264a051d59f33",
+  "pdf_bytes": 278790,
+  "pdf_page_count": 3,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/congressional-record/CR-171-152-Daily_Digest-D942/issue.json",
+  "title": "Daily Digest/Senate; Congressional Record Vol. 171, No. 152",
+  "update_date": "2025-09-18T16:09:49Z",
+  "document_type": "CREC-daily",
+  "document_number": "V171I152",
+  "document_identifier": "CREC-119-V171-I152-Daily_Digest-5",
+  "text_version": null,
+  "volumeNumber": 171,
+  "issueNumber": "152",
+  "issueDate": "2025-09-17T04:00:00Z",
+  "sessionNumber": 1,
+  "section": "Daily Digest",
+  "articleTitle": "Daily Digest/Senate; Congressional Record Vol. 171, No. 152",
+  "startPage": "D942",
+  "endPage": "D944",
+  "people": [],
+  "committees": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:30:35Z",
+      "cached": false,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-152-Daily_Digest-D942/issue.json",
+      "endpoint": "daily-congressional-record/171/152"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T09:30:32Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/congressional-record/CR-171-152-Daily_Digest-D942/articles.json",
+      "endpoint": "daily-congressional-record/171/152/articles"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/congressional-record/CR-171-152-Daily_Digest-D942.json",
+  "known_limitations": []
+}

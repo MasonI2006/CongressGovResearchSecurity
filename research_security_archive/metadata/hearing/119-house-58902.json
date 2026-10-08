@@ -1,0 +1,64 @@
+{
+  "stable_id": "119-house-58902",
+  "collection": "hearing",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/hearing/119/house/58902",
+  "pdf_url": "https://congress.gov/119/chrg/CHRG-119hhrg58902/CHRG-119hhrg58902.pdf",
+  "retrieved_at": "2026-10-02T04:05:34Z",
+  "http_status": 200,
+  "pdf_sha256": "9e38aac3640fe4a78df23b7ef2890f54cfb4e7a93cdb23f98fb518a8528ae506",
+  "pdf_bytes": 14873580,
+  "pdf_page_count": 97,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/hearing/119-house-58902/detail.json",
+  "title": "FROM TRANSFORMATIVE SCIENCE TO TECHNOLOGICAL BREAKTHROUGHS: DOE'S NATIONAL LABORATORIES",
+  "update_date": "2025-08-14T14:34:31Z",
+  "document_type": "HRG",
+  "document_number": 58902,
+  "document_identifier": "HRG-119-HOUSE-58902",
+  "text_version": null,
+  "jacketNumber": 58902,
+  "chamber": "House",
+  "citation": "H.Hrg.119",
+  "dates": [
+    {
+      "date": "2025-02-12"
+    }
+  ],
+  "committees": [
+    {
+      "name": "House Science and Technology Committee",
+      "systemCode": "hssy00",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "libraryOfCongressIdentifier": "LC74498",
+  "formats": [
+    {
+      "type": "Formatted Text",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg58902/generated/CHRG-119hhrg58902.htm"
+    },
+    {
+      "type": "PDF",
+      "url": "https://congress.gov/119/chrg/CHRG-119hhrg58902/CHRG-119hhrg58902.pdf"
+    }
+  ],
+  "associatedMeeting": null,
+  "linkedMeetingWitnesses": [],
+  "people": [],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T04:05:34Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/hearing/119-house-58902/detail.json",
+      "endpoint": "hearing/119/house/58902"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/hearing/119-house-58902.json",
+  "known_limitations": []
+}

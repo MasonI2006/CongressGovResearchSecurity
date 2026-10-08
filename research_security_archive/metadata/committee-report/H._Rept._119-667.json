@@ -1,0 +1,78 @@
+{
+  "stable_id": "H. Rept. 119-667",
+  "collection": "committee-report",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/committee-report/119/hrpt/667",
+  "pdf_url": "https://www.congress.gov/119/crpt/hrpt667/CRPT-119hrpt667.pdf",
+  "retrieved_at": "2026-10-02T03:23:53Z",
+  "http_status": 200,
+  "pdf_sha256": "9c2657a0d720a19400876273914151e261e191d9accc4081c16c361a098c59ab",
+  "pdf_bytes": 6133694,
+  "pdf_page_count": 285,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/committee-report/H._Rept._119-667/detail.json",
+  "title": "ENERGY AND WATER DEVELOPMENT AND RELATED AGENCIES APPROPRIATIONS BILL, 2027",
+  "update_date": "2026-07-23T22:41:30Z",
+  "document_type": "HRPT",
+  "document_number": "667-1",
+  "document_identifier": "RPT-119-HRPT-667-1",
+  "text_version": null,
+  "citation": "H. Rept. 119-667",
+  "type": "HRPT",
+  "number": 667,
+  "part": 1,
+  "chamber": "House",
+  "issueDate": "2026-05-22T04:00:00Z",
+  "isConferenceReport": false,
+  "associated_bills": [
+    {
+      "congress": 119,
+      "number": "9022",
+      "type": "HR",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9022?format=json"
+    }
+  ],
+  "reportType": "H.Rept.",
+  "sessionNumber": 2,
+  "people": [],
+  "committees": [
+    {
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "associated_bill",
+      "related_key": "119-HR-9022",
+      "payload": {
+        "congress": 119,
+        "number": "9022",
+        "type": "HR",
+        "url": "https://api.congress.gov/v3/bill/119/hr/9022?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:23:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-667/detail.json",
+      "endpoint": "committee-report/119/hrpt/667"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-02T03:23:54Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/committee-report/H._Rept._119-667/text.json",
+      "endpoint": "committee-report/119/hrpt/667/text"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/committee-report/H._Rept._119-667.json",
+  "known_limitations": []
+}

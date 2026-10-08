@@ -1,0 +1,233 @@
+{
+  "stable_id": "119-HR-1864",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/1864",
+  "pdf_url": "https://www.congress.gov/119/bills/hr1864/BILLS-119hr1864ih.pdf",
+  "retrieved_at": "2026-10-01T18:09:45Z",
+  "http_status": 200,
+  "pdf_sha256": "a4c9289df694c0ab686ab75c790c328a38ccc213f9808c4cb8311afde56e2306",
+  "pdf_bytes": 317586,
+  "pdf_page_count": 50,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-1864/detail.json",
+  "title": "Risky Research Review Act",
+  "update_date": "2025-11-30T06:56:42Z",
+  "document_type": "HR",
+  "document_number": "1864",
+  "document_identifier": "BILL-119-HR-1864-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-03-05T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "1864",
+  "originChamber": "House",
+  "introducedDate": "2025-03-05",
+  "latestAction": {
+    "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "date": "2025-03-05"
+  },
+  "policyArea": {
+    "name": "Health"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "G000568",
+      "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+      "party": "R",
+      "state": "VA"
+    }
+  ],
+  "cosponsorCount": 0,
+  "cosponsorBioguideIds": [],
+  "legislativeSubjects": [
+    {
+      "name": "Accounting and auditing",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Advisory bodies",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Biological and life sciences",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Congressional oversight",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Employee performance",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Federal officials",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Government employee pay, benefits, personnel management",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Government ethics and transparency, public corruption",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Government information and archives",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Government studies and investigations",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Infectious and parasitic diseases",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Public contracts and procurement",
+      "updateDate": "2025-08-07T15:45:45Z"
+    },
+    {
+      "name": "Research administration and funding",
+      "updateDate": "2025-08-07T15:45:45Z"
+    }
+  ],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-05T15:01:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-05T15:01:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-03-05T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-09-17",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164."
+      },
+      "number": 854,
+      "relationshipDetails": [
+        {
+          "identifiedBy": "CRS",
+          "type": "Related bill"
+        }
+      ],
+      "title": "Risky Research Review Act",
+      "type": "S",
+      "url": "https://api.congress.gov/v3/bill/119/s/854?format=json"
+    }
+  ],
+  "updateDateIncludingText": "2025-11-30T06:56:42Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "G000568",
+      "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+      "party": "R",
+      "state": "VA"
+    }
+  ],
+  "related_items": [
+    {
+      "relation_type": "related_bill",
+      "related_key": "119-S-854",
+      "payload": {
+        "congress": 119,
+        "latestAction": {
+          "actionDate": "2025-09-17",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164."
+        },
+        "number": 854,
+        "relationshipDetails": [
+          {
+            "identifiedBy": "CRS",
+            "type": "Related bill"
+          }
+        ],
+        "title": "Risky Research Review Act",
+        "type": "S",
+        "url": "https://api.congress.gov/v3/bill/119/s/854?format=json"
+      }
+    }
+  ],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:45Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/detail.json",
+      "endpoint": "bill/119/hr/1864"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:45Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/text.json",
+      "endpoint": "bill/119/hr/1864/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:46Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/cosponsors.json",
+      "endpoint": "bill/119/hr/1864/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:47Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/committees.json",
+      "endpoint": "bill/119/hr/1864/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:48Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/relatedbills.json",
+      "endpoint": "bill/119/hr/1864/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:09:47Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-1864/subjects.json",
+      "endpoint": "bill/119/hr/1864/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-1864.json",
+  "known_limitations": []
+}

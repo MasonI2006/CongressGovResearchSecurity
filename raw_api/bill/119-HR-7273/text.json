@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "billNumber": "7273",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/7273?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2026-01-30T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr7273/BILLS-119hr7273ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr7273/BILLS-119hr7273ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr7273/BILLS-119hr7273ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

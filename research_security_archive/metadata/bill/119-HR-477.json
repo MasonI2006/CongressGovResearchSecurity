@@ -1,0 +1,224 @@
+{
+  "stable_id": "119-HR-477",
+  "collection": "bill",
+  "congress": 119,
+  "source_system": "congress.gov API",
+  "api_base": "https://api.congress.gov/v3",
+  "api_detail_url": "https://api.congress.gov/v3/bill/119/hr/477",
+  "pdf_url": "https://www.congress.gov/119/bills/hr477/BILLS-119hr477ih.pdf",
+  "retrieved_at": "2026-10-01T18:02:50Z",
+  "http_status": 200,
+  "pdf_sha256": "6a1cf8503a720cf60431d2370f2ff0c816c64f45b463f05fea2bd54c61602a45",
+  "pdf_bytes": 248492,
+  "pdf_page_count": 5,
+  "pdf_has_text_layer": true,
+  "text_source_used": "formatted_text",
+  "raw_api_json_path": "raw_api/bill/119-HR-477/detail.json",
+  "title": "MACH Act",
+  "update_date": "2026-01-13T09:05:36Z",
+  "document_type": "HR",
+  "document_number": "477",
+  "document_identifier": "BILL-119-HR-477-Introduced_in_House",
+  "text_version": {
+    "type": "Introduced in House",
+    "date": "2025-01-16T05:00:00Z"
+  },
+  "type": "HR",
+  "number": "477",
+  "originChamber": "House",
+  "introducedDate": "2025-01-16",
+  "latestAction": {
+    "text": "Referred to the House Committee on Science, Space, and Technology.",
+    "date": "2025-01-16"
+  },
+  "policyArea": {
+    "name": "Science, Technology, Communications"
+  },
+  "sponsors": [
+    {
+      "bioguideId": "F000480",
+      "name": "Rep. Fong, Vince [R-CA-20]",
+      "party": "R",
+      "state": "CA"
+    }
+  ],
+  "cosponsorCount": 12,
+  "cosponsorBioguideIds": [
+    "M001225",
+    "W000830",
+    "V000138",
+    "M001218",
+    "H001099",
+    "M001238",
+    "O000019",
+    "H001101",
+    "G000602",
+    "B001323",
+    "F000477",
+    "F000472"
+  ],
+  "legislativeSubjects": [],
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-01-16T14:09:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "textVersion": {
+    "type": "Introduced in House",
+    "date": "2025-01-16T05:00:00Z"
+  },
+  "publicLawNumber": null,
+  "laws": [],
+  "relatedBills": [],
+  "updateDateIncludingText": "2026-01-13T09:05:36Z",
+  "people": [
+    {
+      "role": "sponsor",
+      "bioguideId": "F000480",
+      "name": "Rep. Fong, Vince [R-CA-20]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001225",
+      "name": "Rep. Mullin, Kevin [D-CA-15]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "W000830",
+      "name": "Rep. Whitesides, George [D-CA-27]",
+      "party": "D",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "party": "D",
+      "state": "VA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
+      "party": "R",
+      "state": "GA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001099",
+      "name": "Rep. Haridopolos, Mike [R-FL-8]",
+      "party": "R",
+      "state": "FL"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "party": "D",
+      "state": "DE"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "party": "R",
+      "state": "CA"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "H001101",
+      "name": "Rep. Harrigan, Pat [R-NC-10]",
+      "party": "R",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "G000602",
+      "name": "Rep. Gillen, Laura [D-NY-4]",
+      "party": "D",
+      "state": "NY"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "B001323",
+      "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+      "party": "R",
+      "state": "AK"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "party": "D",
+      "state": "NC"
+    },
+    {
+      "role": "cosponsor",
+      "bioguideId": "F000472",
+      "name": "Rep. Franklin, Scott [R-FL-18]",
+      "party": "R",
+      "state": "FL"
+    }
+  ],
+  "related_items": [],
+  "retrievals": [
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:50Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/detail.json",
+      "endpoint": "bill/119/hr/477"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:50Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/text.json",
+      "endpoint": "bill/119/hr/477/text"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:51Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/cosponsors.json",
+      "endpoint": "bill/119/hr/477/cosponsors"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:52Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/committees.json",
+      "endpoint": "bill/119/hr/477/committees"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:53Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/relatedbills.json",
+      "endpoint": "bill/119/hr/477/relatedbills"
+    },
+    {
+      "http_status": 200,
+      "retrieved_at": "2026-10-01T18:02:51Z",
+      "cached": true,
+      "raw_api_json_path": "raw_api/bill/119-HR-477/subjects.json",
+      "endpoint": "bill/119/hr/477/subjects"
+    }
+  ],
+  "sidecar_path": "research_security_archive/metadata/bill/119-HR-477.json",
+  "known_limitations": []
+}

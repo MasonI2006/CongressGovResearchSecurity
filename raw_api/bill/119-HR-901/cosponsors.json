@@ -1,0 +1,41 @@
+{
+  "cosponsors": [
+    {
+      "bioguideId": "G000590",
+      "district": 7,
+      "firstName": "Mark",
+      "fullName": "Rep. Green, Mark E. [R-TN-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Green",
+      "middleName": "E.",
+      "party": "R",
+      "sponsorshipDate": "2025-01-31",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/G000590?format=json"
+    },
+    {
+      "bioguideId": "E000300",
+      "district": 8,
+      "firstName": "Gabe",
+      "fullName": "Rep. Evans, Gabe [R-CO-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Evans",
+      "party": "R",
+      "sponsorshipDate": "2025-01-31",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/E000300?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2,
+    "countIncludingWithdrawnCosponsors": 2
+  },
+  "request": {
+    "billNumber": "901",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/901?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

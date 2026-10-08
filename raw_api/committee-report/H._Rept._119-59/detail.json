@@ -1,0 +1,36 @@
+{
+  "committeeReports": [
+    {
+      "chamber": "House",
+      "citation": "H. Rept. 119-59",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "congress": 119,
+      "isConferenceReport": false,
+      "issueDate": "2025-04-14T04:00:00Z",
+      "number": 59,
+      "part": 1,
+      "reportType": "H.Rept.",
+      "sessionNumber": 1,
+      "text": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/committee-report/119/hrpt/59/text?format=json"
+      },
+      "title": "AUTHORIZATION AND OVERSIGHT PLANS FOR ALL HOUSE COMMITTEES",
+      "type": "HRPT",
+      "updateDate": "2025-05-27T14:12:47Z"
+    }
+  ],
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json",
+    "reportNumber": "59",
+    "reportType": "hrpt"
+  }
+}

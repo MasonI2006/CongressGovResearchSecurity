@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "actionCode": "Intro-S",
+      "actionDate": "2026-06-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "91000",
+      "actionDate": "2026-06-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Senate amendment submitted",
+      "type": "Floor"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "amendmentNumber": "6448",
+    "amendmentType": "samdt",
+    "amendmentUrl": "https://api.congress.gov/v3/amendment/119/samdt/6448?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

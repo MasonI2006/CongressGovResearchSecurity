@@ -1,0 +1,14 @@
+{
+  "committees": [],
+  "pagination": {
+    "count": 0
+  },
+  "request": {
+    "billNumber": "3971",
+    "billType": "s",
+    "billUrl": "https://api.congress.gov/v3/bill/119/s/3971?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}
