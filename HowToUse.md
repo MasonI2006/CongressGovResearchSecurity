@@ -148,4 +148,4 @@ $env:CONGRESS_API_CACHE_DIR = "C:\temp\test\cache"
 python congress_search.py --term "semiconductor*" --congresses 117 --collections committee-print
 ```
 
-They last only for that terminal window. Close it, or run `Remove-Item Env:CONGRESS_SEARCHES_DIR, Env:CONGRESS_API_CACHE_DIR`, before a real run.
+They last only for that terminal window. Close it, or run `Remove-Item Env:CONGRESS_SEARCHES_DIR, Env:CONGRESS_API_CACHE_DIR`, before a real run..
