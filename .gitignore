@@ -1,6 +1,5 @@
 .env
-config_local.py
 cache/
+searches/
 __pycache__/
 *.pyc
-searches/**/PDFs/*.pdf
