@@ -150,7 +150,7 @@ def crawl_committee_reports(congress):
             except Exception:
                 continue
             # The committee-report text endpoint returns a list of entries that
-            # may each wrap a single format (e.g. one entry for Formatted Text,
+            # may each wrap a single file format (e.g. one entry for Formatted Text,
             # a separate entry for PDF) rather than grouping them together, so
             # merge every format across all entries into one list per report.
             entries = text_data.get("textVersions") or text_data.get("text") or []
