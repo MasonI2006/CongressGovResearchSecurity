@@ -13,10 +13,10 @@ from . import client, config, store
 
 SOURCE_SYSTEM = "congress.gov API"
 API_BASE = "https://api.congress.gov/v3"
-RAW_ROOT = config.RAW_API_DIR
-SIDECAR_ROOT = config.ARCHIVE_DIR / "metadata"
-DB_PATH = config.ARCHIVE_DIR / "archive.sqlite"
-PHRASE = re.compile(r"research\s+security", re.IGNORECASE)
+
+
+def _db_path():
+    return config.ARCHIVE_DIR / "archive.sqlite"
 
 
 def _safe_component(value):
@@ -47,7 +47,7 @@ def _utc_file_time(path):
 
 
 def _raw_path(collection, stable_id, endpoint):
-    return RAW_ROOT / _safe_component(collection) / _safe_component(stable_id) / f"{_safe_component(endpoint)}.json"
+    return config.RAW_API_DIR / _safe_component(collection) / _safe_component(stable_id) / f"{_safe_component(endpoint)}.json"
 
 
 def _read_or_fetch(collection, stable_id, endpoint, route, params=None, write_raw=True):
@@ -67,7 +67,7 @@ def _read_or_fetch(collection, stable_id, endpoint, route, params=None, write_ra
 def _relative(path):
     resolved = Path(path).resolve()
     try:
-        value = resolved.relative_to(config.ROOT)
+        value = resolved.relative_to(config.ARCHIVE_DIR)
     except ValueError:
         value = resolved
     return str(value).replace("\\", "/")
@@ -559,7 +559,7 @@ def _initialize_db(db):
     CREATE TABLE IF NOT EXISTS matches (
       match_id TEXT PRIMARY KEY, stable_id TEXT NOT NULL, pdf_sha256 TEXT NOT NULL,
       filename TEXT NOT NULL, page_number TEXT, character_offset TEXT,
-      context TEXT NOT NULL, text_source_used TEXT, matched_surface_form TEXT
+      context TEXT NOT NULL, text_source_used TEXT, matched_surface_form TEXT, term TEXT
     );
     CREATE TABLE IF NOT EXISTS people (
       stable_id TEXT NOT NULL, bioguide_id TEXT, role TEXT NOT NULL, name TEXT,
@@ -574,10 +574,18 @@ def _initialize_db(db):
       payload_json TEXT NOT NULL, PRIMARY KEY(stable_id, relation_type, related_key)
     );
     """)
+    columns = {row[1] for row in db.execute("PRAGMA table_info(matches)")}
+    if "term" not in columns:
+        db.execute("ALTER TABLE matches ADD COLUMN term TEXT")
+
+
+_MATCH_INSERT = ("INSERT OR IGNORE INTO matches (match_id, stable_id, pdf_sha256, filename, page_number, "
+                 "character_offset, context, text_source_used, matched_surface_form, term) "
+                 "VALUES(?,?,?,?,?,?,?,?,?,?)")
 
 
 def _write_database(record, match_rows):
-    db_path = DB_PATH
+    db_path = _db_path()
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_path) as db:
         _initialize_db(db)
@@ -618,16 +626,31 @@ def _write_database(record, match_rows):
                        (common["stable_id"], related["relation_type"], related.get("related_key"),
                         json.dumps(_scrub(related["payload"]), ensure_ascii=False, sort_keys=True)))
         for match in match_rows:
-            db.execute("INSERT OR IGNORE INTO matches VALUES(?,?,?,?,?,?,?,?,?)",
+            db.execute(_MATCH_INSERT,
                        (match["match_id"], common["stable_id"], common["pdf_sha256"], record["filename"],
                         store.clean_text(match.get("page_number")), store.clean_text(match.get("character_offset")),
                         store.clean_text(match["matching_text_context"]), common["text_source_used"],
-                        match.get("matched_surface_form")))
+                        match.get("matched_surface_form"), match.get("term")))
+        db.commit()
+
+
+def insert_match_rows(match_rows):
+    """Add complete matches.csv-shaped rows to the SQLite matches table (idempotent by match_id)."""
+    if not match_rows:
+        return
+    with sqlite3.connect(_db_path()) as db:
+        _initialize_db(db)
+        for match in match_rows:
+            db.execute(_MATCH_INSERT,
+                       (match["match_id"], match["stable_id"], match["pdf_sha256"], match["filename"],
+                        store.clean_text(match.get("page_number")), store.clean_text(match.get("character_offset")),
+                        store.clean_text(match["matching_text_context"]), match.get("text_source_used"),
+                        match.get("matched_surface_form") or None, match.get("term")))
         db.commit()
 
 
 def _sidecar_path(collection, stable_id, document_id):
-    directory = SIDECAR_ROOT / _safe_component(collection)
+    directory = config.ARCHIVE_DIR / "metadata" / _safe_component(collection)
     directory.mkdir(parents=True, exist_ok=True)
     path = directory / f"{_safe_component(stable_id)}.json"
     if path.exists():
@@ -681,10 +704,7 @@ def _format_list(collection, data, pdf_url, document_id):
 def _match_rows(matches, stable_id, pdf_sha, document_id, collection, congress, filename, text_source,
                 api_endpoint):
     rows = []
-    for page, context, offset in matches:
-        match = PHRASE.search(context or "")
-        surface = match.group(0) if match else None
-        seed = "|".join(map(str, (stable_id, pdf_sha, document_id, page, offset, context)))
+    for page, context, offset, term, surface in matches:
         rows.append({
             "filename": filename, "document_identifier": document_id, "collection": collection,
             "congress": congress if congress is not None else "",
@@ -692,15 +712,16 @@ def _match_rows(matches, stable_id, pdf_sha, document_id, collection, congress, 
             "char_location": offset if offset is not None else "", "api_endpoint": api_endpoint,
             "stable_id": stable_id, "pdf_sha256": pdf_sha,
             "character_offset": offset if offset is not None else "", "text_source_used": text_source,
-            "matched_surface_form": surface,
-            "match_id": hashlib.sha256(seed.encode("utf-8")).hexdigest(),
+            "matched_surface_form": surface, "term": term,
+            "match_id": store.match_id(stable_id, pdf_sha, document_id, page, offset,
+                                       store.clean_text(context), term),
         })
     return rows
 
 
 def capture_match(collection, document_id, congress, document_type, document_number, title,
                   document_date, congress_url, api_endpoint, pdf_url, pdf_bytes, formats,
-                  used_text_type, matches, filename):
+                  used_text_type, matches, filename, matched_terms):
     identity = _parse_identity(collection, document_id, congress, document_type, document_number)
     provisional_id, detail_route = identity[:2]
     data = _get_data(collection, provisional_id, document_id, congress, document_type, document_number, pdf_url)
@@ -759,10 +780,11 @@ def capture_match(collection, document_id, congress, document_type, document_num
         "related_document_ids": json.dumps([document_id]),
         "related_locations_json": json.dumps(related_locations, ensure_ascii=False),
         "sidecar_path": sidecar_rel,
+        "matched_terms": json.dumps(matched_terms, ensure_ascii=False),
     }
     sidecar = {
         **common, "document_type": document_type, "document_number": document_number,
-        "document_identifier": document_id, "text_version": _format_list(collection, data["payloads"], pdf_url, document_id)[1],
+        "document_identifier": document_id, "matched_terms": matched_terms, "text_version": _format_list(collection, data["payloads"], pdf_url, document_id)[1],
         **_scrub(api_fields), "people": people, "committees": committees,
         "related_items": related_items,
         "retrievals": data["retrievals"], "sidecar_path": sidecar_rel,

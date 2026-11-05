@@ -1,5 +1,7 @@
-"""Central store: dedupe logic + incremental CSV writers for metadata/matches."""
+"""Central store for the active search: progress/dedupe state and incremental
+CSV writers for metadata and matches."""
 import csv
+import hashlib
 import json
 import re
 import threading
@@ -15,32 +17,27 @@ METADATA_FIELDS = [
     "stable_id", "source_system", "api_base", "api_detail_url", "retrieved_at",
     "http_status", "pdf_sha256", "pdf_bytes", "pdf_page_count", "pdf_has_text_layer",
     "text_source_used", "raw_api_json_path", "update_date", "api_fields_json",
-    "related_document_ids", "related_locations_json", "sidecar_path",
+    "related_document_ids", "related_locations_json", "sidecar_path", "matched_terms",
 ]
 MATCHES_FIELDS = [
     "filename", "document_identifier", "collection", "congress", "page_number",
     "matching_text_context", "char_location", "api_endpoint", "stable_id", "pdf_sha256",
-    "character_offset", "text_source_used", "matched_surface_form", "match_id",
+    "character_offset", "text_source_used", "matched_surface_form", "match_id", "term",
 ]
 
-_metadata_path = config.ARCHIVE_DIR / "metadata.csv"
-_matches_path = config.ARCHIVE_DIR / "matches.csv"
-
-# Dedupe state persisted to disk so re-runs don't reprocess/redownload.
-_state_path = config.STATE_DIR / "dedupe_state.json"
-
-
-def _load_state():
-    if _state_path.exists():
-        return json.loads(_state_path.read_text(encoding="utf-8"))
-    return {"processed_doc_ids": [], "sha_to_filename": {}, "collection_counts": {}}
-
-
-_state = _load_state()
-_processed_doc_ids = set(_state["processed_doc_ids"])
-_sha_to_filename = dict(_state["sha_to_filename"])
-_pending_matches = set(_state.get("pending_matches", []))
-_processing_failures = dict(_state.get("processing_failures", {}))
+# Paths and persisted state for the active search; set by init().
+_metadata_path = None
+_matches_path = None
+_state_path = None
+_processed_doc_ids = set()
+_sha_to_filename = {}
+_pending_matches = set()
+_processing_failures = {}
+# Parent records (a bill, hearing, meeting, CR issue, ...) whose child documents
+# were all processed, keyed to the list entry's update date at that time. While
+# the update date is unchanged, crawlers skip the parent without refetching its
+# text/detail endpoint, so re-runs don't repeat every per-item API call.
+_parents_done = {}
 _processed_since_checkpoint = 0
 _STATE_CHECKPOINT_INTERVAL = 25
 
@@ -70,13 +67,39 @@ def _load_counter(c):
     }
 
 
-if "collection_counts_by_congress" in _state:
-    for _congress, _by_coll in _state["collection_counts_by_congress"].items():
-        for _coll, _c in _by_coll.items():
-            COUNTERS[(_coll, int(_congress))] = _load_counter(_c)
-else:
-    for _coll, _c in _state.get("collection_counts", {}).items():
-        COUNTERS[(_coll, _LEGACY_COUNTER_CONGRESS)] = _load_counter(_c)
+def init():
+    """Load the active search's progress and make sure its CSVs exist.
+    Call after config.activate_search()."""
+    global _metadata_path, _matches_path, _state_path, _processed_doc_ids, _sha_to_filename
+    global _pending_matches, _processing_failures, _parents_done, _processed_since_checkpoint
+    _metadata_path = config.ARCHIVE_DIR / "metadata.csv"
+    _matches_path = config.ARCHIVE_DIR / "matches.csv"
+    _state_path = config.STATE_DIR / "dedupe_state.json"
+    state = (json.loads(_state_path.read_text(encoding="utf-8")) if _state_path.exists()
+             else {"processed_doc_ids": [], "sha_to_filename": {}})
+    _processed_doc_ids = set(state["processed_doc_ids"])
+    _sha_to_filename = dict(state["sha_to_filename"])
+    _pending_matches = set(state.get("pending_matches", []))
+    _processing_failures = dict(state.get("processing_failures", {}))
+    _parents_done = dict(state.get("parents_done", {}))
+    _processed_since_checkpoint = 0
+    COUNTERS.clear()
+    if "collection_counts_by_congress" in state:
+        for congress, by_coll in state["collection_counts_by_congress"].items():
+            for coll, c in by_coll.items():
+                COUNTERS[(coll, int(congress))] = _load_counter(c)
+    else:
+        for coll, c in state.get("collection_counts", {}).items():
+            COUNTERS[(coll, _LEGACY_COUNTER_CONGRESS)] = _load_counter(c)
+    _ensure_csv(_metadata_path, METADATA_FIELDS)
+    _ensure_csv(_matches_path, MATCHES_FIELDS)
+
+
+def match_id(stable_id, pdf_sha256, document_id, page, offset, context, term) -> str:
+    """Deterministic ID for one occurrence, so re-runs upsert instead of duplicating."""
+    parts = [stable_id, pdf_sha256, document_id, page, offset, context, term]
+    seed = "|".join("" if part is None else str(part) for part in parts)
+    return hashlib.sha256(seed.encode("utf-8")).hexdigest()
 
 
 def counter(collection: str, congress: int, full_text_searched=False):
@@ -95,6 +118,7 @@ def _save_state():
         "sha_to_filename": _sha_to_filename,
         "pending_matches": sorted(_pending_matches),
         "processing_failures": _processing_failures,
+        "parents_done": _parents_done,
         "collection_counts_by_congress": by_congress,
     })
     temp = _state_path.with_suffix(".json.tmp")
@@ -132,10 +156,6 @@ def _write_csv(path, rows, fields):
     temp.replace(path)
 
 
-_ensure_csv(_metadata_path, METADATA_FIELDS)
-_ensure_csv(_matches_path, MATCHES_FIELDS)
-
-
 def already_processed(doc_id: str) -> bool:
     return doc_id in _processed_doc_ids
 
@@ -150,6 +170,20 @@ def mark_processed(doc_id: str):
         if _processed_since_checkpoint >= _STATE_CHECKPOINT_INTERVAL:
             _save_state()
             _processed_since_checkpoint = 0
+
+
+def parent_done(key: str, update_marker) -> bool:
+    """True if every document under this parent was processed while the
+    parent's list-entry update date was the same as it is now."""
+    return key in _parents_done and _parents_done[key] == (update_marker or "")
+
+
+def mark_parent_done(key: str, update_marker, doc_ids):
+    """Record the parent as done only if all its child documents are processed
+    (a matched document that failed persistence keeps the parent open)."""
+    with _lock:
+        if all(doc_id in _processed_doc_ids for doc_id in doc_ids):
+            _parents_done[key] = update_marker or ""
 
 
 def mark_match_pending(doc_id: str, collection: str):
@@ -228,7 +262,10 @@ def upsert_metadata(row):
                                                               "document_number", "api_detail_url", "pdf_url", "sidecar_path")}
             if location not in locations:
                 locations.append(location)
+            terms = _json_list(current.get("matched_terms"))
+            terms += [t for t in _json_list(row.get("matched_terms")) if t not in terms]
             rows[index] = {**current, **row,
+                           "matched_terms": json.dumps(terms, ensure_ascii=False),
                            "related_document_ids": json.dumps(sorted(set(document_ids)), ensure_ascii=False),
                            "related_locations_json": json.dumps(locations, ensure_ascii=False)}
         _write_csv(_metadata_path, rows, fields)
@@ -248,6 +285,14 @@ def upsert_matches(rows_to_add):
             rows.append({field: "" for field in fields} | row)
             if match_id:
                 seen.add(match_id)
+        _write_csv(_matches_path, rows, fields)
+
+
+def write_matches(rows):
+    """Replace matches.csv with the given rows (used to repair existing rows)."""
+    with _lock:
+        with _matches_path.open(newline="", encoding="utf-8-sig") as f:
+            fields = list(dict.fromkeys((csv.DictReader(f).fieldnames or []) + MATCHES_FIELDS))
         _write_csv(_matches_path, rows, fields)
 
 

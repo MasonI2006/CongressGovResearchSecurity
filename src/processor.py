@@ -1,4 +1,5 @@
-"""Shared document processing pipeline: fetch text/PDF, search phrase, save & record."""
+"""Shared document processing pipeline: fetch text/PDF, search for the active
+search's terms, save & record."""
 from . import client, config, metadata_capture, pdf_utils, store, text_utils
 
 NON_PDF_PRIORITY = ["Formatted Text", "Generated HTML", "HTML", "Formatted XML", "XML"]
@@ -26,8 +27,8 @@ def _looks_like_markup(text: str) -> bool:
 
 def process_document(doc_id, collection, congress, document_type, document_number,
                       title, date, congress_url, formats, api_endpoint, force=False):
-    """Search a document's available text for the phrase; if found, download the
-    PDF, dedupe, and record metadata/match rows. Returns True if a match was found.
+    """Search a document's available text for the search terms; if any is found,
+    download the PDF, dedupe, and record metadata/match rows. Returns True if a match was found.
     Never raises: any unexpected failure is logged and treated as no-match, so a
     single bad document can't abort a multi-hour crawl.
     """
@@ -52,7 +53,7 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
     non_pdf_fmt = _pick_format(formats, NON_PDF_PRIORITY)
     pdf_fmt = _pick_pdf(formats)
 
-    matches = []  # list of (page_number, context, char_location)
+    matches = []  # list of (page_number, context, char_location, term, surface)
     full_text_searched = False
 
     if non_pdf_fmt:
@@ -61,7 +62,7 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
             full_text_searched = True
             text = text_utils.html_to_text(raw) if _looks_like_markup(raw) else raw
             for m in text_utils.find_matches(text):
-                matches.append((None, m["context"], m["start"]))
+                matches.append((None, m["context"], m["start"], m["term"], m["surface"]))
 
     pdf_bytes = None
     if pdf_fmt:
@@ -71,14 +72,14 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
             pages = pdf_utils.extract_pdf_pages_text(pdf_bytes)
             for page_num, page_text in pages:
                 for m in text_utils.find_matches(page_text):
-                    matches.append((page_num, m["context"], m["start"]))
+                    matches.append((page_num, m["context"], m["start"], m["term"], m["surface"]))
             # Cross-page-boundary matches: join consecutive page texts.
             for i in range(len(pages) - 1):
                 joined = (pages[i][1][-250:] + " " + pages[i + 1][1][:250])
                 for m in text_utils.find_matches(joined):
                     ctx = m["context"]
-                    if not any(ctx[:40] in existing_ctx for _, existing_ctx, _ in matches):
-                        matches.append((f"{pages[i][0]}-{pages[i+1][0]}", ctx, None))
+                    if not any(ctx[:40] in existing[1] and existing[3] == m["term"] for existing in matches):
+                        matches.append((f"{pages[i][0]}-{pages[i+1][0]}", ctx, None, m["term"], m["surface"]))
 
     if not matches:
         store.note_examined(collection, congress, full_text_searched, doc_id)
@@ -95,12 +96,16 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
 
     sha = pdf_utils.sha256_bytes(pdf_bytes)
     candidate_name = store.filename_for_hash(sha, store.safe_filename(doc_id, pdf_fmt["url"]))
-    out_path = config.PDF_DIR / candidate_name
-    if out_path.exists():
-        if pdf_utils.sha256_bytes(out_path.read_bytes()) != sha:
-            raise RuntimeError(f"Existing PDF hash differs from downloaded content: {candidate_name}")
-    else:
-        out_path.write_bytes(pdf_bytes)
+    matched_terms = [term for term in config.SEARCH.terms if any(m[3] == term for m in matches)]
+    # Each matching term's folder gets its own copy (one shared folder for a one-term search).
+    for term in matched_terms:
+        out_path = config.term_pdf_dir(term) / candidate_name
+        if out_path.exists():
+            if pdf_utils.sha256_bytes(out_path.read_bytes()) != sha:
+                raise RuntimeError(f"Existing PDF hash differs from downloaded content: {out_path}")
+        else:
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            out_path.write_bytes(pdf_bytes)
 
     store.note_examined(collection, congress, full_text_searched, doc_id)
     metadata_capture.capture_match(
@@ -109,7 +114,7 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
         document_date=date, congress_url=congress_url, api_endpoint=api_endpoint,
         pdf_url=pdf_fmt["url"], pdf_bytes=pdf_bytes, formats=formats,
         used_text_type=non_pdf_fmt.get("type") if non_pdf_fmt else None,
-        matches=matches, filename=candidate_name,
+        matches=matches, filename=candidate_name, matched_terms=matched_terms,
     )
     store.remember_pdf(sha, candidate_name, collection, congress, len(matches))
     store.mark_processed(doc_id)

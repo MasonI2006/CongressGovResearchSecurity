@@ -3,4 +3,4 @@ config_local.py
 cache/
 __pycache__/
 *.pyc
-research_security_archive/PDFs/*.pdf
+searches/**/PDFs/*.pdf

@@ -6,7 +6,7 @@ from datetime import date
 
 from tqdm import tqdm
 
-from . import client, config, processor
+from . import client, config, processor, store
 
 BILL_TYPE_SLUG = {
     "hr": "house-bill", "s": "senate-bill", "hjres": "house-joint-resolution",
@@ -41,18 +41,24 @@ def crawl_bills(congress):
     for item in tqdm(client.api_paginate(f"bill/{congress}"), total=total, desc=f"bills/{congress}", unit="bill"):
         btype = item["type"].lower()
         number = item["number"]
+        parent_key = f"bill/{congress}/{btype}/{number}"
+        marker = item.get("updateDateIncludingText") or item.get("updateDate")
+        if store.parent_done(parent_key, marker):
+            continue
         try:
             text_data = client.api_get(f"bill/{congress}/{btype}/{number}/text")
         except Exception:
             continue
         versions = text_data.get("textVersions", [])
         congress_url = f"https://www.congress.gov/bill/{config.congress_ordinal(congress)}-congress/{BILL_TYPE_SLUG.get(btype, btype)}/{number}"
+        doc_ids = []
         for tv in versions:
             vtype = (tv.get("type") or "unknown").replace(" ", "_").replace("/", "-")
             formats = _normalize_formats(tv.get("formats"))
             if not formats:
                 continue
             doc_id = f"BILL-{congress}-{item['type']}-{number}-{vtype}"
+            doc_ids.append(doc_id)
             ok = processor.process_document(
                 doc_id=doc_id, collection="bill", congress=congress,
                 document_type=item["type"], document_number=number,
@@ -60,6 +66,7 @@ def crawl_bills(congress):
                 formats=formats, api_endpoint=f"/bill/{congress}/{btype}/{number}/text",
             )
             matched += int(ok)
+        store.mark_parent_done(parent_key, marker, doc_ids)
     return matched
 
 
@@ -79,18 +86,24 @@ def crawl_amendments(congress):
         for item in tqdm(client.api_paginate(f"amendment/{congress}/{amdt_type}"), total=sub_total,
                           desc=f"amendments/{congress}/{amdt_type}", unit="amdt"):
             number = item["number"]
+            parent_key = f"amendment/{congress}/{amdt_type}/{number}"
+            marker = item.get("updateDate")
+            if store.parent_done(parent_key, marker):
+                continue
             try:
                 text_data = client.api_get(f"amendment/{congress}/{amdt_type}/{number}/text")
             except Exception:
                 continue
             versions = text_data.get("textVersions", [])
             congress_url = f"https://www.congress.gov/amendment/{config.congress_ordinal(congress)}-congress/{AMDT_TYPE_SLUG.get(amdt_type, amdt_type)}/{number}"
+            doc_ids = []
             for tv in versions:
                 vtype = (tv.get("type") or "unknown").replace(" ", "_").replace("/", "-")
                 formats = _normalize_formats(tv.get("formats"))
                 if not formats:
                     continue
                 doc_id = f"AMDT-{congress}-{amdt_type.upper()}-{number}-{vtype}"
+                doc_ids.append(doc_id)
                 ok = processor.process_document(
                     doc_id=doc_id, collection="amendment", congress=congress,
                     document_type=amdt_type.upper(), document_number=number,
@@ -99,6 +112,7 @@ def crawl_amendments(congress):
                     api_endpoint=f"/amendment/{congress}/{amdt_type}/{number}/text",
                 )
                 matched += int(ok)
+            store.mark_parent_done(parent_key, marker, doc_ids)
     return matched
 
 
@@ -116,6 +130,10 @@ def crawl_committee_reports(congress):
                           desc=f"committee-report/{congress}/{rtype}", unit="rpt"):
             number = item["number"]
             part = item.get("part", 1)
+            parent_key = f"committee-report/{congress}/{rtype}/{number}/{part}"
+            marker = item.get("updateDate")
+            if store.parent_done(parent_key, marker):
+                continue
             try:
                 detail = client.api_get(f"committee-report/{congress}/{rtype}/{number}")
             except Exception:
@@ -138,6 +156,7 @@ def crawl_committee_reports(congress):
                 else:
                     formats.extend(_normalize_formats(tv.get("formats")))
             if not formats:
+                store.mark_parent_done(parent_key, marker, [])
                 continue
             congress_url = f"https://www.congress.gov/congressional-report/{config.congress_ordinal(congress)}-congress/{'house-report' if rtype == 'hrpt' else ('senate-report' if rtype == 'srpt' else 'executive-report')}/{number}"
             doc_id = f"RPT-{congress}-{rtype.upper()}-{number}-{part}"
@@ -150,6 +169,7 @@ def crawl_committee_reports(congress):
                 api_endpoint=f"/committee-report/{congress}/{rtype}/{number}/text",
             )
             matched += int(ok)
+            store.mark_parent_done(parent_key, marker, [doc_id])
     return matched
 
 
@@ -163,6 +183,10 @@ def crawl_committee_prints(congress):
         for item in tqdm(client.api_paginate(f"committee-print/{congress}/{chamber}"), total=total,
                           desc=f"committee-print/{congress}/{chamber}", unit="prt"):
             jacket = item["jacketNumber"]
+            parent_key = f"committee-print/{congress}/{chamber}/{jacket}"
+            marker = item.get("updateDate")
+            if store.parent_done(parent_key, marker):
+                continue
             try:
                 detail = client.api_get(f"committee-print/{congress}/{chamber}/{jacket}")
             except Exception:
@@ -183,6 +207,7 @@ def crawl_committee_prints(congress):
                 else:
                     formats.extend(_normalize_formats(tv.get("formats")))
             if not formats:
+                store.mark_parent_done(parent_key, marker, [])
                 continue
             congress_url = item.get("url", "")
             doc_id = f"CPRT-{congress}-{chamber.upper()}-{jacket}"
@@ -195,6 +220,7 @@ def crawl_committee_prints(congress):
                 api_endpoint=f"/committee-print/{congress}/{chamber}/{jacket}/text",
             )
             matched += int(ok)
+            store.mark_parent_done(parent_key, marker, [doc_id])
     return matched
 
 
@@ -208,6 +234,10 @@ def crawl_hearings(congress):
         for item in tqdm(client.api_paginate(f"hearing/{congress}/{chamber}"), total=total,
                           desc=f"hearing/{congress}/{chamber}", unit="hrg"):
             jacket = item["jacketNumber"]
+            parent_key = f"hearing/{congress}/{chamber}/{jacket}"
+            marker = item.get("updateDate")
+            if store.parent_done(parent_key, marker):
+                continue
             try:
                 detail = client.api_get(f"hearing/{congress}/{chamber}/{jacket}")
             except Exception:
@@ -215,6 +245,7 @@ def crawl_hearings(congress):
             hearing = detail.get("hearing", detail)
             formats = _normalize_formats(hearing.get("formats"))
             if not formats:
+                store.mark_parent_done(parent_key, marker, [])
                 continue
             dates = hearing.get("dates") or []
             hdate = dates[0]["date"] if dates else None
@@ -227,6 +258,7 @@ def crawl_hearings(congress):
                 api_endpoint=f"/hearing/{congress}/{chamber}/{jacket}",
             )
             matched += int(ok)
+            store.mark_parent_done(parent_key, marker, [doc_id])
     return matched
 
 
@@ -240,6 +272,10 @@ def crawl_committee_meetings(congress):
         for item in tqdm(client.api_paginate(f"committee-meeting/{congress}/{chamber}"), total=total,
                           desc=f"committee-meeting/{congress}/{chamber}", unit="mtg"):
             event_id = item["eventId"]
+            parent_key = f"committee-meeting/{congress}/{chamber}/{event_id}"
+            marker = item.get("updateDate")
+            if store.parent_done(parent_key, marker):
+                continue
             try:
                 detail = client.api_get(f"committee-meeting/{congress}/{chamber}/{event_id}")
             except Exception:
@@ -253,6 +289,7 @@ def crawl_committee_meetings(congress):
                 wd = dict(wd)
                 wd.setdefault("documentType", "Witness Document")
                 docs.append(wd)
+            doc_ids = []
             for idx, d in enumerate(docs):
                 url = d.get("url")
                 if not url:
@@ -261,6 +298,7 @@ def crawl_committee_meetings(congress):
                 formats = [{"url": url, "type": fmt_type if fmt_type in ("PDF",) else "PDF"}]
                 dtype = d.get("documentType", "Document")
                 doc_id = f"MTG-{congress}-{chamber.upper()}-{event_id}-{idx}-{dtype}".replace(" ", "_")
+                doc_ids.append(doc_id)
                 ok = processor.process_document(
                     doc_id=doc_id, collection="committee-meeting", congress=congress,
                     document_type=dtype, document_number=event_id,
@@ -269,6 +307,7 @@ def crawl_committee_meetings(congress):
                     api_endpoint=f"/committee-meeting/{congress}/{chamber}/{event_id}",
                 )
                 matched += int(ok)
+            store.mark_parent_done(parent_key, marker, doc_ids)
     return matched
 
 
@@ -288,11 +327,16 @@ def crawl_daily_congressional_record(congress):
         issue = item.get("issueNumber")
         if volume is None or issue is None:
             continue
+        parent_key = f"daily-congressional-record/{volume}/{issue}"
+        marker = item.get("updateDate")
+        if store.parent_done(parent_key, marker):
+            continue
         try:
             data = client.api_get(f"daily-congressional-record/{volume}/{issue}/articles")
         except Exception:
             continue
         sections = data.get("articles", [])
+        doc_ids = []
         for sec_idx, section in enumerate(sections):
             sec_name = section.get("name", f"section{sec_idx}")
             for art_idx, art in enumerate(section.get("sectionArticles", [])):
@@ -300,6 +344,7 @@ def crawl_daily_congressional_record(congress):
                 if not formats:
                     continue
                 doc_id = f"CREC-{congress}-V{volume}-I{issue}-{sec_name}-{art_idx}".replace(" ", "_")
+                doc_ids.append(doc_id)
                 ok = processor.process_document(
                     doc_id=doc_id, collection="congressional-record", congress=congress,
                     document_type="CREC-daily", document_number=f"V{volume}I{issue}",
@@ -308,6 +353,7 @@ def crawl_daily_congressional_record(congress):
                     api_endpoint=f"/daily-congressional-record/{volume}/{issue}/articles",
                 )
                 matched += int(ok)
+        store.mark_parent_done(parent_key, marker, doc_ids)
     return matched
 
 
@@ -323,8 +369,6 @@ def crawl_bound_congressional_record(congress):
     the absence is verified rather than assumed, and warn if a text-bearing
     field ever appears so the crawler can be extended.
     """
-    from . import store
-
     store.counter("bound-congressional-record", congress)
     for year in config.congress_years(congress):
         try:
@@ -376,6 +420,10 @@ def crawl_crs_reports(congress):
         if not (start <= pub_date < end):
             continue
         rid = item.get("id")
+        parent_key = f"crsreport/{rid}"
+        marker = item.get("updateDate")
+        if store.parent_done(parent_key, marker):
+            continue
         try:
             detail = client.api_get(f"crsreport/{rid}")
         except Exception:
@@ -383,8 +431,11 @@ def crawl_crs_reports(congress):
         rep = detail.get("CRSReport", detail)
         formats = _normalize_formats(rep.get("formats"))
         if not formats:
+            store.mark_parent_done(parent_key, marker, [])
             continue
-        doc_id = f"CRS-{rid}-v{rep.get('version', 1)}"
+        # The detail payload calls the version "currentVersion"; list entries call it "version".
+        version = rep.get("currentVersion") or rep.get("version") or item.get("version") or 1
+        doc_id = f"CRS-{rid}-v{version}"
         ok = processor.process_document(
             doc_id=doc_id, collection="crs-report", congress=congress,
             document_type="CRS", document_number=rid,
@@ -393,4 +444,5 @@ def crawl_crs_reports(congress):
             api_endpoint=f"/crsreport/{rid}",
         )
         matched += int(ok)
+        store.mark_parent_done(parent_key, marker, [doc_id])
     return matched

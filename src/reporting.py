@@ -1,9 +1,49 @@
 """Generate archive reports from persisted CSV and SQLite contents."""
 import csv
+import json
 import sqlite3
 from collections import Counter
 
 from . import config
+
+
+def _terms_of(row):
+    try:
+        terms = json.loads(row.get("matched_terms") or "[]")
+    except json.JSONDecodeError:
+        terms = []
+    return [t for t in terms if t in config.SEARCH.terms] or [config.SEARCH.terms[0]]
+
+
+def write_term_views():
+    """For a multi-term search, write each term folder's own metadata.csv and
+    matches.csv (the rows of the search-wide CSVs that belong to that term).
+    The search-wide CSVs and SQLite remain the complete record."""
+    spec = config.SEARCH
+    if not spec.multi_term:
+        return
+    archive = config.ARCHIVE_DIR
+    with (archive / "metadata.csv").open(newline="", encoding="utf-8-sig") as stream:
+        reader = csv.DictReader(stream)
+        meta_fields, metadata = reader.fieldnames or [], list(reader)
+    with (archive / "matches.csv").open(newline="", encoding="utf-8-sig") as stream:
+        reader = csv.DictReader(stream)
+        match_fields, matches = reader.fieldnames or [], list(reader)
+    for term in spec.terms:
+        folder = config.term_dir(term)
+        folder.mkdir(parents=True, exist_ok=True)
+        for name, fields, rows in (
+            ("metadata.csv", meta_fields, [r for r in metadata if term in _terms_of(r)]),
+            ("matches.csv", match_fields, [r for r in matches if (r.get("term") or spec.terms[0]) == term]),
+        ):
+            with (folder / name).open("w", newline="", encoding="utf-8") as stream:
+                writer = csv.DictWriter(stream, fieldnames=fields, extrasaction="ignore")
+                writer.writeheader()
+                writer.writerows(rows)
+        (folder / "TERM.txt").write_text(
+            f"Term: {term}\nSearch: {spec.name} ({spec.describe()})\n"
+            "These CSVs are the rows of the search-wide metadata.csv/matches.csv for this term.\n",
+            encoding="utf-8")
 
 
 def persist_collection_counters(counters):
@@ -64,18 +104,20 @@ def write_readme(congresses, collections, start_time, end_time, website_ran,
     match_by_key = Counter((row.get("congress") or congress_by_file.get(row.get("filename"), ""),
                             row.get("collection", "")) for row in matches)
 
+    spec = config.SEARCH
     lines = [
-        "Congress.gov Research Security Archive",
+        f"Congress.gov Term Search: {spec.name}",
         "=" * 52,
         f"Run started: {start_time.isoformat()}",
         f"Run finished: {end_time.isoformat()}",
         f"Congress scope (this run): {', '.join(map(str, congresses))}",
-        'Search phrase: "research security" (case-insensitive)',
+        f"Matching: {spec.describe()}",
+        "Terms:",
+        *[f"  {term}" + (f"  -> terms/{spec.folders[term]}/" if spec.multi_term else "") for term in spec.terms],
         "",
         "Persisted archive facts:",
         f"  Metadata rows (unique PDF rows): {len(metadata)}",
         f"  Match occurrence rows: {len(matches)}",
-        f"  PDF files on disk: {len(list((archive / 'PDFs').glob('*.pdf')))}",
         f"  SQLite database: {archive / 'archive.sqlite'}",
     ]
     db_path = archive / "archive.sqlite"
@@ -108,14 +150,19 @@ def write_readme(congresses, collections, start_time, end_time, website_ran,
     ])
     for key in sorted(set(metadata_by_key) | set(match_by_key), key=lambda k: (str(k[0]).zfill(4), k[1])):
         lines.append(f"{key[0]} | {key[1]} | {metadata_by_key[key]} | {match_by_key[key]}")
+    lines.extend(["", "By term:", "Term | PDFs | Match occurrences"])
+    occurrences_by_term = Counter(row.get("term") or spec.terms[0] for row in matches)
+    for term in spec.terms:
+        pdfs = len(list(config.term_pdf_dir(term).glob("*.pdf")))
+        lines.append(f"{term} | {pdfs} | {occurrences_by_term[term]}")
     lines.extend([
         "",
         "Verification status:",
         f"  Congress.gov website search: {'ran' if website_ran else 'skipped'}",
     ])
-    for congress in congresses if website_ran else []:
-        count = (website_counts or {}).get(congress)
-        lines.append(f"  Website result count (congress {congress}): {count if count is not None else 'unknown'}")
+    for (term, congress), count in sorted((website_counts or {}).items(), key=lambda kv: (kv[0][1], kv[0][0])):
+        lines.append(f"  Website result count ({term!r}, congress {congress}): "
+                     f"{count if count is not None else 'unknown'}")
     lines.append(f"  Local PDF text verification: {'ran' if pdf_verification_ran else 'skipped'}")
     if pdf_verification_ran:
         lines.append(f"  PDFs checked: {pdf_verification.get('checked', 0)}; confirmed: {pdf_verification.get('confirmed', 0)}; discrepancies: {len(pdf_verification.get('discrepancies', []))}")
@@ -135,5 +182,6 @@ def write_readme(congresses, collections, start_time, end_time, website_ran,
         "  The Bound Congressional Record API exposes only page-range metadata (no text or PDF links), so it is probed but not searched.",
         "  Missing optional API values remain null; empty API lists remain empty lists.",
         "  Search coverage is limited to the configured Congresses and collections exposed by the implemented API crawlers.",
+        "  A document counts as examined only where the API exposes its text; older Congresses expose less.",
     ])
     (archive / "README.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")

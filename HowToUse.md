@@ -1,50 +1,95 @@
-# How to Use the Research Security Crawler
+# How to Use the Congress.gov Term Search Tool
 
-The crawler searches Congress.gov for the phrase "research security", downloads the PDF of every matching document, and records metadata for each match. You choose which Congresses it covers.
+This tool searches Congress.gov documents for words or phrases you choose. Searchable documents include bills, amendments, committee reports and prints, hearings, committee meeting documents, the Congressional Record and CRS reports. It downloads the PDF of every matching document and records where each term appears, with surrounding text and document metadata. You choose the terms and which Congresses to search.
 
 ## Requirements
-- Python 3.10 with the packages in `requirements.txt` (`pip install -r requirements.txt`).
-- A Congress.gov API key in `.env` as `CONGRESS_API_KEY=...`.
+- Python 3.10 or newer, with the packages in `requirements.txt` (`pip install -r requirements.txt`).
+- A free Congress.gov API key (https://api.congress.gov/sign-up/), saved in a file named `.env` in the project folder:
+  ```
+  CONGRESS_API_KEY=your-key-here
+  ```
 - Optional but recommended: Poppler's `pdftotext` on PATH, a fallback for PDFs that pypdf can't read.
 
-## Running it
-Open a terminal in the project folder (`CongressGovResearchSecurity`, not `src`) and run:
+## Quick start
+Open a terminal in the project folder (not `src`) and run:
 
 ```powershell
-python -m src.main --congresses 118
+python -m src.main --term "research security" --congresses 118
 ```
 
+The results go to `searches/research_security/`. For a first try, add `--collections committee-print`, which finishes in minutes.
+
+## Choosing what to search for
 | What you want | Command |
 |---|---|
-| One Congress | `python -m src.main --congresses 118` |
-| A range | `python -m src.main --congresses 110-118` |
-| A mix | `python -m src.main --congresses 115,117-118` |
-| Only some collections | `python -m src.main --congresses 118 --collections bill,hearing` |
+| One word or phrase | `--term "machine learning"` |
+| Several terms in one run | `--name ai_policy --term "artificial intelligence" --term "machine learning"` |
+| A list of terms from a file | `--name ai_policy --terms-file terms.txt` |
+| Case-sensitive matching | add `--case-sensitive` (e.g. `--term "CHIPS"` won't match "chips") |
+| Regular expressions | add `--regex`, e.g. `--term "research\s+secur\w+"` |
+
+**Several terms are much cheaper than separate runs.** Downloading and reading documents is the slow part, so a run with 10 terms takes about as long as a run with 1.
+
+**A terms file** has one term per line. Blank lines and lines starting with `#` are ignored:
+```
+# AI policy terms
+artificial intelligence
+machine learning
+neural network*
+```
+
+**How matching works**
+- Case-insensitive by default. Use `--case-sensitive` to match letter case exactly.
+- Whole words only: `AI` matches "AI" but not "said"; `research security` doesn't match "researchsecurity".
+- Line and page breaks between words don't matter: "research⏎security" still matches.
+- `*` is a wildcard inside a word: `secur*` matches "secure", "security", "securities" (but not "insecure"). `*security` matches "cybersecurity".
+- With `--regex`, each term is a Python regular expression, used as written. The text is searched with all whitespace collapsed to single spaces.
+- The case and regex options apply to every term in a search.
+
+## Searches are saved
+Every search has a **name** and its own folder, `searches/<name>/`. For a single term, the name defaults to the term (`"research security"` becomes `research_security`); a search with several terms needs `--name`. The terms and options are saved in `searches/<name>/search.json`, so later runs only need the name:
+
+```powershell
+python -m src.main --name ai_policy --congresses 117       # add another Congress
+python -m src.main --list                                   # show saved searches and their terms
+```
+
+A saved search's terms can't be changed, because its progress records which documents were already checked *for those terms*. To search for something else, start a new name. All searches share one download cache (`cache/`), so a new search over Congresses you've already searched mostly reuses cached responses and runs much faster.
+
+## Choosing where to search
+| What you want | Command |
+|---|---|
+| One Congress | `--congresses 118` |
+| A range | `--congresses 110-118` |
+| A mix | `--congresses 115,117-118` |
+| Only some collections | `--collections bill,hearing` |
 | Skip the verification passes | add `--skip-website-search --skip-verification` |
 
-Collection names: `bill`, `amendment`, `committee-report`, `committee-print`, `hearing`, `committee-meeting`, `congressional-record`, `bound-congressional-record`, `crs-report`. Leaving out `--collections` runs all of them.
+Collection names: `bill`, `amendment`, `committee-report`, `committee-print`, `hearing`, `committee-meeting`, `congressional-record`, `bound-congressional-record`, `crs-report`. Leaving out `--collections` searches all of them.
+
+Run `python -m src.main --help` for the full option list.
 
 ### Saving a log
 For long runs, write the output to a log file:
 
 ```powershell
-python -u -m src.main --congresses 118 *> run4.log
+python -u -m src.main --name ai_policy --congresses 118 *> ai_policy_118.log
 ```
 
 `-u` writes messages to the log as they happen. Without it they are buffered and the log looks frozen. To watch progress from a second terminal:
 
 ```powershell
-Get-Content run4.log -Wait -Tail 5
+Get-Content ai_policy_118.log -Wait -Tail 5
 ```
 
 ### Tips
-- **Try a small run first**, e.g. `--collections committee-print`, to check that everything works before starting a long run.
-- **Expect about 16 hours per Congress.** The API allows about 4,500 calls per hour, and the 119th Congress took about 16 hours.
-- **Interrupted runs resume.** After Ctrl+C, a crash or a closed laptop, run the same command again. Finished documents are recorded in `state/` and skipped.
-- **Check the archive** at any time with `python validate.py`.
+- **Try a small run first**, e.g. `--collections committee-print`, to check your terms before starting a long run.
+- **Expect about 16 hours per Congress** for a first search with an empty cache. The API allows about 4,500 calls per hour. Later searches over the same Congresses are much faster because responses are cached.
+- **Interrupted runs resume.** After Ctrl+C, a crash or a closed laptop, run the same command again. Finished documents are recorded in the search's `state/` folder and skipped. Re-running a finished Congress is fast: items whose Congress.gov update date hasn't changed are skipped without new API calls.
+- **Check a search's archive** at any time with `python validate.py --name <name>`. The name can be left out if there is only one saved search.
 
-## Which Congresses can I run?
-The code accepts any Congress number, but how far back the Congress.gov API has *searchable text* depends on the collection. The table comes from probing a sample of records from the 81st to the 116th Congress, so treat it as approximate.
+## Which Congresses can I search?
+The tool accepts any Congress number, but how far back the Congress.gov API has *searchable text* depends on the collection. This table comes from probing a sample of records from the 81st to the 116th Congress, so treat it as approximate.
 
 | Collection | Searchable text starts at |
 |---|---|
@@ -55,40 +100,37 @@ The code accepts any Congress number, but how far back the Congress.gov API has 
 | Committee meetings | 112th (House); the Senate has some by the 116th (none in the 114th) |
 | Daily Congressional Record | 111th (oldest issue August 2009) |
 | CRS reports | ~113th–114th (oldest seen: October 2014) |
-| Bound Congressional Record | Never: the API exposes only page numbers, no text, so the crawler only checks what exists |
+| Bound Congressional Record | Never: the API exposes only page numbers, no text, so the tool only checks what exists |
 
-**The 103rd Congress (1993–94) is the practical earliest.** In the 101st and 102nd, bills have text but no PDF, so any match there is recorded as a failure ("no PDF format") instead of being archived.
-
-A full historical run:
-
-```powershell
-python -u -m src.main --congresses 103-118 *> run4.log
-```
-
-That covers 16 Congresses and will take roughly 10 days, so you may want to run a few Congresses at a time.
+**The 103rd Congress (1993–94) is the practical earliest.** In the 101st and 102nd, bills have text but no PDF, so any match there is recorded as a failure ("no PDF format") instead of being archived. Low counts for older Congresses may reflect missing text in the API rather than absence of your terms; check the "Full text searched" column in the search's README.
 
 ## Where the output goes
+Everything for a search is in `searches/<name>/`:
+
 | Path | Contents |
 |---|---|
-| `research_security_archive/PDFs/` | One PDF per unique matching document (deduplicated by SHA-256) |
-| `research_security_archive/metadata.csv` | One row per PDF |
-| `research_security_archive/matches.csv` | One row per phrase occurrence, with surrounding text |
-| `research_security_archive/archive.sqlite` | The same data in SQLite, plus people, committees, related items and per-Congress stats |
-| `research_security_archive/metadata/` | A JSON sidecar per matched document |
-| `research_security_archive/README.txt` | Summary of the latest run, broken down by Congress |
+| `PDFs/` | One-term search: one PDF per unique matching document (deduplicated by SHA-256) |
+| `terms/<term>/` | Several-term search: a folder per term with its `PDFs/` and its own `metadata.csv` and `matches.csv`. A document matching two terms is in both folders. |
+| `metadata.csv` | One row per PDF, for all terms. `matched_terms` lists the terms it matched. |
+| `matches.csv` | One row per occurrence, with the `term`, the exact text matched, the page and surrounding text |
+| `archive.sqlite` | The same data in SQLite, plus people (sponsors, cosponsors, witnesses), committees, related items and per-Congress stats |
+| `metadata/` | A JSON sidecar per matched document |
 | `raw_api/` | Raw API responses for each matched document |
-| `state/dedupe_state.json` | Progress and deduplication state. Keep this file, or runs start over. |
-| `cache/` | Cached API responses. Safe to delete, but re-runs will be slower. |
+| `README.txt` | Summary of the latest run, by Congress and by term |
+| `search.json` | The search's terms and options |
+| `state/` | Progress and deduplication state. Keep it, or the search starts over. |
 
-## Running a test without touching the real archive
-To send all output to separate folders, set these environment variables before running:
+The shared `cache/` folder in the project root holds downloaded API responses and documents. It is safe to delete, but searches will be slower afterwards.
+
+The search folder is self-contained (paths inside it are relative), so you can zip it and share it.
+
+## Running a test without touching your real searches
+Set these environment variables to send all output and cache to separate folders:
 
 ```powershell
-$env:RESEARCH_SECURITY_ARCHIVE_DIR = "C:\temp\rs_test\archive"
-$env:RESEARCH_SECURITY_STATE_DIR   = "C:\temp\rs_test\state"
-$env:CONGRESS_API_CACHE_DIR        = "C:\temp\rs_test\cache"
-$env:RESEARCH_SECURITY_RAW_DIR     = "C:\temp\rs_test\raw"
-python -m src.main --congresses 117 --collections committee-print
+$env:CONGRESS_SEARCHES_DIR  = "C:\temp\test\searches"
+$env:CONGRESS_API_CACHE_DIR = "C:\temp\test\cache"
+python -m src.main --term "semiconductor*" --congresses 117 --collections committee-print
 ```
 
-They last only for that terminal window. Close it, or `Remove-Item Env:RESEARCH_SECURITY_ARCHIVE_DIR` (and the others), before doing a real run.
+They last only for that terminal window. Close it, or run `Remove-Item Env:CONGRESS_SEARCHES_DIR, Env:CONGRESS_API_CACHE_DIR`, before a real run.

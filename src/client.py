@@ -109,6 +109,9 @@ def api_get(path: str, params: dict | None = None, max_attempts: int = 8) -> dic
         })
         return json.loads(cpath.read_text(encoding="utf-8"))
 
+    if not config.API_KEY:
+        raise SystemExit("CONGRESS_API_KEY not found. Put CONGRESS_API_KEY=... in the .env file "
+                         "(free key: https://api.congress.gov/sign-up/).")
     req_params = dict(params)
     req_params["api_key"] = config.API_KEY
 

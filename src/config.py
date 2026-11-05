@@ -1,4 +1,4 @@
-"""Configuration and constants for the research security archive downloader."""
+"""Configuration and constants for the Congress.gov term-search downloader."""
 import os
 from pathlib import Path
 
@@ -19,8 +19,6 @@ def _load_env(path: Path) -> dict:
 
 _env_file = _load_env(ROOT / ".env")
 API_KEY = os.environ.get("CONGRESS_API_KEY") or _env_file.get("CONGRESS_API_KEY")
-if not API_KEY:
-    raise RuntimeError("CONGRESS_API_KEY not found in environment or .env file")
 
 API_BASE = "https://api.congress.gov/v3"
 
@@ -82,15 +80,49 @@ MIN_REQUEST_INTERVAL = 3600.0 / MAX_REQUESTS_PER_HOUR
 
 PAGE_SIZE = 250  # max page size permitted by the API
 
-SEARCH_PHRASE = "research security"
-
 CACHE_DIR = Path(os.environ.get("CONGRESS_API_CACHE_DIR", ROOT / "cache")).resolve()
-RAW_API_DIR = Path(os.environ.get("RESEARCH_SECURITY_RAW_DIR", ROOT / "raw_api")).resolve()
-ARCHIVE_DIR = Path(os.environ.get("RESEARCH_SECURITY_ARCHIVE_DIR", ROOT / "research_security_archive")).resolve()
-PDF_DIR = ARCHIVE_DIR / "PDFs"
-STATE_DIR = Path(os.environ.get("RESEARCH_SECURITY_STATE_DIR", ROOT / "state")).resolve()
+SEARCHES_DIR = Path(os.environ.get("CONGRESS_SEARCHES_DIR", ROOT / "searches")).resolve()
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-for d in (CACHE_DIR, ARCHIVE_DIR, PDF_DIR, STATE_DIR):
-    d.mkdir(parents=True, exist_ok=True)
+USER_AGENT = "CongressGovTermSearch/1.0 (research tool)"
 
-USER_AGENT = "ResearchSecurityArchiveBot/1.0 (personal research tool)"
+# Set by activate_search(): the active search and its folders. Every search has
+# its own folder (PDFs, CSVs, SQLite, sidecars, raw API snapshots, progress);
+# all searches share CACHE_DIR, so a second search over the same Congresses
+# mostly reuses cached API responses.
+SEARCH = None
+ARCHIVE_DIR = None
+STATE_DIR = None
+RAW_API_DIR = None
+
+
+def search_dir(name: str) -> Path:
+    return SEARCHES_DIR / name
+
+
+def activate_search(spec):
+    global SEARCH, ARCHIVE_DIR, STATE_DIR, RAW_API_DIR
+    SEARCH = spec
+    ARCHIVE_DIR = search_dir(spec.name)
+    STATE_DIR = ARCHIVE_DIR / "state"
+    RAW_API_DIR = ARCHIVE_DIR / "raw_api"
+    for d in (ARCHIVE_DIR, STATE_DIR):
+        d.mkdir(parents=True, exist_ok=True)
+    for term in spec.terms:
+        term_pdf_dir(term).mkdir(parents=True, exist_ok=True)
+
+
+def term_dir(term: str) -> Path:
+    """Folder holding one term's results. A one-term search keeps its PDFs at
+    the top of the search folder; a multi-term search has terms/<folder>/."""
+    if not SEARCH.multi_term:
+        return ARCHIVE_DIR
+    return ARCHIVE_DIR / "terms" / SEARCH.folders[term]
+
+
+def term_pdf_dir(term: str) -> Path:
+    return term_dir(term) / "PDFs"
+
+
+def all_pdf_dirs():
+    return [term_pdf_dir(term) for term in SEARCH.terms]
