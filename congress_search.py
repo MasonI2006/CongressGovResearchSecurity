@@ -2,7 +2,7 @@
 of every matching document, and record metadata for each match.
 
 Examples:
-    python congress_search.py --term "research security" --congresses 118
+    python congress_search.py --term "artificial intelligence" --congresses 118 --collections committee-print
     python congress_search.py --name chips --term "CHIPS Act" --term "semiconductor*" --congresses 117-118
     python congress_search.py --name china --terms-file terms.txt --congresses 115,117-118
     python congress_search.py --name chips --congresses 116     # extend a saved search

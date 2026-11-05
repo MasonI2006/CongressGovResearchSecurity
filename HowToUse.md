@@ -23,10 +23,10 @@ Download these into one folder:
 Open a terminal in that folder and run this small test search. It covers only the committee prints of the 118th Congress (2023–24) and takes about 3 minutes:
 
 ```powershell
-python congress_search.py --term "research security" --congresses 118 --collections committee-print
+python congress_search.py --term "artificial intelligence" --congresses 118 --collections committee-print
 ```
 
-Before searching, the tool shows an estimate and asks whether to start. Type `y` and press Enter. When it finishes, the matching PDFs and spreadsheets are in `searches/research_security/` (see [Where the output goes](#where-the-output-goes)).
+Before searching, the tool shows an estimate and asks whether to start. Type `y` and press Enter. It should find about 8 committee prints that mention artificial intelligence. When it finishes, their PDFs are in `searches/artificial_intelligence/PDFs/`, and `matches.csv` there shows each mention with the surrounding text (see [Where the output goes](#where-the-output-goes)).
 
 **Full searches take much longer.** Searching every collection of one Congress takes about 16 hours the first time, because the Congress.gov API allows only about 4,500 requests per hour. The estimate shown before each search tells you what you're starting. You can stop with Ctrl+C at any time and continue later by running the same command again.
 
@@ -73,7 +73,7 @@ neural network*
 - The case and regex options apply to every term in a search.
 
 ## Searches are saved
-Every search has a **name** and its own folder, `searches/<name>/`. For a single term, the name defaults to the term (`"research security"` becomes `research_security`); a search with several terms needs `--name`. The terms and options are saved in `searches/<name>/search.json`, so later runs only need the name:
+Every search has a **name** and its own folder, `searches/<name>/`. For a single term, the name defaults to the term (`"artificial intelligence"` becomes `artificial_intelligence`); a search with several terms needs `--name`. The terms and options are saved in `searches/<name>/search.json`, so later runs only need the name:
 
 ```powershell
 python congress_search.py --name ai_policy --congresses 117      # add another Congress
