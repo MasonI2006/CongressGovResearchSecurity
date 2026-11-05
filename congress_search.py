@@ -9,6 +9,9 @@ Examples:
     python congress_search.py --list                            # show saved searches
     python congress_search.py --name chips --validate           # check a search's files
 
+Before searching, it prints a rough time estimate and asks whether to start
+(--estimate only shows the estimate; --yes starts without asking).
+
 Each search is saved under searches/<name>/ with its terms, so later runs with
 the same --name resume it or extend it to more Congresses. See HowToUse.md.
 """
@@ -47,6 +50,10 @@ def build_parser():
     where.add_argument("--collections", default=",".join(crawlers.CRAWLERS),
                        help="comma-separated collections to search (default: all)")
     other = ap.add_argument_group("other")
+    other.add_argument("--estimate", action="store_true",
+                       help="show how long the search would take, then exit without searching")
+    other.add_argument("-y", "--yes", action="store_true",
+                       help="start without asking for confirmation after the time estimate")
     other.add_argument("--skip-verification", action="store_true",
                        help="skip re-reading downloaded PDFs to confirm the matches")
     other.add_argument("--list", action="store_true", help="list saved searches and exit")
@@ -107,8 +114,7 @@ def resolve_search(args, ap):
                 "Its progress only applies to the saved terms. Use a new --name for a different search "
                 f"(the shared download cache keeps it fast), or run with just --name {name} to continue it.")
         return saved
-    spec.save(folder)
-    return spec
+    return spec  # new search: saved once the user confirms
 
 
 def validate_only(args, ap):
@@ -122,10 +128,60 @@ def validate_only(args, ap):
     return 0 if archive.validate_archive()["passed"] else 1
 
 
-def run(spec, congresses, collections, skip_verification):
-    core.activate_search(spec)
-    core.init()
+def describe_duration(seconds):
+    if seconds < 90:
+        return "about a minute" if seconds >= 30 else "under a minute"
+    minutes = seconds / 60
+    if minutes < 90:
+        return f"about {round(minutes / 5) * 5 or 5} minutes" if minutes >= 10 else f"about {round(minutes)} minutes"
+    hours = minutes / 60
+    if hours < 48:
+        return f"about {hours:.0f} hours" if hours >= 10 else f"about {hours:.1f} hours"
+    return f"about {hours / 24:.1f} days ({hours:.0f} hours)"
 
+
+def show_estimate(congresses, collections):
+    """Print a rough time estimate for the run and return it in seconds."""
+    print("Estimating how long this will take (checking how many documents each collection has)...")
+    by_congress, by_collection = {}, {}
+    for congress in congresses:
+        for coll in collections:
+            print(f"  checking {coll} for the {core.congress_ordinal(congress)} Congress...", end="\r", flush=True)
+            seconds, _items = crawlers.estimate(coll, congress)
+            by_congress[congress] = by_congress.get(congress, 0) + seconds
+            by_collection[coll] = by_collection.get(coll, 0) + seconds
+    total = sum(by_congress.values())
+    print(" " * 79, end="\r")
+    print("\nEstimated time (rough):")
+    if len(congresses) > 1:
+        for congress, seconds in by_congress.items():
+            print(f"  {core.congress_ordinal(congress)} Congress: {describe_duration(seconds)}")
+    if len(collections) > 1:
+        slowest = sorted(by_collection.items(), key=lambda kv: -kv[1])[:4]
+        print("  Slowest collections: " + ", ".join(f"{c} ({describe_duration(s)})" for c, s in slowest if s >= 60))
+    print(f"  Total: {describe_duration(total)}")
+    print("  Based on timings from a full 119th-Congress run. Items this search already finished are skipped, and\n"
+          "  documents already in the download cache are counted as quick. Network speed and how much text the\n"
+          "  API has (less for older Congresses) can change this a lot. Interrupted runs resume where they stopped.")
+    return total
+
+
+def confirm(args, ap):
+    """Ask whether to start. Returns True to go ahead."""
+    if args.yes:
+        return True
+    if not (sys.stdin.isatty() and sys.stdout.isatty()):
+        print("\nOutput is going to a file, so there's no way to answer a question. "
+              "Run the same command with --yes to start.")
+        return False
+    try:
+        answer = input("\nStart the search? [y/N] ").strip().lower()
+    except EOFError:
+        answer = ""
+    return answer in ("y", "yes")
+
+
+def run(spec, congresses, collections, skip_verification):
     start_time = datetime.datetime.now()
     print(f"=== Congress.gov term search '{spec.name}' started {start_time.isoformat()} ===")
     print(f"Output folder: {core.ARCHIVE_DIR}")
@@ -205,6 +261,20 @@ def main():
         spec = resolve_search(args, ap)
     except core.SearchSpecError as e:
         ap.error(str(e))
+    is_new = not (core.search_dir(spec.name) / "search.json").is_file()
+    if not is_new:  # load its progress so finished items aren't counted
+        core.activate_search(spec)
+        core.init()
+    show_estimate(congresses, collections)
+    if args.estimate:
+        return 0
+    if not confirm(args, ap):
+        print("Not started.")
+        return 0
+    if is_new:
+        spec.save(core.search_dir(spec.name))
+        core.activate_search(spec)
+        core.init()
     run(spec, congresses, collections, args.skip_verification)
     return 0
 

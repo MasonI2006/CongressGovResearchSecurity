@@ -367,23 +367,37 @@ def _cache_path(url: str, subdir: str) -> Path:
     return d / h
 
 
+def _api_request_parts(path: str, params: dict | None):
+    """Full URL, request params, and cache file for an API request. The cache
+    key is the URL plus the params (the api key is never part of it)."""
+    url = path if path.startswith("http") else f"{API_BASE}/{path.lstrip('/')}"
+    params = dict(params or {})
+    params.setdefault("format", "json")
+    cache_key = url + "?" + json.dumps(dict(sorted(params.items())), sort_keys=True)
+    return url, params, _cache_path(cache_key, "api")
+
+
+def is_cached(path: str, params: dict | None = None) -> bool:
+    """True if api_get(path, params) would be answered from the cache."""
+    return _api_request_parts(path, params)[2].exists()
+
+
+def list_items(data: dict) -> list:
+    """The records in an API list response: the first list-valued field that
+    isn't 'pagination'/'request'."""
+    for key, value in data.items():
+        if isinstance(value, list) and key not in ("pagination", "request"):
+            return value
+    return []
+
+
 def api_get(path: str, params: dict | None = None, max_attempts: int = 8) -> dict:
     """GET a congress.gov API endpoint (path is relative to API_BASE, or a full URL).
 
     Results are cached to disk on the full URL (including query params, api key
     excluded from the cache key so caching works across processes safely).
     """
-    if path.startswith("http"):
-        url = path
-    else:
-        url = f"{API_BASE}/{path.lstrip('/')}"
-
-    params = dict(params or {})
-    params.setdefault("format", "json")
-
-    cache_key_params = {k: v for k, v in sorted(params.items())}
-    cache_key = url + "?" + json.dumps(cache_key_params, sort_keys=True)
-    cpath = _cache_path(cache_key, "api")
+    url, params, cpath = _api_request_parts(path, params)
     if cpath.exists():
         STATS["cache_hits"] += 1
         cached_at = datetime.fromtimestamp(cpath.stat().st_mtime, timezone.utc)
@@ -480,14 +494,7 @@ def api_paginate(path: str, params: dict | None = None, result_key: str | None =
     while True:
         params["offset"] = offset
         data = api_get(path, params)
-        key = result_key
-        if key is None:
-            # Guess the result key: the first list-valued key that isn't 'pagination'/'request'
-            for k, v in data.items():
-                if isinstance(v, list) and k not in ("pagination", "request"):
-                    key = k
-                    break
-        items = data.get(key, []) if key else []
+        items = data.get(result_key, []) if result_key else list_items(data)
         for item in items:
             yield item
         pagination = data.get("pagination", {})
@@ -732,6 +739,11 @@ def mark_processed(doc_id: str):
         if _processed_since_checkpoint >= _STATE_CHECKPOINT_INTERVAL:
             _save_state()
             _processed_since_checkpoint = 0
+
+
+def count_parents_done(prefix: str) -> int:
+    """How many finished parent records have keys starting with prefix."""
+    return sum(1 for key in _parents_done if key.startswith(prefix))
 
 
 def parent_done(key: str, update_marker) -> bool:

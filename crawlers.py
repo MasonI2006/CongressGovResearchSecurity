@@ -468,6 +468,89 @@ CRAWLERS = {
 
 
 # ============================================================================
+# Run-time estimate
+# ============================================================================
+# Seconds per listed item on a first run with an empty cache, measured on the
+# full 119th-Congress run (October 2026, about 16 hours). That run downloaded
+# PDFs this version skips, so real runs are often somewhat faster. Items that
+# are already in the download cache cost roughly a tenth as much; items this
+# search already finished cost nothing.
+WARM_FRACTION = 0.1
+CR_SECONDS_PER_CONGRESS = 8000      # daily Congressional Record, a full Congress (111th+)
+CR_ISSUES_PER_CONGRESS = 690
+CRS_SECONDS_PER_CONGRESS = 2500     # CRS reports published during a recent Congress
+LISTING_SCAN_SECONDS = 60           # paging through a full listing (CR, CRS)
+
+
+def _listings(collection, c):
+    """(list path, seconds per item, finished-item key prefix, item -> path of its
+    first per-item API call) for every list the crawler pages through."""
+    if collection == "bill":
+        return [(f"bill/{c}", 1.1, f"bill/{c}/",
+                 lambda it: f"bill/{c}/{it['type'].lower()}/{it['number']}/text")]
+    if collection == "amendment":
+        return [(f"amendment/{c}/{t}", 1.0, f"amendment/{c}/{t}/",
+                 lambda it, t=t: f"amendment/{c}/{t}/{it['number']}/text") for t in ("hamdt", "samdt", "suamdt")]
+    if collection == "committee-report":
+        return [(f"committee-report/{c}/{t}", 1.8, f"committee-report/{c}/{t}/",
+                 lambda it, t=t: f"committee-report/{c}/{t}/{it['number']}") for t in REPORT_TYPES]
+    if collection == "committee-print":
+        return [(f"committee-print/{c}/{ch}", 1.8, f"committee-print/{c}/{ch}/",
+                 lambda it, ch=ch: f"committee-print/{c}/{ch}/{it['jacketNumber']}") for ch in ("house", "senate")]
+    if collection == "hearing":
+        return [(f"hearing/{c}/{ch}", 3.0, f"hearing/{c}/{ch}/",
+                 lambda it, ch=ch: f"hearing/{c}/{ch}/{it['jacketNumber']}")
+                for ch in ("house", "senate", "nochamber")]
+    if collection == "committee-meeting":
+        # House meeting documents are mostly PDFs that must be downloaded and read.
+        rates = {"house": 8.2, "senate": 0.8, "nochamber": 0.8}
+        return [(f"committee-meeting/{c}/{ch}", rates[ch], f"committee-meeting/{c}/{ch}/",
+                 lambda it, ch=ch: f"committee-meeting/{c}/{ch}/{it['eventId']}") for ch in rates]
+    return []
+
+
+def estimate(collection, congress):
+    """Rough (seconds, items left) for crawling one collection in one Congress,
+    allowing for this search's finished items and the shared download cache.
+    Makes about one API call per list (answers are cached and reused by the crawl)."""
+    if collection == "congressional-record":
+        if congress < 111:          # the API's daily Record starts in August 2009
+            return LISTING_SCAN_SECONDS, 0
+        share = 0.7 if congress == 111 else 1.0
+        issues = int(CR_ISSUES_PER_CONGRESS * share)
+        volumes = {year - 1854 for year in core.congress_years(congress)}
+        done = sum(core.count_parents_done(f"daily-congressional-record/{v}/") for v in volumes)
+        left = max(0.0, 1 - done / issues)
+        return LISTING_SCAN_SECONDS + CR_SECONDS_PER_CONGRESS * share * left, int(issues * left)
+    if collection == "crs-report":     # oldest CRS products in the API date from late 2014
+        share = 1.0 if congress >= 114 else (0.5 if congress == 113 else 0.0)
+        return LISTING_SCAN_SECONDS + CRS_SECONDS_PER_CONGRESS * share, int(2600 * share)
+    if collection == "bound-congressional-record":
+        return 10, 0
+
+    seconds, items = 0.0, 0
+    for path, rate, prefix, item_path in _listings(collection, congress):
+        crawled_before = core.is_cached(path, {"limit": 1})
+        try:
+            count = _count(path)
+        except Exception:
+            continue
+        left = max(0, count - core.count_parents_done(prefix))
+        cached_share = 0.0
+        if crawled_before and left:
+            # Sample the first page (the crawl's own first request) for cache hits.
+            try:
+                sample = core.list_items(core.api_get(path, {"limit": core.PAGE_SIZE, "offset": 0}))
+                if sample:
+                    cached_share = sum(core.is_cached(item_path(it)) for it in sample) / len(sample)
+            except Exception:
+                pass
+        seconds += left * rate * (1 - cached_share * (1 - WARM_FRACTION))
+        items += left
+    return seconds, items
+
+
+# ============================================================================
 # Document pipeline
 # ============================================================================
 

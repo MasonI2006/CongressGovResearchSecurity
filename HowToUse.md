@@ -20,13 +20,30 @@ Download these into one folder:
 - Optional but recommended: Poppler's `pdftotext` on PATH, a fallback for PDFs that pypdf can't read.
 
 ## Quick start
-Open a terminal in that folder and run:
+Open a terminal in that folder and run this small test search. It covers only the committee prints of the 118th Congress (2023–24) and takes about 3 minutes:
 
 ```powershell
-python congress_search.py --term "research security" --congresses 118
+python congress_search.py --term "research security" --congresses 118 --collections committee-print
 ```
 
-The results go to `searches/research_security/`. For a first try, add `--collections committee-print`, which finishes in minutes.
+Before searching, the tool shows an estimate and asks whether to start. Type `y` and press Enter. When it finishes, the matching PDFs and spreadsheets are in `searches/research_security/` (see [Where the output goes](#where-the-output-goes)).
+
+**Full searches take much longer.** Searching every collection of one Congress takes about 16 hours the first time, because the Congress.gov API allows only about 4,500 requests per hour. The estimate shown before each search tells you what you're starting. You can stop with Ctrl+C at any time and continue later by running the same command again.
+
+## Before a search starts: the time estimate
+Every search first prints a rough estimate, broken down by Congress and slowest collections, then asks `Start the search? [y/N]`:
+
+```
+Estimated time (rough):
+  105th Congress: about 5.2 hours
+  119th Congress: about 16 hours
+  Slowest collections: bill (about 8.9 hours), committee-meeting (about 3.9 hours), ...
+  Total: about 22 hours
+```
+
+- The estimate is based on timings from a full 119th-Congress run. It allows for documents the search already finished (skipped) and documents already downloaded by an earlier search (quick). Network speed can change the real time.
+- Working out the estimate takes about 10 seconds per Congress. The information it fetches is reused by the search.
+- `--estimate` shows the estimate and stops without searching. `--yes` (or `-y`) skips the question and starts right away.
 
 ## Choosing what to search for
 | What you want | Command |
@@ -73,16 +90,19 @@ A saved search's terms can't be changed, because its progress records which docu
 | A mix | `--congresses 115,117-118` |
 | Only some collections | `--collections bill,hearing` |
 | Skip the PDF verification pass | add `--skip-verification` |
+| Only see the time estimate | add `--estimate` |
+| Start without the confirmation question | add `--yes` |
 
 Collection names: `bill`, `amendment`, `committee-report`, `committee-print`, `hearing`, `committee-meeting`, `congressional-record`, `bound-congressional-record`, `crs-report`. Leaving out `--collections` searches all of them.
 
 Run `python congress_search.py --help` for the full option list.
 
 ### Saving a log
-For long runs, write the output to a log file:
+For long runs, write the output to a log file. Check the estimate first, then start with `--yes`, because the question can't be answered when the output goes to a file:
 
 ```powershell
-python -u congress_search.py --name ai_policy --congresses 118 *> ai_policy_118.log
+python congress_search.py --name ai_policy --congresses 118 --estimate
+python -u congress_search.py --name ai_policy --congresses 118 --yes *> ai_policy_118.log
 ```
 
 `-u` writes messages to the log as they happen. Without it they are buffered and the log looks frozen. To watch progress from a second terminal:
@@ -93,7 +113,7 @@ Get-Content ai_policy_118.log -Wait -Tail 5
 
 ### Tips
 - **Try a small run first**, e.g. `--collections committee-print`, to check your terms before starting a long run.
-- **Expect about 16 hours per Congress** for a first search with an empty cache. The API allows about 4,500 calls per hour. Later searches over the same Congresses are much faster because responses are cached.
+- **Expect about 16 hours per Congress** for a first search of every collection with an empty cache (older Congresses have fewer documents and are faster). Later searches over the same Congresses are much faster because downloads are cached. The estimate before each search accounts for this.
 - **Interrupted runs resume.** After Ctrl+C, a crash or a closed laptop, run the same command again. Finished documents are recorded in the search's `state/` folder and skipped. Re-running a finished Congress is fast: items whose Congress.gov update date hasn't changed are skipped without new API calls.
 - **Check a search's archive** at any time with `python congress_search.py --validate --name <name>`. The name can be left out if there is only one saved search.
 
