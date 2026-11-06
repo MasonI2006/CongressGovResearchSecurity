@@ -8,7 +8,7 @@ Download these into one folder:
 | File | What it is |
 |---|---|
 | `congress_search.py` | The script you run |
-| `core.py`, `crawlers.py`, `archive.py` | Code it uses (don't run these directly) |
+| `core.py`, `crawlers.py`, `archive.py` | Code dependencies (don't run these directly) |
 | `requirements.txt` | Python packages to install |
 
 ## Requirements
@@ -17,10 +17,10 @@ Download these into one folder:
   ```
   CONGRESS_API_KEY=your-key-here
   ```
-- Optional but recommended: Poppler's `pdftotext` on PATH, a fallback for PDFs that pypdf can't read.
+
 
 ## Quick start
-Open a terminal in that folder and run this small test search. It covers only the committee prints of the 118th Congress (2023–24) and takes about 3 minutes:
+Open a terminal in the folder containing the scripts and run this small test search. It covers only the committee prints of the 118th Congress (2023–24) and takes about 3 minutes:
 
 ```powershell
 python congress_search.py --term "artificial intelligence" --congresses 118 --collections committee-print
@@ -46,7 +46,7 @@ Estimated time (rough):
 - `--estimate` shows the estimate and stops without searching. `--yes` (or `-y`) skips the question and starts right away.
 
 ## Choosing what to search for
-| What you want | Command |
+| Desired Query Parameter | Command |
 |---|---|
 | One word or phrase | `--term "machine learning"` |
 | Several terms in one run | `--name ai_policy --term "artificial intelligence" --term "machine learning"` |
