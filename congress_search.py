@@ -236,6 +236,10 @@ def run(spec, congresses, collections, skip_verification):
                                                      "matches": 0, "unique_pdfs": set()})
             print(f"{congress} | {coll} | {c['examined']} | {c['full_text_searched']} | "
                   f"{c['matches']} | {len(c['unique_pdfs'])}")
+    failed_downloads = core.failed_download_count()
+    if failed_downloads:
+        print(f"\n{failed_downloads} document(s) couldn't be downloaded. Their links are in "
+              f"{core.failed_downloads_path()} for downloading by hand.")
     print(f"\nResults: {core.ARCHIVE_DIR}")
     print(f"=== Done in {(end_time - start_time)} ===")
 

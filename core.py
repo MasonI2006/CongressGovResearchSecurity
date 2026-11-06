@@ -20,6 +20,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from pypdf import PdfReader
+from tqdm import tqdm
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
@@ -446,6 +447,24 @@ def api_get(path: str, params: dict | None = None, max_attempts: int = 8) -> dic
     raise RuntimeError(f"Failed to fetch {url} after retries")
 
 
+PROGRESS_MIN_BYTES = 1_000_000  # show a progress bar for downloads at least this big
+
+
+def _read_body(resp, url: str) -> bytes:
+    """Read a streamed response, with a progress bar for large files."""
+    size = int(resp.headers.get("Content-Length") or 0)
+    if size < PROGRESS_MIN_BYTES:
+        return resp.content
+    name = urlsplit(url).path.rsplit("/", 1)[-1] or "download"
+    chunks = []
+    with tqdm(total=size, unit="B", unit_scale=True, unit_divisor=1024,
+              desc=f"  downloading {name}", leave=False, position=1) as bar:
+        for chunk in resp.iter_content(chunk_size=64 * 1024):
+            chunks.append(chunk)
+            bar.update(len(chunk))
+    return b"".join(chunks)
+
+
 def _fetch_file(url: str, subdir: str, timeout: int):
     """Download a document from congress.gov's web tier (not the API, so not
     counted against the API quota), cached on disk by URL. Returns the response
@@ -458,15 +477,17 @@ def _fetch_file(url: str, subdir: str, timeout: int):
     for _attempt in range(6):
         _throttle_web()
         try:
-            resp = _session.get(url, timeout=timeout)
+            resp = _session.get(url, timeout=timeout, stream=True)
+            content = _read_body(resp, url) if resp.status_code == 200 else None
         except requests.RequestException:
             time.sleep(backoff)
             backoff = min(backoff * 2, 30)
             continue
         if resp.status_code == 200:
             STATS["file_downloads"] += 1
-            cpath.write_bytes(resp.content)
-            return resp.content
+            cpath.write_bytes(content)
+            return content
+        resp.close()
         if resp.status_code == 429 or resp.status_code >= 500:
             time.sleep(backoff)
             backoff = min(backoff * 2, 30)
@@ -860,6 +881,51 @@ def upsert_matches(rows_to_add):
             if match_id:
                 seen.add(match_id)
         _write_csv(_matches_path, rows, fields)
+
+
+FAILED_DOWNLOADS_FIELDS = [
+    "document_identifier", "collection", "congress", "title", "problem",
+    "download_url", "congress_url", "failed_at",
+]
+
+
+def failed_downloads_path() -> Path:
+    return ARCHIVE_DIR / "FailedDownloads.csv"
+
+
+def _read_failed_downloads():
+    path = failed_downloads_path()
+    if not path.exists():
+        return []
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
+def record_failed_download(doc_id, collection, congress, title, problem, download_url, congress_url):
+    """List a document in FailedDownloads.csv so the user can download it by hand
+    (one row per document; a later failure replaces the earlier row)."""
+    with _lock:
+        rows = [r for r in _read_failed_downloads() if r.get("document_identifier") != doc_id]
+        rows.append({
+            "document_identifier": doc_id, "collection": collection, "congress": congress,
+            "title": title or "", "problem": problem,
+            "download_url": sanitize_url(download_url or ""), "congress_url": sanitize_url(congress_url or ""),
+            "failed_at": _utc_now(),
+        })
+        _write_csv(failed_downloads_path(), rows, FAILED_DOWNLOADS_FIELDS)
+
+
+def clear_failed_download(doc_id):
+    """Remove a document from FailedDownloads.csv once it has been downloaded."""
+    with _lock:
+        rows = _read_failed_downloads()
+        kept = [r for r in rows if r.get("document_identifier") != doc_id]
+        if len(kept) != len(rows):
+            _write_csv(failed_downloads_path(), kept, FAILED_DOWNLOADS_FIELDS)
+
+
+def failed_download_count() -> int:
+    return len(_read_failed_downloads())
 
 
 def _json_list(value):

@@ -635,17 +635,26 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
                     if not any(ctx[:40] in existing[1] and existing[3] == m["term"] for existing in matches):
                         matches.append((f"{pages[i][0]}-{pages[i+1][0]}", ctx, None, m["term"], m["surface"]))
 
+    def note_failed_download(problem, url):
+        core.record_failed_download(doc_id, collection, congress, title, problem, url, congress_url)
+
     if not matches:
+        if not full_text_searched and (non_pdf_fmt or pdf_fmt):
+            note_failed_download("could not download it, so it was not searched",
+                                 (pdf_fmt or non_pdf_fmt)["url"])
         core.note_examined(collection, congress, full_text_searched, doc_id)
         core.mark_processed(doc_id)
         return False
 
     core.mark_match_pending(doc_id, collection)
     if not pdf_fmt:
+        note_failed_download("matched, but the API has no PDF for it (link is the text version)",
+                             non_pdf_fmt["url"] if non_pdf_fmt else "")
         raise RuntimeError(f"Matched document has no PDF format: {doc_id}")
     if pdf_bytes is None:
         pdf_bytes = core.fetch_binary(pdf_fmt["url"])
     if not pdf_bytes:
+        note_failed_download("matched, but the PDF download failed", pdf_fmt["url"])
         raise RuntimeError(f"Matched document PDF could not be downloaded: {doc_id}")
 
     sha = core.sha256_bytes(pdf_bytes)
@@ -672,5 +681,6 @@ def _process_document_inner(doc_id, collection, congress, document_type, documen
     )
     core.remember_pdf(sha, candidate_name, collection, congress, len(matches))
     core.mark_processed(doc_id)
+    core.clear_failed_download(doc_id)
 
     return True

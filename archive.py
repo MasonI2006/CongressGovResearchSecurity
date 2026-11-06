@@ -1134,6 +1134,8 @@ def write_readme(congresses, collections, start_time, end_time,
         lines.append(f"  {failure.get('collection')} | {failure.get('document_identifier')} | {failure.get('error') or 'interrupted before completion'}")
     lines.extend([
         "",
+        f"Failed downloads (links for downloading by hand in FailedDownloads.csv): {core.failed_download_count()}",
+        "",
         "Scope and known limitations:",
         "  CRS products have no Congress field; the crawler uses the configured publish-date range as its scope basis.",
         "  CRS products use the Congress.gov /crsreport/{id} endpoint and currentVersion metadata.",

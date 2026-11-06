@@ -145,6 +145,7 @@ Everything for a search is in `searches/<name>/`:
 | `archive.sqlite` | The same data in SQLite, plus people (sponsors, cosponsors, witnesses), committees, related items and per-Congress stats |
 | `metadata/` | A JSON sidecar per matched document |
 | `raw_api/` | Raw API responses for each matched document |
+| `FailedDownloads.csv` | Documents that couldn't be downloaded, with the direct link (`download_url`) and the Congress.gov page (`congress_url`), so you can download them by hand. The `problem` column says whether the document matched (only its PDF is missing) or couldn't be searched at all. A matched document is removed from the list once a later run downloads it. Only created if something fails. |
 | `README.txt` | Summary of the latest run, by Congress and by term |
 | `search.json` | The search's terms and options |
 | `state/` | Progress and deduplication state. Keep it, or the search starts over. |
